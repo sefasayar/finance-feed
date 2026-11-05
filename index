@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canlı Finans Akışı</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900 p-6 font-sans">
+    <div class="max-w-2xl mx-auto">
+        <div class="flex justify-between items-center mb-6 border-b border-gray-300 pb-4">
+            <h1 class="text-3xl font-bold text-indigo-700">Canlı Finans & Analiz</h1>
+            <span class="flex items-center gap-2 text-sm text-gray-500">
+                <span class="w-2.5 h-2.5 bg-green-500 rounded-full animate-pulse"></span> Akış Aktif
+            </span>
+        </div>
+        <div id="haber-akisi" class="space-y-4"></div>
+    </div>
+
+    <script>
+        async function haberleriCek() {
+            // Arka plandaki JSON dosyasını okur
+            const response = await fetch('haberler.json');
+            const haberler = await response.json();
+            const akis = document.getElementById('haber-akisi');
+            
+            // Verileri döngüye sokup ekrana kart olarak basar
+            haberler.forEach(haber => {
+                const kart = `
+                    <div class="bg-white p-5 rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition">
+                        <div class="flex justify-between items-center mb-3">
+                            <span class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-1 rounded">${haber.kategori}</span>
+                            <span class="text-sm text-gray-400 font-medium">${haber.zaman}</span>
+                        </div>
+                        <h2 class="text-xl font-bold mb-2 text-gray-800">${haber.baslik}</h2>
+                        <p class="text-gray-600 leading-relaxed">${haber.ozet}</p>
+                    </div>
+                `;
+                akis.innerHTML += kart;
+            });
+        }
+        haberleriCek();
+    </script>
+</body>
+</html>

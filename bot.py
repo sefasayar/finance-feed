@@ -4,9 +4,15 @@ import json
 import os
 import re
 
-GOOGLE_API_KEY = os.environ.get("GEMINI_API_KEY")
-client = genai.Client(api_key=GOOGLE_API_KEY)
+print("Bot başlatılıyor...")
 
+# API Key kontrolü
+GOOGLE_API_KEY = os.environ.get("GEMINI_API_KEY")
+if not GOOGLE_API_KEY:
+    print("HATA: GEMINI_API_KEY ortam değişkeni bulunamadı!")
+    exit(1)
+
+client = genai.Client(api_key=GOOGLE_API_KEY)
 RSS_URL = "https://news.google.com/rss/search?q=finance+stock+market+when:1d&hl=en-US&gl=US&ceid=US:en"
 
 def extract_json(text):
@@ -18,6 +24,7 @@ def extract_json(text):
 def fetch_and_process_news():
     print("Google News RSS Feed okunuyor...")
     feed = feedparser.parse(RSS_URL, agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
+    print(f"Çekilen haber sayısı: {len(feed.entries)}")
     
     file_path = 'data/news.json'
     existing_news = []
@@ -41,10 +48,9 @@ def fetch_and_process_news():
 
         print(f"İşleniyor: {title}")
         
-        # Güncellenmiş Prompt: Etiketler ve Kısa Özet İstiyoruz
         prompt = f"""
         You are a professional financial journalist. Rewrite the following financial news into an engaging, 
-        SEO-friendly article in English. Also, extract 1 or 2 relevant market/stock tags (e.g., Stocks, Crypto, Fed, NASDAQ, Economy) 
+        SEO-friendly article in English. Also, extract 1 or 2 relevant market/stock tags (e.g., Stocks, Crypto, Fed, NASDAQ) 
         and write a punchy 1-2 sentence AI summary.
 
         Original Title: {title}
@@ -76,7 +82,7 @@ def fetch_and_process_news():
             })
             print(f"Başarıyla işlendi: {title}")
         except Exception as e:
-            print(f"Hata ({e}), ham veri ekleniyor.")
+            print(f"Yapay zeka hatası ({e}), ham veri ekleniyor.")
             new_items.append({
                 "original_link": link,
                 "title": title,
@@ -93,6 +99,8 @@ def fetch_and_process_news():
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(final_news, f, ensure_ascii=False, indent=4)
         print(f"İşlem Tamamlandı: {len(new_items)} yeni haber kaydedildi.")
+    else:
+        print("Yeni eklenecek haber bulunamadı.")
 
 if __name__ == "__main__":
     fetch_and_process_news()

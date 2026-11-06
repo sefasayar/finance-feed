@@ -3,8 +3,9 @@ from google import genai
 import json
 import os
 import re
+from datetime import datetime
 
-print("Bot başlatılıyor...")
+print("Finans Botu ve SEO Motoru Başlatılıyor...")
 
 GOOGLE_API_KEY = os.environ.get("GEMINI_API_KEY")
 if not GOOGLE_API_KEY:
@@ -13,6 +14,7 @@ if not GOOGLE_API_KEY:
 
 client = genai.Client(api_key=GOOGLE_API_KEY)
 RSS_URL = "https://news.google.com/rss/search?q=finance+stock+market+when:1d&hl=en-US&gl=US&ceid=US:en"
+SITE_URL = "https://sefasayar.github.io/finance-feed/"
 
 def extract_json(text):
     match = re.search(r'\{.*\}', text, re.DOTALL)
@@ -20,10 +22,23 @@ def extract_json(text):
         return match.group(0)
     return text
 
+def generate_sitemap(news_list):
+    """Google ve arama motorları için otomatik sitemap.xml üretir"""
+    sitemap_content = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    sitemap_content += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    sitemap_content += f'  <url>\n    <loc>{SITE_URL}</loc>\n    <changefreq>hourly</changefreq>\n    <priority>1.0</priority>\n  </url>\n'
+    
+    for item in news_list:
+        sitemap_content += f'  <url>\n    <loc>{SITE_URL}</loc>\n    <lastmod>{datetime.utcnow().strftime("%Y-%m-%d")}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>0.8</priority>\n  </url>\n'
+    
+    sitemap_content += '</urlset>'
+    with open('sitemap.xml', 'w', encoding='utf-8') as f:
+        f.write(sitemap_content)
+    print("sitemap.xml başarıyla güncellendi.")
+
 def fetch_and_process_news():
     print("Google News RSS Feed okunuyor...")
     feed = feedparser.parse(RSS_URL, agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
-    print(f"Çekilen haber sayısı: {len(feed.entries)}")
     
     file_path = 'data/news.json'
     existing_news = []
@@ -48,14 +63,14 @@ def fetch_and_process_news():
         print(f"Analiz ediliyor: {title}")
         
         prompt = f"""
-        You are a senior financial analyst and AI journalist. Analyze the following news and provide structured insights.
+        You are a senior financial analyst and SEO expert. Analyze the following news and provide structured insights.
 
         Original Title: {title}
         Original Summary: {summary}
 
         Return ONLY a valid JSON object matching this exact schema, without any markdown formatting:
         {{
-            "title": "A catchy, SEO-friendly English title",
+            "title": "A catchy, SEO-friendly English title optimized for search engines",
             "tag": "A single precise market tag (e.g., STOCKS, FED, CRYPTO, TECH, ECONOMY, EARNINGS)",
             "sentiment": "BULLISH", 
             "ai_summary": "A punchy 1-2 sentence summary explaining what this means for investors.",
@@ -94,11 +109,13 @@ def fetch_and_process_news():
 
     if new_items:
         combined_news = new_items + existing_news
-        final_news = combined_news[:20]
+        final_news = combined_news[:25] # Arşiv boyutu optimize edildi
         
         os.makedirs('data', exist_ok=True)
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(final_news, f, ensure_ascii=False, indent=4)
+        
+        generate_sitemap(final_news)
         print(f"İşlem Tamamlandı: {len(new_items)} yeni analiz eklendi.")
     else:
         print("Yeni eklenecek haber bulunamadı.")

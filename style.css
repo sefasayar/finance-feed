@@ -35,8 +35,43 @@ body {
     font-size: 1.1rem;
 }
 
+.filter-nav {
+    margin-top: 20px;
+}
+
+.filter-bar {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    white-space: nowrap;
+}
+
+.filter-btn {
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    color: #475569;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+    border-color: #2563eb;
+    color: #2563eb;
+}
+
+.filter-btn.active {
+    background-color: #2563eb;
+    color: #ffffff;
+    border-color: #2563eb;
+}
+
 .news-grid {
-    margin: 40px 0;
+    margin: 30px 0;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -123,16 +158,33 @@ body {
     margin-top: 16px;
     padding-top: 12px;
     border-top: 1px solid #f1f5f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .source-link {
     color: #2563eb;
     text-decoration: none;
     font-weight: 600;
+    font-size: 0.9rem;
 }
 
 .source-link:hover {
     text-decoration: underline;
+}
+
+.market-impact-tag {
+    background-color: #f1f5f9;
+    color: #334155;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+    letter-spacing: 0.3px;
 }
 
 .site-footer {

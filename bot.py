@@ -8,8 +8,8 @@ import re
 GOOGLE_API_KEY = os.environ.get("GEMINI_API_KEY")
 client = genai.Client(api_key=GOOGLE_API_KEY)
 
-# Yahoo Finance RSS adresi
-RSS_URL = "https://finance.yahoo.com/news/rssindex"
+# Yahoo yerine CNBC RSS adresi kullanıyoruz (GitHub engeline takılmaz)
+RSS_URL = "https://search.cnbc.com/rs/search/combinedrenderer/view.xml?partnerId=2000&keywords=finance&target=all"
 
 def extract_json(text):
     match = re.search(r'\{.*\}', text, re.DOTALL)

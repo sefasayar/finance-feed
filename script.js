@@ -1,179 +1,96 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+document.addEventListener("DOMContentLoaded", () => {
+    const newsContainer = document.getElementById("news-container");
+    const filterBar = document.getElementById("filter-bar");
 
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    line-height: 1.6;
-    background-color: #f8f9fa;
-    color: #212529;
-}
+    if (!newsContainer) return;
 
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
+    // Önbellek kırıcı ile güncel JSON verisini çekiyoruz
+    fetch("./data/news.json?t=" + new Date().getTime())
+        .then(response => {
+            if (!response.ok) throw new Error("JSON dosyası okunamadı.");
+            return response.json();
+        })
+        .then(data => {
+            if (!data || !Array.isArray(data) || data.length === 0) {
+                newsContainer.innerHTML = "<p>Şu an güncellenmiş haber bulunamadı.</p>";
+                return;
+            }
 
-.site-header {
-    background-color: #0f172a;
-    color: #ffffff;
-    padding: 40px 0;
-    text-align: center;
-    border-bottom: 4px solid #2563eb;
-}
+            renderNews(data);
+            setupFilters(data);
+        })
+        .catch(error => {
+            console.error("Haber yükleme hatası:", error);
+            newsContainer.innerHTML = "<p class='error-text'>Haberler yüklenirken bir sorun oluştu.</p>";
+        });
 
-.site-header h1 {
-    font-size: 2.2rem;
-    margin-bottom: 8px;
-}
+    function renderNews(items) {
+        newsContainer.innerHTML = "";
+        items.forEach(item => {
+            const article = document.createElement("article");
+            article.className = "news-card";
 
-.site-header p {
-    color: #94a3b8;
-    font-size: 1.1rem;
-}
+            // Eksik veri gelme ihtimaline karşı güvenli alan kontrolleri
+            const tag = item.tag || "MARKET";
+            const sentiment = item.sentiment || "NEUTRAL";
+            const title = item.title || "Financial News Update";
+            const aiSummary = item.ai_summary || "";
+            const content = item.content || "<p>No content available.</p>";
+            const originalLink = item.original_link || "#";
 
-/* Kategori Filtreleme Barı Tasarımı */
-.filter-nav {
-    margin-top: 20px;
-}
+            let sentimentClass = "sentiment-neutral";
+            if (sentiment === "BULLISH") sentimentClass = "sentiment-bullish";
+            if (sentiment === "BEARISH") sentimentClass = "sentiment-bearish";
 
-.filter-bar {
-    display: flex;
-    gap: 10px;
-    overflow-x: auto;
-    padding-bottom: 10px;
-    white-space: nowrap;
-}
+            article.innerHTML = `
+                <div class="news-header-meta">
+                    <span class="news-tag">${tag}</span>
+                    <span class="sentiment-badge ${sentimentClass}">${sentiment}</span>
+                </div>
+                
+                <h2 class="news-title">${title}</h2>
+                
+                ${aiSummary ? `
+                    <div class="ai-summary-box">
+                        <strong>AI Summary & Outlook:</strong> ${aiSummary}
+                    </div>
+                ` : ""}
 
-.filter-btn {
-    background-color: #ffffff;
-    border: 1px solid #cbd5e1;
-    color: #475569;
-    padding: 6px 14px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: 700;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
+                <div class="news-content">
+                    ${content}
+                </div>
+                
+                <div class="news-footer">
+                    <a href="${originalLink}" target="_blank" rel="noopener noreferrer" class="source-link">
+                        Read Original Source &rarr;
+                    </a>
+                </div>
+            `;
+            newsContainer.appendChild(article);
+        });
+    }
 
-.filter-btn:hover {
-    border-color: #2563eb;
-    color: #2563eb;
-}
+    function setupFilters(data) {
+        if (!filterBar) return;
 
-.filter-btn.active {
-    background-color: #2563eb;
-    color: #ffffff;
-    border-color: #2563eb;
-}
+        // Haberin etiketlerine göre dinamik filtre butonları oluşturur
+        const tags = ["ALL", ...new Set(data.map(item => item.tag || "MARKET"))];
+        filterBar.innerHTML = "";
 
-.news-grid {
-    margin: 30px 0;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-
-.news-card {
-    background: #ffffff;
-    border-radius: 12px;
-    padding: 24px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-    border: 1px solid #e2e8f0;
-}
-
-.news-header-meta {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 12px;
-}
-
-.news-tag {
-    background-color: #e0f2fe;
-    color: #0369a1;
-    font-size: 0.75rem;
-    font-weight: 700;
-    padding: 4px 10px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-.sentiment-badge {
-    font-size: 0.7rem;
-    font-weight: 800;
-    padding: 4px 8px;
-    border-radius: 6px;
-    letter-spacing: 0.5px;
-}
-.sentiment-bullish {
-    background-color: #dcfce7;
-    color: #166534;
-}
-.sentiment-bearish {
-    background-color: #fee2e2;
-    color: #991b1b;
-}
-.sentiment-neutral {
-    background-color: #f1f5f9;
-    color: #475569;
-}
-
-.news-title {
-    font-size: 1.4rem;
-    color: #0f172a;
-    margin-bottom: 12px;
-}
-
-.ai-summary-box {
-    background-color: #f8fafc;
-    border: 1px solid #e2e8f0;
-    border-left: 4px solid #2563eb;
-    padding: 12px 16px;
-    margin: 14px 0;
-    border-radius: 0 8px 8px 0;
-    font-size: 0.95rem;
-    color: #1e293b;
-}
-
-.ai-summary-box strong {
-    display: block;
-    margin-bottom: 4px;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    color: #2563eb;
-}
-
-.news-content p {
-    margin-bottom: 12px;
-    color: #334155;
-}
-
-.news-footer {
-    margin-top: 16px;
-    padding-top: 12px;
-    border-top: 1px solid #f1f5f9;
-}
-
-.source-link {
-    color: #2563eb;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.source-link:hover {
-    text-decoration: underline;
-}
-
-.site-footer {
-    text-align: center;
-    padding: 24px 0;
-    color: #64748b;
-    border-top: 1px solid #e2e8f0;
-}
+        tags.forEach(tag => {
+            const btn = document.createElement("button");
+            btn.className = "filter-btn" + (tag === "ALL" ? " active" : "");
+            btn.textContent = tag;
+            btn.onclick = () => {
+                document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+                btn.classList.add("active");
+                if (tag === "ALL") {
+                    renderNews(data);
+                } else {
+                    renderNews(data.filter(item => (item.tag || "MARKET") === tag));
+                }
+            };
+            filterBar.appendChild(btn);
+        });
+    }
+});

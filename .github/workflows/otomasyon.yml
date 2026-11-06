@@ -1,0 +1,37 @@
+name: Canli Finans Botu
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Her saat başı çalıştırır (dakika 0 olduğunda)
+  workflow_dispatch: # Depo üzerinden manuel tetikleme butonu ekler
+
+permissions:
+  contents: write # Botun dosyayı güncelleyebilmesi için yazma izni
+
+jobs:
+  haberleri-guncelle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Depoyu Çek
+        uses: actions/checkout@v4
+
+      - name: Python Kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Gereksinimleri Yükle
+        run: pip install -r requirements.txt
+
+      - name: Botu Çalıştır (Haberleri Çek ve Yorumla)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python bot.py
+
+      - name: Yeni Verileri Kaydet ve Siteye Yansıt
+        run: |
+          git config --global user.name "Haber Botu"
+          git config --global user.email "actions@github.com"
+          git add haberler.json
+          git commit -m "🤖 Haberler otomatik güncellendi" || exit 0
+          git push

@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (!newsContainer) return;
 
-    // Önbellek kırıcı ile güncel JSON verisini çekiyoruz
     fetch("./data/news.json?t=" + new Date().getTime())
         .then(response => {
             if (!response.ok) throw new Error("JSON dosyası okunamadı.");
@@ -15,7 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 newsContainer.innerHTML = "<p>Şu an güncellenmiş haber bulunamadı.</p>";
                 return;
             }
-
             renderNews(data);
             setupFilters(data);
         })
@@ -30,11 +28,11 @@ document.addEventListener("DOMContentLoaded", () => {
             const article = document.createElement("article");
             article.className = "news-card";
 
-            // Eksik veri gelme ihtimaline karşı güvenli alan kontrolleri
             const tag = item.tag || "MARKET";
             const sentiment = item.sentiment || "NEUTRAL";
             const title = item.title || "Financial News Update";
             const aiSummary = item.ai_summary || "";
+            const marketImpact = item.market_impact || "Market Steady";
             const content = item.content || "<p>No content available.</p>";
             const originalLink = item.original_link || "#";
 
@@ -64,6 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <a href="${originalLink}" target="_blank" rel="noopener noreferrer" class="source-link">
                         Read Original Source &rarr;
                     </a>
+                    <span class="market-impact-tag">Impact: ${marketImpact}</span>
                 </div>
             `;
             newsContainer.appendChild(article);
@@ -72,11 +71,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function setupFilters(data) {
         if (!filterBar) return;
-
-        // Haberin etiketlerine göre dinamik filtre butonları oluşturur
         const tags = ["ALL", ...new Set(data.map(item => item.tag || "MARKET"))];
         filterBar.innerHTML = "";
-
         tags.forEach(tag => {
             const btn = document.createElement("button");
             btn.className = "filter-btn" + (tag === "ALL" ? " active" : "");
@@ -84,11 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
             btn.onclick = () => {
                 document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
                 btn.classList.add("active");
-                if (tag === "ALL") {
-                    renderNews(data);
-                } else {
-                    renderNews(data.filter(item => (item.tag || "MARKET") === tag));
-                }
+                renderNews(tag === "ALL" ? data : data.filter(i => (i.tag || "MARKET") === tag));
             };
             filterBar.appendChild(btn);
         });

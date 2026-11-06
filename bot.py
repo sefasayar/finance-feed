@@ -4,12 +4,13 @@ import json
 import os
 import re
 
-# 1. Yeni Google GenAI SDK Kurulumu
+# 1. API Kurulumu
 GOOGLE_API_KEY = os.environ.get("GEMINI_API_KEY")
 client = genai.Client(api_key=GOOGLE_API_KEY)
 
-# Yahoo yerine CNBC RSS adresi kullanıyoruz (GitHub engeline takılmaz)
-RSS_URL = "https://search.cnbc.com/rs/search/combinedrenderer/view.xml?partnerId=2000&keywords=finance&target=all"
+# 2. KESİN ÇÖZÜM: Google News RSS (Finans ve Borsa - Son 1 Günün Haberleri)
+# Bu URL Cloudflare veya IP engeline takılmaz, doğrudan XML döndürür.
+RSS_URL = "https://news.google.com/rss/search?q=finance+stock+market+when:1d&hl=en-US&gl=US&ceid=US:en"
 
 def extract_json(text):
     match = re.search(r'\{.*\}', text, re.DOTALL)
@@ -18,12 +19,17 @@ def extract_json(text):
     return text
 
 def fetch_and_process_news():
-    print("RSS Feed okunuyor...")
+    print("Google News RSS Feed okunuyor...")
     
-    # User-Agent ekleyerek Yahoo Finance engellemesini aşıyoruz
-    feed = feedparser.parse(RSS_URL, agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)")
+    # Standart bir tarayıcı kimliği ile okuma yapıyoruz
+    feed = feedparser.parse(RSS_URL, agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
+    
     print(f"Çekilen haber sayısı: {len(feed.entries)}")
     
+    if len(feed.entries) == 0:
+        print("Hata: RSS'ten veri alınamadı. (Bağlantı veya ayrıştırma sorunu)")
+        return
+
     file_path = 'data/news.json'
     existing_news = []
     
@@ -36,12 +42,11 @@ def fetch_and_process_news():
 
     new_items = []
     
-    for entry in feed.entries[:5]:
+    for entry in feed.entries[:5]: # En güncel 5 haberi al
         title = entry.title
         summary = getattr(entry, 'summary', title)
         link = entry.link
         
-        # Mükerrer haber kontrolü
         if any(item.get('original_link') == link for item in existing_news):
             print(f"Zaten mevcut, atlanıyor: {title}")
             continue
@@ -64,7 +69,7 @@ def fetch_and_process_news():
         """
         
         try:
-            # Yeni SDK ile Gemini API çağrısı
+            # Gemini'ye istek gönder
             response = client.models.generate_content(
                 model='gemini-2.5-flash',
                 contents=prompt
@@ -86,7 +91,6 @@ def fetch_and_process_news():
                 "content": f"<p>{summary}</p>"
             })
 
-    # Verileri birleştir ve yaz
     if new_items:
         combined_news = new_items + existing_news
         final_news = combined_news[:20]
@@ -96,7 +100,7 @@ def fetch_and_process_news():
             json.dump(final_news, f, ensure_ascii=False, indent=4)
         print(f"İşlem Tamamlandı: {len(new_items)} yeni haber kaydedildi.")
     else:
-        print("Yeni haber bulunamadı veya RSS boş döndü.")
+        print("Yeni haber bulunamadı.")
 
 if __name__ == "__main__":
     fetch_and_process_news()

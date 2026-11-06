@@ -23,23 +23,17 @@ def extract_json(text):
     return text
 
 def generate_sitemap(news_list):
-    """Google ve arama motorları için otomatik sitemap.xml üretir"""
     sitemap_content = '<?xml version="1.0" encoding="UTF-8"?>\n'
     sitemap_content += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sitemap_content += f'  <url>\n    <loc>{SITE_URL}</loc>\n    <changefreq>hourly</changefreq>\n    <priority>1.0</priority>\n  </url>\n'
-    
     for item in news_list:
         sitemap_content += f'  <url>\n    <loc>{SITE_URL}</loc>\n    <lastmod>{datetime.utcnow().strftime("%Y-%m-%d")}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>0.8</priority>\n  </url>\n'
-    
     sitemap_content += '</urlset>'
     with open('sitemap.xml', 'w', encoding='utf-8') as f:
         f.write(sitemap_content)
-    print("sitemap.xml başarıyla güncellendi.")
 
 def fetch_and_process_news():
-    print("Google News RSS Feed okunuyor...")
     feed = feedparser.parse(RSS_URL, agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
-    
     file_path = 'data/news.json'
     existing_news = []
     
@@ -63,20 +57,19 @@ def fetch_and_process_news():
         print(f"Analiz ediliyor: {title}")
         
         prompt = f"""
-        You are a senior financial analyst and SEO expert. Analyze the following news and provide structured insights.
+        You are a senior financial analyst. Analyze this news and return ONLY a valid JSON object matching this exact schema, without any markdown formatting:
+        {{
+            "title": "A catchy, SEO-friendly English title",
+            "tag": "A single precise market tag (e.g., STOCKS, FED, CRYPTO, TECH, ECONOMY)",
+            "sentiment": "BULLISH", 
+            "ai_summary": "Do NOT repeat the title. Write a genuine 1-2 sentence analytical summary explaining what happened and its key takeaway for investors.",
+            "market_impact": "1-2 words describing market effect (e.g., High Volatility, Steady Growth, Rate Relief, Buying Pressure)",
+            "content": "<p>First paragraph.</p><p>Second paragraph.</p>"
+        }}
+        Note: 'sentiment' must be strictly one of: BULLISH, BEARISH, or NEUTRAL.
 
         Original Title: {title}
         Original Summary: {summary}
-
-        Return ONLY a valid JSON object matching this exact schema, without any markdown formatting:
-        {{
-            "title": "A catchy, SEO-friendly English title optimized for search engines",
-            "tag": "A single precise market tag (e.g., STOCKS, FED, CRYPTO, TECH, ECONOMY, EARNINGS)",
-            "sentiment": "BULLISH", 
-            "ai_summary": "A punchy 1-2 sentence summary explaining what this means for investors.",
-            "content": "<p>First paragraph of the news.</p><p>Second paragraph of the news.</p>"
-        }}
-        Note: 'sentiment' must be strictly one of: BULLISH, BEARISH, or NEUTRAL.
         """
         
         try:
@@ -93,32 +86,29 @@ def fetch_and_process_news():
                 "tag": processed_news.get("tag", "MARKET").upper(),
                 "sentiment": processed_news.get("sentiment", "NEUTRAL").upper(),
                 "ai_summary": processed_news.get("ai_summary", summary[:150]),
+                "market_impact": processed_news.get("market_impact", "Neutral Trend"),
                 "content": processed_news.get("content", f"<p>{summary}</p>")
             })
-            print(f"Başarıyla analiz edildi: {title}")
         except Exception as e:
-            print(f"Yapay zeka analiz hatası ({e}), ham veri ekleniyor.")
+            print(f"Hata ({e}), ham veri ekleniyor.")
             new_items.append({
                 "original_link": link,
                 "title": title,
                 "tag": "MARKET",
                 "sentiment": "NEUTRAL",
                 "ai_summary": summary[:150],
+                "market_impact": "Stable",
                 "content": f"<p>{summary}</p>"
             })
 
     if new_items:
         combined_news = new_items + existing_news
-        final_news = combined_news[:25] # Arşiv boyutu optimize edildi
-        
+        final_news = combined_news[:25]
         os.makedirs('data', exist_ok=True)
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(final_news, f, ensure_ascii=False, indent=4)
-        
         generate_sitemap(final_news)
-        print(f"İşlem Tamamlandı: {len(new_items)} yeni analiz eklendi.")
-    else:
-        print("Yeni eklenecek haber bulunamadı.")
+        print(f"{len(new_items)} yeni haber eklendi.")
 
 if __name__ == "__main__":
     fetch_and_process_news()

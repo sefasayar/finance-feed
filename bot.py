@@ -1,6 +1,7 @@
 import feedparser
 import json
 import os
+import time
 from datetime import datetime
 from google import genai
 from google.genai import types
@@ -17,36 +18,42 @@ rss_kaynaklari = [
 
 def haberi_yorumla(metin):
     if not client:
-        print("KRİTİK HATA: GEMINI_API_KEY bulunamadı!")
         return {"ozet": "API Anahtarı eksik.", "piyasa_etkisi": "Sistem Hatası", "kategori": "Sistem"}
-    
     if not metin or len(metin.strip()) < 10:
         return {"ozet": "Haber detayı bulunamadı.", "piyasa_etkisi": "Nötr", "kategori": "Kısa Haber"}
 
     prompt = f"Şu haberi oku ve analiz et. Haber: {metin[:600]}"
     
-    try:
-        # En güncel model sürümüne (gemini-3.8-flash) geçiş yapıldı
-        response = client.models.generate_content(
-            model='gemini-3.8-flash',
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json",
-                response_schema={
-                    "type": "OBJECT",
-                    "properties": {
-                        "ozet": {"type": "STRING", "description": "Haberin 2 cümlelik özeti"},
-                        "piyasa_etkisi": {"type": "STRING", "description": "Piyasaya olası etkisi"},
-                        "kategori": {"type": "STRING", "description": "Makro, Borsa veya Kripto"}
-                    },
-                    "required": ["ozet", "piyasa_etkisi", "kategori"]
-                }
+    # Sunucu yoğunluğuna karşı 3 kez tekrar deneme döngüsü
+    for deneme in range(3):
+        try:
+            response = client.models.generate_content(
+                model='gemini-3.8-flash',
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json",
+                    response_schema={
+                        "type": "OBJECT",
+                        "properties": {
+                            "ozet": {"type": "STRING", "description": "Haberin 2 cümlelik özeti"},
+                            "piyasa_etkisi": {"type": "STRING", "description": "Piyasaya olası etkisi"},
+                            "kategori": {"type": "STRING", "description": "Makro, Borsa veya Kripto"}
+                        },
+                        "required": ["ozet", "piyasa_etkisi", "kategori"]
+                    }
+                )
             )
-        )
-        return json.loads(response.text)
-    except Exception as e:
-        print(f"Yapay Zeka Hatası: {str(e)}")
-        return {"ozet": "Yorumlama hatası, detaylar logda.", "piyasa_etkisi": "Belirsiz", "kategori": "Hata"}
+            return json.loads(response.text)
+        except Exception as e:
+            hata_mesaji = str(e)
+            if "503" in hata_mesaji or "disconnected" in hata_mesaji:
+                print(f"   -> Sunucu yoğun, 5 saniye bekleniyor... (Deneme {deneme+1}/3)")
+                time.sleep(5) # 5 saniye bekle ve tekrar dene
+            else:
+                print(f"   -> AI Hatası: {hata_mesaji}")
+                break # 503 dışındaki hatalarda doğrudan döngüyü kır
+                
+    return {"ozet": "Yapay zeka sunucuları anlık olarak yanıt vermiyor.", "piyasa_etkisi": "Belirsiz", "kategori": "Sistem Yoğun"}
 
 yeni_haberler = []
 

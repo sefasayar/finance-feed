@@ -6,29 +6,28 @@ from datetime import datetime
 from google import genai
 from google.genai import types
 
-# Yeni Gemini API Bağlantısı
+MODEL = "gemini-3.8-flash"
 API_KEY = os.environ.get("GEMINI_API_KEY")
 client = genai.Client(api_key=API_KEY) if API_KEY else None
 
-# Çoklu RSS Kaynakları
 rss_kaynaklari = [
     "https://www.trthaber.com/ekonomi_articles.rss",
     "https://www.ntv.com.tr/ekonomi.rss"
 ]
 
 def haberi_yorumla(metin):
+    """Başarılıysa sözlük, başarısızsa None döner (None kaydedilmez)."""
     if not client:
-        return {"ozet": "API Anahtarı eksik.", "piyasa_etkisi": "Sistem Hatası", "kategori": "Sistem"}
+        print("HATA: GEMINI_API_KEY bulunamadı")
+        return None
     if not metin or len(metin.strip()) < 10:
-        return {"ozet": "Haber detayı bulunamadı.", "piyasa_etkisi": "Nötr", "kategori": "Kısa Haber"}
+        return None
 
     prompt = f"Şu haberi oku ve analiz et. Haber: {metin[:600]}"
-    
-    # Sunucu yoğunluğuna karşı 3 kez tekrar deneme döngüsü
     for deneme in range(3):
         try:
             response = client.models.generate_content(
-                model='gemini-3.8-flash',
+                model=MODEL,
                 contents=prompt,
                 config=types.GenerateContentConfig(
                     response_mime_type="application/json",
@@ -45,39 +44,11 @@ def haberi_yorumla(metin):
             )
             return json.loads(response.text)
         except Exception as e:
-            hata_mesaji = str(e)
-            if "503" in hata_mesaji or "disconnected" in hata_mesaji:
-                print(f"   -> Sunucu yoğun, 5 saniye bekleniyor... (Deneme {deneme+1}/3)")
-                time.sleep(5) # 5 saniye bekle ve tekrar dene
-            else:
-                print(f"   -> AI Hatası: {hata_mesaji}")
-                break # 503 dışındaki hatalarda doğrudan döngüyü kır
-                
-    return {"ozet": "Yapay zeka sunucuları anlık olarak yanıt vermiyor.", "piyasa_etkisi": "Belirsiz", "kategori": "Sistem Yoğun"}
+            print(f"   -> AI hatası (deneme {deneme+1}/3): {e}")
+            time.sleep(8)
+    return None
 
-yeni_haberler = []
-
-# Kaynakları Tarama
-for url in rss_kaynaklari:
-    try:
-        feed = feedparser.parse(url)
-        for entry in feed.entries[:3]:
-            ham_metin = getattr(entry, 'summary', getattr(entry, 'description', entry.title))
-            ai_sonuc = haberi_yorumla(ham_metin)
-            zaman = datetime.now().strftime("%Y-%m-%d %H:%M")
-            
-            yeni_haberler.append({
-                "baslik": entry.title,
-                "ozet": ai_sonuc.get("ozet", ""),
-                "piyasa_etkisi": ai_sonuc.get("piyasa_etkisi", ""),
-                "kategori": ai_sonuc.get("kategori", "Ekonomi"),
-                "zaman": zaman
-            })
-    except Exception as e:
-        print(f"RSS Kaynak Hatası ({url}): {str(e)}")
-        continue
-
-# Veri Döngüsü (Sadece son 50 haberi tut)
+# Mevcut haberleri önce yükle
 mevcut_haberler = []
 try:
     with open("haberler.json", "r", encoding="utf-8") as f:
@@ -85,9 +56,36 @@ try:
 except (FileNotFoundError, json.JSONDecodeError):
     pass
 
-tum_haberler = yeni_haberler + mevcut_haberler
-tekil_haberler = {haber["baslik"]: haber for haber in tum_haberler}.values()
-final_liste = list(tekil_haberler)[:50]
+# Hatalı eski kayıtları temizle
+HATALI = {"Hata", "Sistem", "Sistem Yoğun", "Kısa Haber"}
+mevcut_haberler = [h for h in mevcut_haberler if h.get("kategori") not in HATALI]
+bilinen = {h["baslik"] for h in mevcut_haberler}
+
+yeni_haberler = []
+for url in rss_kaynaklari:
+    try:
+        feed = feedparser.parse(url)
+        for entry in feed.entries[:3]:
+            if entry.title in bilinen:
+                continue  # zaten işlenmiş, kota harcama
+            ham_metin = getattr(entry, "summary", getattr(entry, "description", entry.title))
+            ai_sonuc = haberi_yorumla(ham_metin)
+            if not ai_sonuc:
+                continue  # başarısızsa kaydetme, sonraki saatte tekrar dene
+            yeni_haberler.append({
+                "baslik": entry.title,
+                "ozet": ai_sonuc["ozet"],
+                "piyasa_etkisi": ai_sonuc["piyasa_etkisi"],
+                "kategori": ai_sonuc["kategori"],
+                "zaman": datetime.now().strftime("%Y-%m-%d %H:%M")
+            })
+            time.sleep(4)  # ücretsiz katman dakikalık limitine saygı
+    except Exception as e:
+        print(f"RSS Kaynak Hatası ({url}): {e}")
+
+final_liste = (yeni_haberler + mevcut_haberler)[:50]
 
 with open("haberler.json", "w", encoding="utf-8") as f:
     json.dump(final_liste, f, ensure_ascii=False, indent=4)
+
+print(f"Tamam: {len(yeni_haberler)} yeni haber eklendi.")

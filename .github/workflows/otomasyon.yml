@@ -14,10 +14,10 @@ jobs:
     
     steps:
       - name: Repoyu Klonla
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # @v3 yerine @v4 yaptık (Node uyarıları biter)
 
       - name: Python Kurulumu
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5 # @v4 yerine @v5 yaptık
         with:
           python-version: '3.11'
 

@@ -1,34 +1,40 @@
 document.addEventListener("DOMContentLoaded", () => {
     const newsContainer = document.getElementById("news-container");
 
-    if (!newsContainer) {
-        console.error("Hata: news-container öğesi HTML içerisinde bulunamadı.");
-        return;
-    }
+    if (!newsContainer) return;
 
-    // Tarayıcı önbelleğini (cache) kırmak için istek sonuna dinamik timestamp eklenir
     fetch("./data/news.json?t=" + new Date().getTime())
-        .then(response => {
-            if (!response.ok) {
-                throw new Error("Veri dosyası yüklenemedi: " + response.statusText);
-            }
-            return response.json();
-        })
+        .then(response => response.json())
         .then(data => {
-            newsContainer.innerHTML = ""; // Yükleniyor yazısını temizle
+            newsContainer.innerHTML = "";
 
             if (!data || data.length === 0) {
-                newsContainer.innerHTML = "<p>Şu an güncellenmiş haber bulunamadı. Otomasyon bir sonraki döngüde haberleri ekleyecektir.</p>";
+                newsContainer.innerHTML = "<p>Şu an güncellenmiş haber bulunamadı.</p>";
                 return;
             }
 
-            // JSON içerisindeki her bir haberi DOM kartı olarak ekle
             data.forEach(item => {
                 const article = document.createElement("article");
                 article.className = "news-card";
 
+                // Etiketleri HTML etiketlerine dönüştür
+                let tagsHtml = "";
+                if (item.tags && Array.isArray(item.tags)) {
+                    tagsHtml = item.tags.map(tag => `<span class="news-tag">${tag}</span>`).join("");
+                }
+
                 article.innerHTML = `
+                    <div class="news-meta">
+                        <div class="tags-wrapper">${tagsHtml}</div>
+                    </div>
                     <h2 class="news-title">${item.title}</h2>
+                    
+                    ${item.ai_summary ? `
+                        <div class="ai-summary-box">
+                            <strong>AI Summary:</strong> ${item.ai_summary}
+                        </div>
+                    ` : ""}
+
                     <div class="news-content">
                         ${item.content}
                     </div>
@@ -43,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         })
         .catch(error => {
-            console.error("Haber alma hatası:", error);
-            newsContainer.innerHTML = "<p class='error-text'>Haberler yüklenirken bir sorun oluştu.</p>";
+            console.error("Hata:", error);
+            newsContainer.innerHTML = "<p class='error-text'>Haberler yüklenemedi.</p>";
         });
 });

@@ -24,12 +24,12 @@ jobs:
       - name: Gerekli Kütüphaneleri Yükle
         run: pip install -r requirements.txt
 
-      - name: Botu Çalıştır ve Yapay Zeka ile Haber Üret
+      - name: Botu Çalıştır
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python bot.py
 
-      - name: Yeni Haberleri Repoya Kaydet (Commit & Push)
+      - name: Yeni Haberleri Repoya Kaydet
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"

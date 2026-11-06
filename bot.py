@@ -18,28 +18,49 @@ rss_kaynaklari = [
 
 def haberi_yorumla(metin):
     if not API_KEY:
-        return {"ozet": "AI beklemede", "piyasa_etkisi": "Nötr", "kategori": "Genel"}
+        print("KRİTİK HATA: GEMINI_API_KEY bulunamadı!")
+        return {"ozet": "API Anahtarı eksik veya okunamadı.", "piyasa_etkisi": "Sistem Hatası", "kategori": "Sistem"}
     
-    # AI'ı katı bir JSON şemasına zorluyoruz
-    prompt = f"""Şu haberi oku ve SADECE JSON formatında yanıt ver. Başka hiçbir metin veya markdown ekleme.
-    Format: {{"ozet": "haberin 2 cümlelik özeti", "piyasa_etkisi": "piyasaya olası etkisi", "kategori": "Makro/Borsa/Kripto"}}
+    # Boş metin kontrolü
+    if not metin or len(metin.strip()) < 10:
+        return {"ozet": "Haber detayı bulunamadı.", "piyasa_etkisi": "Nötr", "kategori": "Kısa Haber"}
+
+    prompt = f"""Şu haberi oku ve analiz et.
     Haber: {metin[:600]}"""
     
     try:
-        response = model.generate_content(prompt)
-        raw_text = response.text.replace('```json', '').replace('```', '').strip()
-        return json.loads(raw_text) # Metni yapılandırılmış veriye dönüştür
+        # Modeli kesin olarak JSON dönmeye zorluyoruz (Gemini 1.5 özelliği)
+        response = model.generate_content(
+            prompt,
+            generation_config=genai.GenerationConfig(
+                response_mime_type="application/json",
+                response_schema={
+                    "type": "OBJECT",
+                    "properties": {
+                        "ozet": {"type": "STRING", "description": "Haberin 2 cümlelik özeti"},
+                        "piyasa_etkisi": {"type": "STRING", "description": "Piyasaya olası etkisi"},
+                        "kategori": {"type": "STRING", "description": "Makro, Borsa veya Kripto"}
+                    },
+                    "required": ["ozet", "piyasa_etkisi", "kategori"]
+                }
+            )
+        )
+        return json.loads(response.text)
     except Exception as e:
-        return {"ozet": "Yapay zeka yorumlayamadı.", "piyasa_etkisi": "Belirsiz", "kategori": "Hata"}
+        print(f"Yapay Zeka Hatası: {str(e)}") # Hatayı GitHub loglarına yazdırır
+        return {"ozet": f"Yorumlama hatası: {str(e)[:50]}", "piyasa_etkisi": "Belirsiz", "kategori": "Hata"}
 
 yeni_haberler = []
 
-# 2. Kaynakları Tarama ve Hata Toleransı
+# 2. Kaynakları Tarama
 for url in rss_kaynaklari:
     try:
         feed = feedparser.parse(url)
-        for entry in feed.entries[:3]: # Her kaynaktan en yeni 3 haberi al
-            ai_sonuc = haberi_yorumla(entry.summary)
+        for entry in feed.entries[:3]:
+            # Bazı RSS'lerde özet summary'de, bazılarında description'da olur
+            ham_metin = getattr(entry, 'summary', getattr(entry, 'description', entry.title))
+            
+            ai_sonuc = haberi_yorumla(ham_metin)
             zaman = datetime.now().strftime("%Y-%m-%d %H:%M")
             
             yeni_haberler.append({
@@ -50,9 +71,10 @@ for url in rss_kaynaklari:
                 "zaman": zaman
             })
     except Exception as e:
-        continue # Hatalı kaynağı atla, akışı bozma
+        print(f"RSS Kaynak Hatası ({url}): {str(e)}")
+        continue
 
-# 3. Veri Döngüsü (Rolling Data): Sadece son 50 haberi tut
+# 3. Veri Döngüsü (Sadece son 50 haberi tut)
 mevcut_haberler = []
 try:
     with open("haberler.json", "r", encoding="utf-8") as f:
@@ -60,11 +82,9 @@ try:
 except (FileNotFoundError, json.JSONDecodeError):
     pass
 
-# Eski ve yeni veriyi birleştir, başlığa göre tekilleştir (mükerrer kayıtları engelle)
 tum_haberler = yeni_haberler + mevcut_haberler
 tekil_haberler = {haber["baslik"]: haber for haber in tum_haberler}.values()
-final_liste = list(tekil_haberler)[:50] # En güncel 50 kaydı al
+final_liste = list(tekil_haberler)[:50]
 
-# JSON'a geri yaz
 with open("haberler.json", "w", encoding="utf-8") as f:
     json.dump(final_liste, f, ensure_ascii=False, indent=4)

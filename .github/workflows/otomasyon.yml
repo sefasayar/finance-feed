@@ -2,11 +2,11 @@ name: Finance News Automation
 
 on:
   schedule:
-    - cron: '0 */4 * * *' # Her 4 saatte bir otomatik çalışır
-  workflow_dispatch: # GitHub arayüzünden manuel tetikleme (Run workflow) butonu ekler
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
 
 permissions:
-  contents: write # Botun repoya "news.json" dosyasını kaydedebilmesi için gerekli izin
+  contents: write
 
 jobs:
   update-news:
@@ -26,13 +26,13 @@ jobs:
 
       - name: Botu Çalıştır ve Yapay Zeka ile Haber Üret
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # Secrets'taki anahtarı Python'a aktarır
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python bot.py
 
       - name: Yeni Haberleri Repoya Kaydet (Commit & Push)
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/news.json
+          git add .
           git commit -m "Oto-Güncelleme: Yapay Zeka Haberleri Eklendi" || echo "Değişiklik yok"
           git push

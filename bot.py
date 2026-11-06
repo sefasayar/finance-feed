@@ -1,18 +1,14 @@
 import feedparser
-import google.generativeai as genai
+from google import genai
 import json
 import os
 import re
 
+# 1. Yeni Google GenAI SDK Kurulumu
 GOOGLE_API_KEY = os.environ.get("GEMINI_API_KEY")
-genai.configure(api_key=GOOGLE_API_KEY)
+client = genai.Client(api_key=GOOGLE_API_KEY)
 
-# Birincil ve ikincil model seçimi
-try:
-    model = genai.GenerativeModel('gemini-1.5-flash')
-except Exception:
-    model = genai.GenerativeModel('gemini-1.5-flash-lite')
-
+# Yahoo Finance RSS adresi
 RSS_URL = "https://finance.yahoo.com/news/rssindex"
 
 def extract_json(text):
@@ -23,12 +19,14 @@ def extract_json(text):
 
 def fetch_and_process_news():
     print("RSS Feed okunuyor...")
-    feed = feedparser.parse(RSS_URL)
+    
+    # User-Agent ekleyerek Yahoo Finance engellemesini aşıyoruz
+    feed = feedparser.parse(RSS_URL, agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)")
+    print(f"Çekilen haber sayısı: {len(feed.entries)}")
     
     file_path = 'data/news.json'
     existing_news = []
     
-    # Mevcut haberleri oku
     if os.path.exists(file_path):
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
@@ -66,7 +64,11 @@ def fetch_and_process_news():
         """
         
         try:
-            response = model.generate_content(prompt)
+            # Yeni SDK ile Gemini API çağrısı
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=prompt
+            )
             json_str = extract_json(response.text)
             processed_news = json.loads(json_str)
             
@@ -87,14 +89,14 @@ def fetch_and_process_news():
     # Verileri birleştir ve yaz
     if new_items:
         combined_news = new_items + existing_news
-        final_news = combined_news[:20] # Son 20 haberi sakla
+        final_news = combined_news[:20]
         
         os.makedirs('data', exist_ok=True)
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(final_news, f, ensure_ascii=False, indent=4)
         print(f"İşlem Tamamlandı: {len(new_items)} yeni haber kaydedildi.")
     else:
-        print("Yeni haber bulunamadı, mevcut veri korundu.")
+        print("Yeni haber bulunamadı veya RSS boş döndü.")
 
 if __name__ == "__main__":
     fetch_and_process_news()

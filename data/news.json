@@ -1,1 +1,68 @@
-[]
+[
+    {
+        "original_link": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
+        "source": "CNBC",
+        "published": "2026-11-06 23:15",
+        "title": "Prolonged Joblessness Rises Despite Headline Labor Strength",
+        "tag": "ECONOMY",
+        "sentiment": "BEARISH",
+        "ai_summary": "Job seekers experienced an average duration of unemployment surpassing 27 weeks in October. This marked the longest typical jobless spell recorded in a decade outside of the pandemic period.",
+        "market_impact": "Labor Market Slack",
+        "content": "<p>Extended unemployment durations indicate that laid-off workers may face increased friction in securing new positions. This dynamic could eventually dampen consumer confidence and spending if prolonged search times persist. Observers may track subsequent labor releases to see whether prolonged joblessness broadens across other employment metrics.</p>"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
+        "source": "CNBC",
+        "published": "2026-11-06 23:15",
+        "title": "Anthropic Listing Valuation Expectations Decline Amid AI Caution",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "Sentiment regarding artificial intelligence investments has cooled across Wall Street. As a result, expectations indicate Anthropic may pursue a listing valuation beneath the previously anticipated $1.5 trillion mark.",
+        "market_impact": "Tech Valuation Pressure",
+        "content": "<p>Diminished valuation estimates for high-profile artificial intelligence firms suggest investors could be adopting a more selective stance toward speculative tech multiples. This shift may influence pricing dynamics and capital availability for other private AI companies seeking public markets. Market participants will likely watch investor demand during future technology listings to gauge broader sector sentiment.</p>"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-06 23:15",
+        "title": "Retiree Highlights Financial Insecurity and Reliance on Social Security",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "A 66-year-old individual reported possessing only $500 in total savings while relying on Social Security payments to get by. The situation prompted the individual to question broader wealth disparities between affluent Americans and those lacking a financial reserve.",
+        "market_impact": "Consumer Savings Strain",
+        "content": "<p>High reliance on fixed government benefits combined with depleted personal savings may constrain household purchasing power amid ongoing living expenses. If similar liquidity constraints affect a significant portion of older consumers, discretionary categories could see reduced engagement. Economists may continue to monitor aggregate household savings levels and safety-net dependency.</p>"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-06 23:15",
+        "title": "SpaceX Considers Major Deal to Challenge Established Telecom Firms",
+        "tag": "TECH",
+        "sentiment": "BULLISH",
+        "ai_summary": "Elon Musk has indicated that SpaceX is open to pursuing a major acquisition. The rocket and satellite-internet provider aims to expand its operations to compete against established telecommunications giants.",
+        "market_impact": "Telecom Industry Disruption",
+        "content": "<p>A large-scale transaction could accelerate SpaceX&#x27;s competitive presence against legacy telecommunications networks. Such a move may spur traditional operators to reconsider their infrastructure investments and defensive strategies. Observers will likely monitor any formal acquisition announcements and the operational scope of the company&#x27;s satellite service.</p>"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-06/braskem-shareholders-pull-funding-offer-as-debt-talks-hit-snags",
+        "source": "Bloomberg",
+        "published": "2026-11-06 23:15",
+        "title": "Braskem Restructuring Falters as Owners Withdraw Capital Injection",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Negotiations between Brazilian company Braskem SA and its lenders over an out-of-court debt restructuring have deteriorated. Consequently, shareholders have withdrawn an offer for a key capital injection that was central to reaching an agreement.",
+        "market_impact": "Credit Risk Elevated",
+        "content": "<p>The stalled debt negotiations and withdrawn equity support could intensify financial pressure on the petrochemical producer and its outstanding obligations. Creditors and investors may have to navigate higher uncertainty regarding the company&#x27;s capital structure and repayment timeline. Observers will likely watch whether negotiations resume or if alternative debt resolution mechanisms are pursued.</p>"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-06/ai-generated-movie-heading-theaters-video",
+        "source": "Bloomberg",
+        "published": "2026-11-06 23:15",
+        "title": "Fable Studio Brings AI-Generated Animated Feature to Theaters",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Fable Studio developed an animated feature titled Gods Don’t Give Gifts using a team of 30 people over nine months. While the production leveraged artificial intelligence to reach the big screen, it continued to employ human directors, writers, voice talent, and visual artists.",
+        "market_impact": "Media Production Evolution",
+        "content": "<p>The shift of AI-generated content into commercial movie theaters could alter production schedules and resource allocations for animation studios. Traditional entertainment models may face questions on how to integrate automated tools while retaining necessary creative personnel. Market participants may watch theatrical reception and industry adoption rates to assess the commercial viability of AI-assisted filmmaking.</p>"
+    }
+]

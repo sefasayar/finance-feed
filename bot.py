@@ -1,114 +1,239 @@
 import feedparser
-from google import genai
+import html
 import json
 import os
 import re
-from datetime import datetime
+import sys
+import time
+from datetime import datetime, timezone
+from difflib import SequenceMatcher
 
-print("Finans Botu ve SEO Motoru Başlatılıyor...")
+from google import genai
+from google.genai import types
 
-GOOGLE_API_KEY = os.environ.get("GEMINI_API_KEY")
-if not GOOGLE_API_KEY:
-    print("HATA: GEMINI_API_KEY ortam değişkeni bulunamadı!")
-    exit(1)
+print("Finance Feed bot starting...")
 
-client = genai.Client(api_key=GOOGLE_API_KEY)
-RSS_URL = "https://news.google.com/rss/search?q=finance+stock+market+when:1d&hl=en-US&gl=US&ceid=US:en"
 SITE_URL = "https://sefasayar.github.io/finance-feed/"
+NEWS_FILE = "data/news.json"
 
-def extract_json(text):
-    match = re.search(r'\{.*\}', text, re.DOTALL)
-    if match:
-        return match.group(0)
-    return text
+# Tried in order. If one is out of quota (429) or missing (404), the next one is used.
+MODELS = ["gemini-3.8-flash", "gemini-3.1-flash-lite"]
 
-def generate_sitemap(news_list):
-    sitemap_content = '<?xml version="1.0" encoding="UTF-8"?>\n'
-    sitemap_content += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    sitemap_content += f'  <url>\n    <loc>{SITE_URL}</loc>\n    <changefreq>hourly</changefreq>\n    <priority>1.0</priority>\n  </url>\n'
-    for item in news_list:
-        sitemap_content += f'  <url>\n    <loc>{SITE_URL}</loc>\n    <lastmod>{datetime.utcnow().strftime("%Y-%m-%d")}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>0.8</priority>\n  </url>\n'
-    sitemap_content += '</urlset>'
-    with open('sitemap.xml', 'w', encoding='utf-8') as f:
-        f.write(sitemap_content)
+# Sources that include a real description in the RSS entry (Google News does not).
+FEEDS = [
+    ("CNBC", "https://www.cnbc.com/id/100003114/device/rss/rss.html"),
+    ("MarketWatch", "https://feeds.content.dowjones.io/public/rss/mw_topstories"),
+    ("Bloomberg", "https://feeds.bloomberg.com/markets/news.rss"),
+]
 
-def fetch_and_process_news():
-    feed = feedparser.parse(RSS_URL, agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
-    file_path = 'data/news.json'
-    existing_news = []
-    
-    if os.path.exists(file_path):
+PER_SOURCE = 2       # new stories taken per source per run (6 total, 1 AI request)
+MAX_KEEP = 25        # stories kept in news.json
+MIN_SNIPPET = 80     # ignore entries whose description is too short to summarize
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+
+ALLOWED_TAGS = ["STOCKS", "FED", "CRYPTO", "TECH", "ECONOMY", "COMMODITIES", "FOREX", "EARNINGS"]
+ALLOWED_SENTIMENT = {"BULLISH", "BEARISH", "NEUTRAL"}
+
+SCHEMA = {
+    "type": "ARRAY",
+    "items": {
+        "type": "OBJECT",
+        "properties": {
+            "id": {"type": "INTEGER"},
+            "title": {"type": "STRING"},
+            "tag": {"type": "STRING"},
+            "sentiment": {"type": "STRING"},
+            "summary": {"type": "STRING"},
+            "impact": {"type": "STRING"},
+            "analysis": {"type": "STRING"},
+        },
+        "required": ["id", "title", "tag", "sentiment", "summary", "impact", "analysis"],
+    },
+}
+
+INSTRUCTIONS = f"""You are a careful financial news editor.
+For each story below, write original English text based ONLY on the facts in its title and snippet.
+Rules:
+- Do not invent numbers, names, causes, dates or quotes that are not in the story.
+- Never give investment advice. Never say buy, sell or hold.
+- Use cautious wording for effects (could, may, suggests).
+Fields for each story:
+- id: the number in square brackets, unchanged
+- title: a clear headline under 90 characters, rewritten in your own words
+- tag: exactly one of {", ".join(ALLOWED_TAGS)}
+- sentiment: BULLISH, BEARISH or NEUTRAL (the likely tone for markets)
+- summary: 2 sentences explaining what happened. It must NOT repeat or paraphrase the title.
+- impact: 1 to 3 words on the likely market effect
+- analysis: 2 to 3 sentences on why this matters to markets and what to watch
+"""
+
+
+def clean(text):
+    """Strip HTML tags and extra whitespace from RSS text."""
+    text = re.sub(r"<[^>]+>", " ", text or "")
+    text = html.unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def echoes_title(summary, title):
+    """True when a summary is too short or just repeats the title."""
+    s, t = summary.lower().strip(), title.lower().strip()
+    if len(s) < 40:
+        return True
+    if t and t in s:
+        return True
+    return SequenceMatcher(None, s, t).ratio() > 0.75
+
+
+def is_bad(item):
+    """Detects old raw-fallback entries and empty summaries so they get removed."""
+    if item.get("tag") == "MARKET" and item.get("market_impact") == "Stable":
+        return True
+    return echoes_title(item.get("ai_summary", ""), item.get("title", ""))
+
+
+def load_news():
+    if not os.path.exists(NEWS_FILE):
+        return []
+    try:
+        with open(NEWS_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data if isinstance(data, list) else []
+    except Exception as e:
+        print(f"Could not read {NEWS_FILE}: {e}")
+        return []
+
+
+def collect_candidates(seen_links):
+    candidates = []
+    for name, url in FEEDS:
         try:
-            with open(file_path, 'r', encoding='utf-8') as f:
-                existing_news = json.load(f)
-        except Exception:
-            existing_news = []
-
-    new_items = []
-    
-    for entry in feed.entries[:5]:
-        title = entry.title
-        summary = getattr(entry, 'summary', title)
-        link = entry.link
-        
-        if any(item.get('original_link') == link for item in existing_news):
-            continue
-
-        print(f"Analiz ediliyor: {title}")
-        
-        prompt = f"""
-        You are a senior financial analyst. Analyze this news and return ONLY a valid JSON object matching this exact schema, without any markdown formatting:
-        {{
-            "title": "A catchy, SEO-friendly English title",
-            "tag": "A single precise market tag (e.g., STOCKS, FED, CRYPTO, TECH, ECONOMY)",
-            "sentiment": "BULLISH", 
-            "ai_summary": "Do NOT repeat the title. Write a genuine 1-2 sentence analytical summary explaining what happened and its key takeaway for investors.",
-            "market_impact": "1-2 words describing market effect (e.g., High Volatility, Steady Growth, Rate Relief, Buying Pressure)",
-            "content": "<p>First paragraph.</p><p>Second paragraph.</p>"
-        }}
-        Note: 'sentiment' must be strictly one of: BULLISH, BEARISH, or NEUTRAL.
-
-        Original Title: {title}
-        Original Summary: {summary}
-        """
-        
-        try:
-            response = client.models.generate_content(
-                model='gemini-2.5-flash',
-                contents=prompt
-            )
-            json_str = extract_json(response.text)
-            processed_news = json.loads(json_str)
-            
-            new_items.append({
-                "original_link": link,
-                "title": processed_news.get("title", title),
-                "tag": processed_news.get("tag", "MARKET").upper(),
-                "sentiment": processed_news.get("sentiment", "NEUTRAL").upper(),
-                "ai_summary": processed_news.get("ai_summary", summary[:150]),
-                "market_impact": processed_news.get("market_impact", "Neutral Trend"),
-                "content": processed_news.get("content", f"<p>{summary}</p>")
-            })
+            feed = feedparser.parse(url, agent=UA)
         except Exception as e:
-            print(f"Hata ({e}), ham veri ekleniyor.")
-            new_items.append({
-                "original_link": link,
-                "title": title,
-                "tag": "MARKET",
-                "sentiment": "NEUTRAL",
-                "ai_summary": summary[:150],
-                "market_impact": "Stable",
-                "content": f"<p>{summary}</p>"
-            })
+            print(f"{name}: feed error: {e}")
+            continue
+        taken = 0
+        for entry in feed.entries[:15]:
+            link = getattr(entry, "link", "")
+            title = clean(getattr(entry, "title", ""))
+            snippet = clean(getattr(entry, "summary", getattr(entry, "description", "")))
+            if not link or not title or link in seen_links:
+                continue
+            if len(snippet) < MIN_SNIPPET:
+                continue
+            candidates.append({"source": name, "link": link, "title": title, "snippet": snippet})
+            taken += 1
+            if taken >= PER_SOURCE:
+                break
+        print(f"{name}: {len(feed.entries)} entries in feed, {taken} new and usable")
+    return candidates
 
-    if new_items:
-        combined_news = new_items + existing_news
-        final_news = combined_news[:25]
-        os.makedirs('data', exist_ok=True)
-        with open(file_path, 'w', encoding='utf-8') as f:
-            json.dump(final_news, f, ensure_ascii=False, indent=4)
-        generate_sitemap(final_news)
-        print(f"{len(new_items)} yeni haber eklendi.")
+
+def analyze(client, candidates):
+    """One batched request for all stories. Returns {index: result}, or {} on failure."""
+    stories = "\n\n".join(
+        f"[{i}] ({c['source']}) {c['title']}\n{c['snippet'][:600]}"
+        for i, c in enumerate(candidates)
+    )
+    prompt = INSTRUCTIONS + "\nSTORIES:\n\n" + stories
+
+    for model in MODELS:
+        for attempt in range(2):
+            try:
+                response = client.models.generate_content(
+                    model=model,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        response_mime_type="application/json",
+                        response_schema=SCHEMA,
+                        temperature=0.3,
+                    ),
+                )
+                data = json.loads(response.text)
+                print(f"AI OK with {model}")
+                return {int(x["id"]): x for x in data}
+            except Exception as e:
+                msg = str(e)
+                print(f"{model} error (attempt {attempt + 1}): {msg[:300]}")
+                if any(k in msg for k in ("429", "404", "NOT_FOUND", "RESOURCE_EXHAUSTED")):
+                    break  # quota or model problem: go to the next model
+                time.sleep(10)  # temporary error such as 503: wait and retry once
+    return {}
+
+
+def write_sitemap():
+    # Only the home page until each story gets its own page.
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f"  <url>\n    <loc>{SITE_URL}</loc>\n    <lastmod>{today}</lastmod>\n"
+        "    <changefreq>hourly</changefreq>\n    <priority>1.0</priority>\n  </url>\n"
+        "</urlset>\n"
+    )
+    with open("sitemap.xml", "w", encoding="utf-8") as f:
+        f.write(xml)
+
+
+def main():
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        print("ERROR: GEMINI_API_KEY is missing")
+        sys.exit(1)
+    client = genai.Client(api_key=api_key)
+
+    existing = load_news()
+    kept = [item for item in existing if not is_bad(item)]
+    removed = len(existing) - len(kept)
+    if removed:
+        print(f"Removed {removed} low-quality old entries")
+    seen_links = {item.get("original_link") for item in kept}
+
+    candidates = collect_candidates(seen_links)
+    new_items = []
+
+    if candidates:
+        print(f"Sending {len(candidates)} stories to the AI in one request...")
+        results = analyze(client, candidates)
+        now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
+
+        for i, c in enumerate(candidates):
+            r = results.get(i)
+            if not r:
+                continue  # AI failed for this story: do not publish, retry next run
+            summary = clean(r.get("summary", ""))
+            analysis = clean(r.get("analysis", ""))
+            if echoes_title(summary, c["title"]) or len(analysis) < 40:
+                print(f"Skipped (summary too weak): {c['title'][:70]}")
+                continue
+
+            tag = str(r.get("tag", "")).upper()
+            sentiment = str(r.get("sentiment", "")).upper()
+            new_items.append({
+                "original_link": c["link"],
+                "source": c["source"],
+                "published": now,
+                "title": clean(r.get("title", "")) or c["title"],
+                "tag": tag if tag in ALLOWED_TAGS else "MARKET",
+                "sentiment": sentiment if sentiment in ALLOWED_SENTIMENT else "NEUTRAL",
+                "ai_summary": summary,
+                "market_impact": clean(r.get("impact", "")) or "Unclear",
+                # AI text is escaped, so it is safe to render as HTML.
+                "content": f"<p>{html.escape(analysis)}</p>",
+            })
+    else:
+        print("No new usable stories.")
+
+    if new_items or removed:
+        final = (new_items + kept)[:MAX_KEEP]
+        os.makedirs("data", exist_ok=True)
+        with open(NEWS_FILE, "w", encoding="utf-8") as f:
+            json.dump(final, f, ensure_ascii=False, indent=4)
+        if new_items:
+            write_sitemap()
+
+    print(f"Done: {len(new_items)} new stories added.")
+
 
 if __name__ == "__main__":
-    fetch_and_process_news()
+    main()

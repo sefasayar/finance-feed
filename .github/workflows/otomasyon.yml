@@ -2,11 +2,11 @@ name: Canli Finans Botu
 
 on:
   schedule:
-    - cron: '0 * * * *' # Her saat başı çalıştırır (dakika 0 olduğunda)
-  workflow_dispatch: # Depo üzerinden manuel tetikleme butonu ekler
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 permissions:
-  contents: write # Botun dosyayı güncelleyebilmesi için yazma izni
+  contents: write
 
 jobs:
   haberleri-guncelle:
@@ -15,7 +15,7 @@ jobs:
       - name: Depoyu Çek
         uses: actions/checkout@v4
 
-          - name: Python Kur
+      - name: Python Kur
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -35,5 +35,3 @@ jobs:
           git add haberler.json
           git commit -m "🤖 Haberler otomatik güncellendi" || exit 0
           git push
-
-

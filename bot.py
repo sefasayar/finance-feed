@@ -2,69 +2,99 @@ import feedparser
 import google.generativeai as genai
 import json
 import os
+import re
 
-# 1. Gemini API Ayarları (GitHub Secrets'tan alacak)
 GOOGLE_API_KEY = os.environ.get("GEMINI_API_KEY")
 genai.configure(api_key=GOOGLE_API_KEY)
-# Hızlı ve ücretsiz olan modeli seçiyoruz
-model = genai.GenerativeModel('gemini-1.5-flash')
 
-# 2. RSS Kaynağı (Yahoo Finance - Sınırsız ve Hızlı)
+# Birincil ve ikincil model seçimi
+try:
+    model = genai.GenerativeModel('gemini-1.5-flash')
+except Exception:
+    model = genai.GenerativeModel('gemini-1.5-flash-lite')
+
 RSS_URL = "https://finance.yahoo.com/news/rssindex"
+
+def extract_json(text):
+    match = re.search(r'\{.*\}', text, re.DOTALL)
+    if match:
+        return match.group(0)
+    return text
 
 def fetch_and_process_news():
     print("RSS Feed okunuyor...")
     feed = feedparser.parse(RSS_URL)
-    news_list = []
     
-    # API limitlerini korumak ve her çalışmada en yeni haberleri almak için ilk 3 haberi seçiyoruz
-    for entry in feed.entries[:3]:
+    file_path = 'data/news.json'
+    existing_news = []
+    
+    # Mevcut haberleri oku
+    if os.path.exists(file_path):
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                existing_news = json.load(f)
+        except Exception:
+            existing_news = []
+
+    new_items = []
+    
+    for entry in feed.entries[:5]:
         title = entry.title
-        summary = entry.summary
+        summary = getattr(entry, 'summary', title)
         link = entry.link
         
+        # Mükerrer haber kontrolü
+        if any(item.get('original_link') == link for item in existing_news):
+            print(f"Zaten mevcut, atlanıyor: {title}")
+            continue
+
         print(f"İşleniyor: {title}")
         
-        # 3. Gemini İçin Sistem Promptu (Yapay Zeka Mimarisi)
         prompt = f"""
-        Sen uzman bir finans gazetecisisin. Aşağıdaki son dakika haberini İngilizce dilinde, 
-        SEO uyumlu, profesyonel ve okuyucuya değer katan 2-3 paragraflık özgün bir makaleye dönüştür.
-        Orijinal haberi asla birebir kopyalama.
-        
-        Orijinal Başlık: {title}
-        Orijinal Özet: {summary}
-        
-        Lütfen cevabını SADECE aşağıdaki JSON formatında ver, başına sonuna hiçbir metin veya markdown işareti (```json gibi) ekleme:
+        You are a professional financial journalist. Rewrite the following financial news into an engaging, 
+        SEO-friendly, high-quality 2-paragraph article in English.
+        Do not copy the original text word-for-word.
+
+        Original Title: {title}
+        Original Summary: {summary}
+
+        Return ONLY a valid JSON object matching this schema, without any markdown formatting:
         {{
-            "title": "Özgün ve Tıklanabilir İngilizce Başlık",
-            "content": "<p>Haberin birinci paragrafı</p><p>Haberin ikinci paragrafı</p>"
+            "title": "Catchy English Title",
+            "content": "<p>First paragraph of the news.</p><p>Second paragraph of the news.</p>"
         }}
         """
         
         try:
-            # Gemini'ye istek at
             response = model.generate_content(prompt)
+            json_str = extract_json(response.text)
+            processed_news = json.loads(json_str)
             
-            # Gelen metni temizle ve JSON'a çevir
-            result_text = response.text.replace("```json", "").replace("```", "").strip()
-            processed_news = json.loads(result_text)
-            
-            # Listeye ekle
-            news_list.append({
+            new_items.append({
                 "original_link": link,
                 "title": processed_news.get("title", title),
-                "content": processed_news.get("content", summary)
+                "content": processed_news.get("content", f"<p>{summary}</p>")
             })
-            print("Başarılı!")
+            print(f"Başarıyla işlendi: {title}")
         except Exception as e:
-            print(f"Yapay Zeka İşlem Hatası: {e}")
-    
-    # 4. Sonuçları JSON dosyasına kaydetme
-    os.makedirs('data', exist_ok=True)
-    with open('data/news.json', 'w', encoding='utf-8') as f:
-        json.dump(news_list, f, ensure_ascii=False, indent=4)
+            print(f"Yapay zeka ayrıştırma uyarısı ({e}), ham haber ekleniyor.")
+            new_items.append({
+                "original_link": link,
+                "title": title,
+                "content": f"<p>{summary}</p>"
+            })
+
+    # Verileri birleştir ve yaz
+    if new_items:
+        combined_news = new_items + existing_news
+        final_news = combined_news[:20] # Son 20 haberi sakla
         
-    print("Tüm işlemler tamamlandı ve data/news.json güncellendi!")
+        os.makedirs('data', exist_ok=True)
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(final_news, f, ensure_ascii=False, indent=4)
+        print(f"İşlem Tamamlandı: {len(new_items)} yeni haber kaydedildi.")
+    else:
+        print("Yeni haber bulunamadı, mevcut veri korundu.")
 
 if __name__ == "__main__":
     fetch_and_process_news()

@@ -1,5 +1,71 @@
 [
     {
+        "original_link": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html",
+        "source": "CNBC",
+        "published": "2026-11-06 23:55",
+        "title": "Stephen Miller Named White House Chief of Staff Following Democratic Midterm Sweep",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Donald Trump announced that Stephen Miller will take over Susie Wiles' position leading the White House staff. The leadership change comes three days after Democrats secured majority control of both congressional chambers in the midterm elections.",
+        "market_impact": "policy uncertainty",
+        "content": "<p>A reorganization in top executive administration staff may influence future administrative and legislative priorities. Markets could monitor potential policy shifts as the White House prepares to navigate a Democratic-controlled House and Senate. Investors will likely look for indications on how these leadership changes affect fiscal and economic agendas.</p>"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/06/mississippi-senate-ty-pinkins-colom-hyde-smith.html",
+        "source": "CNBC",
+        "published": "2026-11-06 23:55",
+        "title": "Mississippi Senate Candidate Outlines Strategic Campaign Approach in State Race",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Candidate Ty Pinkins explained that his strategy focused on hindering opponent Hyde-Smith while aiding fellow candidate Scott Colom's vote count. To avoid drawing support away from Colom, Pinkins noted that he deliberately bypassed campaigning in heavily Black areas of Mississippi.",
+        "market_impact": "negligible market effect",
+        "content": "<p>Electoral dynamics in Senate races can eventually influence legislative power balances and broad economic policy. For this specific contest, financial market participants generally watch how election outcomes shape overall governance in Congress. Such individual campaign strategies highlight the evolving mechanics in key state races.</p>"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/data-centers-run-on-debt-that-was-a-problem-for-bonds-this-year-and-its-only-going-to-get-worse-09c03be6?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-06 23:55",
+        "title": "Data Center Debt Overwhelms Bond Portfolios as AI Infrastructure Needs Grow",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "Heavy bond issuance linked to artificial intelligence data center funding has flooded investor portfolios and yielded disappointing performance results. The ongoing pressure to raise capital is expected to persist as Democrats assume control of Congress.",
+        "market_impact": "credit market strain",
+        "content": "<p>Mounting borrowing needs for artificial intelligence facilities could weigh further on fixed-income markets if bond supply continues to outpace demand. Market participants will likely track whether sustained high debt issuance leads to wider corporate credit spreads. Observers may also watch how congressional leadership affects financing environments for tech infrastructure.</p>"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-06 23:55",
+        "title": "Semiconductor Stocks Bounce Back Following Sharp Selloff as Volatility Risks Persist",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Shares of Nvidia, AMD, and other semiconductor firms posted gains after a steep decline in equity prices. Despite this immediate relief, market analysts caution that trading could remain erratic even as fresh tailwinds assist the artificial intelligence theme.",
+        "market_impact": "near-term volatility",
+        "content": "<p>The rebound suggests renewed appetite for leading chipmakers, though lingering concerns could indicate that market fluctuations might continue. Investors will likely watch upcoming order momentum and corporate commentary to assess the durability of the AI investment thesis. Shifts in market sentiment around tech hardware could drive broader stock index swings.</p>"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-06/the-corner-store-brings-nyc-experience-to-vegas-strip-video",
+        "source": "Bloomberg",
+        "published": "2026-11-06 23:55",
+        "title": "Catch Hospitality Expands New York Concept The Corner Store to Las Vegas Strip",
+        "tag": "STOCKS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Catch Hospitality Group is launching a 150-seat outpost of its New York restaurant, The Corner Store, at the Cosmopolitan hotel. Co-founder Eugene Remm stated the venue is designed to replicate the authentic SoHo atmosphere of the 75-seat original rather than offer an altered format.",
+        "market_impact": "hospitality expansion",
+        "content": "<p>This opening highlights ongoing investment in Las Vegas hospitality and entertainment venues. Analysts may observe customer reception to see if New York restaurant concepts maintain their appeal when scaled into larger spaces. Such venue additions serve as an indicator of broader leisure and travel industry trends.</p>"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-06/elanco-shares-jump-after-q3-beat-and-outlook-raise-video",
+        "source": "Bloomberg",
+        "published": "2026-11-06 23:55",
+        "title": "Elanco Stock Surges Near 8% on Third-Quarter Beat and Upgraded Full-Year Forecast",
+        "tag": "EARNINGS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Elanco Animal Health experienced a significant share price rise after reporting earnings that topped expectations and increasing its yearly targets. Chief Executive Officer Jeff Simmons pointed to 11% reported growth and broad performance across product lines and regional markets.",
+        "market_impact": "positive share reaction",
+        "content": "<p>The strong quarterly results and raised outlook indicate robust demand within animal health sectors. Observers may watch if the company can sustain its reported revenue growth across its various markets in upcoming quarters. Continued momentum could bolster confidence in the broader animal pharmaceutical and healthcare industry.</p>"
+    },
+    {
         "original_link": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
         "source": "CNBC",
         "published": "2026-11-06 23:15",

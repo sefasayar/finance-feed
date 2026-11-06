@@ -1,39 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finance Feed - Real-Time AI Financial News & Market Insights</title>
-    <meta name="description" content="Real-time, AI-analyzed financial news, market insights, stock updates, and economic forecasts.">
-    <link rel="stylesheet" href="style.css">
+    <title>CX-Ops Command Center - Canlı Örnek</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
-<body>
-    <header class="site-header">
-        <div class="container">
-            <h1>📈 Finance Feed</h1>
-            <p>Real-Time AI-Powered Market Insights & Intelligence</p>
+<body class="bg-slate-950 text-slate-100 font-sans min-h-screen p-6">
+    <div class="max-w-7xl mx-auto space-y-6">
+        
+        <!-- Header -->
+        <header class="flex flex-col md:flex-row justify-between items-start md:items-center bg-slate-900 p-4 rounded-xl border border-slate-800 gap-4">
+            <div>
+                <h1 class="text-xl font-bold text-white flex items-center gap-2">
+                    <span class="w-3 h-3 bg-emerald-500 rounded-full animate-pulse"></span>
+                    CX-Ops Command Center (Örnek Görünüm)
+                </h1>
+                <p class="text-xs text-slate-400 mt-1">Çağrı Merkezi ve İletişim Analitiği Prototipi</p>
+            </div>
+            <div class="flex gap-2">
+                <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1.5 rounded-lg border border-slate-700">Toplam Hacim: 124,500</span>
+                <span class="text-xs bg-emerald-950 text-emerald-400 px-3 py-1.5 rounded-lg border border-emerald-900">Sistem Aktif</span>
+            </div>
+        </header>
+
+        <!-- KPI Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div class="bg-slate-900 p-4 rounded-xl border border-slate-800">
+                <span class="text-xs text-slate-400">Aylık Bildirim Hacmi</span>
+                <p class="text-2xl font-bold text-white mt-1">124.500</p>
+                <span class="text-xs text-emerald-400 mt-1 block">↑ Önceki aya göre %4.2 azalış</span>
+            </div>
+            <div class="bg-slate-900 p-4 rounded-xl border border-slate-800">
+                <span class="text-xs text-slate-400">Önde Gelen RES Kategori</span>
+                <p class="text-lg font-semibold text-white mt-1 truncate">Mobil Şube Aktivasyon Onayı</p>
+                <span class="text-xs text-amber-400 mt-1 block">⚠ %34.2 pay oranına sahip</span>
+            </div>
+            <div class="bg-slate-900 p-4 rounded-xl border border-slate-800">
+                <span class="text-xs text-slate-400">Kritik Yaş Grubu (60+)</span>
+                <p class="text-2xl font-bold text-white mt-1">42.800</p>
+                <span class="text-xs text-rose-400 mt-1 block">⚠ SMS OTP Zaman Aşımı yoğun</span>
+            </div>
+            <div class="bg-slate-900 p-4 rounded-xl border border-slate-800">
+                <span class="text-xs text-slate-400">Manuel Rapor Tasarrufu</span>
+                <p class="text-2xl font-bold text-emerald-400 mt-1">14.5 Saat / Hafta</p>
+                <span class="text-xs text-slate-400 mt-1 block">SQL otomasyonu devrede</span>
+            </div>
         </div>
-    </header>
 
-    <!-- Kategori Filtreleme Barı -->
-    <nav class="filter-nav container">
-        <div id="filter-bar" class="filter-bar">
-            <button class="filter-btn active">ALL</button>
+        <!-- Filters & Main Area -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            
+            <!-- Sol Panel: Filtreler -->
+            <div class="bg-slate-900 p-5 rounded-xl border border-slate-800 space-y-4">
+                <h2 class="text-sm font-semibold text-slate-200 border-b border-slate-800 pb-2">Filtreleme Paneli</h2>
+                
+                <div>
+                    <label class="text-xs text-slate-400 block mb-1">Dönem Seçimi</label>
+                    <select class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-sm text-slate-200">
+                        <option>Son 30 Gün (Ekim - Kasım)</option>
+                        <option>Son 7 Gün</option>
+                        <option>Yıl İçi (2026)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="text-xs text-slate-400 block mb-1">Kanal</label>
+                    <select class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-sm text-slate-200">
+                        <option>Tüm Kanallar</option>
+                        <option>Mobil Şube</option>
+                        <option>IVR / Sesli Yanıt</option>
+                        <option>Çağrı Merkezi Canlı Destek</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="text-xs text-slate-400 block mb-1">Yaş Grubu</label>
+                    <select class="w-full bg-slate-950 border border-slate-800 rounded-lg p-2 text-sm text-slate-200">
+                        <option>Tüm Yaş Grupları</option>
+                        <option>60+ Kıdemli Segment</option>
+                        <option>18-25 Genç Segment</option>
+                        <option>26-59 Yetişkin Segment</option>
+                    </select>
+                </div>
+
+                <button class="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-medium py-2 rounded-lg text-sm transition">
+                    Filtreleri Uygula
+                </button>
+            </div>
+
+            <!-- Sağ Panel: Grafikler ve Tablo -->
+            <div class="lg:col-span-2 space-y-6">
+                
+                <!-- Grafik Alanı -->
+                <div class="bg-slate-900 p-5 rounded-xl border border-slate-800">
+                    <h3 class="text-sm font-semibold text-slate-200 mb-4">Kanal Bazlı Bildirim Dağılımı (Örnek Grafik)</h3>
+                    <div class="h-64 relative flex items-center justify-center">
+                        <canvas id="mockChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Örnek Veri Tablosu -->
+                <div class="bg-slate-900 p-5 rounded-xl border border-slate-800 overflow-x-auto">
+                    <h3 class="text-sm font-semibold text-slate-200 mb-3">Son İşlem Kayıtları (Örnek)</h3>
+                    <table class="w-full text-left text-xs text-slate-300">
+                        <thead class="bg-slate-950 text-slate-400 border-b border-slate-800">
+                            <tr>
+                                <th class="p-2.5">Bildirim ID</th>
+                                <th class="p-2.5">Kanal</th>
+                                <th class="p-2.5">Yaş Grubu</th>
+                                <th class="p-2.5">RES Kategori</th>
+                                <th class="p-2.5">Hata Durumu</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-800">
+                            <tr>
+                                <td class="p-2.5">#TR-89421</td>
+                                <td class="p-2.5">Mobil Şube</td>
+                                <td class="p-2.5">60+</td>
+                                <td class="p-2.5">Mobil Şube Aktivasyon Onayı</td>
+                                <td class="p-2.5 text-amber-400">SMS Timeout</td>
+                            </tr>
+                            <tr>
+                                <td class="p-2.5">#TR-89422</td>
+                                <td class="p-2.5">IVR</td>
+                                <td class="p-2.5">26-59</td>
+                                <td class="p-2.5">Şifre Bloke Kaldırma</td>
+                                <td class="p-2.5 text-emerald-400">Başarılı</td>
+                            </tr>
+                            <tr>
+                                <td class="p-2.5">#TR-89423</td>
+                                <td class="p-2.5">Canlı Destek</td>
+                                <td class="p-2.5">18-25</td>
+                                <td class="p-2.5">FAST Transfer İade Talebi</td>
+                                <td class="p-2.5 text-rose-400">Sistem Hatası</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
         </div>
-    </nav>
 
-    <main class="container">
-        <section id="news-container" class="news-grid">
-            <p class="loading-text">Loading latest market intelligence...</p>
-        </section>
-    </main>
+    </div>
 
-    <footer class="site-footer">
-        <div class="container">
-            <p>&copy; 2026 Finance Feed. All rights reserved. Powered by Gemini AI.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+    <!-- Grafik Scripti -->
+    <script>
+        const ctx = document.getElementById('mockChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Mobil Şube', 'IVR', 'Canlı Destek', 'Web', 'ATM'],
+                datasets: [{
+                    label: 'Bildirim Hacmi',
+                    data: [45000, 32000, 21000, 18000, 8500],
+                    backgroundColor: '#6366f1',
+                    borderRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    x: { grid: { display: false }, ticks: { color: '#94a3b8' } },
+                    y: { grid: { color: '#1e293b' }, ticks: { color: '#94a3b8' } }
+                }
+            }
+        });
+    </script>
 </body>
 </html>

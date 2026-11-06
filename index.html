@@ -26,16 +26,19 @@
             
             // Verileri döngüye sokup ekrana kart olarak basar
             haberler.forEach(haber => {
-                const kart = `
-                    <div class="bg-white p-5 rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition">
-                        <div class="flex justify-between items-center mb-3">
-                            <span class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-1 rounded">${haber.kategori}</span>
-                            <span class="text-sm text-gray-400 font-medium">${haber.zaman}</span>
-                        </div>
-                        <h2 class="text-xl font-bold mb-2 text-gray-800">${haber.baslik}</h2>
-                        <p class="text-gray-600 leading-relaxed">${haber.ozet}</p>
-                    </div>
-                `;
+               const kart = `
+    <div class="bg-white p-5 rounded-xl shadow-sm border border-gray-200 hover:shadow-md transition">
+        <div class="flex justify-between items-center mb-3">
+            <span class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-1 rounded">${haber.kategori}</span>
+            <span class="text-sm text-gray-400 font-medium">${haber.zaman}</span>
+        </div>
+        <h2 class="text-xl font-bold mb-2 text-gray-800">${haber.baslik}</h2>
+        <p class="text-gray-600 mb-3 text-sm">${haber.ozet}</p>
+        <div class="bg-slate-50 border-l-4 border-emerald-500 p-3 rounded text-sm">
+            <span class="font-bold text-slate-700">Piyasa Etkisi:</span> <span class="text-slate-600">${haber.piyasa_etkisi}</span>
+        </div>
+    </div>
+`;
                 akis.innerHTML += kart;
             });
         }

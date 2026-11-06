@@ -4,12 +4,9 @@ import json
 import os
 import re
 
-# 1. API Kurulumu
 GOOGLE_API_KEY = os.environ.get("GEMINI_API_KEY")
 client = genai.Client(api_key=GOOGLE_API_KEY)
 
-# 2. KESİN ÇÖZÜM: Google News RSS (Finans ve Borsa - Son 1 Günün Haberleri)
-# Bu URL Cloudflare veya IP engeline takılmaz, doğrudan XML döndürür.
 RSS_URL = "https://news.google.com/rss/search?q=finance+stock+market+when:1d&hl=en-US&gl=US&ceid=US:en"
 
 def extract_json(text):
@@ -20,16 +17,8 @@ def extract_json(text):
 
 def fetch_and_process_news():
     print("Google News RSS Feed okunuyor...")
-    
-    # Standart bir tarayıcı kimliği ile okuma yapıyoruz
     feed = feedparser.parse(RSS_URL, agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36")
     
-    print(f"Çekilen haber sayısı: {len(feed.entries)}")
-    
-    if len(feed.entries) == 0:
-        print("Hata: RSS'ten veri alınamadı. (Bağlantı veya ayrıştırma sorunu)")
-        return
-
     file_path = 'data/news.json'
     existing_news = []
     
@@ -42,34 +31,35 @@ def fetch_and_process_news():
 
     new_items = []
     
-    for entry in feed.entries[:5]: # En güncel 5 haberi al
+    for entry in feed.entries[:5]:
         title = entry.title
         summary = getattr(entry, 'summary', title)
         link = entry.link
         
         if any(item.get('original_link') == link for item in existing_news):
-            print(f"Zaten mevcut, atlanıyor: {title}")
             continue
 
         print(f"İşleniyor: {title}")
         
+        # Güncellenmiş Prompt: Etiketler ve Kısa Özet İstiyoruz
         prompt = f"""
         You are a professional financial journalist. Rewrite the following financial news into an engaging, 
-        SEO-friendly, high-quality 2-paragraph article in English.
-        Do not copy the original text word-for-word.
+        SEO-friendly article in English. Also, extract 1 or 2 relevant market/stock tags (e.g., Stocks, Crypto, Fed, NASDAQ, Economy) 
+        and write a punchy 1-2 sentence AI summary.
 
         Original Title: {title}
         Original Summary: {summary}
 
-        Return ONLY a valid JSON object matching this schema, without any markdown formatting:
+        Return ONLY a valid JSON object matching this exact schema, without any markdown formatting:
         {{
             "title": "Catchy English Title",
-            "content": "<p>First paragraph of the news.</p><p>Second paragraph of the news.</p>"
+            "tags": ["Tag1", "Tag2"],
+            "ai_summary": "1-2 sentences brief summary of the news.",
+            "content": "<p>First paragraph.</p><p>Second paragraph.</p>"
         }}
         """
         
         try:
-            # Gemini'ye istek gönder
             response = client.models.generate_content(
                 model='gemini-2.5-flash',
                 contents=prompt
@@ -80,14 +70,18 @@ def fetch_and_process_news():
             new_items.append({
                 "original_link": link,
                 "title": processed_news.get("title", title),
+                "tags": processed_news.get("tags", ["Finance"]),
+                "ai_summary": processed_news.get("ai_summary", summary[:150]),
                 "content": processed_news.get("content", f"<p>{summary}</p>")
             })
             print(f"Başarıyla işlendi: {title}")
         except Exception as e:
-            print(f"Yapay zeka ayrıştırma uyarısı ({e}), ham haber ekleniyor.")
+            print(f"Hata ({e}), ham veri ekleniyor.")
             new_items.append({
                 "original_link": link,
                 "title": title,
+                "tags": ["Market"],
+                "ai_summary": summary[:150],
                 "content": f"<p>{summary}</p>"
             })
 
@@ -99,8 +93,6 @@ def fetch_and_process_news():
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(final_news, f, ensure_ascii=False, indent=4)
         print(f"İşlem Tamamlandı: {len(new_items)} yeni haber kaydedildi.")
-    else:
-        print("Yeni haber bulunamadı.")
 
 if __name__ == "__main__":
     fetch_and_process_news()

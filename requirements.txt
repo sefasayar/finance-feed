@@ -1,2 +1,2 @@
 feedparser
-google-genai
+google-generativeai

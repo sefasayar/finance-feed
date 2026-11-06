@@ -17,27 +17,28 @@ document.addEventListener("DOMContentLoaded", () => {
                 const article = document.createElement("article");
                 article.className = "news-card";
 
-                // Etiketleri HTML etiketlerine dönüştür
-                let tagsHtml = "";
-                if (item.tags && Array.isArray(item.tags)) {
-                    tagsHtml = item.tags.map(tag => `<span class="news-tag">${tag}</span>`).join("");
-                }
+                let sentimentClass = "sentiment-neutral";
+                if (item.sentiment === "BULLISH") sentimentClass = "sentiment-bullish";
+                if (item.sentiment === "BEARISH") sentimentClass = "sentiment-bearish";
 
                 article.innerHTML = `
-                    <div class="news-meta">
-                        <div class="tags-wrapper">${tagsHtml}</div>
+                    <div class="news-header-meta">
+                        <span class="news-tag">${item.tag || "MARKET"}</span>
+                        <span class="sentiment-badge ${sentimentClass}">${item.sentiment || "NEUTRAL"}</span>
                     </div>
+                    
                     <h2 class="news-title">${item.title}</h2>
                     
                     ${item.ai_summary ? `
                         <div class="ai-summary-box">
-                            <strong>AI Summary:</strong> ${item.ai_summary}
+                            <strong>AI Summary & Outlook:</strong> ${item.ai_summary}
                         </div>
                     ` : ""}
 
                     <div class="news-content">
                         ${item.content}
                     </div>
+                    
                     <div class="news-footer">
                         <a href="${item.original_link}" target="_blank" rel="noopener noreferrer" class="source-link">
                             Read Original Source &rarr;

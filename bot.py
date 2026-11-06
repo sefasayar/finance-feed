@@ -26,9 +26,9 @@ def haberi_yorumla(metin):
     prompt = f"Şu haberi oku ve analiz et. Haber: {metin[:600]}"
     
     try:
-        # Yeni kütüphane yapısı ve güncel model (gemini-2.5-flash)
+        # En güncel model sürümüne (gemini-3.8-flash) geçiş yapıldı
         response = client.models.generate_content(
-            model='gemini-2.5-flash',
+            model='gemini-3.8-flash',
             contents=prompt,
             config=types.GenerateContentConfig(
                 response_mime_type="application/json",

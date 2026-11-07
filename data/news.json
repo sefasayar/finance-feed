@@ -1,5 +1,44 @@
 [
     {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-07/meta-s-bond-sale-shows-new-reality-for-tech-debt-credit-weekly",
+        "source": "Bloomberg",
+        "published": "2026-11-07 20:00",
+        "title": "Meta executes $25 billion bond offering",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Meta Platforms completed a $25 billion corporate bond sale on Election Day. The timing of the issuance was noted as unusual given the market environment.",
+        "market_impact": "Debt market activity",
+        "content": "<p>Large-scale debt issuance by major technology firms provides insight into corporate liquidity needs and market appetite for tech-related credit. The timing suggests confidence in the company&#x27;s ability to access capital markets despite political uncertainty.</p><p><strong>What to watch:</strong> Monitor the company&#x27;s debt management and capital expenditure plans.</p>",
+        "tickers": [
+            "META"
+        ],
+        "slug": "meta-executes-25-billion-bond-offering-d45cef"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/here-are-the-2027-capital-gains-tax-rates-for-each-income-level-166fc306?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-07 19:48",
+        "title": "IRS releases 2027 capital gains tax brackets",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "The IRS has published the capital gains tax rates applicable to various income levels for the 2027 tax year. Taxpayers can now review these updated figures for future planning.",
+        "market_impact": "Tax planning",
+        "content": "<p>Changes to capital gains tax rates can influence investor behavior regarding asset holding periods and portfolio rebalancing. Clear guidance helps market participants anticipate future tax liabilities.</p><p><strong>What to watch:</strong> Investors may watch for how these rates influence long-term investment strategies.</p>",
+        "slug": "irs-releases-2027-capital-gains-tax-brackets-e02fb5"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-07/bloomberg-this-weekend-11-7-2026-video",
+        "source": "Bloomberg",
+        "published": "2026-11-07 17:14",
+        "title": "Market analysis on tech sector and political shifts",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Industry experts and analysts discussed the implications of recent political appointments and market volatility. The conversation covered the tech sector's performance and broader economic context.",
+        "market_impact": "Market sentiment",
+        "content": "<p>Expert commentary helps synthesize how political changes and market selloffs interact to influence investor sentiment. Understanding these dynamics is essential for assessing sector-specific risks.</p><p><strong>What to watch:</strong> Watch for continued volatility in the tech sector following recent market movements.</p>",
+        "slug": "market-analysis-on-tech-sector-and-political-shifts-7438e5"
+    },
+    {
         "original_link": "https://www.marketwatch.com/story/the-wealthiest-10-of-americans-are-pulling-ahead-of-everyone-else-this-is-whats-making-them-richer-bd83c2f6?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-07 17:04",
@@ -50,6 +89,34 @@
             "BRK.B"
         ],
         "slug": "berkshire-hathaway-boosts-q3-share-buybacks-amid-profit-drop-0cd5dc"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/07/berkshire-shares-surge-as-wall-street-swoons-amid-ai-fears.html",
+        "source": "CNBC",
+        "published": "2026-11-07 14:06",
+        "title": "Berkshire Hathaway stock outperforms S&P 500",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Shares of Berkshire Hathaway have seen significant gains, outpacing the broader S&P 500 index this week. The company continues to show strong performance relative to the benchmark for the year.",
+        "market_impact": "Positive sentiment",
+        "content": "<p>The stock&#x27;s resilience suggests investor confidence in the conglomerate&#x27;s diversified business model during periods of market volatility. Outperforming the S&amp;P 500 often draws attention to the company&#x27;s capital allocation strategy.</p><p><strong>What to watch:</strong> Watch for further price action relative to broader market benchmarks.</p>",
+        "tickers": [
+            "BRK.A",
+            "BRK.B"
+        ],
+        "slug": "berkshire-hathaway-stock-outperforms-s-p-500-54d5b4"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-07/turkey-arrests-former-regulatory-executive-in-growing-fund-probe",
+        "source": "Bloomberg",
+        "published": "2026-11-07 13:56",
+        "title": "Turkish regulators detained in ongoing fund probe",
+        "tag": "ECONOMY",
+        "sentiment": "BEARISH",
+        "ai_summary": "Authorities in Turkey have taken several high-ranking regulatory officials into custody. This action is part of an expanding investigation into a financial fund scandal.",
+        "market_impact": "Regional instability",
+        "content": "<p>The detention of top regulators may signal increased instability within the Turkish financial sector. Such events can lead to heightened risk premiums for assets exposed to the region.</p><p><strong>What to watch:</strong> Watch for further developments in the investigation and potential impacts on local financial stability.</p>",
+        "slug": "turkish-regulators-detained-in-ongoing-fund-probe-8db4e0"
     },
     {
         "original_link": "https://www.marketwatch.com/story/the-ai-trade-is-now-counting-on-anthropics-ipo-but-it-couldnt-be-happening-at-a-worse-time-8bd0f1c4?mod=mw_rss_topstories",
@@ -246,65 +313,5 @@
         "market_impact": "near-term volatility",
         "content": "<p>The rebound suggests renewed appetite for leading chipmakers, though lingering concerns could indicate that market fluctuations might continue. Investors will likely watch upcoming order momentum and corporate commentary to assess the durability of the AI investment thesis. Shifts in market sentiment around tech hardware could drive broader stock index swings.</p>",
         "slug": "semiconductor-stocks-bounce-back-following-sharp-selloff-as-4c1fc4"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-06/the-corner-store-brings-nyc-experience-to-vegas-strip-video",
-        "source": "Bloomberg",
-        "published": "2026-11-06 23:55",
-        "title": "Catch Hospitality Expands New York Concept The Corner Store to Las Vegas Strip",
-        "tag": "STOCKS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Catch Hospitality Group is launching a 150-seat outpost of its New York restaurant, The Corner Store, at the Cosmopolitan hotel. Co-founder Eugene Remm stated the venue is designed to replicate the authentic SoHo atmosphere of the 75-seat original rather than offer an altered format.",
-        "market_impact": "hospitality expansion",
-        "content": "<p>This opening highlights ongoing investment in Las Vegas hospitality and entertainment venues. Analysts may observe customer reception to see if New York restaurant concepts maintain their appeal when scaled into larger spaces. Such venue additions serve as an indicator of broader leisure and travel industry trends.</p>",
-        "slug": "catch-hospitality-expands-new-york-concept-the-corner-store-a6c088"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-06/elanco-shares-jump-after-q3-beat-and-outlook-raise-video",
-        "source": "Bloomberg",
-        "published": "2026-11-06 23:55",
-        "title": "Elanco Stock Surges Near 8% on Third-Quarter Beat and Upgraded Full-Year Forecast",
-        "tag": "EARNINGS",
-        "sentiment": "BULLISH",
-        "ai_summary": "Elanco Animal Health experienced a significant share price rise after reporting earnings that topped expectations and increasing its yearly targets. Chief Executive Officer Jeff Simmons pointed to 11% reported growth and broad performance across product lines and regional markets.",
-        "market_impact": "positive share reaction",
-        "content": "<p>The strong quarterly results and raised outlook indicate robust demand within animal health sectors. Observers may watch if the company can sustain its reported revenue growth across its various markets in upcoming quarters. Continued momentum could bolster confidence in the broader animal pharmaceutical and healthcare industry.</p>",
-        "slug": "elanco-stock-surges-near-8-on-third-quarter-beat-and-fa9d3e"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
-        "source": "CNBC",
-        "published": "2026-11-06 23:15",
-        "title": "Prolonged Joblessness Rises Despite Headline Labor Strength",
-        "tag": "ECONOMY",
-        "sentiment": "BEARISH",
-        "ai_summary": "Job seekers experienced an average duration of unemployment surpassing 27 weeks in October. This marked the longest typical jobless spell recorded in a decade outside of the pandemic period.",
-        "market_impact": "Labor Market Slack",
-        "content": "<p>Extended unemployment durations indicate that laid-off workers may face increased friction in securing new positions. This dynamic could eventually dampen consumer confidence and spending if prolonged search times persist. Observers may track subsequent labor releases to see whether prolonged joblessness broadens across other employment metrics.</p>",
-        "slug": "prolonged-joblessness-rises-despite-headline-labor-strength-5141de"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
-        "source": "CNBC",
-        "published": "2026-11-06 23:15",
-        "title": "Anthropic Listing Valuation Expectations Decline Amid AI Caution",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Sentiment regarding artificial intelligence investments has cooled across Wall Street. As a result, expectations indicate Anthropic may pursue a listing valuation beneath the previously anticipated $1.5 trillion mark.",
-        "market_impact": "Tech Valuation Pressure",
-        "content": "<p>Diminished valuation estimates for high-profile artificial intelligence firms suggest investors could be adopting a more selective stance toward speculative tech multiples. This shift may influence pricing dynamics and capital availability for other private AI companies seeking public markets. Market participants will likely watch investor demand during future technology listings to gauge broader sector sentiment.</p>",
-        "slug": "anthropic-listing-valuation-expectations-decline-amid-ai-981955"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-06 23:15",
-        "title": "Retiree Highlights Financial Insecurity and Reliance on Social Security",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "A 66-year-old individual reported possessing only $500 in total savings while relying on Social Security payments to get by. The situation prompted the individual to question broader wealth disparities between affluent Americans and those lacking a financial reserve.",
-        "market_impact": "Consumer Savings Strain",
-        "content": "<p>High reliance on fixed government benefits combined with depleted personal savings may constrain household purchasing power amid ongoing living expenses. If similar liquidity constraints affect a significant portion of older consumers, discretionary categories could see reduced engagement. Economists may continue to monitor aggregate household savings levels and safety-net dependency.</p>",
-        "slug": "retiree-highlights-financial-insecurity-and-reliance-on-d4fad7"
     }
 ]

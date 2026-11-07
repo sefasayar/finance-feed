@@ -1,5 +1,57 @@
 [
     {
+        "original_link": "https://www.marketwatch.com/story/the-wealthiest-10-of-americans-are-pulling-ahead-of-everyone-else-this-is-whats-making-them-richer-bd83c2f6?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-07 17:04",
+        "title": "Wealthiest Decile of Americans Sees Median Net Worth Rise by $800,000",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Data reveals the top 10% of households widened their financial advantage relative to the remainder of the population. Their median net worth experienced an increase of $800,000 over a three-year span.",
+        "market_impact": "Wealth gap widens",
+        "content": "<p>Concentrated gains in net worth indicate robust asset appreciation among top earners, which could support premium consumer spending. Uneven wealth accumulation may also impact broader macroeconomic consumption trends.</p><p><strong>What to watch:</strong> Follow upcoming economic data on household balance sheets and consumer spending patterns.</p>",
+        "slug": "wealthiest-decile-of-americans-sees-median-net-worth-rise-4324b4"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-07 16:30",
+        "title": "Tax Brackets for 2027 Reflect Higher Adjustments Driven by Inflation",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Income-tax brackets for 2027 will see steeper adjustments than those implemented this year. The changes also include revisions to the standard deduction and state and local tax provisions.",
+        "market_impact": "Household income adjustments",
+        "content": "<p>Sharper shifts in bracket thresholds reflect sustained inflationary pressures on consumer finances. These tax revisions could alter disposable personal income across different wage bands once implemented.</p><p><strong>What to watch:</strong> Observe official updates on inflation measures that dictate future bracket recalibrations.</p>",
+        "slug": "tax-brackets-for-2027-reflect-higher-adjustments-driven-by-c40ff0"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-07/ken-chenault-on-leadership-in-an-age-of-ai-video",
+        "source": "Bloomberg",
+        "published": "2026-11-07 15:32",
+        "title": "Ken Chenault Highlights Corporate Governance and Ethical AI Deployment",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "General Catalyst Chairman Ken Chenault emphasized that corporate leadership must uphold core principles amid rising tech pressures. He noted that businesses should prioritize safety and broad opportunity while expanding artificial intelligence.",
+        "market_impact": "Long-term tech focus",
+        "content": "<p>Comments from influential executives highlight the growing scrutiny surrounding technological disruption and governance. Increased emphasis on responsible deployment could influence corporate technology investment approaches.</p><p><strong>What to watch:</strong> Watch for enterprise policies balancing artificial intelligence expansion with safety frameworks.</p>",
+        "slug": "ken-chenault-highlights-corporate-governance-and-ethical-ai-8ed4df"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
+        "source": "CNBC",
+        "published": "2026-11-07 15:23",
+        "title": "Berkshire Hathaway Boosts Q3 Share Buybacks Amid Profit Drop",
+        "tag": "EARNINGS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Operating and total earnings declined at the conglomerate during the third quarter. In response to or alongside the drop, the firm increased its pace of share repurchases to more than double the prior level.",
+        "market_impact": "Mixed for shares",
+        "content": "<p>A significant ramp in buybacks indicates the company sees value in its equity despite softer performance. However, lower operating and overall profits point to operational headwinds across its business units.</p><p><strong>What to watch:</strong> Watch for future earnings announcements and details on repurchase levels.</p>",
+        "tickers": [
+            "BRK.A",
+            "BRK.B"
+        ],
+        "slug": "berkshire-hathaway-boosts-q3-share-buybacks-amid-profit-drop-0cd5dc"
+    },
+    {
         "original_link": "https://www.marketwatch.com/story/the-ai-trade-is-now-counting-on-anthropics-ipo-but-it-couldnt-be-happening-at-a-worse-time-8bd0f1c4?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-07 13:30",
@@ -62,6 +114,18 @@
         "market_impact": "Pressures AI valuations",
         "content": "<p>Public wariness and political pushback against infrastructure like data centers could create headwinds for artificial intelligence firms seeking public listings. Shifts in voter or consumer sentiment may influence regulatory scrutiny and demand for new tech offerings.</p><p><strong>What to watch:</strong> Market participants can watch for updates regarding Anthropic&#x27;s public offering timeline and public sentiment surrounding data centers.</p>",
         "slug": "anthropic-faces-ai-backlash-ahead-of-planned-public-debut-ae3564"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html",
+        "source": "CNBC",
+        "published": "2026-11-07 07:37",
+        "title": "U.S. Conducts Strikes in Iran Following Missile Reports Near Hormuz",
+        "tag": "COMMODITIES",
+        "sentiment": "BEARISH",
+        "ai_summary": "Trump announced limited military actions against Iranian targets following reports that missiles struck Qeshm Island. The affected area is situated near the Strait of Hormuz, an essential passage for maritime traffic.",
+        "market_impact": "Geopolitical risk rises",
+        "content": "<p>Military conflict near critical shipping routes like the Strait of Hormuz could threaten regional stability. Energy markets may react with heightened volatility if operations disrupt trade channels.</p><p><strong>What to watch:</strong> Monitor official statements from Washington and Tehran regarding potential military escalation.</p>",
+        "slug": "u-s-conducts-strikes-in-iran-following-missile-reports-near-fb30c9"
     },
     {
         "original_link": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html",
@@ -242,68 +306,5 @@
         "market_impact": "Consumer Savings Strain",
         "content": "<p>High reliance on fixed government benefits combined with depleted personal savings may constrain household purchasing power amid ongoing living expenses. If similar liquidity constraints affect a significant portion of older consumers, discretionary categories could see reduced engagement. Economists may continue to monitor aggregate household savings levels and safety-net dependency.</p>",
         "slug": "retiree-highlights-financial-insecurity-and-reliance-on-d4fad7"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-06 23:15",
-        "title": "SpaceX Considers Major Deal to Challenge Established Telecom Firms",
-        "tag": "TECH",
-        "sentiment": "BULLISH",
-        "ai_summary": "Elon Musk has indicated that SpaceX is open to pursuing a major acquisition. The rocket and satellite-internet provider aims to expand its operations to compete against established telecommunications giants.",
-        "market_impact": "Telecom Industry Disruption",
-        "content": "<p>A large-scale transaction could accelerate SpaceX&#x27;s competitive presence against legacy telecommunications networks. Such a move may spur traditional operators to reconsider their infrastructure investments and defensive strategies. Observers will likely monitor any formal acquisition announcements and the operational scope of the company&#x27;s satellite service.</p>",
-        "slug": "spacex-considers-major-deal-to-challenge-established-51bde5"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-06/braskem-shareholders-pull-funding-offer-as-debt-talks-hit-snags",
-        "source": "Bloomberg",
-        "published": "2026-11-06 23:15",
-        "title": "Braskem Restructuring Falters as Owners Withdraw Capital Injection",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Negotiations between Brazilian company Braskem SA and its lenders over an out-of-court debt restructuring have deteriorated. Consequently, shareholders have withdrawn an offer for a key capital injection that was central to reaching an agreement.",
-        "market_impact": "Credit Risk Elevated",
-        "content": "<p>The stalled debt negotiations and withdrawn equity support could intensify financial pressure on the petrochemical producer and its outstanding obligations. Creditors and investors may have to navigate higher uncertainty regarding the company&#x27;s capital structure and repayment timeline. Observers will likely watch whether negotiations resume or if alternative debt resolution mechanisms are pursued.</p>",
-        "slug": "braskem-restructuring-falters-as-owners-withdraw-capital-225a6d"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-06/ai-generated-movie-heading-theaters-video",
-        "source": "Bloomberg",
-        "published": "2026-11-06 23:15",
-        "title": "Fable Studio Brings AI-Generated Animated Feature to Theaters",
-        "tag": "TECH",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Fable Studio developed an animated feature titled Gods Don’t Give Gifts using a team of 30 people over nine months. While the production leveraged artificial intelligence to reach the big screen, it continued to employ human directors, writers, voice talent, and visual artists.",
-        "market_impact": "Media Production Evolution",
-        "content": "<p>The shift of AI-generated content into commercial movie theaters could alter production schedules and resource allocations for animation studios. Traditional entertainment models may face questions on how to integrate automated tools while retaining necessary creative personnel. Market participants may watch theatrical reception and industry adoption rates to assess the commercial viability of AI-assisted filmmaking.</p>",
-        "slug": "fable-studio-brings-ai-generated-animated-feature-to-8345fb"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/microns-stock-is-dirt-cheap-and-thats-igniting-a-fierce-online-debate-0626791d?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-06 20:58",
-        "title": "Micron Low Valuation Sparks Debate Over Long-Term Earnings Power",
-        "tag": "STOCKS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "A sharp debate has emerged online over the valuation of semiconductor firm Micron. While some observers highlight the equity's low pricing metrics, others question whether the business can sustain its earnings capacity.",
-        "market_impact": "Uncertain valuation outlook",
-        "content": "<p>Diverging views on Micron reflect broader uncertainty regarding future semiconductor demand and profit margins. Disagreements between valuation-focused analysts and sector skeptics may lead to increased price volatility.</p><p><strong>What to watch:</strong> Investors can monitor upcoming earnings reports to see if Micron&#x27;s earnings power aligns with market expectations.</p>",
-        "tickers": [
-            "MU"
-        ],
-        "slug": "micron-low-valuation-sparks-debate-over-long-term-earnings-1f65a6"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/is-it-the-end-of-the-cybertruck-elon-musk-announces-factory-will-shift-production-3e33cafd?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-06 18:54",
-        "title": "Elon Musk Cancels Cybertruck Project After Muted Consumer Demand",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Musk has discontinued the Cybertruck vehicle following an unsuccessful run with automotive customers. High retail pricing and notable product recalls contributed to the model's inability to gain traction.",
-        "market_impact": "Dents product lineup",
-        "content": "<p>Terminating a prominent vehicle project removes a heavily promoted offering from the market. The cancellation highlights potential execution risks tied to elevated pricing and quality control issues.</p><p><strong>What to watch:</strong> Investors may monitor how the termination impacts company resource allocation and consumer reactions.</p>",
-        "slug": "elon-musk-cancels-cybertruck-project-after-muted-consumer-293b8f"
     }
 ]

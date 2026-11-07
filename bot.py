@@ -5,6 +5,7 @@ import os
 import re
 import sys
 import time
+from calendar import timegm
 from datetime import datetime, timezone
 from difflib import SequenceMatcher
 
@@ -13,8 +14,9 @@ from google.genai import types
 
 print("Finance Feed bot starting...")
 
-SITE_URL = "https://sefasayar.github.io/finance-feed/"
 NEWS_FILE = "data/news.json"
+ARCHIVE_FILE = "data/archive.json"      # written by build_site.py, read here to avoid re-adding old stories
+REJECTED_FILE = "data/rejected.json"    # links the AI judged off-topic, so they are not sent again
 
 # Tried in order. If one is out of quota (429) or missing (404), the next one is used.
 MODELS = ["gemini-3.8-flash", "gemini-3.1-flash-lite"]
@@ -26,9 +28,11 @@ FEEDS = [
     ("Bloomberg", "https://feeds.bloomberg.com/markets/news.rss"),
 ]
 
-PER_SOURCE = 2       # new stories taken per source per run (6 total, 1 AI request)
-MAX_KEEP = 25        # stories kept in news.json
-MIN_SNIPPET = 80     # ignore entries whose description is too short to summarize
+PER_SOURCE = 3        # candidate stories taken per source per run (9 total, still 1 AI request)
+MAX_KEEP = 25         # stories kept in news.json (older ones live on in data/archive.json)
+MAX_REJECTED = 1000   # rejected links remembered
+MAX_AGE_HOURS = 36    # ignore stories older than this
+MIN_SNIPPET = 80      # ignore entries whose description is too short to summarize
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
 ALLOWED_TAGS = ["STOCKS", "FED", "CRYPTO", "TECH", "ECONOMY", "COMMODITIES", "FOREX", "EARNINGS"]
@@ -40,14 +44,18 @@ SCHEMA = {
         "type": "OBJECT",
         "properties": {
             "id": {"type": "INTEGER"},
+            "relevant": {"type": "BOOLEAN"},
             "title": {"type": "STRING"},
             "tag": {"type": "STRING"},
             "sentiment": {"type": "STRING"},
             "summary": {"type": "STRING"},
             "impact": {"type": "STRING"},
             "analysis": {"type": "STRING"},
+            "watch": {"type": "STRING"},
+            "tickers": {"type": "ARRAY", "items": {"type": "STRING"}},
         },
-        "required": ["id", "title", "tag", "sentiment", "summary", "impact", "analysis"],
+        "required": ["id", "relevant", "title", "tag", "sentiment", "summary",
+                     "impact", "analysis", "watch", "tickers"],
     },
 }
 
@@ -59,12 +67,16 @@ Rules:
 - Use cautious wording for effects (could, may, suggests).
 Fields for each story:
 - id: the number in square brackets, unchanged
+- relevant: true only if the story is mainly about financial markets, the economy, central banks, a company's business or earnings, commodities, currencies, crypto, or policy with a clear economic effect. false for politics without economic substance, personal-finance advice columns or reader questions, lifestyle, sports, entertainment and human-interest stories
 - title: a clear headline under 90 characters, rewritten in your own words
 - tag: exactly one of {", ".join(ALLOWED_TAGS)}
 - sentiment: BULLISH, BEARISH or NEUTRAL (the likely tone for markets)
 - summary: 2 sentences explaining what happened. It must NOT repeat or paraphrase the title.
 - impact: 1 to 3 words on the likely market effect
-- analysis: 2 to 3 sentences on why this matters to markets and what to watch
+- analysis: 2 to 3 sentences on why this matters to markets
+- watch: 1 to 2 sentences on what investors could watch next, based only on the story
+- tickers: stock tickers (for example NVDA) ONLY for companies explicitly named in the story and only when you are certain of the US ticker. Otherwise an empty list. Maximum 4.
+For stories with relevant=false, keep the other fields short.
 """
 
 
@@ -92,19 +104,31 @@ def is_bad(item):
     return echoes_title(item.get("ai_summary", ""), item.get("title", ""))
 
 
-def load_news():
-    if not os.path.exists(NEWS_FILE):
+def load_json_list(path):
+    if not os.path.exists(path):
         return []
     try:
-        with open(NEWS_FILE, "r", encoding="utf-8") as f:
+        with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
         return data if isinstance(data, list) else []
     except Exception as e:
-        print(f"Could not read {NEWS_FILE}: {e}")
+        print(f"Could not read {path}: {e}")
         return []
 
 
-def collect_candidates(seen_links):
+def entry_time(entry, now):
+    """Real publish time of the RSS entry (UTC), capped at now. None if the feed has no date."""
+    t = getattr(entry, "published_parsed", None) or getattr(entry, "updated_parsed", None)
+    if not t:
+        return None
+    try:
+        when = datetime.fromtimestamp(timegm(t), tz=timezone.utc)
+    except Exception:
+        return None
+    return min(when, now)
+
+
+def collect_candidates(seen_links, now):
     candidates = []
     for name, url in FEEDS:
         try:
@@ -113,7 +137,7 @@ def collect_candidates(seen_links):
             print(f"{name}: feed error: {e}")
             continue
         taken = 0
-        for entry in feed.entries[:15]:
+        for entry in feed.entries[:20]:
             link = getattr(entry, "link", "")
             title = clean(getattr(entry, "title", ""))
             snippet = clean(getattr(entry, "summary", getattr(entry, "description", "")))
@@ -121,7 +145,13 @@ def collect_candidates(seen_links):
                 continue
             if len(snippet) < MIN_SNIPPET:
                 continue
-            candidates.append({"source": name, "link": link, "title": title, "snippet": snippet})
+            when = entry_time(entry, now)
+            if when and (now - when).total_seconds() > MAX_AGE_HOURS * 3600:
+                continue
+            candidates.append({
+                "source": name, "link": link, "title": title, "snippet": snippet,
+                "published": (when or now).strftime("%Y-%m-%d %H:%M"),
+            })
             taken += 1
             if taken >= PER_SOURCE:
                 break
@@ -161,18 +191,13 @@ def analyze(client, candidates):
     return {}
 
 
-def write_sitemap():
-    # Only the home page until each story gets its own page.
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    xml = (
-        '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        f"  <url>\n    <loc>{SITE_URL}</loc>\n    <lastmod>{today}</lastmod>\n"
-        "    <changefreq>hourly</changefreq>\n    <priority>1.0</priority>\n  </url>\n"
-        "</urlset>\n"
-    )
-    with open("sitemap.xml", "w", encoding="utf-8") as f:
-        f.write(xml)
+def clean_tickers(raw):
+    out = []
+    for t in raw if isinstance(raw, list) else []:
+        t = str(t).strip().upper().lstrip("$")
+        if re.fullmatch(r"[A-Z]{1,5}(\.[A-Z])?", t) and t not in out:
+            out.append(t)
+    return out[:4]
 
 
 def main():
@@ -181,58 +206,84 @@ def main():
         print("ERROR: GEMINI_API_KEY is missing")
         sys.exit(1)
     client = genai.Client(api_key=api_key)
+    now = datetime.now(timezone.utc)
 
-    existing = load_news()
+    existing = load_json_list(NEWS_FILE)
     kept = [item for item in existing if not is_bad(item)]
     removed = len(existing) - len(kept)
     if removed:
         print(f"Removed {removed} low-quality old entries")
-    seen_links = {item.get("original_link") for item in kept}
 
-    candidates = collect_candidates(seen_links)
+    rejected = [str(x) for x in load_json_list(REJECTED_FILE)]
+    archived = {item.get("original_link") for item in load_json_list(ARCHIVE_FILE) if isinstance(item, dict)}
+    seen_links = {item.get("original_link") for item in kept} | archived | set(rejected)
+
+    candidates = collect_candidates(seen_links, now)
     new_items = []
+    new_rejected = []
 
     if candidates:
         print(f"Sending {len(candidates)} stories to the AI in one request...")
         results = analyze(client, candidates)
-        now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
+        if not results:
+            # Fail loudly so GitHub emails you instead of the feed silently going stale.
+            print("ERROR: AI analysis failed on every model. Nothing published this run.")
+            sys.exit(1)
 
         for i, c in enumerate(candidates):
             r = results.get(i)
             if not r:
-                continue  # AI failed for this story: do not publish, retry next run
+                continue  # AI skipped this story: do not publish, retry next run
+            if r.get("relevant") is False:
+                print(f"Skipped (off-topic): {c['title'][:70]}")
+                new_rejected.append(c["link"])
+                continue
             summary = clean(r.get("summary", ""))
             analysis = clean(r.get("analysis", ""))
             if echoes_title(summary, c["title"]) or len(analysis) < 40:
                 print(f"Skipped (summary too weak): {c['title'][:70]}")
+                new_rejected.append(c["link"])
                 continue
 
             tag = str(r.get("tag", "")).upper()
             sentiment = str(r.get("sentiment", "")).upper()
-            new_items.append({
+            watch = clean(r.get("watch", ""))
+            content = f"<p>{html.escape(analysis)}</p>"
+            if len(watch) >= 20:
+                content += f"<p><strong>What to watch:</strong> {html.escape(watch)}</p>"
+
+            item = {
                 "original_link": c["link"],
                 "source": c["source"],
-                "published": now,
+                "published": c["published"],
                 "title": clean(r.get("title", "")) or c["title"],
                 "tag": tag if tag in ALLOWED_TAGS else "MARKET",
                 "sentiment": sentiment if sentiment in ALLOWED_SENTIMENT else "NEUTRAL",
                 "ai_summary": summary,
                 "market_impact": clean(r.get("impact", "")) or "Unclear",
                 # AI text is escaped, so it is safe to render as HTML.
-                "content": f"<p>{html.escape(analysis)}</p>",
-            })
+                "content": content,
+            }
+            tickers = clean_tickers(r.get("tickers"))
+            if tickers:
+                item["tickers"] = tickers
+            new_items.append(item)
     else:
         print("No new usable stories.")
 
+    if new_rejected:
+        os.makedirs("data", exist_ok=True)
+        with open(REJECTED_FILE, "w", encoding="utf-8") as f:
+            json.dump((rejected + new_rejected)[-MAX_REJECTED:], f, ensure_ascii=False, indent=1)
+
     if new_items or removed:
-        final = (new_items + kept)[:MAX_KEEP]
+        combined = sorted(new_items + kept, key=lambda x: str(x.get("published", "")), reverse=True)
+        final = combined[:MAX_KEEP]
         os.makedirs("data", exist_ok=True)
         with open(NEWS_FILE, "w", encoding="utf-8") as f:
             json.dump(final, f, ensure_ascii=False, indent=4)
-        if new_items:
-            write_sitemap()
 
-    print(f"Done: {len(new_items)} new stories added.")
+    print(f"Done: {len(new_items)} new stories added, {len(new_rejected)} rejected.")
 
 
 if __name__ == "__main__":

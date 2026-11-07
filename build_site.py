@@ -323,8 +323,12 @@ def news_page(s, related):
     if s["summary"]:
         parts.append(f'<p class="lead">{esc(s["summary"])}</p>')
     if s["paras"]:
+        def para(p):
+            if p.startswith("What to watch:"):
+                return f"<p><strong>What to watch:</strong>{esc(p[len('What to watch:'):])}</p>"
+            return f"<p>{esc(p)}</p>"
         parts.append('<section class="block"><h2>AI commentary</h2>'
-                     + "".join(f"<p>{esc(p)}</p>" for p in s["paras"]) + "</section>")
+                     + "".join(para(p) for p in s["paras"]) + "</section>")
     if s["impact"]:
         parts.append('<section class="block"><h2>Market outlook</h2>'
                      f'<div class="outlook"><span class="dir">{label.split(" ", 1)[1]}</span>'
@@ -372,7 +376,7 @@ def day_page(day, items, prev_day, next_day):
     desc = (f"{n} market stories on {long_day}: {counts['BULLISH']} bullish, {counts['BEARISH']} bearish, "
             f"{counts['NEUTRAL']} neutral. AI summaries with links to the original sources.")
     intro = (f"Finance Feed tracked {n} market-related stories on {long_day} (UTC). "
-             f"{counts['BULLISH']} carried a bullish tone, {counts['BEARISH']} bearish and {counts['NEUTRAL']} neutral. "
+             f"By tone: {counts['BULLISH']} bullish, {counts['BEARISH']} bearish and {counts['NEUTRAL']} neutral. "
              f"The most covered categories were {top}.")
     chips = "".join(
         f'<span class="chip" data-dir="{DIRS[k][0]}">{DIRS[k][1]}: {counts[k]}</span>'

@@ -1,5 +1,71 @@
 [
     {
+        "original_link": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html",
+        "source": "CNBC",
+        "published": "2026-11-07 03:59",
+        "title": "OpenAI Recording Device Case Proceeds to Trial",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "A Saudi national has entered a plea regarding allegations of placing a recording device inside an OpenAI conference room. The legal proceedings are currently underway following the charges brought against the individual.",
+        "market_impact": "Minimal market impact",
+        "content": "<p>This incident highlights internal security concerns within high-profile artificial intelligence firms. Investors may monitor whether this leads to stricter corporate security protocols or potential reputational risks for the company.</p>"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/06/chris-murphy-stroke-hospital-senate.html",
+        "source": "CNBC",
+        "published": "2026-11-07 03:59",
+        "title": "Senator Murphy Faces Extended Absence Following Stroke",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Senator Chris Murphy is undergoing rehabilitation after suffering a stroke and will be absent from legislative duties for several weeks. The Connecticut lawmaker has been previously mentioned as a potential future presidential contender.",
+        "market_impact": "Legislative uncertainty",
+        "content": "<p>The absence of a key senator could influence the timing of upcoming legislative votes. Market participants may watch for potential delays in policy discussions that require his participation.</p>"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-07 03:59",
+        "title": "Retirees Question Advisers on Roth Conversion Strategy",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "A couple in their 80s with significant retirement savings is questioning the necessity of converting traditional IRAs to Roth accounts. Their primary living costs are already managed through pension and Social Security income.",
+        "market_impact": "Tax planning focus",
+        "content": "<p>This situation reflects common complexities in retirement tax planning for high-net-worth individuals. It underscores the importance of evaluating long-term tax liabilities versus immediate conversion costs.</p>"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-07 03:59",
+        "title": "Financial Disagreements Emerge Over Inherited Wealth",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "A spouse has expressed frustration regarding a partner's refusal to utilize a $500,000 inheritance for home improvements. The disagreement highlights differing perspectives on the management and allocation of personal assets.",
+        "market_impact": "Consumer sentiment",
+        "content": "<p>Personal financial disputes regarding large windfalls often reflect broader trends in household saving and spending behavior. Such individual cases may provide insight into how families prioritize capital expenditures during uncertain economic times.</p>"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-07/china-extends-gold-buying-streak-to-two-years-as-prices-drop",
+        "source": "Bloomberg",
+        "published": "2026-11-07 03:59",
+        "title": "China Continues Gold Accumulation Amid Price Decline",
+        "tag": "COMMODITIES",
+        "sentiment": "BULLISH",
+        "ai_summary": "The Chinese central bank has increased its gold holdings for the 24th consecutive month. This purchasing activity occurred as global gold prices experienced a decline of nearly 7% in October.",
+        "market_impact": "Gold price support",
+        "content": "<p>Consistent central bank buying often acts as a floor for precious metal prices during periods of market volatility. Analysts will likely watch to see if this trend continues as a strategy for diversifying foreign exchange reserves.</p>"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-07/beijing-vows-to-hit-back-against-us-sanctions-on-china-companies",
+        "source": "Bloomberg",
+        "published": "2026-11-07 03:59",
+        "title": "China Threatens Retaliation Over New US Sanctions",
+        "tag": "ECONOMY",
+        "sentiment": "BEARISH",
+        "ai_summary": "The Chinese Ministry of Commerce has announced its intent to protect national interests following recent US sanctions on two domestic firms. Beijing stated it strongly opposes the measures taken against these companies regarding third-party dealings.",
+        "market_impact": "Heightened trade tensions",
+        "content": "<p>Escalating rhetoric between the US and China regarding trade sanctions could increase volatility in global markets. Investors should monitor for potential retaliatory actions that might disrupt supply chains or impact international trade relations.</p>"
+    },
+    {
         "original_link": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html",
         "source": "CNBC",
         "published": "2026-11-06 23:55",

@@ -59,10 +59,10 @@ h2 { margin: 0 0 10px; font-size: 18px; font-weight: 600; letter-spacing: -0.01e
 .dir { color: var(--dir, var(--neu)); font-weight: 600; }
 
 /* Story page */
-.story { --dir: var(--neu); }
 .meta { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 16px; font-size: 13px; color: var(--muted); }
 .cat { font-family: var(--mono); font-size: 12px; letter-spacing: 0.04em; }
 .block { margin-top: 28px; }
+.related { margin-top: 40px; }
 .block p { margin: 0 0 12px; max-width: 62ch; }
 .outlook { padding: 12px 14px; background: var(--surface); border-left: 3px solid var(--dir, var(--neu)); border-radius: 4px; }
 .outlook .dir { display: block; font-size: 13px; }
@@ -72,12 +72,11 @@ h2 { margin: 0 0 10px; font-size: 18px; font-weight: 600; letter-spacing: -0.01e
 /* Lists of stories */
 .cards { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
 .card {
-  --dir: var(--neu);
   display: block;
   padding: 14px 16px;
   background: var(--surface);
   border: 1px solid var(--line);
-  border-left: 3px solid var(--dir);
+  border-left: 3px solid var(--dir, var(--neu));
   border-radius: 6px;
   color: var(--text);
 }

@@ -1,5 +1,29 @@
 [
     {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-08/ai-slump-revives-asia-s-forgotten-trades-from-china-to-india",
+        "source": "Bloomberg",
+        "published": "2026-11-08 00:00",
+        "title": "AI Downturn Sparks Renewed Interest in China and India Stocks",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "A retreat in artificial intelligence assets following US midterm elections has prompted market participants to adjust their regional strategies. This shift has reignited interest in previously overlooked equities in China and India, alongside firms exposed to cooling inflation and lower trade tension.",
+        "market_impact": "Asian shares gain",
+        "content": "<p>Rebalancing away from high-flying technology names can lead to significant capital rotation into emerging and neglected regional markets. If easing trade friction and lower inflation persist, out-of-favor equities in Asia may experience sustained fund inflows.</p><p><strong>What to watch:</strong> Market participants could follow capital flows into Asian equity benchmarks and incoming data on inflation and trade relations.</p>",
+        "slug": "ai-downturn-sparks-renewed-interest-in-china-and-india-78173a"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-07/australia-home-sales-rise-in-fledgling-sign-of-property-recovery",
+        "source": "Bloomberg",
+        "published": "2026-11-07 23:54",
+        "title": "Australia Home Sales and Auction Clearances Edge Upward",
+        "tag": "ECONOMY",
+        "sentiment": "BULLISH",
+        "ai_summary": "Australian residential transactions and auction clearance rates recorded gains in recent tracking. The improvement provides early indications of potential stabilization for a sector hit by rising interest rates this year.",
+        "market_impact": "Real estate lift",
+        "content": "<p>Sustained increases in sales volume and auction success rates can indicate that housing demand is beginning to adapt to higher borrowing costs. A potential property turnaround could help cushion consumer sentiment and broader economic activity.</p><p><strong>What to watch:</strong> Investors may watch upcoming Australian home transaction figures and future rate path signals.</p>",
+        "slug": "australia-home-sales-and-auction-clearances-edge-upward-86c142"
+    },
+    {
         "original_link": "https://www.bloomberg.com/news/articles/2026-11-07/meta-s-bond-sale-shows-new-reality-for-tech-debt-credit-weekly",
         "source": "Bloomberg",
         "published": "2026-11-07 20:00",
@@ -63,6 +87,18 @@
         "slug": "tax-brackets-for-2027-reflect-higher-adjustments-driven-by-c40ff0"
     },
     {
+        "original_link": "https://www.cnbc.com/2026/11/07/healthcare-stocks-may-face-trouble-due-to-midterm-results.html",
+        "source": "CNBC",
+        "published": "2026-11-07 16:02",
+        "title": "Healthcare Equities Face Policy Uncertainty Under Incoming Congress",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Shares in the healthcare sector could encounter obstacles in gaining upward momentum. The shift occurs as Democrats prepare to assume control of the legislative branch.",
+        "market_impact": "Healthcare headwind",
+        "content": "<p>Changes in congressional leadership often introduce legislative and regulatory uncertainty for the healthcare industry. Such shifts may alter the policy landscape and weigh on investor sentiment across related equities.</p><p><strong>What to watch:</strong> Investors may monitor policy announcements and committee appointments as the new Congress takes power.</p>",
+        "slug": "healthcare-equities-face-policy-uncertainty-under-incoming-7e85a1"
+    },
+    {
         "original_link": "https://www.bloomberg.com/news/videos/2026-11-07/ken-chenault-on-leadership-in-an-age-of-ai-video",
         "source": "Bloomberg",
         "published": "2026-11-07 15:32",
@@ -89,6 +125,18 @@
             "BRK.B"
         ],
         "slug": "berkshire-hathaway-boosts-q3-share-buybacks-amid-profit-drop-0cd5dc"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-07/inside-alaska-s-oil-paradox-video",
+        "source": "Bloomberg",
+        "published": "2026-11-07 15:04",
+        "title": "Surging Oil Prices Bolster Alaska Revenue Amid Conflict Pressures",
+        "tag": "COMMODITIES",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Heightened crude prices linked to conflict involving Iran have raised household expenses nationwide. However, Alaska is generating greater state revenue through heavy crude production, helping counter local cost pressures via distributions from its sovereign wealth fund.",
+        "market_impact": "Energy prices rise",
+        "content": "<p>Elevated energy costs generally weigh on consumer spending across most regional economies. Conversely, top oil-producing jurisdictions may see fiscal benefits that offset inflation through public fund disbursements.</p><p><strong>What to watch:</strong> Market observers can monitor ongoing crude price volatility and energy market developments related to the conflict.</p>",
+        "slug": "surging-oil-prices-bolster-alaska-revenue-amid-conflict-f4c384"
     },
     {
         "original_link": "https://www.cnbc.com/2026/11/07/berkshire-shares-surge-as-wall-street-swoons-amid-ai-fears.html",
@@ -265,53 +313,5 @@
         "market_impact": "Heightened trade tensions",
         "content": "<p>Escalating rhetoric between the US and China regarding trade sanctions could increase volatility in global markets. Investors should monitor for potential retaliatory actions that might disrupt supply chains or impact international trade relations.</p>",
         "slug": "china-threatens-retaliation-over-new-us-sanctions-3517dd"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html",
-        "source": "CNBC",
-        "published": "2026-11-06 23:55",
-        "title": "Stephen Miller Named White House Chief of Staff Following Democratic Midterm Sweep",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Donald Trump announced that Stephen Miller will take over Susie Wiles' position leading the White House staff. The leadership change comes three days after Democrats secured majority control of both congressional chambers in the midterm elections.",
-        "market_impact": "policy uncertainty",
-        "content": "<p>A reorganization in top executive administration staff may influence future administrative and legislative priorities. Markets could monitor potential policy shifts as the White House prepares to navigate a Democratic-controlled House and Senate. Investors will likely look for indications on how these leadership changes affect fiscal and economic agendas.</p>",
-        "slug": "stephen-miller-named-white-house-chief-of-staff-following-4cb67e"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/06/mississippi-senate-ty-pinkins-colom-hyde-smith.html",
-        "source": "CNBC",
-        "published": "2026-11-06 23:55",
-        "title": "Mississippi Senate Candidate Outlines Strategic Campaign Approach in State Race",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Candidate Ty Pinkins explained that his strategy focused on hindering opponent Hyde-Smith while aiding fellow candidate Scott Colom's vote count. To avoid drawing support away from Colom, Pinkins noted that he deliberately bypassed campaigning in heavily Black areas of Mississippi.",
-        "market_impact": "negligible market effect",
-        "content": "<p>Electoral dynamics in Senate races can eventually influence legislative power balances and broad economic policy. For this specific contest, financial market participants generally watch how election outcomes shape overall governance in Congress. Such individual campaign strategies highlight the evolving mechanics in key state races.</p>",
-        "slug": "mississippi-senate-candidate-outlines-strategic-campaign-1ce43c"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/data-centers-run-on-debt-that-was-a-problem-for-bonds-this-year-and-its-only-going-to-get-worse-09c03be6?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-06 23:55",
-        "title": "Data Center Debt Overwhelms Bond Portfolios as AI Infrastructure Needs Grow",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Heavy bond issuance linked to artificial intelligence data center funding has flooded investor portfolios and yielded disappointing performance results. The ongoing pressure to raise capital is expected to persist as Democrats assume control of Congress.",
-        "market_impact": "credit market strain",
-        "content": "<p>Mounting borrowing needs for artificial intelligence facilities could weigh further on fixed-income markets if bond supply continues to outpace demand. Market participants will likely track whether sustained high debt issuance leads to wider corporate credit spreads. Observers may also watch how congressional leadership affects financing environments for tech infrastructure.</p>",
-        "slug": "data-center-debt-overwhelms-bond-portfolios-as-ai-4a68b0"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-06 23:55",
-        "title": "Semiconductor Stocks Bounce Back Following Sharp Selloff as Volatility Risks Persist",
-        "tag": "TECH",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Shares of Nvidia, AMD, and other semiconductor firms posted gains after a steep decline in equity prices. Despite this immediate relief, market analysts caution that trading could remain erratic even as fresh tailwinds assist the artificial intelligence theme.",
-        "market_impact": "near-term volatility",
-        "content": "<p>The rebound suggests renewed appetite for leading chipmakers, though lingering concerns could indicate that market fluctuations might continue. Investors will likely watch upcoming order momentum and corporate commentary to assess the durability of the AI investment thesis. Shifts in market sentiment around tech hardware could drive broader stock index swings.</p>",
-        "slug": "semiconductor-stocks-bounce-back-following-sharp-selloff-as-4c1fc4"
     }
 ]

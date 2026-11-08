@@ -1,5 +1,140 @@
 [
     {
+        "original_link": "https://www.marketwatch.com/story/nvidias-board-will-probe-ceo-jensen-huangs-relationship-with-an-alleged-spy-heres-what-to-know-86656cd9?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-08 23:05",
+        "title": "Nvidia Probe Into CEO Huang Poses Overhang for AI Sector",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "Nvidia's board is currently reviewing Jensen Huang's connection to an alleged spy. Huang intends to stay on as chief executive while participating fully in the investigation.",
+        "market_impact": "Pressure on Shares",
+        "key_facts": [
+            "Jensen Huang will remain chief executive during the inquiry.",
+            "Analysts warn the investigation could cast a cloud over the stock for some time."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 152,
+        "analysis": "The most decision-relevant point is that Huang will keep his post while cooperating with an inquiry that analysts warn could weigh on the stock. This suggests lingering uncertainty for Nvidia, but the snippet does not show any finding of wrongdoing or formal charges.",
+        "what_to_watch": "",
+        "content": "<p>The most decision-relevant point is that Huang will keep his post while cooperating with an inquiry that analysts warn could weigh on the stock. This suggests lingering uncertainty for Nvidia, but the snippet does not show any finding of wrongdoing or formal charges.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-probe-into-ceo-huang-poses-overhang-for-ai-sector-519fd5"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+        "source": "CNBC",
+        "published": "2026-11-08 22:53",
+        "title": "Nvidia Board Probes CEO Jensen Huang Over Relationship With Alleged Spy",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "Jensen Huang informed employees via email about an affair he had. The board subsequently launched an inquiry regarding claims that the woman involved is a spy for China.",
+        "market_impact": "Stock Under Pressure",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 159,
+        "analysis": "The central issue is the board's formal probe into the chief executive over potential espionage links. This may create governance and reputational headwinds for Nvidia, though the provided text does not clarify any operational fallout or business disruption.",
+        "what_to_watch": "",
+        "content": "<p>The central issue is the board&#x27;s formal probe into the chief executive over potential espionage links. This may create governance and reputational headwinds for Nvidia, though the provided text does not clarify any operational fallout or business disruption.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-board-probes-ceo-jensen-huang-over-relationship-with-26a78b"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-08/stock-market-today-dow-s-p-live-updates",
+        "source": "Bloomberg",
+        "published": "2026-11-08 22:20",
+        "title": "Nvidia Investigation Threatens to Weigh on Asian Tech Equities",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Asian equity markets face potential headwinds at the start of the week due to fresh concerns involving Nvidia Corp. The development follows an already difficult selloff across the broader technology sector.",
+        "market_impact": "Asian Stocks Weaker",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 165,
+        "analysis": "The key detail is that uncertainty surrounding Nvidia is compounding existing fragility in technology stocks across Asia. This may dampen regional market performance on Monday, though the snippet does not establish specific index moves or sector-wide loss figures.",
+        "what_to_watch": "",
+        "content": "<p>The key detail is that uncertainty surrounding Nvidia is compounding existing fragility in technology stocks across Asia. This may dampen regional market performance on Monday, though the snippet does not establish specific index moves or sector-wide loss figures.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-investigation-threatens-to-weigh-on-asian-tech-1be7d3"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-08/new-zealand-dollar-advances-as-ruling-party-gets-election-edge",
+        "source": "Bloomberg",
+        "published": "2026-11-08 22:07",
+        "title": "New Zealand Dollar Gains Following Incumbent Party's Election Result",
+        "tag": "FOREX",
+        "sentiment": "BULLISH",
+        "ai_summary": "The New Zealand dollar strengthened during early market trading after general election results emerged over the weekend. The ruling National Party secured a position that allows it to spearhead coalition talks with smaller parties.",
+        "market_impact": "Kiwi Dollar Rises",
+        "key_facts": [
+            "The National Party emerged with a path to remain in power.",
+            "The party is positioned to head coalition discussions with minor parties."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 215,
+        "analysis": "The currency's advance is directly tied to the incumbent party gaining a clear pathway to retain government leadership. This outcome may support near-term currency stability, though the snippet does not establish whether coalition negotiations will succeed.",
+        "what_to_watch": "",
+        "content": "<p>The currency&#x27;s advance is directly tied to the incumbent party gaining a clear pathway to retain government leadership. This outcome may support near-term currency stability, though the snippet does not establish whether coalition negotiations will succeed.</p>",
+        "slug": "new-zealand-dollar-gains-following-incumbent-party-s-fdd263"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html",
+        "source": "CNBC",
+        "published": "2026-11-08 21:53",
+        "title": "Trump Links Avoidance of Iran Strikes to Progress in Nuclear Negotiations",
+        "tag": "COMMODITIES",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "President Donald Trump indicated that further military action against Iran is doubtful if diplomatic discussions advance. However, he cautioned that strikes remain an option if progress stalls.",
+        "market_impact": "Oil Volatility Possible",
+        "key_facts": [
+            "Negotiations involve Iran's nuclear program and the Strait of Hormuz."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 115,
+        "analysis": "Trump's comments explicitly tie the avoidance of military intervention to diplomatic momentum regarding the Strait of Hormuz and Iran's nuclear development. This could influence risk sentiment across energy markets, though the snippet does not detail the current status or timetable of those talks.",
+        "what_to_watch": "",
+        "content": "<p>Trump&#x27;s comments explicitly tie the avoidance of military intervention to diplomatic momentum regarding the Strait of Hormuz and Iran&#x27;s nuclear development. This could influence risk sentiment across energy markets, though the snippet does not detail the current status or timetable of those talks.</p>",
+        "slug": "trump-links-avoidance-of-iran-strikes-to-progress-in-1a2288"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-08/treasury-rally-gets-new-boost-as-election-hammers-the-ai-trade",
+        "source": "Bloomberg",
+        "published": "2026-11-08 20:00",
+        "title": "US Treasuries Rally as Democratic Election Sweep Pressures AI Trade",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "A Democratic victory in the U.S. midterm elections has revitalized demand for Treasury debt. The political outcome has simultaneously battered the artificial intelligence trade.",
+        "market_impact": "Treasuries Gain",
+        "key_facts": [
+            "The Democratic victory is viewed as beneficial for the Treasury market.",
+            "Traders are reassessing this year's steep selloff in Treasuries."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 184,
+        "analysis": "The text highlights that Wall Street views the Treasury market as a major beneficiary of the Democratic landslide, prompting traders to reconsider this year's bond selloff. This implies downward pressure on yields and continued volatility for AI equities, though specific price changes are not provided.",
+        "what_to_watch": "",
+        "content": "<p>The text highlights that Wall Street views the Treasury market as a major beneficiary of the Democratic landslide, prompting traders to reconsider this year&#x27;s bond selloff. This implies downward pressure on yields and continued volatility for AI equities, though specific price changes are not provided.</p>",
+        "slug": "us-treasuries-rally-as-democratic-election-sweep-pressures-5e327e"
+    },
+    {
         "original_link": "https://www.bloomberg.com/news/articles/2026-11-08/saudi-aramco-tower-targeted-in-rare-strike-on-riyadh-finance-hub",
         "source": "Bloomberg",
         "published": "2026-11-08 17:15",
@@ -316,81 +451,5 @@
         "market_impact": "Market sentiment",
         "content": "<p>Expert commentary helps synthesize how political changes and market selloffs interact to influence investor sentiment. Understanding these dynamics is essential for assessing sector-specific risks.</p><p><strong>What to watch:</strong> Watch for continued volatility in the tech sector following recent market movements.</p>",
         "slug": "market-analysis-on-tech-sector-and-political-shifts-7438e5"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/the-wealthiest-10-of-americans-are-pulling-ahead-of-everyone-else-this-is-whats-making-them-richer-bd83c2f6?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-07 17:04",
-        "title": "Wealthiest Decile of Americans Sees Median Net Worth Rise by $800,000",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Data reveals the top 10% of households widened their financial advantage relative to the remainder of the population. Their median net worth experienced an increase of $800,000 over a three-year span.",
-        "market_impact": "Wealth gap widens",
-        "content": "<p>Concentrated gains in net worth indicate robust asset appreciation among top earners, which could support premium consumer spending. Uneven wealth accumulation may also impact broader macroeconomic consumption trends.</p><p><strong>What to watch:</strong> Follow upcoming economic data on household balance sheets and consumer spending patterns.</p>",
-        "slug": "wealthiest-decile-of-americans-sees-median-net-worth-rise-4324b4"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-07 16:30",
-        "title": "Tax Brackets for 2027 Reflect Higher Adjustments Driven by Inflation",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Income-tax brackets for 2027 will see steeper adjustments than those implemented this year. The changes also include revisions to the standard deduction and state and local tax provisions.",
-        "market_impact": "Household income adjustments",
-        "content": "<p>Sharper shifts in bracket thresholds reflect sustained inflationary pressures on consumer finances. These tax revisions could alter disposable personal income across different wage bands once implemented.</p><p><strong>What to watch:</strong> Observe official updates on inflation measures that dictate future bracket recalibrations.</p>",
-        "slug": "tax-brackets-for-2027-reflect-higher-adjustments-driven-by-c40ff0"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/07/healthcare-stocks-may-face-trouble-due-to-midterm-results.html",
-        "source": "CNBC",
-        "published": "2026-11-07 16:02",
-        "title": "Healthcare Equities Face Policy Uncertainty Under Incoming Congress",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Shares in the healthcare sector could encounter obstacles in gaining upward momentum. The shift occurs as Democrats prepare to assume control of the legislative branch.",
-        "market_impact": "Healthcare headwind",
-        "content": "<p>Changes in congressional leadership often introduce legislative and regulatory uncertainty for the healthcare industry. Such shifts may alter the policy landscape and weigh on investor sentiment across related equities.</p><p><strong>What to watch:</strong> Investors may monitor policy announcements and committee appointments as the new Congress takes power.</p>",
-        "slug": "healthcare-equities-face-policy-uncertainty-under-incoming-7e85a1"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-07/ken-chenault-on-leadership-in-an-age-of-ai-video",
-        "source": "Bloomberg",
-        "published": "2026-11-07 15:32",
-        "title": "Ken Chenault Highlights Corporate Governance and Ethical AI Deployment",
-        "tag": "TECH",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "General Catalyst Chairman Ken Chenault emphasized that corporate leadership must uphold core principles amid rising tech pressures. He noted that businesses should prioritize safety and broad opportunity while expanding artificial intelligence.",
-        "market_impact": "Long-term tech focus",
-        "content": "<p>Comments from influential executives highlight the growing scrutiny surrounding technological disruption and governance. Increased emphasis on responsible deployment could influence corporate technology investment approaches.</p><p><strong>What to watch:</strong> Watch for enterprise policies balancing artificial intelligence expansion with safety frameworks.</p>",
-        "slug": "ken-chenault-highlights-corporate-governance-and-ethical-ai-8ed4df"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
-        "source": "CNBC",
-        "published": "2026-11-07 15:23",
-        "title": "Berkshire Hathaway Boosts Q3 Share Buybacks Amid Profit Drop",
-        "tag": "EARNINGS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Operating and total earnings declined at the conglomerate during the third quarter. In response to or alongside the drop, the firm increased its pace of share repurchases to more than double the prior level.",
-        "market_impact": "Mixed for shares",
-        "content": "<p>A significant ramp in buybacks indicates the company sees value in its equity despite softer performance. However, lower operating and overall profits point to operational headwinds across its business units.</p><p><strong>What to watch:</strong> Watch for future earnings announcements and details on repurchase levels.</p>",
-        "tickers": [
-            "BRK.A",
-            "BRK.B"
-        ],
-        "slug": "berkshire-hathaway-boosts-q3-share-buybacks-amid-profit-drop-0cd5dc"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-07/inside-alaska-s-oil-paradox-video",
-        "source": "Bloomberg",
-        "published": "2026-11-07 15:04",
-        "title": "Surging Oil Prices Bolster Alaska Revenue Amid Conflict Pressures",
-        "tag": "COMMODITIES",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Heightened crude prices linked to conflict involving Iran have raised household expenses nationwide. However, Alaska is generating greater state revenue through heavy crude production, helping counter local cost pressures via distributions from its sovereign wealth fund.",
-        "market_impact": "Energy prices rise",
-        "content": "<p>Elevated energy costs generally weigh on consumer spending across most regional economies. Conversely, top oil-producing jurisdictions may see fiscal benefits that offset inflation through public fund disbursements.</p><p><strong>What to watch:</strong> Market observers can monitor ongoing crude price volatility and energy market developments related to the conflict.</p>",
-        "slug": "surging-oil-prices-bolster-alaska-revenue-amid-conflict-f4c384"
     }
 ]

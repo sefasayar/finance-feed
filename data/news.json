@@ -1,5 +1,73 @@
 [
     {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-08/democratic-sweep-tests-trump-linked-trades-across-latin-america",
+        "source": "Bloomberg",
+        "published": "2026-11-08 13:30",
+        "title": "Democratic US Congress Challenges Trump-Linked Latin America Trades",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "A shift to a Democratic-controlled United States Congress has introduced a new dynamic for regional investment strategies. Market participants had previously built Latin America positions based on regional relationships with Donald Trump.",
+        "market_impact": "Regional trade reassessment",
+        "key_facts": [
+            "Investors spent the prior year pricing Latin American countries' ties with Donald Trump into their portfolios.",
+            "A Democratic-controlled Congress serves as the newly introduced variable for these strategies."
+        ],
+        "seo_indexable": false,
+        "content": "<p>A shift in control of the US legislature could alter trade, foreign policy, or financial relationships across Latin America. Investors must now weigh how congressional oversight might affect trade strategies tied to Trump&#x27;s regional influence. The specific economic repercussions across targeted countries remain uncertain.</p><p><strong>What to watch:</strong> The source does not identify a specific next catalyst.</p>",
+        "slug": "democratic-us-congress-challenges-trump-linked-latin-79bedb"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/08/trump-tariffs-democrats-congress-canada.html",
+        "source": "CNBC",
+        "published": "2026-11-08 13:00",
+        "title": "House Democrats Prioritize Ending Trump Tariffs Under Hakeem Jeffries",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Representative Hakeem Jeffries indicated that rolling back President Trump's tariffs stands as a primary agenda item for Democrats. Jeffries is viewed as likely to become the next House speaker.",
+        "market_impact": "Tariff policy uncertainty",
+        "key_facts": [],
+        "seo_indexable": false,
+        "content": "<p>Efforts to challenge or terminate tariffs could alter trade costs and import dynamics if successful. However, any legislative changes would depend on congressional authority and legislative execution. The immediate economic impact remains uncertain pending specific policy moves.</p><p><strong>What to watch:</strong> The source does not identify a specific next catalyst.</p>",
+        "slug": "house-democrats-prioritize-ending-trump-tariffs-under-9ab1d6"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/08/amazon-home-robot-fauna-sprout.html",
+        "source": "CNBC",
+        "published": "2026-11-08 13:00",
+        "title": "Amazon Builds New Team to Develop Consumer Robotics Products",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Job listings reveal that the company is hiring personnel for an entirely new home robotics offering. The initiative follows the Astro home robot, which gained some fans but appears headed for the discard pile.",
+        "market_impact": "Hardware R&D focus",
+        "key_facts": [
+            "Job postings analyzed by CNBC cite roles for a 'new-to-world robot product.'",
+            "The earlier Astro robot is described as appearing destined for the 'trash heap' despite having fans."
+        ],
+        "seo_indexable": false,
+        "content": "<p>Amazon&#x27;s creation of a dedicated team suggests continued interest in the consumer hardware and robotics market despite past difficulties. Developing another robot product may require sustained research and development spending. The market outcome of this effort remains to be seen given the mixed reception of the earlier Astro device.</p><p><strong>What to watch:</strong> The source does not identify a specific next catalyst.</p>",
+        "tickers": [
+            "AMZN"
+        ],
+        "slug": "amazon-builds-new-team-to-develop-consumer-robotics-products-2d6d7c"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/this-market-signal-called-the-tech-selloff-now-its-sending-another-warning-f7f8eb9b?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-08 12:00",
+        "title": "Record-Low Stock Correlations Signal Potential Market Volatility Ahead",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "A metric that previously foreshadowed a decline in technology equities is flashing a fresh cautionary signal. Relationships between individual share price movements have dropped to historically low levels.",
+        "market_impact": "Market volatility risk",
+        "key_facts": [
+            "The indicator previously called the selloff in technology stocks.",
+            "A reversion to the mean in stock correlations may not be positive for equities."
+        ],
+        "seo_indexable": false,
+        "content": "<p>A mean reversion from record-low correlation levels could alter broad index dynamics. If historical patterns repeat, a shift might pose headwinds for equity markets. The market significance depends on how quickly individual stock correlations normalize.</p><p><strong>What to watch:</strong> The source does not identify a specific next catalyst.</p>",
+        "slug": "record-low-stock-correlations-signal-potential-market-048358"
+    },
+    {
         "original_link": "https://www.cnbc.com/2026/11/08/france-protests-clashes-arrests.html",
         "source": "CNBC",
         "published": "2026-11-08 09:29",
@@ -268,53 +336,5 @@
             "BRK.B"
         ],
         "slug": "berkshire-hathaway-q3-operating-profit-falls-5-8-while-4b05da"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
-        "source": "CNBC",
-        "published": "2026-11-07 13:00",
-        "title": "Anthropic Faces AI Backlash Ahead of Planned Public Debut",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Anthropic is preparing to be the first pure-play artificial intelligence firm to go public. However, the debut encounters growing public skepticism toward the sector following midterm results that signaled opposition to data centers.",
-        "market_impact": "Pressures AI valuations",
-        "content": "<p>Public wariness and political pushback against infrastructure like data centers could create headwinds for artificial intelligence firms seeking public listings. Shifts in voter or consumer sentiment may influence regulatory scrutiny and demand for new tech offerings.</p><p><strong>What to watch:</strong> Market participants can watch for updates regarding Anthropic&#x27;s public offering timeline and public sentiment surrounding data centers.</p>",
-        "slug": "anthropic-faces-ai-backlash-ahead-of-planned-public-debut-ae3564"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html",
-        "source": "CNBC",
-        "published": "2026-11-07 07:37",
-        "title": "U.S. Conducts Strikes in Iran Following Missile Reports Near Hormuz",
-        "tag": "COMMODITIES",
-        "sentiment": "BEARISH",
-        "ai_summary": "Trump announced limited military actions against Iranian targets following reports that missiles struck Qeshm Island. The affected area is situated near the Strait of Hormuz, an essential passage for maritime traffic.",
-        "market_impact": "Geopolitical risk rises",
-        "content": "<p>Military conflict near critical shipping routes like the Strait of Hormuz could threaten regional stability. Energy markets may react with heightened volatility if operations disrupt trade channels.</p><p><strong>What to watch:</strong> Monitor official statements from Washington and Tehran regarding potential military escalation.</p>",
-        "slug": "u-s-conducts-strikes-in-iran-following-missile-reports-near-fb30c9"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html",
-        "source": "CNBC",
-        "published": "2026-11-07 03:59",
-        "title": "OpenAI Recording Device Case Proceeds to Trial",
-        "tag": "TECH",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "A Saudi national has entered a plea regarding allegations of placing a recording device inside an OpenAI conference room. The legal proceedings are currently underway following the charges brought against the individual.",
-        "market_impact": "Minimal market impact",
-        "content": "<p>This incident highlights internal security concerns within high-profile artificial intelligence firms. Investors may monitor whether this leads to stricter corporate security protocols or potential reputational risks for the company.</p>",
-        "slug": "openai-recording-device-case-proceeds-to-trial-21cf97"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/06/chris-murphy-stroke-hospital-senate.html",
-        "source": "CNBC",
-        "published": "2026-11-07 03:59",
-        "title": "Senator Murphy Faces Extended Absence Following Stroke",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Senator Chris Murphy is undergoing rehabilitation after suffering a stroke and will be absent from legislative duties for several weeks. The Connecticut lawmaker has been previously mentioned as a potential future presidential contender.",
-        "market_impact": "Legislative uncertainty",
-        "content": "<p>The absence of a key senator could influence the timing of upcoming legislative votes. Market participants may watch for potential delays in policy discussions that require his participation.</p>",
-        "slug": "senator-murphy-faces-extended-absence-following-stroke-3a58bf"
     }
 ]

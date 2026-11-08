@@ -33,6 +33,7 @@ MAX_KEEP = 25         # stories kept in news.json (older ones live on in data/ar
 MAX_REJECTED = 1000   # rejected links remembered
 MAX_AGE_HOURS = 36    # ignore stories older than this
 MIN_SNIPPET = 80      # ignore entries whose description is too short to summarize
+MIN_INDEX_SNIPPET_CHARS = 150  # enough room for multiple source details, not a Google word-count rule
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
 ALLOWED_TAGS = ["STOCKS", "FED", "CRYPTO", "TECH", "ECONOMY", "COMMODITIES", "FOREX", "EARNINGS"]
@@ -75,8 +76,8 @@ Fields for each story:
 - sentiment: BULLISH, BEARISH or NEUTRAL (the likely tone for markets)
 - summary: 2 concise sentences explaining what happened. It must NOT repeat or paraphrase the title. Use specific facts and figures only when they appear in the supplied headline or snippet.
 - impact: 1 to 3 words on the likely market effect
-- analysis: 2 to 3 sentences explaining why the specific facts in this story may matter. Avoid generic market commentary, unsupported causes, predictions, and claims about broader trends that are not in the supplied text. If the snippet does not support a meaningful implication, say that the market significance is unclear.
-- watch: 1 sentence naming a specific follow-up event only if it is mentioned or clearly established by the supplied text. Otherwise say that the source does not identify a specific next catalyst. Do not invent dates, events, filings, or data releases.
+- analysis: 2 concise sentences. In the first, point to the most decision-relevant fact in the supplied text. In the second, explain a limited implication for the named company, asset or sector, and state what the snippet does not establish. Avoid generic market commentary, unsupported causes, predictions, and claims about broader trends. If no meaningful implication is supported, say so plainly.
+- watch: one concise sentence naming a specific follow-up event only if it is mentioned or clearly established by the supplied text. Otherwise return an empty string. Do not invent dates, events, filings, or data releases.
 - key_facts: 2 or 3 short, paraphrased details from the supplied snippet that are not already stated in the title or summary. Use only details explicitly present in the snippet. Return an empty list if the snippet does not support at least two distinct details. Never add background knowledge.
 - tickers: stock tickers (for example NVDA) ONLY for companies explicitly named in the story and only when you are certain of the US ticker. Otherwise an empty list. Maximum 4.
 For stories with relevant=false, keep the other fields short.
@@ -294,14 +295,26 @@ def main():
                 r.get("key_facts"), ai_title, summary, f"{c['title']} {c['snippet']}"
             )
             analysis_tokens = fact_tokens(analysis)
-            analysis_specific = len(analysis_tokens & fact_tokens(f"{c['title']} {c['snippet']}")) >= 2
-            # Indexability is based on source depth and distinct supported details,
-            # not a target word count. Short items remain published but noindex.
-            seo_indexable = (
-                len(c["snippet"]) >= 250
-                and len(key_facts) >= 2
-                and analysis_specific
-                and bool(c.get("published"))
+            evidence_tokens = fact_tokens(f"{c['title']} {c['snippet']}")
+            analysis_specific = len(analysis_tokens & evidence_tokens) >= 2
+            seo_indexability_reasons = []
+            if len(c["snippet"]) < MIN_INDEX_SNIPPET_CHARS:
+                seo_indexability_reasons.append("source_description_too_short")
+            if len(key_facts) < 2:
+                seo_indexability_reasons.append("fewer_than_two_supported_facts")
+            if not analysis_specific:
+                seo_indexability_reasons.append("analysis_not_specific_enough_to_source")
+            if not c.get("published"):
+                seo_indexability_reasons.append("missing_publication_date")
+            if not c.get("link"):
+                seo_indexability_reasons.append("missing_source_link")
+            # This is a conservative eligibility screen, not a Google ranking rule.
+            # Short/weak items still publish in the feed, but their story pages stay noindex.
+            seo_indexable = not seo_indexability_reasons
+            print(
+                f"SEO gate {'PASS' if seo_indexable else 'NOINDEX'} "
+                f"({', '.join(seo_indexability_reasons) or 'source detail and context passed'}): "
+                f"{c['title'][:70]}"
             )
 
             tag = str(r.get("tag", "")).upper()
@@ -322,6 +335,10 @@ def main():
                 "market_impact": clean(r.get("impact", "")) or "Unclear",
                 "key_facts": key_facts,
                 "seo_indexable": seo_indexable,
+                "seo_indexability_reasons": seo_indexability_reasons,
+                "source_description_chars": len(c["snippet"]),
+                "analysis": analysis,
+                "what_to_watch": watch,
                 # AI text is escaped, so it is safe to render as HTML.
                 "content": content,
             }

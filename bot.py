@@ -52,10 +52,11 @@ SCHEMA = {
             "impact": {"type": "STRING"},
             "analysis": {"type": "STRING"},
             "watch": {"type": "STRING"},
+            "key_facts": {"type": "ARRAY", "items": {"type": "STRING"}},
             "tickers": {"type": "ARRAY", "items": {"type": "STRING"}},
         },
         "required": ["id", "relevant", "title", "tag", "sentiment", "summary",
-                     "impact", "analysis", "watch", "tickers"],
+                     "impact", "analysis", "watch", "key_facts", "tickers"],
     },
 }
 
@@ -69,12 +70,14 @@ Fields for each story:
 - id: the number in square brackets, unchanged
 - relevant: true only if the story is mainly about financial markets, the economy, central banks, a company's business or earnings, commodities, currencies, crypto, or policy with a clear economic effect. false for politics without economic substance, personal-finance advice columns or reader questions, lifestyle, sports, entertainment and human-interest stories
 - title: a clear headline under 90 characters, rewritten in your own words
+- Keep the named company/person, action and central figure or date from the source when relevant. Do not add a keyword that is not supported by the headline or snippet. Avoid clickbait and vague headlines.
 - tag: exactly one of {", ".join(ALLOWED_TAGS)}
 - sentiment: BULLISH, BEARISH or NEUTRAL (the likely tone for markets)
-- summary: 2 sentences explaining what happened. It must NOT repeat or paraphrase the title.
+- summary: 2 concise sentences explaining what happened. It must NOT repeat or paraphrase the title. Use specific facts and figures only when they appear in the supplied headline or snippet.
 - impact: 1 to 3 words on the likely market effect
-- analysis: 2 to 3 sentences on why this matters to markets
-- watch: 1 to 2 sentences on what investors could watch next, based only on the story
+- analysis: 2 to 3 sentences explaining why the specific facts in this story may matter. Avoid generic market commentary, unsupported causes, predictions, and claims about broader trends that are not in the supplied text. If the snippet does not support a meaningful implication, say that the market significance is unclear.
+- watch: 1 sentence naming a specific follow-up event only if it is mentioned or clearly established by the supplied text. Otherwise say that the source does not identify a specific next catalyst. Do not invent dates, events, filings, or data releases.
+- key_facts: 2 or 3 short, paraphrased details from the supplied snippet that are not already stated in the title or summary. Use only details explicitly present in the snippet. Return an empty list if the snippet does not support at least two distinct details. Never add background knowledge.
 - tickers: stock tickers (for example NVDA) ONLY for companies explicitly named in the story and only when you are certain of the US ticker. Otherwise an empty list. Maximum 4.
 For stories with relevant=false, keep the other fields short.
 """
@@ -200,6 +203,45 @@ def clean_tickers(raw):
     return out[:4]
 
 
+FACT_STOPWORDS = {
+    "a", "about", "after", "also", "an", "and", "are", "as", "at", "be", "been",
+    "by", "for", "from", "has", "have", "in", "into", "is", "it", "its", "of", "on",
+    "or", "that", "the", "their", "there", "this", "to", "was", "were", "which", "with",
+    "market", "markets", "investor", "investors", "company", "companies", "business",
+    "financial", "sector", "sectors", "impact", "likely", "could", "may", "might",
+}
+
+
+def fact_tokens(text):
+    return {t for t in re.findall(r"[a-z0-9]+", str(text or "").lower())
+            if len(t) > 1 and t not in FACT_STOPWORDS}
+
+
+def supported_key_facts(raw, title, summary, evidence):
+    """Keep only distinct fact bullets with visible lexical support in the RSS input."""
+    kept = []
+    evidence_tokens = fact_tokens(evidence)
+    comparison_texts = [title.lower(), summary.lower()]
+    for value in raw if isinstance(raw, list) else []:
+        fact = clean(str(value))
+        tokens = fact_tokens(fact)
+        if len(tokens) < 3:
+            continue
+        overlap = len(tokens & evidence_tokens) / len(tokens)
+        if overlap < 0.4:
+            continue
+        if any(SequenceMatcher(None, fact.lower(), text).ratio() >= 0.82
+               for text in comparison_texts):
+            continue
+        if any(SequenceMatcher(None, fact.lower(), previous.lower()).ratio() >= 0.78
+               for previous in kept):
+            continue
+        kept.append(fact)
+        if len(kept) == 3:
+            break
+    return kept
+
+
 def main():
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
@@ -245,6 +287,23 @@ def main():
                 new_rejected.append(c["link"])
                 continue
 
+            ai_title = clean(r.get("title", ""))
+            if not ai_title or len(ai_title) > 90:
+                ai_title = c["title"]
+            key_facts = supported_key_facts(
+                r.get("key_facts"), ai_title, summary, f"{c['title']} {c['snippet']}"
+            )
+            analysis_tokens = fact_tokens(analysis)
+            analysis_specific = len(analysis_tokens & fact_tokens(f"{c['title']} {c['snippet']}")) >= 2
+            # Indexability is based on source depth and distinct supported details,
+            # not a target word count. Short items remain published but noindex.
+            seo_indexable = (
+                len(c["snippet"]) >= 250
+                and len(key_facts) >= 2
+                and analysis_specific
+                and bool(c.get("published"))
+            )
+
             tag = str(r.get("tag", "")).upper()
             sentiment = str(r.get("sentiment", "")).upper()
             watch = clean(r.get("watch", ""))
@@ -256,11 +315,13 @@ def main():
                 "original_link": c["link"],
                 "source": c["source"],
                 "published": c["published"],
-                "title": clean(r.get("title", "")) or c["title"],
+                "title": ai_title,
                 "tag": tag if tag in ALLOWED_TAGS else "MARKET",
                 "sentiment": sentiment if sentiment in ALLOWED_SENTIMENT else "NEUTRAL",
                 "ai_summary": summary,
                 "market_impact": clean(r.get("impact", "")) or "Unclear",
+                "key_facts": key_facts,
+                "seo_indexable": seo_indexable,
                 # AI text is escaped, so it is safe to render as HTML.
                 "content": content,
             }

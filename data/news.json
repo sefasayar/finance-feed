@@ -1,5 +1,41 @@
 [
     {
+        "original_link": "https://www.cnbc.com/2026/11/08/france-protests-clashes-arrests.html",
+        "source": "CNBC",
+        "published": "2026-11-08 09:29",
+        "title": "French Demonstrations Over Living Costs Draw 146,000 for Fourth Weekend",
+        "tag": "ECONOMY",
+        "sentiment": "BEARISH",
+        "ai_summary": "France's Interior Ministry reported that 146,000 people took part in protests on Saturday across the country. The demonstrations over living costs and public services have now continued for four weekends in a row.",
+        "market_impact": "Social unrest headwind",
+        "content": "<p>Prolonged demonstrations over public services and household expenses highlight persistent economic strain in France. Extended disruptions could affect consumer sentiment and local business activity if clashes continue.</p><p><strong>What to watch:</strong> Investors may monitor whether demonstrations persist into future weekends or lead to further disruptions.</p>",
+        "slug": "french-demonstrations-over-living-costs-draw-146-000-for-14de61"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-08/aramco-tower-in-riyadh-s-financial-hub-damaged-after-attack",
+        "source": "Bloomberg",
+        "published": "2026-11-08 08:54",
+        "title": "Saudi Aramco Riyadh Facility Incurs Limited Damage in Attack",
+        "tag": "COMMODITIES",
+        "sentiment": "BEARISH",
+        "ai_summary": "Saudi Aramco's offices in Riyadh sustained minor damage following an attack on Sunday. The incident occurred amid renewed strikes directed at Saudi Arabia from Houthi forces in Yemen.",
+        "market_impact": "Geopolitical risk rises",
+        "content": "<p>Attacks targeting key infrastructure of major crude producers introduce geopolitical risk premiums to energy markets. Continued strikes could raise concerns regarding regional stability and supply security.</p><p><strong>What to watch:</strong> Markets may watch for further military strikes or potential supply updates from Saudi Aramco.</p>",
+        "slug": "saudi-aramco-riyadh-facility-incurs-limited-damage-in-attack-929785"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-08/china-set-to-lead-world-in-energy-investment-in-2026-cctv-says",
+        "source": "Bloomberg",
+        "published": "2026-11-08 04:02",
+        "title": "China Projected to Top Global Energy Investment in 2026",
+        "tag": "ECONOMY",
+        "sentiment": "BULLISH",
+        "ai_summary": "China is forecast to deploy $940 billion into energy projects in 2026, leading global spending. The projection was detailed in a report released by the China Enterprise Reform and Development Society and broadcast by state media.",
+        "market_impact": "Capital spending growth",
+        "content": "<p>A massive investment outlay in energy could stimulate domestic economic activity and boost demand for related materials. As the projected top global investor, Chinese capital expenditure could significantly influence global energy supply dynamics.</p><p><strong>What to watch:</strong> Investors may monitor the deployment of capital and future energy policy updates from Chinese authorities.</p>",
+        "slug": "china-projected-to-top-global-energy-investment-in-2026-ad2535"
+    },
+    {
         "original_link": "https://www.bloomberg.com/news/articles/2026-11-08/ai-slump-revives-asia-s-forgotten-trades-from-china-to-india",
         "source": "Bloomberg",
         "published": "2026-11-08 00:00",
@@ -22,6 +58,21 @@
         "market_impact": "Real estate lift",
         "content": "<p>Sustained increases in sales volume and auction success rates can indicate that housing demand is beginning to adapt to higher borrowing costs. A potential property turnaround could help cushion consumer sentiment and broader economic activity.</p><p><strong>What to watch:</strong> Investors may watch upcoming Australian home transaction figures and future rate path signals.</p>",
         "slug": "australia-home-sales-and-auction-clearances-edge-upward-86c142"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/07/dave-wehner-meta-fireworks-cfo.html",
+        "source": "CNBC",
+        "published": "2026-11-07 22:01",
+        "title": "Meta Strategy Chief Dave Wehner Departs for AI Startup Fireworks",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Meta's chief strategy officer Dave Wehner is stepping down from his post. He is joining Fireworks, an artificial intelligence infrastructure startup that reached a $17.5 billion valuation in July, as its chief financial officer.",
+        "market_impact": "Executive departure",
+        "content": "<p>The departure of a key executive from Meta signals continued talent movement from established tech giants to specialized AI infrastructure startups. Investors often watch such executive changes for signs of strategic shifts or rising competition in the AI sector.</p><p><strong>What to watch:</strong> Investors may track Meta&#x27;s leadership succession plans following Wehner&#x27;s move to Fireworks.</p>",
+        "tickers": [
+            "META"
+        ],
+        "slug": "meta-strategy-chief-dave-wehner-departs-for-ai-startup-f09c46"
     },
     {
         "original_link": "https://www.bloomberg.com/news/articles/2026-11-07/meta-s-bond-sale-shows-new-reality-for-tech-debt-credit-weekly",
@@ -265,53 +316,5 @@
         "market_impact": "Legislative uncertainty",
         "content": "<p>The absence of a key senator could influence the timing of upcoming legislative votes. Market participants may watch for potential delays in policy discussions that require his participation.</p>",
         "slug": "senator-murphy-faces-extended-absence-following-stroke-3a58bf"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/it-seems-bizarre-were-in-our-80s-with-950-000-in-traditional-iras-why-is-our-adviser-pushing-us-to-do-roth-conversions-a665f990?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-07 03:59",
-        "title": "Retirees Question Advisers on Roth Conversion Strategy",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "A couple in their 80s with significant retirement savings is questioning the necessity of converting traditional IRAs to Roth accounts. Their primary living costs are already managed through pension and Social Security income.",
-        "market_impact": "Tax planning focus",
-        "content": "<p>This situation reflects common complexities in retirement tax planning for high-net-worth individuals. It underscores the importance of evaluating long-term tax liabilities versus immediate conversion costs.</p>",
-        "slug": "retirees-question-advisers-on-roth-conversion-strategy-51f417"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-07 03:59",
-        "title": "Financial Disagreements Emerge Over Inherited Wealth",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "A spouse has expressed frustration regarding a partner's refusal to utilize a $500,000 inheritance for home improvements. The disagreement highlights differing perspectives on the management and allocation of personal assets.",
-        "market_impact": "Consumer sentiment",
-        "content": "<p>Personal financial disputes regarding large windfalls often reflect broader trends in household saving and spending behavior. Such individual cases may provide insight into how families prioritize capital expenditures during uncertain economic times.</p>",
-        "slug": "financial-disagreements-emerge-over-inherited-wealth-5bf439"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-07/china-extends-gold-buying-streak-to-two-years-as-prices-drop",
-        "source": "Bloomberg",
-        "published": "2026-11-07 03:59",
-        "title": "China Continues Gold Accumulation Amid Price Decline",
-        "tag": "COMMODITIES",
-        "sentiment": "BULLISH",
-        "ai_summary": "The Chinese central bank has increased its gold holdings for the 24th consecutive month. This purchasing activity occurred as global gold prices experienced a decline of nearly 7% in October.",
-        "market_impact": "Gold price support",
-        "content": "<p>Consistent central bank buying often acts as a floor for precious metal prices during periods of market volatility. Analysts will likely watch to see if this trend continues as a strategy for diversifying foreign exchange reserves.</p>",
-        "slug": "china-continues-gold-accumulation-amid-price-decline-0d6947"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-07/beijing-vows-to-hit-back-against-us-sanctions-on-china-companies",
-        "source": "Bloomberg",
-        "published": "2026-11-07 03:59",
-        "title": "China Threatens Retaliation Over New US Sanctions",
-        "tag": "ECONOMY",
-        "sentiment": "BEARISH",
-        "ai_summary": "The Chinese Ministry of Commerce has announced its intent to protect national interests following recent US sanctions on two domestic firms. Beijing stated it strongly opposes the measures taken against these companies regarding third-party dealings.",
-        "market_impact": "Heightened trade tensions",
-        "content": "<p>Escalating rhetoric between the US and China regarding trade sanctions could increase volatility in global markets. Investors should monitor for potential retaliatory actions that might disrupt supply chains or impact international trade relations.</p>",
-        "slug": "china-threatens-retaliation-over-new-us-sanctions-3517dd"
     }
 ]

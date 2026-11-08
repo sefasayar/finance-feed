@@ -14,7 +14,7 @@ Design rules:
   when the content really changed.
 - Nothing is ever deleted. data/archive.json keeps every story ever seen, so
   old pages stay online after they drop out of news.json (which keeps 25).
-- Thin pages are noindex until they have enough words (MIN_WORDS_TO_INDEX).
+- Thin pages remain noindex until the bot finds enough source-supported detail.
 """
 import hashlib
 import html
@@ -39,7 +39,6 @@ ARCHIVE_FILE = "data/archive.json"
 INDEX_FILE = "index.html"
 STATIC_PAGES = ["about.html", "privacy.html", "disclaimer.html"]
 
-MIN_WORDS_TO_INDEX = 120   # story pages below this stay noindex (set 0 to index all)
 MIN_DAILY_ITEMS = 3        # a digest page needs at least this many stories
 MIN_TAG_ITEMS = 5          # a category hub is indexable from this many stories
 TAG_PAGE_LIMIT = 60
@@ -199,7 +198,8 @@ def prepare(raw):
     pub = parse_time(raw.get("published"))
     paras = paragraphs(raw.get("content"))
     summary = clean_text(raw.get("ai_summary"))
-    words = len((summary + " " + " ".join(paras)).split())
+    facts = raw.get("key_facts", [])
+    facts = [clean_text(x) for x in facts if clean_text(x)] if isinstance(facts, list) else []
     title = clean_text(raw.get("title"))
     return {
         "slug": raw["slug"],
@@ -208,19 +208,20 @@ def prepare(raw):
         "tag_slug": tag_slug(tag),
         "sentiment": sentiment,
         "summary": summary,
+        "key_facts": facts[:3],
+        "seo_indexable": raw.get("seo_indexable") is True,
         "impact": clean_text(raw.get("market_impact")),
         "paras": paras,
         "source": clean_text(raw.get("source")),
         "link": safe_url(raw.get("original_link")),
         "pub": pub or EPOCH,
         "has_date": pub is not None,
-        "words": words,
         "path": f"news/{raw['slug']}.html",
     }
 
 
 def indexable(s):
-    return s["words"] >= MIN_WORDS_TO_INDEX
+    return s["seo_indexable"] and len(s["key_facts"]) >= 2 and s["has_date"] and bool(s["link"])
 
 
 # ---------------------------------------------------------------- layout
@@ -322,6 +323,10 @@ def news_page(s, related):
     ]
     if s["summary"]:
         parts.append(f'<p class="lead">{esc(s["summary"])}</p>')
+    if s["key_facts"]:
+        facts = "".join(f"<li>{esc(fact)}</li>" for fact in s["key_facts"])
+        parts.append('<section class="block"><h2>Key details from the source</h2>'
+                     f"<ul>{facts}</ul></section>")
     if s["paras"]:
         def para(p):
             if p.startswith("What to watch:"):
@@ -355,10 +360,22 @@ def news_page(s, related):
         "publisher": {"@type": "Organization", "name": SITE_NAME, "url": SITE_URL},
     }
     if s["has_date"]:
+        # This is the source publication time. We do not have a reliable
+        # per-story edit timestamp, so do not claim it is also modified time.
         ld["datePublished"] = iso(s["pub"])
-        ld["dateModified"] = iso(s["pub"])
     if s["link"]:
         ld["isBasedOn"] = s["link"]
+
+    breadcrumb = {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL},
+            {"@type": "ListItem", "position": 2, "name": tag_name(s["tag"]),
+             "item": SITE_URL + f"tag/{s['tag_slug']}.html"},
+            {"@type": "ListItem", "position": 3, "name": s["title"], "item": url},
+        ],
+    }
+    ld = {"@context": "https://schema.org", "@graph": [ld, breadcrumb]}
 
     return layout(
         title=f'{s["title"]} | {SITE_NAME}', desc=desc, path=s["path"], body="\n".join(parts),
@@ -574,8 +591,8 @@ def main():
             entries.append((f"{SITE_URL}tag/{tag_slug(t)}.html", last, "daily", "0.6"))
     for s in stories:
         if indexable(s):
-            last = s["pub"].strftime("%Y-%m-%d") if s["has_date"] else None
-            entries.append((SITE_URL + s["path"], last, "monthly", "0.5"))
+            # Publication date is not necessarily the page's last-modified date.
+            entries.append((SITE_URL + s["path"], None, "monthly", "0.5"))
     for page in STATIC_PAGES:
         if os.path.exists(page):
             entries.append((SITE_URL + page, None, "yearly", "0.3"))

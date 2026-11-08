@@ -196,11 +196,25 @@ def prepare(raw):
         sentiment = "NEUTRAL"
     tag = clean_text(raw.get("tag") or "MARKET").upper() or "MARKET"
     pub = parse_time(raw.get("published"))
-    paras = paragraphs(raw.get("content"))
     summary = clean_text(raw.get("ai_summary"))
     facts = raw.get("key_facts", [])
     facts = [clean_text(x) for x in facts if clean_text(x)] if isinstance(facts, list) else []
     title = clean_text(raw.get("title"))
+    legacy_paras = paragraphs(raw.get("content"))
+    analysis = clean_text(raw.get("analysis"))
+    watch = clean_text(raw.get("what_to_watch"))
+    if not analysis:
+        analysis = next((p for p in legacy_paras if not p.lower().startswith("what to watch:")), "")
+    if not watch:
+        watch = next((p[len("What to watch:"):].strip() for p in legacy_paras
+                      if p.lower().startswith("what to watch:")), "")
+    # Older records have supported key facts but no saved gate diagnostics.
+    # Re-evaluate those records with the more useful content structure.
+    legacy_candidate = (
+        "seo_indexability_reasons" not in raw
+        and len(facts) >= 2
+        and len(fact_words(analysis) & fact_words(" ".join(facts))) >= 2
+    )
     return {
         "slug": raw["slug"],
         "title": title,
@@ -210,8 +224,11 @@ def prepare(raw):
         "summary": summary,
         "key_facts": facts[:3],
         "seo_indexable": raw.get("seo_indexable") is True,
+        "seo_indexability_reasons": raw.get("seo_indexability_reasons"),
+        "legacy_candidate": legacy_candidate,
         "impact": clean_text(raw.get("market_impact")),
-        "paras": paras,
+        "analysis": analysis,
+        "watch": watch,
         "source": clean_text(raw.get("source")),
         "link": safe_url(raw.get("original_link")),
         "pub": pub or EPOCH,
@@ -221,7 +238,19 @@ def prepare(raw):
 
 
 def indexable(s):
-    return s["seo_indexable"] and len(s["key_facts"]) >= 2 and s["has_date"] and bool(s["link"])
+    quality_pass = s["seo_indexable"] or s["legacy_candidate"]
+    return quality_pass and len(s["key_facts"]) >= 2 and s["has_date"] and bool(s["link"])
+
+
+def fact_words(text):
+    common = {
+        "about", "after", "also", "and", "are", "as", "at", "be", "been", "by", "for",
+        "from", "has", "have", "in", "into", "is", "it", "its", "of", "on", "or", "that",
+        "the", "their", "there", "this", "to", "was", "were", "which", "with", "could",
+        "may", "might", "likely", "market", "markets", "investor", "investors", "company", "companies",
+    }
+    return {word for word in re.findall(r"[a-z0-9]+", str(text or "").lower())
+            if len(word) > 1 and word not in common}
 
 
 # ---------------------------------------------------------------- layout
@@ -327,13 +356,12 @@ def news_page(s, related):
         facts = "".join(f"<li>{esc(fact)}</li>" for fact in s["key_facts"])
         parts.append('<section class="block"><h2>Key details from the source</h2>'
                      f"<ul>{facts}</ul></section>")
-    if s["paras"]:
-        def para(p):
-            if p.startswith("What to watch:"):
-                return f"<p><strong>What to watch:</strong>{esc(p[len('What to watch:'):])}</p>"
-            return f"<p>{esc(p)}</p>"
-        parts.append('<section class="block"><h2>AI commentary</h2>'
-                     + "".join(para(p) for p in s["paras"]) + "</section>")
+    if s["analysis"]:
+        parts.append('<section class="block"><h2>Why it matters</h2>'
+                     f'<p>{esc(s["analysis"])}</p></section>')
+    if s["watch"]:
+        parts.append('<section class="block"><h2>What to watch</h2>'
+                     f'<p>{esc(s["watch"])}</p></section>')
     if s["impact"]:
         parts.append('<section class="block"><h2>Market outlook</h2>'
                      f'<div class="outlook"><span class="dir">{label.split(" ", 1)[1]}</span>'

@@ -1,5 +1,26 @@
 [
     {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-08/saudi-aramco-tower-targeted-in-rare-strike-on-riyadh-finance-hub",
+        "source": "Bloomberg",
+        "published": "2026-11-08 17:15",
+        "title": "Saudi Aramco Tower Damaged in Strike on Riyadh Financial Hub",
+        "tag": "COMMODITIES",
+        "sentiment": "BEARISH",
+        "ai_summary": "A Houthi strike hit a landmark building in Riyadh's financial district, inflicting damage on a Saudi Aramco tower. The incident disrupts efforts to restore normalcy following earlier deadly strikes on the capital's airport that disrupted travel and canceled major events.",
+        "market_impact": "Geopolitical risk premium",
+        "key_facts": [
+            "The attack struck about a month after fatal attacks on the Riyadh airport disrupted travel.",
+            "Earlier strikes also caused the cancellation of showpiece events in the Saudi capital."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 237,
+        "analysis": "The most significant fact is that a Houthi attack damaged a Saudi Aramco landmark within the capital's financial center. Heightened regional security risks could weigh on investor sentiment, though the report does not clarify the extent of operational impact or physical damage.",
+        "what_to_watch": "",
+        "content": "<p>The most significant fact is that a Houthi attack damaged a Saudi Aramco landmark within the capital&#x27;s financial center. Heightened regional security risks could weigh on investor sentiment, though the report does not clarify the extent of operational impact or physical damage.</p>",
+        "slug": "saudi-aramco-tower-damaged-in-strike-on-riyadh-financial-hub-28b921"
+    },
+    {
         "original_link": "https://www.bloomberg.com/news/videos/2026-11-08/can-europe-afford-its-welfare-state-video",
         "source": "Bloomberg",
         "published": "2026-11-08 15:02",
@@ -371,21 +392,5 @@
         "market_impact": "Energy prices rise",
         "content": "<p>Elevated energy costs generally weigh on consumer spending across most regional economies. Conversely, top oil-producing jurisdictions may see fiscal benefits that offset inflation through public fund disbursements.</p><p><strong>What to watch:</strong> Market observers can monitor ongoing crude price volatility and energy market developments related to the conflict.</p>",
         "slug": "surging-oil-prices-bolster-alaska-revenue-amid-conflict-f4c384"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/07/berkshire-shares-surge-as-wall-street-swoons-amid-ai-fears.html",
-        "source": "CNBC",
-        "published": "2026-11-07 14:06",
-        "title": "Berkshire Hathaway stock outperforms S&P 500",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "Shares of Berkshire Hathaway have seen significant gains, outpacing the broader S&P 500 index this week. The company continues to show strong performance relative to the benchmark for the year.",
-        "market_impact": "Positive sentiment",
-        "content": "<p>The stock&#x27;s resilience suggests investor confidence in the conglomerate&#x27;s diversified business model during periods of market volatility. Outperforming the S&amp;P 500 often draws attention to the company&#x27;s capital allocation strategy.</p><p><strong>What to watch:</strong> Watch for further price action relative to broader market benchmarks.</p>",
-        "tickers": [
-            "BRK.A",
-            "BRK.B"
-        ],
-        "slug": "berkshire-hathaway-stock-outperforms-s-p-500-54d5b4"
     }
 ]

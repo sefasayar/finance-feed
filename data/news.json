@@ -1,5 +1,165 @@
 [
     {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-09/japan-household-outlays-fall-for-10th-month-as-inflation-lingers",
+        "source": "Bloomberg",
+        "published": "2026-11-09 23:34",
+        "title": "Japan Household Spending Drops at Fastest Pace Since 2020",
+        "tag": "ECONOMY",
+        "sentiment": "BEARISH",
+        "ai_summary": "Household expenditures in Japan experienced their sharpest reduction since the 2020 pandemic era. The contraction underscores enduring softness in domestic consumption even as policymakers consider policy tightening.",
+        "market_impact": "Complicates BOJ Tightening",
+        "key_facts": [
+            "Household spending contracted by the largest margin since 2020",
+            "The Bank of Japan sees inflation as entrenched enough to support further rate hikes"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 239,
+        "analysis": "The notable fact is that Japanese household spending recorded its steepest downturn since the 2020 pandemic. This consumer retrenchment could complicate the Bank of Japan's rate-hike trajectory, though the text states officials still see entrenched inflation warranting increases.",
+        "what_to_watch": "",
+        "content": "<p>The notable fact is that Japanese household spending recorded its steepest downturn since the 2020 pandemic. This consumer retrenchment could complicate the Bank of Japan&#x27;s rate-hike trajectory, though the text states officials still see entrenched inflation warranting increases.</p>",
+        "slug": "japan-household-spending-drops-at-fastest-pace-since-2020-bd20f6"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-09/australia-s-consumer-confidence-slumps-on-cost-of-living-fears",
+        "source": "Bloomberg",
+        "published": "2026-11-09 23:30",
+        "title": "Australian Consumer Sentiment Weakens Following Fifth Central Bank Hike",
+        "tag": "ECONOMY",
+        "sentiment": "BEARISH",
+        "ai_summary": "Consumer sentiment in Australia deteriorated further into pessimistic territory during November. The drop followed a fifth monetary policy tightening move this year by the central bank to curb elevated inflation.",
+        "market_impact": "Pressures Consumer Activity",
+        "key_facts": [
+            "Consumer confidence declined further into pessimistic levels in November",
+            "The Reserve Bank implemented its fifth interest-rate increase of the year to curb inflation"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 196,
+        "analysis": "The central development is the slump in Australian consumer confidence after the Reserve Bank's fifth interest rate increase of the year. Lower sentiment may weaken household expenditure, though the snippet does not provide specific retail or inflation figures.",
+        "what_to_watch": "",
+        "content": "<p>The central development is the slump in Australian consumer confidence after the Reserve Bank&#x27;s fifth interest rate increase of the year. Lower sentiment may weaken household expenditure, though the snippet does not provide specific retail or inflation figures.</p>",
+        "slug": "australian-consumer-sentiment-weakens-following-fifth-51798f"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-09/latest-oil-market-news-and-analysis-for-nov-10",
+        "source": "Bloomberg",
+        "published": "2026-11-09 23:01",
+        "title": "Crude Oil Approaches August Lows Following Trump Comments on Iran",
+        "tag": "COMMODITIES",
+        "sentiment": "BEARISH",
+        "ai_summary": "Crude prices traded near their weakest levels recorded since August. The retreat occurred after US President Donald Trump stated that additional military strikes against Iran would not be required.",
+        "market_impact": "Pressures Crude Oil",
+        "key_facts": [
+            "Oil traded close to its lowest price point since August",
+            "US President Donald Trump stated further strikes on Iran were not necessary"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 123,
+        "analysis": "The critical driver is the statement by the US president ruling out further military strikes on Iran. This reduces immediate geopolitical risk premiums in the energy sector, though the snippet does not indicate production or inventory levels.",
+        "what_to_watch": "",
+        "content": "<p>The critical driver is the statement by the US president ruling out further military strikes on Iran. This reduces immediate geopolitical risk premiums in the energy sector, though the snippet does not indicate production or inventory levels.</p>",
+        "slug": "crude-oil-approaches-august-lows-following-trump-comments-151aaf"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/09/jensen-huang-affair-nvidia-succession.html",
+        "source": "CNBC",
+        "published": "2026-11-09 22:56",
+        "title": "Jensen Huang Leadership Uncertainty Clouding Nvidia's Succession",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "The chief executive officer has led the semiconductor manufacturer since co-founding it in 1993, building it into a global market leader. Concerns have emerged regarding the firm's outlook given the absence of a designated successor.",
+        "market_impact": "Pressures Nvidia Shares",
+        "key_facts": [
+            "Jensen Huang co-founded the chipmaker in 1993",
+            "Nvidia developed into one of the most valuable corporations globally"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 153,
+        "analysis": "The central issue raised is the lack of a defined successor to Jensen Huang at Nvidia. This leadership uncertainty could weigh on long-term governance expectations, though the text does not detail any immediate corporate actions or operational disruptions.",
+        "what_to_watch": "",
+        "content": "<p>The central issue raised is the lack of a defined successor to Jensen Huang at Nvidia. This leadership uncertainty could weigh on long-term governance expectations, though the text does not detail any immediate corporate actions or operational disruptions.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "jensen-huang-leadership-uncertainty-clouding-nvidia-s-e33d7f"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/rocket-lab-shares-dip-after-the-companys-defining-quarter-misses-the-mark-9f74c3b5?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-09 22:49",
+        "title": "Rocket Lab Shares Decline Following Larger-Than-Expected Quarterly Loss",
+        "tag": "EARNINGS",
+        "sentiment": "BEARISH",
+        "ai_summary": "The rocket launch provider experienced a drop in its stock price after delivering its latest financial results. The quarterly loss exceeded what Wall Street analysts had previously anticipated.",
+        "market_impact": "Rocket Lab Declines",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 82,
+        "analysis": "The most decision-relevant point is that Rocket Lab's quarterly net loss came in wider than market projections. This performance shortfall may dampen investor sentiment toward the company's near-term profitability, though specific revenue and launch numbers are not provided.",
+        "what_to_watch": "",
+        "content": "<p>The most decision-relevant point is that Rocket Lab&#x27;s quarterly net loss came in wider than market projections. This performance shortfall may dampen investor sentiment toward the company&#x27;s near-term profitability, though specific revenue and launch numbers are not provided.</p>",
+        "tickers": [
+            "RKLB"
+        ],
+        "slug": "rocket-lab-shares-decline-following-larger-than-expected-225967"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-09 21:55",
+        "title": "Nvidia Stock Weakens as Board Opens Investigation Involving CEO",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Shares of the semiconductor company declined amid an ongoing corporate board inquiry. Analysts noted that the fallout from the matter could pose a prolonged challenge for the business.",
+        "market_impact": "Pressures Nvidia Shares",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 117,
+        "analysis": "The key operational development is that the board of directors has launched a new investigation related to the CEO. This probe could create persistent headwinds for Nvidia's stock, though the snippet does not provide the specific allegations or findings.",
+        "what_to_watch": "",
+        "content": "<p>The key operational development is that the board of directors has launched a new investigation related to the CEO. This probe could create persistent headwinds for Nvidia&#x27;s stock, though the snippet does not provide the specific allegations or findings.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-stock-weakens-as-board-opens-investigation-involving-5cf6a1"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
+        "source": "CNBC",
+        "published": "2026-11-09 21:03",
+        "title": "October CPI Inflation Report Scheduled for Tuesday Release",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "The October headline Consumer Price Index is projected to advance by 0.3%. Concurrently, core inflation is anticipated to increase by 0.2%.",
+        "market_impact": "Informs Rate Expectations",
+        "key_facts": [
+            "Headline CPI is projected to increase by 0.3%",
+            "Core CPI is estimated to rise by 0.2%"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 109,
+        "analysis": "The primary focus for market participants is whether October inflation aligns with the forecasted 0.3% headline and 0.2% core gains. Deviations could influence central bank rate expectations, but the provided text does not show actual realized figures.",
+        "what_to_watch": "The October CPI report is scheduled to be released on Tuesday.",
+        "content": "<p>The primary focus for market participants is whether October inflation aligns with the forecasted 0.3% headline and 0.2% core gains. Deviations could influence central bank rate expectations, but the provided text does not show actual realized figures.</p><p><strong>What to watch:</strong> The October CPI report is scheduled to be released on Tuesday.</p>",
+        "slug": "october-cpi-inflation-report-scheduled-for-tuesday-release-5b022f"
+    },
+    {
         "original_link": "https://www.marketwatch.com/story/the-biggest-takeaway-from-berkshire-hathaways-latest-quarter-isnt-the-357-billion-cash-or-its-stock-buybacks-3069f6a9?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-09 12:27",
@@ -391,158 +551,5 @@
         "what_to_watch": "",
         "content": "<p>The text highlights that Wall Street views the Treasury market as a major beneficiary of the Democratic landslide, prompting traders to reconsider this year&#x27;s bond selloff. This implies downward pressure on yields and continued volatility for AI equities, though specific price changes are not provided.</p>",
         "slug": "us-treasuries-rally-as-democratic-election-sweep-pressures-5e327e"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-08/saudi-aramco-tower-targeted-in-rare-strike-on-riyadh-finance-hub",
-        "source": "Bloomberg",
-        "published": "2026-11-08 17:15",
-        "title": "Saudi Aramco Tower Damaged in Strike on Riyadh Financial Hub",
-        "tag": "COMMODITIES",
-        "sentiment": "BEARISH",
-        "ai_summary": "A Houthi strike hit a landmark building in Riyadh's financial district, inflicting damage on a Saudi Aramco tower. The incident disrupts efforts to restore normalcy following earlier deadly strikes on the capital's airport that disrupted travel and canceled major events.",
-        "market_impact": "Geopolitical risk premium",
-        "key_facts": [
-            "The attack struck about a month after fatal attacks on the Riyadh airport disrupted travel.",
-            "Earlier strikes also caused the cancellation of showpiece events in the Saudi capital."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 237,
-        "analysis": "The most significant fact is that a Houthi attack damaged a Saudi Aramco landmark within the capital's financial center. Heightened regional security risks could weigh on investor sentiment, though the report does not clarify the extent of operational impact or physical damage.",
-        "what_to_watch": "",
-        "content": "<p>The most significant fact is that a Houthi attack damaged a Saudi Aramco landmark within the capital&#x27;s financial center. Heightened regional security risks could weigh on investor sentiment, though the report does not clarify the extent of operational impact or physical damage.</p>",
-        "slug": "saudi-aramco-tower-damaged-in-strike-on-riyadh-financial-hub-28b921"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-08/can-europe-afford-its-welfare-state-video",
-        "source": "Bloomberg",
-        "published": "2026-11-08 15:02",
-        "title": "Europe's Aging Demographic Pressures Welfare and Public Budgets",
-        "tag": "ECONOMY",
-        "sentiment": "BEARISH",
-        "ai_summary": "European welfare systems face increasing financial pressure as demographic aging strains pensions and healthcare infrastructure. At the same time, regional governments struggle to cover costs for defense, infrastructure, and education.",
-        "market_impact": "Fiscal strain grows",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 347,
-        "analysis": "European governments are facing growing fiscal demands across pensions, health care, defense, and education due to demographic shifts. These budgetary pressures are triggering political and public disputes over funding, although the text omits specific economic projections or country-level deficit figures.",
-        "what_to_watch": "",
-        "content": "<p>European governments are facing growing fiscal demands across pensions, health care, defense, and education due to demographic shifts. These budgetary pressures are triggering political and public disputes over funding, although the text omits specific economic projections or country-level deficit figures.</p>",
-        "slug": "europe-s-aging-demographic-pressures-welfare-and-public-81deeb"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/corporate-americas-profit-numbers-are-just-barely-beating-wall-streets-expectations-eaa67fe2?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-08 15:00",
-        "title": "S&P 500 Profit Beat Margins Drop to Four-Year Low",
-        "tag": "EARNINGS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Most S&P 500 companies continue to surpass consensus earnings estimates from analysts. However, the degree of outperformance has shrunk to its narrowest margin in approximately four years.",
-        "market_impact": "Weaker earnings surprise",
-        "key_facts": [
-            "A majority of S&P 500 constituents are exceeding Wall Street's profit targets",
-            "The margin of earnings beats is at its slimmest level in roughly four years"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 119,
-        "analysis": "Earnings beats among S&P 500 components have fallen to their slimmest spread relative to projections in roughly four years. This trend suggests corporate profits are offering less upside surprise, though the snippet does not detail the exact aggregate earnings growth rates.",
-        "what_to_watch": "",
-        "content": "<p>Earnings beats among S&amp;P 500 components have fallen to their slimmest spread relative to projections in roughly four years. This trend suggests corporate profits are offering less upside surprise, though the snippet does not detail the exact aggregate earnings growth rates.</p>",
-        "slug": "s-p-500-profit-beat-margins-drop-to-four-year-low-641ce6"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/08/ai-agents-risks.html",
-        "source": "CNBC",
-        "published": "2026-11-08 14:14",
-        "title": "Studies Find Multi-Agent AI Systems Can Pose Corporate Ethics Risks",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Automated artificial intelligence agents are increasingly collaborating in business environments. However, research reveals these cooperating systems do not always share identical objectives or adhere to ethical principles.",
-        "market_impact": "Enterprise risk highlighted",
-        "key_facts": [
-            "AI agents are now interacting together routinely"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 138,
-        "analysis": "Research indicates that autonomous software agents operating collaboratively can diverge from common goals and ethical standards. This could complicate enterprise adoption of automated multi-agent systems, though specific corporate incidents or financial costs are not detailed.",
-        "what_to_watch": "",
-        "content": "<p>Research indicates that autonomous software agents operating collaboratively can diverge from common goals and ethical standards. This could complicate enterprise adoption of automated multi-agent systems, though specific corporate incidents or financial costs are not detailed.</p>",
-        "slug": "studies-find-multi-agent-ai-systems-can-pose-corporate-eb3a50"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/08/poppi-founders-jetty-hydration-gatorade.html",
-        "source": "CNBC",
-        "published": "2026-11-08 14:00",
-        "title": "Poppi Founders Launch Hydration Brand Jetty to Rival Gatorade",
-        "tag": "STOCKS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Allison and Stephen Ellsworth have introduced a new beverage company focused on hydration products. The brand's bottled beverages and powders will be carried by retailers such as Whole Foods, Target, and Amazon.",
-        "market_impact": "Beverage competition rises",
-        "key_facts": [
-            "Allison and Stephen Ellsworth previously founded the beverage brand Poppi"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 153,
-        "analysis": "The venture directly enters the hydration space against established incumbents like PepsiCo's Gatorade. This expansion introduces a new challenger to the consumer beverage category, though the snippet does not provide sales targets or investment figures.",
-        "what_to_watch": "",
-        "content": "<p>The venture directly enters the hydration space against established incumbents like PepsiCo&#x27;s Gatorade. This expansion introduces a new challenger to the consumer beverage category, though the snippet does not provide sales targets or investment figures.</p>",
-        "tickers": [
-            "PEP",
-            "TGT",
-            "AMZN"
-        ],
-        "slug": "poppi-founders-launch-hydration-brand-jetty-to-rival-6182ad"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/stocks-are-moving-in-sync-again-for-the-first-time-in-a-while-theres-just-one-problem-c953bf72?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-08 14:00",
-        "title": "U.S. Stocks Align in Sync Amid Worst Market Selloff in Over a Year",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "U.S. equities have begun trading with unified direction after experiencing an extended phase of divergence. This synchronized movement has developed alongside the steepest market decline observed in over twelve months.",
-        "market_impact": "Broad market decline",
-        "key_facts": [
-            "The simultaneous movement matches the largest equity selloff in more than twelve months"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 156,
-        "analysis": "The shift toward correlated price movement across U.S. equities is taking place during the largest market pullback in over a year. This indicates heightened correlation during market downturns, but the text does not identify the specific catalysts driving the selloff.",
-        "what_to_watch": "",
-        "content": "<p>The shift toward correlated price movement across U.S. equities is taking place during the largest market pullback in over a year. This indicates heightened correlation during market downturns, but the text does not identify the specific catalysts driving the selloff.</p>",
-        "slug": "u-s-stocks-align-in-sync-amid-worst-market-selloff-in-over-50a5ef"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-08/democratic-sweep-tests-trump-linked-trades-across-latin-america",
-        "source": "Bloomberg",
-        "published": "2026-11-08 13:30",
-        "title": "Democratic US Congress Challenges Trump-Linked Latin America Trades",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "A shift to a Democratic-controlled United States Congress has introduced a new dynamic for regional investment strategies. Market participants had previously built Latin America positions based on regional relationships with Donald Trump.",
-        "market_impact": "Regional trade reassessment",
-        "key_facts": [
-            "Investors spent the prior year pricing Latin American countries' ties with Donald Trump into their portfolios.",
-            "A Democratic-controlled Congress serves as the newly introduced variable for these strategies."
-        ],
-        "seo_indexable": false,
-        "content": "<p>A shift in control of the US legislature could alter trade, foreign policy, or financial relationships across Latin America. Investors must now weigh how congressional oversight might affect trade strategies tied to Trump&#x27;s regional influence. The specific economic repercussions across targeted countries remain uncertain.</p><p><strong>What to watch:</strong> The source does not identify a specific next catalyst.</p>",
-        "slug": "democratic-us-congress-challenges-trump-linked-latin-79bedb"
     }
 ]

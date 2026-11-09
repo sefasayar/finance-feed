@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://sefasayar.github.io/finance-feed/</loc><lastmod>2026-11-08</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://sefasayar.github.io/finance-feed/daily/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/</loc><lastmod>2026-11-09</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/daily/</loc><lastmod>2026-11-09</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-06.html</loc><lastmod>2026-11-06</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-07.html</loc><lastmod>2026-11-07</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-08.html</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-09.html</loc><lastmod>2026-11-09</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/tag/economy.html</loc><lastmod>2026-11-09</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/tag/stocks.html</loc><lastmod>2026-11-09</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/tag/tech.html</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://sefasayar.github.io/finance-feed/tag/stocks.html</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/tag/commodities.html</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://sefasayar.github.io/finance-feed/tag/economy.html</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/news/nvidia-probe-into-ceo-huang-poses-overhang-for-ai-sector-519fd5.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/news/new-zealand-dollar-gains-following-incumbent-party-s-fdd263.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/news/us-treasuries-rally-as-democratic-election-sweep-pressures-5e327e.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>

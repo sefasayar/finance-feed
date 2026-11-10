@@ -1,5 +1,119 @@
 [
     {
+        "original_link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+        "source": "CNBC",
+        "published": "2026-11-10 15:56",
+        "title": "October Consumer Prices Increase 0.4 Percent",
+        "tag": "FED",
+        "sentiment": "BEARISH",
+        "ai_summary": "Consumer prices exceeded expectations with a 0.4% rise in October. This data presents a challenge for the Federal Reserve as it evaluates future interest rate adjustments.",
+        "market_impact": "Rate hike pressure",
+        "key_facts": [
+            "Inflation rose 0.4% in October.",
+            "The report arrives at a critical time for Fed decision-making."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 119,
+        "analysis": "The inflation figure came in higher than anticipated, complicating the central bank's policy path. The text does not specify the exact interest rate decision the Fed will reach.",
+        "what_to_watch": "Federal Reserve interest rate policy meeting.",
+        "content": "<p>The inflation figure came in higher than anticipated, complicating the central bank&#x27;s policy path. The text does not specify the exact interest rate decision the Fed will reach.</p><p><strong>What to watch:</strong> Federal Reserve interest rate policy meeting.</p>",
+        "slug": "october-consumer-prices-increase-0-4-percent-d5d03f"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-10 15:47",
+        "title": "Stocks Decline as 10-Year Yields Approach 5 Percent",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Equities are retreating while 10-year Treasury yields move back toward the 5% threshold. This follows the release of Tuesday's inflation report.",
+        "market_impact": "Market volatility",
+        "key_facts": [
+            "10-year yields are near 5%.",
+            "A portfolio manager expressed skepticism regarding a 25 basis point rate hike."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 143,
+        "analysis": "The rise in yields is linked to the recent inflation data, which is impacting investor sentiment. The text does not establish a consensus on whether the Federal Reserve will raise rates by 25 basis points.",
+        "what_to_watch": "",
+        "content": "<p>The rise in yields is linked to the recent inflation data, which is impacting investor sentiment. The text does not establish a consensus on whether the Federal Reserve will raise rates by 25 basis points.</p>",
+        "slug": "stocks-decline-as-10-year-yields-approach-5-percent-7921f5"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/elon-musk-was-half-right-in-his-comment-last-week-about-softbank-back-pedaling-on-a-gas-turbine-order-c293d335?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-10 15:30",
+        "title": "SoftBank Earnings Confirm Gas-Turbine Order Default",
+        "tag": "EARNINGS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Elon Musk previously claimed that SoftBank defaulted on a gas-turbine order. Second-quarter earnings from the Japanese investment firm have confirmed the accuracy of this claim.",
+        "market_impact": "Reputational impact",
+        "key_facts": [
+            "SoftBank is a Japanese investment company.",
+            "The confirmation appeared in the company's second-quarter earnings report."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 205,
+        "analysis": "The earnings report validates the claim made by Elon Musk regarding the status of the order. The snippet does not detail the financial magnitude of the default for either company.",
+        "what_to_watch": "",
+        "content": "<p>The earnings report validates the claim made by Elon Musk regarding the status of the order. The snippet does not detail the financial magnitude of the default for either company.</p>",
+        "slug": "softbank-earnings-confirm-gas-turbine-order-default-5f4bc8"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html",
+        "source": "CNBC",
+        "published": "2026-11-10 15:04",
+        "title": "Allegations Against Jensen Huang Highlight Nvidia China Risks",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "Reports of an alleged affair between CEO Jensen Huang and a Chinese spy have surfaced. These claims draw fresh scrutiny to the company's influence on U.S. chip export policies regarding China.",
+        "market_impact": "Increased regulatory scrutiny",
+        "key_facts": [
+            "Jensen Huang is the CEO of Nvidia.",
+            "The situation involves potential influence over U.S. chip policy."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 144,
+        "analysis": "The allegations focus on the CEO's potential impact on government policy regarding chip sales. The snippet does not confirm the truth of the allegations or their direct impact on Nvidia's operations.",
+        "what_to_watch": "",
+        "content": "<p>The allegations focus on the CEO&#x27;s potential impact on government policy regarding chip sales. The snippet does not confirm the truth of the allegations or their direct impact on Nvidia&#x27;s operations.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "allegations-against-jensen-huang-highlight-nvidia-china-fc17e3"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-10/treasuries-slide-as-hot-us-inflation-cements-december-rate-bets",
+        "source": "Bloomberg",
+        "published": "2026-11-10 13:41",
+        "title": "Treasuries Decline Amid Expectations of December Rate Hike",
+        "tag": "FED",
+        "sentiment": "BEARISH",
+        "ai_summary": "Treasury prices fell as traders increased bets on a Federal Reserve interest rate hike in December. This shift follows evidence of persistent inflation in the U.S.",
+        "market_impact": "Yields rise",
+        "key_facts": [
+            "Treasuries sank following the inflation data.",
+            "Traders are solidifying bets on a rate increase."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 187,
+        "analysis": "The market is reacting to inflation data by pricing in a more hawkish stance from the Federal Reserve. The text does not confirm that a rate hike will occur in December.",
+        "what_to_watch": "Federal Reserve December meeting.",
+        "content": "<p>The market is reacting to inflation data by pricing in a more hawkish stance from the Federal Reserve. The text does not confirm that a rate hike will occur in December.</p><p><strong>What to watch:</strong> Federal Reserve December meeting.</p>",
+        "slug": "treasuries-decline-amid-expectations-of-december-rate-hike-e725ee"
+    },
+    {
         "original_link": "https://www.bloomberg.com/news/articles/2026-11-09/japan-household-outlays-fall-for-10th-month-as-inflation-lingers",
         "source": "Bloomberg",
         "published": "2026-11-09 23:34",
@@ -113,6 +227,29 @@
         "slug": "rocket-lab-shares-decline-following-larger-than-expected-225967"
     },
     {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-09/stock-market-today-dow-s-p-live-updates",
+        "source": "Bloomberg",
+        "published": "2026-11-09 22:16",
+        "title": "Stocks and Bonds Drop on Inflation-Driven Hike Bets",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Both stocks and bonds declined following inflation data that exceeded estimates. Investors are responding by increasing wagers that the Federal Reserve will continue raising interest rates.",
+        "market_impact": "Broad market decline",
+        "key_facts": [
+            "CPI data fueled expectations for further rate hikes.",
+            "Stocks and bonds moved lower in tandem."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 142,
+        "analysis": "The higher-than-expected inflation data is the primary driver for the current market sell-off. The snippet does not provide specific details on the magnitude of the stock market decline.",
+        "what_to_watch": "",
+        "content": "<p>The higher-than-expected inflation data is the primary driver for the current market sell-off. The snippet does not provide specific details on the magnitude of the stock market decline.</p>",
+        "slug": "stocks-and-bonds-drop-on-inflation-driven-hike-bets-52d453"
+    },
+    {
         "original_link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-09 21:55",
@@ -135,6 +272,28 @@
             "NVDA"
         ],
         "slug": "nvidia-stock-weakens-as-board-opens-investigation-involving-5cf6a1"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-09/jbs-profit-hit-as-china-quotas-overshadow-us-beef-improvement",
+        "source": "Bloomberg",
+        "published": "2026-11-09 21:27",
+        "title": "JBS Shares Fall Following Earnings and Holding Deal",
+        "tag": "EARNINGS",
+        "sentiment": "BEARISH",
+        "ai_summary": "JBS shares declined after the company reported quarterly earnings that missed expectations. The meatpacker also announced a transaction involving its controlling shareholder, J&F SA.",
+        "market_impact": "Share price decline",
+        "key_facts": [
+            "J&F SA is the holding company of the Batista brothers."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 225,
+        "analysis": "The earnings miss is the key factor weighing on the company's share price. The text does not disclose the specific terms or financial impact of the deal with J&F SA.",
+        "what_to_watch": "",
+        "content": "<p>The earnings miss is the key factor weighing on the company&#x27;s share price. The text does not disclose the specific terms or financial impact of the deal with J&amp;F SA.</p>",
+        "slug": "jbs-shares-fall-following-earnings-and-holding-deal-0d1973"
     },
     {
         "original_link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
@@ -396,160 +555,5 @@
         "what_to_watch": "",
         "content": "<p>The central observation is the unexpected five-quarter streak of economic deceleration in the Philippines. This suggests potential pressure on the central bank to pause or adjust its rate-hike cycle, though the report does not establish specific GDP growth figures.</p>",
         "slug": "philippine-economy-decelerates-for-fifth-straight-quarter-e9f8f7"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/nvidias-board-will-probe-ceo-jensen-huangs-relationship-with-an-alleged-spy-heres-what-to-know-86656cd9?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-08 23:05",
-        "title": "Nvidia Probe Into CEO Huang Poses Overhang for AI Sector",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Nvidia's board is currently reviewing Jensen Huang's connection to an alleged spy. Huang intends to stay on as chief executive while participating fully in the investigation.",
-        "market_impact": "Pressure on Shares",
-        "key_facts": [
-            "Jensen Huang will remain chief executive during the inquiry.",
-            "Analysts warn the investigation could cast a cloud over the stock for some time."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 152,
-        "analysis": "The most decision-relevant point is that Huang will keep his post while cooperating with an inquiry that analysts warn could weigh on the stock. This suggests lingering uncertainty for Nvidia, but the snippet does not show any finding of wrongdoing or formal charges.",
-        "what_to_watch": "",
-        "content": "<p>The most decision-relevant point is that Huang will keep his post while cooperating with an inquiry that analysts warn could weigh on the stock. This suggests lingering uncertainty for Nvidia, but the snippet does not show any finding of wrongdoing or formal charges.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "nvidia-probe-into-ceo-huang-poses-overhang-for-ai-sector-519fd5"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-08/latest-oil-market-news-and-analysis-for-nov-9",
-        "source": "Bloomberg",
-        "published": "2026-11-08 23:03",
-        "title": "Oil Prices Stabilize Following Steepest Weekly Decline Since April 2020",
-        "tag": "COMMODITIES",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Crude oil prices held steady after suffering their sharpest weekly decline since April 2020. Market participants evaluated diplomatic attempts to resolve the US-Iran conflict alongside new regional strikes.",
-        "market_impact": "Oil price volatility",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 162,
-        "analysis": "The defining development is oil prices steadying after their largest weekly drop in over three years. This balance reflects competing geopolitical forces, though the text does not establish the net direction of production volumes or price levels.",
-        "what_to_watch": "",
-        "content": "<p>The defining development is oil prices steadying after their largest weekly drop in over three years. This balance reflects competing geopolitical forces, though the text does not establish the net direction of production volumes or price levels.</p>",
-        "slug": "oil-prices-stabilize-following-steepest-weekly-decline-818134"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
-        "source": "CNBC",
-        "published": "2026-11-08 22:53",
-        "title": "Nvidia Board Probes CEO Jensen Huang Over Relationship With Alleged Spy",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Jensen Huang informed employees via email about an affair he had. The board subsequently launched an inquiry regarding claims that the woman involved is a spy for China.",
-        "market_impact": "Stock Under Pressure",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 159,
-        "analysis": "The central issue is the board's formal probe into the chief executive over potential espionage links. This may create governance and reputational headwinds for Nvidia, though the provided text does not clarify any operational fallout or business disruption.",
-        "what_to_watch": "",
-        "content": "<p>The central issue is the board&#x27;s formal probe into the chief executive over potential espionage links. This may create governance and reputational headwinds for Nvidia, though the provided text does not clarify any operational fallout or business disruption.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "nvidia-board-probes-ceo-jensen-huang-over-relationship-with-26a78b"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-08/stock-market-today-dow-s-p-live-updates",
-        "source": "Bloomberg",
-        "published": "2026-11-08 22:20",
-        "title": "Nvidia Investigation Threatens to Weigh on Asian Tech Equities",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Asian equity markets face potential headwinds at the start of the week due to fresh concerns involving Nvidia Corp. The development follows an already difficult selloff across the broader technology sector.",
-        "market_impact": "Asian Stocks Weaker",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 165,
-        "analysis": "The key detail is that uncertainty surrounding Nvidia is compounding existing fragility in technology stocks across Asia. This may dampen regional market performance on Monday, though the snippet does not establish specific index moves or sector-wide loss figures.",
-        "what_to_watch": "",
-        "content": "<p>The key detail is that uncertainty surrounding Nvidia is compounding existing fragility in technology stocks across Asia. This may dampen regional market performance on Monday, though the snippet does not establish specific index moves or sector-wide loss figures.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "nvidia-investigation-threatens-to-weigh-on-asian-tech-1be7d3"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-08/new-zealand-dollar-advances-as-ruling-party-gets-election-edge",
-        "source": "Bloomberg",
-        "published": "2026-11-08 22:07",
-        "title": "New Zealand Dollar Gains Following Incumbent Party's Election Result",
-        "tag": "FOREX",
-        "sentiment": "BULLISH",
-        "ai_summary": "The New Zealand dollar strengthened during early market trading after general election results emerged over the weekend. The ruling National Party secured a position that allows it to spearhead coalition talks with smaller parties.",
-        "market_impact": "Kiwi Dollar Rises",
-        "key_facts": [
-            "The National Party emerged with a path to remain in power.",
-            "The party is positioned to head coalition discussions with minor parties."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 215,
-        "analysis": "The currency's advance is directly tied to the incumbent party gaining a clear pathway to retain government leadership. This outcome may support near-term currency stability, though the snippet does not establish whether coalition negotiations will succeed.",
-        "what_to_watch": "",
-        "content": "<p>The currency&#x27;s advance is directly tied to the incumbent party gaining a clear pathway to retain government leadership. This outcome may support near-term currency stability, though the snippet does not establish whether coalition negotiations will succeed.</p>",
-        "slug": "new-zealand-dollar-gains-following-incumbent-party-s-fdd263"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html",
-        "source": "CNBC",
-        "published": "2026-11-08 21:53",
-        "title": "Trump Links Avoidance of Iran Strikes to Progress in Nuclear Negotiations",
-        "tag": "COMMODITIES",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "President Donald Trump indicated that further military action against Iran is doubtful if diplomatic discussions advance. However, he cautioned that strikes remain an option if progress stalls.",
-        "market_impact": "Oil Volatility Possible",
-        "key_facts": [
-            "Negotiations involve Iran's nuclear program and the Strait of Hormuz."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 115,
-        "analysis": "Trump's comments explicitly tie the avoidance of military intervention to diplomatic momentum regarding the Strait of Hormuz and Iran's nuclear development. This could influence risk sentiment across energy markets, though the snippet does not detail the current status or timetable of those talks.",
-        "what_to_watch": "",
-        "content": "<p>Trump&#x27;s comments explicitly tie the avoidance of military intervention to diplomatic momentum regarding the Strait of Hormuz and Iran&#x27;s nuclear development. This could influence risk sentiment across energy markets, though the snippet does not detail the current status or timetable of those talks.</p>",
-        "slug": "trump-links-avoidance-of-iran-strikes-to-progress-in-1a2288"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-08/treasury-rally-gets-new-boost-as-election-hammers-the-ai-trade",
-        "source": "Bloomberg",
-        "published": "2026-11-08 20:00",
-        "title": "US Treasuries Rally as Democratic Election Sweep Pressures AI Trade",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "A Democratic victory in the U.S. midterm elections has revitalized demand for Treasury debt. The political outcome has simultaneously battered the artificial intelligence trade.",
-        "market_impact": "Treasuries Gain",
-        "key_facts": [
-            "The Democratic victory is viewed as beneficial for the Treasury market.",
-            "Traders are reassessing this year's steep selloff in Treasuries."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 184,
-        "analysis": "The text highlights that Wall Street views the Treasury market as a major beneficiary of the Democratic landslide, prompting traders to reconsider this year's bond selloff. This implies downward pressure on yields and continued volatility for AI equities, though specific price changes are not provided.",
-        "what_to_watch": "",
-        "content": "<p>The text highlights that Wall Street views the Treasury market as a major beneficiary of the Democratic landslide, prompting traders to reconsider this year&#x27;s bond selloff. This implies downward pressure on yields and continued volatility for AI equities, though specific price changes are not provided.</p>",
-        "slug": "us-treasuries-rally-as-democratic-election-sweep-pressures-5e327e"
     }
 ]

@@ -1,5 +1,185 @@
 [
     {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-11/india-simplifies-visa-rules-to-draw-more-foreign-visitors",
+        "source": "Bloomberg",
+        "published": "2026-11-11 15:30",
+        "title": "India Overhauls Visa Regulations to Boost Business and Tourism Inflows",
+        "tag": "ECONOMY",
+        "sentiment": "BULLISH",
+        "ai_summary": "India is easing travel requirements for international arrivals through a restructured visa framework. The policy adjustment seeks to facilitate international business visits alongside medical, student, and leisure tourism.",
+        "market_impact": "Facilitates foreign travel",
+        "key_facts": [
+            "The policy overhaul targets tourists, students, and medical travelers."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 189,
+        "analysis": "The primary development is India's administrative easing of entry rules across corporate, leisure, medical, and educational categories. This may enhance cross-border business access and international travel spending in the country, but the snippet does not reveal the implementation date or specific rule details.",
+        "what_to_watch": "",
+        "content": "<p>The primary development is India&#x27;s administrative easing of entry rules across corporate, leisure, medical, and educational categories. This may enhance cross-border business access and international travel spending in the country, but the snippet does not reveal the implementation date or specific rule details.</p>",
+        "slug": "india-overhauls-visa-regulations-to-boost-business-and-49fc7d"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/11/coreweave-ceo-election-data-center-buildout.html",
+        "source": "CNBC",
+        "published": "2026-11-11 15:28",
+        "title": "CoreWeave CEO Halts Planned Stock Sales Following Upbeat Financial Results",
+        "tag": "TECH",
+        "sentiment": "BULLISH",
+        "ai_summary": "CoreWeave surpassed revenue estimates and lifted its forward guidance. Chief Executive Mike Intrator confirmed the cancellation of his planned share disposal program following the recent midterm elections.",
+        "market_impact": "Boosts company sentiment",
+        "key_facts": [
+            "CEO Mike Intrator stated the firm will be fine despite last week's Democratic midterm sweep."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 154,
+        "analysis": "The decisive development is that CoreWeave exceeded revenue forecasts while its CEO canceled a planned stock sale. This could bolster confidence in the company's operating outlook, although the text does not provide specific revenue figures or details of the canceled sale.",
+        "what_to_watch": "",
+        "content": "<p>The decisive development is that CoreWeave exceeded revenue forecasts while its CEO canceled a planned stock sale. This could bolster confidence in the company&#x27;s operating outlook, although the text does not provide specific revenue figures or details of the canceled sale.</p>",
+        "slug": "coreweave-ceo-halts-planned-stock-sales-following-upbeat-8961e7"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/micron-and-other-ai-stocks-surge-as-coreweave-calms-wall-streets-worst-fears-0a18152a?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-11 15:26",
+        "title": "CoreWeave Lifts AI and Chip Shares with Enhanced Economics and Debt Plans",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "A commitment to debt discipline and stronger economics from CoreWeave fueled an industry-wide advance in semiconductor equities. Suppliers including Micron and Lumentum saw gains alongside the wider artificial intelligence sector.",
+        "market_impact": "Chip sector gains",
+        "key_facts": [
+            "CoreWeave pledged to exercise discipline regarding its debt.",
+            "The development sparked a broad rally across the semiconductor sector."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 132,
+        "analysis": "The focal factor is CoreWeave's pledge toward debt discipline alongside stronger AI economics. This could sustain momentum across partnering semiconductor suppliers, though the snippet does not specify any financial targets or duration of the rally.",
+        "what_to_watch": "",
+        "content": "<p>The focal factor is CoreWeave&#x27;s pledge toward debt discipline alongside stronger AI economics. This could sustain momentum across partnering semiconductor suppliers, though the snippet does not specify any financial targets or duration of the rally.</p>",
+        "tickers": [
+            "MU",
+            "LITE"
+        ],
+        "slug": "coreweave-lifts-ai-and-chip-shares-with-enhanced-economics-889e3e"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/market-angst-is-driving-investors-into-low-volatility-stocks-as-ai-trade-stumbles-23d905e9?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-11 15:15",
+        "title": "Investors Turn to Low-Volatility Equities as AI Retreats and Yields Linger",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Persistent pressure from high bond yields alongside a steep decline in artificial intelligence equities is elevating market stress. In response, market participants are rotating capital toward lower-volatility investments.",
+        "market_impact": "Rotation to defensive",
+        "key_facts": [
+            "Artificial intelligence stocks experienced a sharp selloff.",
+            "Bond yields remain stubbornly elevated."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 130,
+        "analysis": "The most actionable fact is that high bond yields and a sharp selloff in AI stocks are sparking broader market anxiety. This indicates capital may continue flowing toward defensive low-volatility shares, though the snippet does not name specific stocks or yield levels.",
+        "what_to_watch": "",
+        "content": "<p>The most actionable fact is that high bond yields and a sharp selloff in AI stocks are sparking broader market anxiety. This indicates capital may continue flowing toward defensive low-volatility shares, though the snippet does not name specific stocks or yield levels.</p>",
+        "slug": "investors-turn-to-low-volatility-equities-as-ai-retreats-884246"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-11/cpi-report-doesn-t-warrant-50-bps-hike-david-rosenberg-video",
+        "source": "Bloomberg",
+        "published": "2026-11-11 15:13",
+        "title": "David Rosenberg Says Inflation Data Does Not Justify 50-Basis-Point Fed Hike",
+        "tag": "FED",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Economist David Rosenberg observed that a half-point rate increase by the central bank in December is possible but not certain. He argued the current inflation data does not substantiate a hike of that magnitude.",
+        "market_impact": "Tempered hike expectations",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 175,
+        "analysis": "The key detail is Rosenberg's assessment that a 50-basis-point increase in December remains on the table but is not firmly established. This suggests rate expectations for December may face debate, though the snippet does not reveal the official view of the Federal Reserve.",
+        "what_to_watch": "",
+        "content": "<p>The key detail is Rosenberg&#x27;s assessment that a 50-basis-point increase in December remains on the table but is not firmly established. This suggests rate expectations for December may face debate, though the snippet does not reveal the official view of the Federal Reserve.</p>",
+        "slug": "david-rosenberg-says-inflation-data-does-not-justify-50-bae940"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
+        "source": "CNBC",
+        "published": "2026-11-11 14:35",
+        "title": "Nvidia Shares Recover as Investors Weigh Scrutiny Around CEO Jensen Huang",
+        "tag": "STOCKS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Nvidia's stock experienced a rebound leading into its upcoming financial report. The advance occurs as market participants evaluate potential fallout on business operations related to personal scrutiny surrounding CEO Jensen Huang.",
+        "market_impact": "Elevated stock volatility",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 107,
+        "analysis": "The central issue is the focus on whether personal scrutiny involving CEO Jensen Huang will disrupt Nvidia's underlying operations. The situation may weigh on investor sentiment ahead of earnings, but the snippet does not provide any confirmation of operational impacts or earnings metrics.",
+        "what_to_watch": "",
+        "content": "<p>The central issue is the focus on whether personal scrutiny involving CEO Jensen Huang will disrupt Nvidia&#x27;s underlying operations. The situation may weigh on investor sentiment ahead of earnings, but the snippet does not provide any confirmation of operational impacts or earnings metrics.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-shares-recover-as-investors-weigh-scrutiny-around-7befb3"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
+        "source": "CNBC",
+        "published": "2026-11-11 14:24",
+        "title": "Fed's Goolsbee Expresses Concern Over October Inflation Acceleration",
+        "tag": "FED",
+        "sentiment": "BEARISH",
+        "ai_summary": "October consumer prices exceeded projections, prompting unease among central bank leadership. Policymakers are currently evaluating the possibility of delivering additional interest rate increases.",
+        "market_impact": "Higher rate expectations",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 107,
+        "analysis": "The critical takeaway is that the consumer price index climbed past expectations in October. This may support further rate hikes from the Federal Reserve, though the text does not state the exact size or timing of any future policy moves.",
+        "what_to_watch": "",
+        "content": "<p>The critical takeaway is that the consumer price index climbed past expectations in October. This may support further rate hikes from the Federal Reserve, though the text does not state the exact size or timing of any future policy moves.</p>",
+        "slug": "fed-s-goolsbee-expresses-concern-over-october-inflation-33a677"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-11/us-equity-futures-rise-as-ai-enthusiasm-counters-hot-inflation",
+        "source": "Bloomberg",
+        "published": "2026-11-11 13:28",
+        "title": "US Equities Advance as CoreWeave, OpenAI and Anthropic Bolster AI Complex",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Strong quarterly performance from OpenAI alongside above-consensus CoreWeave metrics supported an opening rally in American stocks on Wednesday. Market interest in an IPO from Anthropic provided further momentum to the sector.",
+        "market_impact": "Equities open higher",
+        "key_facts": [
+            "Anthropic PBC's prospective IPO is generating investor enthusiasm.",
+            "OpenAI reported a blockbuster quarterly performance."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 219,
+        "analysis": "The standout fact is the combination of CoreWeave's beat, a strong quarter for OpenAI, and Anthropic's IPO interest lifting morning stock trading. This could maintain positive short-term momentum for the AI theme, but the text does not detail the magnitude of the market's gains or specific quarterly figures.",
+        "what_to_watch": "",
+        "content": "<p>The standout fact is the combination of CoreWeave&#x27;s beat, a strong quarter for OpenAI, and Anthropic&#x27;s IPO interest lifting morning stock trading. This could maintain positive short-term momentum for the AI theme, but the text does not detail the magnitude of the market&#x27;s gains or specific quarterly figures.</p>",
+        "slug": "us-equities-advance-as-coreweave-openai-and-anthropic-71ade6"
+    },
+    {
         "original_link": "https://www.bloomberg.com/news/videos/2026-11-11/us-aim-is-to-de-risk-with-china-bessent-says-video",
         "source": "Bloomberg",
         "published": "2026-11-11 03:49",
@@ -388,186 +568,5 @@
         "what_to_watch": "",
         "content": "<p>The rise in yields is linked to the recent inflation data, which is impacting investor sentiment. The text does not establish a consensus on whether the Federal Reserve will raise rates by 25 basis points.</p>",
         "slug": "stocks-decline-as-10-year-yields-approach-5-percent-7921f5"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/elon-musk-was-half-right-in-his-comment-last-week-about-softbank-back-pedaling-on-a-gas-turbine-order-c293d335?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-10 15:30",
-        "title": "SoftBank Earnings Confirm Gas-Turbine Order Default",
-        "tag": "EARNINGS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Elon Musk previously claimed that SoftBank defaulted on a gas-turbine order. Second-quarter earnings from the Japanese investment firm have confirmed the accuracy of this claim.",
-        "market_impact": "Reputational impact",
-        "key_facts": [
-            "SoftBank is a Japanese investment company.",
-            "The confirmation appeared in the company's second-quarter earnings report."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 205,
-        "analysis": "The earnings report validates the claim made by Elon Musk regarding the status of the order. The snippet does not detail the financial magnitude of the default for either company.",
-        "what_to_watch": "",
-        "content": "<p>The earnings report validates the claim made by Elon Musk regarding the status of the order. The snippet does not detail the financial magnitude of the default for either company.</p>",
-        "slug": "softbank-earnings-confirm-gas-turbine-order-default-5f4bc8"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html",
-        "source": "CNBC",
-        "published": "2026-11-10 15:04",
-        "title": "Allegations Against Jensen Huang Highlight Nvidia China Risks",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Reports of an alleged affair between CEO Jensen Huang and a Chinese spy have surfaced. These claims draw fresh scrutiny to the company's influence on U.S. chip export policies regarding China.",
-        "market_impact": "Increased regulatory scrutiny",
-        "key_facts": [
-            "Jensen Huang is the CEO of Nvidia.",
-            "The situation involves potential influence over U.S. chip policy."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 144,
-        "analysis": "The allegations focus on the CEO's potential impact on government policy regarding chip sales. The snippet does not confirm the truth of the allegations or their direct impact on Nvidia's operations.",
-        "what_to_watch": "",
-        "content": "<p>The allegations focus on the CEO&#x27;s potential impact on government policy regarding chip sales. The snippet does not confirm the truth of the allegations or their direct impact on Nvidia&#x27;s operations.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "allegations-against-jensen-huang-highlight-nvidia-china-fc17e3"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-10/treasuries-slide-as-hot-us-inflation-cements-december-rate-bets",
-        "source": "Bloomberg",
-        "published": "2026-11-10 13:41",
-        "title": "Treasuries Decline Amid Expectations of December Rate Hike",
-        "tag": "FED",
-        "sentiment": "BEARISH",
-        "ai_summary": "Treasury prices fell as traders increased bets on a Federal Reserve interest rate hike in December. This shift follows evidence of persistent inflation in the U.S.",
-        "market_impact": "Yields rise",
-        "key_facts": [
-            "Treasuries sank following the inflation data.",
-            "Traders are solidifying bets on a rate increase."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 187,
-        "analysis": "The market is reacting to inflation data by pricing in a more hawkish stance from the Federal Reserve. The text does not confirm that a rate hike will occur in December.",
-        "what_to_watch": "Federal Reserve December meeting.",
-        "content": "<p>The market is reacting to inflation data by pricing in a more hawkish stance from the Federal Reserve. The text does not confirm that a rate hike will occur in December.</p><p><strong>What to watch:</strong> Federal Reserve December meeting.</p>",
-        "slug": "treasuries-decline-amid-expectations-of-december-rate-hike-e725ee"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-09/japan-household-outlays-fall-for-10th-month-as-inflation-lingers",
-        "source": "Bloomberg",
-        "published": "2026-11-09 23:34",
-        "title": "Japan Household Spending Drops at Fastest Pace Since 2020",
-        "tag": "ECONOMY",
-        "sentiment": "BEARISH",
-        "ai_summary": "Household expenditures in Japan experienced their sharpest reduction since the 2020 pandemic era. The contraction underscores enduring softness in domestic consumption even as policymakers consider policy tightening.",
-        "market_impact": "Complicates BOJ Tightening",
-        "key_facts": [
-            "Household spending contracted by the largest margin since 2020",
-            "The Bank of Japan sees inflation as entrenched enough to support further rate hikes"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 239,
-        "analysis": "The notable fact is that Japanese household spending recorded its steepest downturn since the 2020 pandemic. This consumer retrenchment could complicate the Bank of Japan's rate-hike trajectory, though the text states officials still see entrenched inflation warranting increases.",
-        "what_to_watch": "",
-        "content": "<p>The notable fact is that Japanese household spending recorded its steepest downturn since the 2020 pandemic. This consumer retrenchment could complicate the Bank of Japan&#x27;s rate-hike trajectory, though the text states officials still see entrenched inflation warranting increases.</p>",
-        "slug": "japan-household-spending-drops-at-fastest-pace-since-2020-bd20f6"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-09/australia-s-consumer-confidence-slumps-on-cost-of-living-fears",
-        "source": "Bloomberg",
-        "published": "2026-11-09 23:30",
-        "title": "Australian Consumer Sentiment Weakens Following Fifth Central Bank Hike",
-        "tag": "ECONOMY",
-        "sentiment": "BEARISH",
-        "ai_summary": "Consumer sentiment in Australia deteriorated further into pessimistic territory during November. The drop followed a fifth monetary policy tightening move this year by the central bank to curb elevated inflation.",
-        "market_impact": "Pressures Consumer Activity",
-        "key_facts": [
-            "Consumer confidence declined further into pessimistic levels in November",
-            "The Reserve Bank implemented its fifth interest-rate increase of the year to curb inflation"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 196,
-        "analysis": "The central development is the slump in Australian consumer confidence after the Reserve Bank's fifth interest rate increase of the year. Lower sentiment may weaken household expenditure, though the snippet does not provide specific retail or inflation figures.",
-        "what_to_watch": "",
-        "content": "<p>The central development is the slump in Australian consumer confidence after the Reserve Bank&#x27;s fifth interest rate increase of the year. Lower sentiment may weaken household expenditure, though the snippet does not provide specific retail or inflation figures.</p>",
-        "slug": "australian-consumer-sentiment-weakens-following-fifth-51798f"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-09/latest-oil-market-news-and-analysis-for-nov-10",
-        "source": "Bloomberg",
-        "published": "2026-11-09 23:01",
-        "title": "Crude Oil Approaches August Lows Following Trump Comments on Iran",
-        "tag": "COMMODITIES",
-        "sentiment": "BEARISH",
-        "ai_summary": "Crude prices traded near their weakest levels recorded since August. The retreat occurred after US President Donald Trump stated that additional military strikes against Iran would not be required.",
-        "market_impact": "Pressures Crude Oil",
-        "key_facts": [
-            "Oil traded close to its lowest price point since August",
-            "US President Donald Trump stated further strikes on Iran were not necessary"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 123,
-        "analysis": "The critical driver is the statement by the US president ruling out further military strikes on Iran. This reduces immediate geopolitical risk premiums in the energy sector, though the snippet does not indicate production or inventory levels.",
-        "what_to_watch": "",
-        "content": "<p>The critical driver is the statement by the US president ruling out further military strikes on Iran. This reduces immediate geopolitical risk premiums in the energy sector, though the snippet does not indicate production or inventory levels.</p>",
-        "slug": "crude-oil-approaches-august-lows-following-trump-comments-151aaf"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/09/jensen-huang-affair-nvidia-succession.html",
-        "source": "CNBC",
-        "published": "2026-11-09 22:56",
-        "title": "Jensen Huang Leadership Uncertainty Clouding Nvidia's Succession",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "The chief executive officer has led the semiconductor manufacturer since co-founding it in 1993, building it into a global market leader. Concerns have emerged regarding the firm's outlook given the absence of a designated successor.",
-        "market_impact": "Pressures Nvidia Shares",
-        "key_facts": [
-            "Jensen Huang co-founded the chipmaker in 1993",
-            "Nvidia developed into one of the most valuable corporations globally"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 153,
-        "analysis": "The central issue raised is the lack of a defined successor to Jensen Huang at Nvidia. This leadership uncertainty could weigh on long-term governance expectations, though the text does not detail any immediate corporate actions or operational disruptions.",
-        "what_to_watch": "",
-        "content": "<p>The central issue raised is the lack of a defined successor to Jensen Huang at Nvidia. This leadership uncertainty could weigh on long-term governance expectations, though the text does not detail any immediate corporate actions or operational disruptions.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "jensen-huang-leadership-uncertainty-clouding-nvidia-s-e33d7f"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/rocket-lab-shares-dip-after-the-companys-defining-quarter-misses-the-mark-9f74c3b5?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-09 22:49",
-        "title": "Rocket Lab Shares Decline Following Larger-Than-Expected Quarterly Loss",
-        "tag": "EARNINGS",
-        "sentiment": "BEARISH",
-        "ai_summary": "The rocket launch provider experienced a drop in its stock price after delivering its latest financial results. The quarterly loss exceeded what Wall Street analysts had previously anticipated.",
-        "market_impact": "Rocket Lab Declines",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 82,
-        "analysis": "The most decision-relevant point is that Rocket Lab's quarterly net loss came in wider than market projections. This performance shortfall may dampen investor sentiment toward the company's near-term profitability, though specific revenue and launch numbers are not provided.",
-        "what_to_watch": "",
-        "content": "<p>The most decision-relevant point is that Rocket Lab&#x27;s quarterly net loss came in wider than market projections. This performance shortfall may dampen investor sentiment toward the company&#x27;s near-term profitability, though specific revenue and launch numbers are not provided.</p>",
-        "tickers": [
-            "RKLB"
-        ],
-        "slug": "rocket-lab-shares-decline-following-larger-than-expected-225967"
     }
 ]

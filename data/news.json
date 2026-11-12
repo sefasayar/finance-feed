@@ -1,5 +1,198 @@
 [
     {
+        "original_link": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+        "source": "CNBC",
+        "published": "2026-11-12 16:23",
+        "title": "Nvidia Shares Stabilize Following CEO Resignation",
+        "tag": "STOCKS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Nvidia stock recovered from early losses after the announcement that CEO Jensen Huang is stepping down. CFO Colette Kress has been named interim CEO during the search for a successor.",
+        "market_impact": "Price stabilization",
+        "key_facts": [
+            "Colette Kress is the current CFO.",
+            "The company is actively looking for a new leader."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 96,
+        "analysis": "The immediate appointment of an interim CEO appears to have mitigated initial market concerns. The text does not detail the duration of the leadership search or the board's criteria for a permanent replacement.",
+        "what_to_watch": "The search process for a new permanent CEO.",
+        "content": "<p>The immediate appointment of an interim CEO appears to have mitigated initial market concerns. The text does not detail the duration of the leadership search or the board&#x27;s criteria for a permanent replacement.</p><p><strong>What to watch:</strong> The search process for a new permanent CEO.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-shares-stabilize-following-ceo-resignation-371308"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-12/rod-little-on-edgewell-s-growth-video",
+        "source": "Bloomberg",
+        "published": "2026-11-12 16:12",
+        "title": "Edgewell Personal Care Reports Margin Growth",
+        "tag": "EARNINGS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Edgewell Personal Care achieved a 500 basis point increase in gross margin through improved productivity and reduced promotional activity. CEO Rod Little highlighted the role of brand advertising and self-care trends in driving performance.",
+        "market_impact": "Positive earnings outlook",
+        "key_facts": [
+            "The company is focusing on value-focused product sizes.",
+            "Sunscreen business growth is linked to self-care trends."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 358,
+        "analysis": "The company's strategy of limiting promotions while increasing advertising appears to have successfully bolstered margins. The snippet does not provide specific revenue figures or projections for future quarters.",
+        "what_to_watch": "Future quarterly earnings reports.",
+        "content": "<p>The company&#x27;s strategy of limiting promotions while increasing advertising appears to have successfully bolstered margins. The snippet does not provide specific revenue figures or projections for future quarters.</p><p><strong>What to watch:</strong> Future quarterly earnings reports.</p>",
+        "slug": "edgewell-personal-care-reports-margin-growth-792a52"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/its-not-medicare-for-all-but-medicare-for-more-what-this-could-mean-for-workers-over-50-4a5c51a3?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-12 16:00",
+        "title": "Proposed Bill Could Lower Medicare Eligibility Age to 50",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "A new legislative proposal aims to expand Medicare coverage by lowering the eligibility age to 50. This change could potentially impact health coverage for approximately 60 million adults.",
+        "market_impact": "Healthcare sector shifts",
+        "key_facts": [
+            "The bill is distinct from Medicare for All.",
+            "It targets an expansion for 60 million adults."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 120,
+        "analysis": "The proposal represents a significant expansion of federal health coverage eligibility. The snippet does not specify the funding mechanisms or the likelihood of the bill passing through Congress.",
+        "what_to_watch": "Legislative progress of the proposed bill.",
+        "content": "<p>The proposal represents a significant expansion of federal health coverage eligibility. The snippet does not specify the funding mechanisms or the likelihood of the bill passing through Congress.</p><p><strong>What to watch:</strong> Legislative progress of the proposed bill.</p>",
+        "slug": "proposed-bill-could-lower-medicare-eligibility-age-to-50-583542"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/nvidia-is-spending-more-than-ever-on-washington-lobbying-it-still-may-not-be-able-to-stop-congress-from-limiting-its-china-chip-sales-now-d4c34c66?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-12 15:55",
+        "title": "Nvidia Increases Lobbying Amid China Chip Export Concerns",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "Nvidia has ramped up its lobbying efforts in Washington as pressure mounts to restrict semiconductor sales to China. Experts suggest that legislative action to ban these exports remains highly probable.",
+        "market_impact": "Regulatory risk",
+        "key_facts": [
+            "Nvidia is spending more on lobbying than ever before.",
+            "A former U.S. ambassador to Beijing expects a complete sales ban."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 163,
+        "analysis": "The company is attempting to influence policy despite strong congressional momentum toward a complete sales ban. The text does not clarify if the increased lobbying spending has yielded any concessions from lawmakers.",
+        "what_to_watch": "Congressional votes on semiconductor export restrictions.",
+        "content": "<p>The company is attempting to influence policy despite strong congressional momentum toward a complete sales ban. The text does not clarify if the increased lobbying spending has yielded any concessions from lawmakers.</p><p><strong>What to watch:</strong> Congressional votes on semiconductor export restrictions.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-increases-lobbying-amid-china-chip-export-concerns-1633bd"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/home-sales-plummet-to-lowest-level-since-the-great-recession-as-buyers-flee-the-market-624e6270?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-12 15:52",
+        "title": "US Home Sales Hit 16-Year Low as Prices Reach Record Highs",
+        "tag": "ECONOMY",
+        "sentiment": "BEARISH",
+        "ai_summary": "October home sales declined to their lowest level since the Great Recession. High mortgage rates of 7% have contributed to a significant drop in buyer activity.",
+        "market_impact": "Housing market slowdown",
+        "key_facts": [
+            "Sales reached a 16-year low in October.",
+            "Mortgage rates are currently at 7%."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 118,
+        "analysis": "The combination of record-high prices and elevated interest rates has created a challenging environment for home buyers. The snippet does not indicate whether price growth is expected to moderate in response to lower sales volume.",
+        "what_to_watch": "Future monthly home sales data.",
+        "content": "<p>The combination of record-high prices and elevated interest rates has created a challenging environment for home buyers. The snippet does not indicate whether price growth is expected to moderate in response to lower sales volume.</p><p><strong>What to watch:</strong> Future monthly home sales data.</p>",
+        "slug": "us-home-sales-hit-16-year-low-as-prices-reach-record-highs-894067"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/12/jensen-huangs-exit-from-nvidia-raises-questions-about-future-of-ai.html",
+        "source": "CNBC",
+        "published": "2026-11-12 15:46",
+        "title": "Nvidia CEO Jensen Huang Departs Company",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "Nvidia faces a leadership transition following the sudden departure of its CEO. The company must now navigate its future role in the artificial intelligence industry without its key figure.",
+        "market_impact": "Market uncertainty",
+        "key_facts": [
+            "Jensen Huang was a singular figure in AI development."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 132,
+        "analysis": "The departure of a central figure in the AI industry creates immediate leadership uncertainty. The text does not establish a specific succession timeline or the long-term strategic impact on Nvidia's operations.",
+        "what_to_watch": "The appointment of a permanent CEO.",
+        "content": "<p>The departure of a central figure in the AI industry creates immediate leadership uncertainty. The text does not establish a specific succession timeline or the long-term strategic impact on Nvidia&#x27;s operations.</p><p><strong>What to watch:</strong> The appointment of a permanent CEO.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-ceo-jensen-huang-departs-company-dfc7b8"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-12/nvidia-s-10-billion-anthropic-ipo-pledge-in-focus-with-ceo-exit",
+        "source": "Bloomberg",
+        "published": "2026-11-12 15:35",
+        "title": "Anthropic IPO Plans Face Uncertainty After Nvidia CEO Exit",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Anthropic's planned initial public offering is under review following the unexpected departure of Nvidia's CEO. The two companies share significant financial and strategic ties within the AI sector.",
+        "market_impact": "IPO market uncertainty",
+        "key_facts": [
+            "Nvidia pledged $10 billion to Anthropic.",
+            "Anthropic is planning a record initial public offering."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 204,
+        "analysis": "The leadership change at a major partner creates potential risks for Anthropic's upcoming public offering. The text does not confirm if the IPO timeline has been officially delayed or canceled.",
+        "what_to_watch": "Updates on Anthropic's IPO status.",
+        "content": "<p>The leadership change at a major partner creates potential risks for Anthropic&#x27;s upcoming public offering. The text does not confirm if the IPO timeline has been officially delayed or canceled.</p><p><strong>What to watch:</strong> Updates on Anthropic&#x27;s IPO status.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "anthropic-ipo-plans-face-uncertainty-after-nvidia-ceo-exit-5a98ec"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
+        "source": "CNBC",
+        "published": "2026-11-12 14:55",
+        "title": "Nvidia's Market Influence Questioned After CEO Exit",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "The departure of Nvidia's CEO has prompted concerns regarding the company's extensive network of corporate ties. Analysts are evaluating the potential for broader economic and financial instability.",
+        "market_impact": "Sector volatility",
+        "key_facts": [
+            "Nvidia is described as the central bank of AI.",
+            "The company maintains a wide web of ties to other firms."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 135,
+        "analysis": "The company's role as a central hub for AI-related corporate connections is now under scrutiny. The snippet does not provide evidence of specific financial damage or the mechanism by which such instability would occur.",
+        "what_to_watch": "",
+        "content": "<p>The company&#x27;s role as a central hub for AI-related corporate connections is now under scrutiny. The snippet does not provide evidence of specific financial damage or the mechanism by which such instability would occur.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-s-market-influence-questioned-after-ceo-exit-4adcec"
+    },
+    {
         "original_link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
         "source": "CNBC",
         "published": "2026-11-11 22:14",
@@ -387,191 +580,5 @@
         "what_to_watch": "",
         "content": "<p>The standout fact is the combination of CoreWeave&#x27;s beat, a strong quarter for OpenAI, and Anthropic&#x27;s IPO interest lifting morning stock trading. This could maintain positive short-term momentum for the AI theme, but the text does not detail the magnitude of the market&#x27;s gains or specific quarterly figures.</p>",
         "slug": "us-equities-advance-as-coreweave-openai-and-anthropic-71ade6"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-11/us-aim-is-to-de-risk-with-china-bessent-says-video",
-        "source": "Bloomberg",
-        "published": "2026-11-11 03:49",
-        "title": "US Seeks to De-Risk China Ties and Create AI Channel, Bessent Says",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "US Treasury Secretary Scott Bessent stated that American policy seeks to de-risk relations with China rather than fully decouple. Bessent also revealed ongoing work to establish a direct communication channel to report incidents involving artificial intelligence models.",
-        "market_impact": "Stabilizing trade sentiment",
-        "key_facts": [
-            "The remarks were delivered in New York at the National Committee on United States-China Relations.",
-            "The proposed direct channel is intended to alert either country to incidents involving super intelligence or AI models."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 391,
-        "analysis": "The Treasury's public commitment to de-risking over decoupling indicates an effort to maintain diplomatic and economic communication lines between the two economies. Establishing a direct notification channel for advanced AI could reduce incident risks, but the text does not confirm agreement from Chinese authorities.",
-        "what_to_watch": "",
-        "content": "<p>The Treasury&#x27;s public commitment to de-risking over decoupling indicates an effort to maintain diplomatic and economic communication lines between the two economies. Establishing a direct notification channel for advanced AI could reduce incident risks, but the text does not confirm agreement from Chinese authorities.</p>",
-        "slug": "us-seeks-to-de-risk-china-ties-and-create-ai-channel-198e34"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
-        "source": "CNBC",
-        "published": "2026-11-11 03:08",
-        "title": "Alibaba Plans Hong Kong Listing for Chip Unit T-Head",
-        "tag": "TECH",
-        "sentiment": "BULLISH",
-        "ai_summary": "Alibaba has announced plans to publicly list its semiconductor rival to Nvidia, T-Head. The firm previously submitted a confidential listing filing with the Hong Kong Stock Exchange on September 11.",
-        "market_impact": "Alibaba shares lift",
-        "key_facts": [
-            "T-Head is described as a chip rival to Nvidia.",
-            "The confidential listing application was submitted on Sept. 11 to the Hong Kong Stock Exchange."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 109,
-        "analysis": "The confidential filing marks a clear step toward publicly listing Alibaba's dedicated chipmaking division on the Hong Kong exchange. This move could provide dedicated valuation and capital for T-Head, though the snippet leaves the offering timeline and size unspecified.",
-        "what_to_watch": "",
-        "content": "<p>The confidential filing marks a clear step toward publicly listing Alibaba&#x27;s dedicated chipmaking division on the Hong Kong exchange. This move could provide dedicated valuation and capital for T-Head, though the snippet leaves the offering timeline and size unspecified.</p>",
-        "tickers": [
-            "BABA",
-            "NVDA"
-        ],
-        "slug": "alibaba-plans-hong-kong-listing-for-chip-unit-t-head-627f3b"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/one-reason-the-childrens-place-is-going-bankrupt-not-enough-children-b275eab0?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-11 01:54",
-        "title": "Children's Place Faces Bankruptcy Amid Weak Birth Rates and High Debt",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Children's Place is filing for bankruptcy protection after struggling with multiple headwinds. The retail chain holds $881 million in debt while managing pressure from cautious consumers and fierce competition.",
-        "market_impact": "Plunging equity value",
-        "key_facts": [
-            "The chain's financial burden includes $881 million in debt."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 119,
-        "analysis": "Carrying $881 million in obligations alongside dropping birth rates represents the primary structural burden forcing the retailer into bankruptcy proceedings. The filing poses significant risks to existing equity and debt holders, though the text does not detail restructuring terms or asset sales.",
-        "what_to_watch": "",
-        "content": "<p>Carrying $881 million in obligations alongside dropping birth rates represents the primary structural burden forcing the retailer into bankruptcy proceedings. The filing poses significant risks to existing equity and debt holders, though the text does not detail restructuring terms or asset sales.</p>",
-        "tickers": [
-            "PLCE"
-        ],
-        "slug": "children-s-place-faces-bankruptcy-amid-weak-birth-rates-and-db4212"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html",
-        "source": "CNBC",
-        "published": "2026-11-11 01:52",
-        "title": "Anthropic Launches Retail Share Offering in Australia Ahead of IPO",
-        "tag": "TECH",
-        "sentiment": "BULLISH",
-        "ai_summary": "Anthropic has introduced an Australian retail offering, permitting individual investors to apply for shares before its scheduled public debut. The opening occurred on Wednesday amid heightened scrutiny surrounding artificial intelligence.",
-        "market_impact": "Retail capital inflow",
-        "key_facts": [
-            "The offering opened specifically on Wednesday to Australian individual investors."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 140,
-        "analysis": "Anthropic is expanding its investor base directly to Australian retail participants prior to its planned initial public offering. This mechanism could widen access to company equity, though the provided text does not outline the IPO date, valuation, or regulatory details.",
-        "what_to_watch": "",
-        "content": "<p>Anthropic is expanding its investor base directly to Australian retail participants prior to its planned initial public offering. This mechanism could widen access to company equity, though the provided text does not outline the IPO date, valuation, or regulatory details.</p>",
-        "slug": "anthropic-launches-retail-share-offering-in-australia-ahead-3bbd31"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/coreweaves-stock-pops-as-new-financing-playbook-eases-debt-concerns-70241525?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-11 01:12",
-        "title": "CoreWeave Gains on Strong Revenue and $9 Billion Prepayment Plan",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "CoreWeave shares surged after reporting third-quarter revenue that surpassed expectations. Debt concerns were alleviated by the company securing $9 billion in planned prepayments.",
-        "market_impact": "CoreWeave shares rise",
-        "key_facts": [
-            "Third-quarter revenue surpassed forecasts.",
-            "Planned customer prepayments totaled $9 billion."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 125,
-        "analysis": "The confirmation of $9 billion in incoming prepayments together with better-than-expected revenue directly calmed market worries regarding the company's debt load. This could improve the firm's liquidity profile, but the report does not state total outstanding liabilities or full-year guidance.",
-        "what_to_watch": "",
-        "content": "<p>The confirmation of $9 billion in incoming prepayments together with better-than-expected revenue directly calmed market worries regarding the company&#x27;s debt load. This could improve the firm&#x27;s liquidity profile, but the report does not state total outstanding liabilities or full-year guidance.</p>",
-        "slug": "coreweave-gains-on-strong-revenue-and-9-billion-prepayment-22aea3"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-10/stock-market-today-dow-s-p-live-updates",
-        "source": "Bloomberg",
-        "published": "2026-11-10 22:32",
-        "title": "Asian Stocks Rise for Third Session While Regional Bonds Slump",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "Asian equity indexes extended their winning streak to three sessions due to ongoing enthusiasm for artificial intelligence assets. In contrast, regional debt fell after hotter-than-anticipated US inflation strengthened expectations for Federal Reserve interest rate hikes.",
-        "market_impact": "Equities up, bonds down",
-        "key_facts": [
-            "Asian shares advanced for a third consecutive trading day.",
-            "Regional government bonds slumped following hotter-than-anticipated US inflation readings."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 224,
-        "analysis": "Persistent artificial intelligence sentiment drove equity gains in Asia despite higher US inflation figures boosting expectations for tighter Federal Reserve policy. While equities showed resilience, the text does not indicate whether regional central banks plan to mirror potential US rate actions.",
-        "what_to_watch": "",
-        "content": "<p>Persistent artificial intelligence sentiment drove equity gains in Asia despite higher US inflation figures boosting expectations for tighter Federal Reserve policy. While equities showed resilience, the text does not indicate whether regional central banks plan to mirror potential US rate actions.</p>",
-        "slug": "asian-stocks-rise-for-third-session-while-regional-bonds-e5cd12"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-10/traders-who-rushed-to-safety-of-bonds-get-rattled-in-reversal",
-        "source": "Bloomberg",
-        "published": "2026-11-10 21:30",
-        "title": "US Treasuries Slump as Inflation and Fed Remarks Elevate Rate Hike Odds",
-        "tag": "FED",
-        "sentiment": "BEARISH",
-        "ai_summary": "Bullish positions in the United States government bond market suffered heavy losses following remarks from two Federal Reserve officials. Continued signs of persistent inflation added upward pressure to rate-hike probabilities, triggering a sell-off in Treasuries.",
-        "market_impact": "Treasury yields rise",
-        "key_facts": [
-            "Remarks from two Federal Reserve officials contributed to higher odds of interest-rate hikes",
-            "Persistent inflation indicators reversed recent bullish positioning in the bond market"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 253,
-        "analysis": "Hawkish commentary from two Federal Reserve officials alongside signs of persistent inflation rapidly eroded recent bond market gains. The snippet does not name the officials, identify the inflation data release, or quantify the magnitude of the Treasury slump.",
-        "what_to_watch": "",
-        "content": "<p>Hawkish commentary from two Federal Reserve officials alongside signs of persistent inflation rapidly eroded recent bond market gains. The snippet does not name the officials, identify the inflation data release, or quantify the magnitude of the Treasury slump.</p>",
-        "slug": "us-treasuries-slump-as-inflation-and-fed-remarks-elevate-01f1f9"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
-        "source": "CNBC",
-        "published": "2026-11-10 21:11",
-        "title": "Lawmakers Question Trump Defense of Nvidia CEO Jensen Huang",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Chuck Schumer asserted that national security is being compromised by Donald Trump's support for Nvidia's chief executive. Separately, House Select Committee on China Chairman John Moolenaar stated he expects clarity regarding Jensen Huang's ties.",
-        "market_impact": "Regulatory risk",
-        "key_facts": [
-            "Representative John Moolenaar serves as Republican chairman of the House Select Committee on China",
-            "Moolenaar told CNBC he expects answers regarding Jensen Huang's relationships"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 154,
-        "analysis": "Scrutiny from congressional leaders highlights growing political attention focused on Nvidia's chief executive and potential national security concerns. The text does not detail any formal legislative sanctions or specific policy actions targeting the company.",
-        "what_to_watch": "",
-        "content": "<p>Scrutiny from congressional leaders highlights growing political attention focused on Nvidia&#x27;s chief executive and potential national security concerns. The text does not detail any formal legislative sanctions or specific policy actions targeting the company.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "lawmakers-question-trump-defense-of-nvidia-ceo-jensen-huang-028fe8"
     }
 ]

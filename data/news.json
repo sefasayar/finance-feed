@@ -1,5 +1,172 @@
 [
     {
+        "original_link": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+        "source": "CNBC",
+        "published": "2026-11-13 18:56",
+        "title": "OpenAI Introduces ChatGPT Wallet for AI-Driven Purchases",
+        "tag": "TECH",
+        "sentiment": "BULLISH",
+        "ai_summary": "OpenAI has launched a new wallet feature that enables its AI agents to execute transactions on behalf of users. The service integrates with major payment networks including American Express, Mastercard, and Visa.",
+        "market_impact": "Sector expansion",
+        "key_facts": [
+            "Users retain existing credit card rewards through the new wallet.",
+            "The feature is designed for use by 'dots' AI agents."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "analysis_not_specific_enough_to_source"
+        ],
+        "source_description_chars": 139,
+        "analysis": "The integration of payment capabilities marks a shift toward autonomous AI commerce. The snippet does not specify the security protocols or the revenue model for this new service.",
+        "what_to_watch": "",
+        "content": "<p>The integration of payment capabilities marks a shift toward autonomous AI commerce. The snippet does not specify the security protocols or the revenue model for this new service.</p>",
+        "tickers": [
+            "AXP",
+            "MA",
+            "V"
+        ],
+        "slug": "openai-introduces-chatgpt-wallet-for-ai-driven-purchases-88d77a"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-13/chile-mulls-private-sector-role-in-codelco-mines",
+        "source": "Bloomberg",
+        "published": "2026-11-13 18:54",
+        "title": "Chile Explores Private Partnerships for Codelco Mines",
+        "tag": "COMMODITIES",
+        "sentiment": "BULLISH",
+        "ai_summary": "The Chilean government is evaluating plans to involve private companies in the operations of state-owned copper miner Codelco. These potential partnerships could extend beyond existing exploration ventures to include infrastructure.",
+        "market_impact": "Increased investment potential",
+        "key_facts": [
+            "Codelco is a state-owned copper giant.",
+            "Current private involvement is limited to exploration ventures."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 217,
+        "analysis": "Expanding private-sector involvement could alter the operational efficiency and capital structure of Codelco. The snippet does not indicate a timeline for these potential policy changes.",
+        "what_to_watch": "",
+        "content": "<p>Expanding private-sector involvement could alter the operational efficiency and capital structure of Codelco. The snippet does not indicate a timeline for these potential policy changes.</p>",
+        "slug": "chile-explores-private-partnerships-for-codelco-mines-6fa3ec"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/microsoft-stock-slumps-on-outage-that-includes-the-copilot-tool-it-has-been-heavily-promoting-4007dc4f?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-13 18:38",
+        "title": "Microsoft Reports Stability Following Outlook Service Outage",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Microsoft indicates that its systems are recovering following a widespread disruption to the Outlook service. An analyst estimates the incident could cost the company up to $400 million in potential customer compensation.",
+        "market_impact": "Potential earnings drag",
+        "key_facts": [
+            "The outage was widespread across the platform.",
+            "The estimated negative impact ranges from $100 million to $400 million."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 171,
+        "analysis": "The financial impact depends on the extent of credits or compensation Microsoft chooses to offer affected users. The snippet does not confirm if the company has committed to any specific reimbursement plan.",
+        "what_to_watch": "",
+        "content": "<p>The financial impact depends on the extent of credits or compensation Microsoft chooses to offer affected users. The snippet does not confirm if the company has committed to any specific reimbursement plan.</p>",
+        "tickers": [
+            "MSFT"
+        ],
+        "slug": "microsoft-reports-stability-following-outlook-service-outage-7b9f4e"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-13/customers-buying-nvidia-dip-guild-video",
+        "source": "Bloomberg",
+        "published": "2026-11-13 18:32",
+        "title": "Robinhood CIO Notes Continued Investor Interest in Nvidia",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Robinhood's Chief Investment Officer Stephanie Guild reports that customers are actively purchasing Nvidia shares during recent price dips. She emphasized that the company's upcoming earnings report will be a key indicator for its future outlook.",
+        "market_impact": "Retail sentiment indicator",
+        "key_facts": [
+            "Stephanie Guild serves as the Chief Investment Officer at Robinhood.",
+            "The comments were made on the program 'Open Interest'."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 261,
+        "analysis": "The trend of buying the dip reflects continued retail investor confidence in the stock. The snippet does not provide specific data on the volume of these purchases.",
+        "what_to_watch": "Nvidia's upcoming earnings report",
+        "content": "<p>The trend of buying the dip reflects continued retail investor confidence in the stock. The snippet does not provide specific data on the volume of these purchases.</p><p><strong>What to watch:</strong> Nvidia&#x27;s upcoming earnings report</p>",
+        "tickers": [
+            "NVDA",
+            "HOOD"
+        ],
+        "slug": "robinhood-cio-notes-continued-investor-interest-in-nvidia-ce4d94"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
+        "source": "CNBC",
+        "published": "2026-11-13 17:06",
+        "title": "Nvidia CEO Jensen Huang Resigns Following Affair Allegations",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Jensen Huang has stepped down as CEO of Nvidia. The resignation follows reports regarding his relationship with a woman identified as a Chinese spy.",
+        "market_impact": "Increased volatility",
+        "key_facts": [
+            "Scott Bessent criticized the Commerce Department regarding chip leakage to China.",
+            "The resignation occurred days after the affair was admitted."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 154,
+        "analysis": "The departure of a long-standing CEO creates significant leadership uncertainty for the company. The snippet does not provide details on the succession plan or the potential impact on Nvidia's operations.",
+        "what_to_watch": "",
+        "content": "<p>The departure of a long-standing CEO creates significant leadership uncertainty for the company. The snippet does not provide details on the succession plan or the potential impact on Nvidia&#x27;s operations.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-ceo-jensen-huang-resigns-following-affair-allegations-56336b"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
+        "source": "CNBC",
+        "published": "2026-11-13 15:44",
+        "title": "October Producer Price Index Increases 0.3%",
+        "tag": "ECONOMY",
+        "sentiment": "BEARISH",
+        "ai_summary": "Wholesale prices climbed 0.3% in October, bringing the annual inflation rate to 6.5%. This figure represents the highest annual increase in nearly four years.",
+        "market_impact": "Inflation concerns",
+        "key_facts": [
+            "The 6.5% annual rate is a four-year high.",
+            "Dow Jones consensus had predicted a 0.4% monthly increase."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 104,
+        "analysis": "The data shows that producer prices rose slightly less than the 0.4% consensus estimate. It is unclear how this specific monthly reading will influence future central bank policy decisions.",
+        "what_to_watch": "",
+        "content": "<p>The data shows that producer prices rose slightly less than the 0.4% consensus estimate. It is unclear how this specific monthly reading will influence future central bank policy decisions.</p>",
+        "slug": "october-producer-price-index-increases-0-3-22fe46"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-13/us-futures-gain-with-microsoft-outage-producer-prices-in-focus",
+        "source": "Bloomberg",
+        "published": "2026-11-13 13:19",
+        "title": "US Equities Decline as AI Sector Risks are Reassessed",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "US stock markets fell on Friday as investors grew cautious regarding the artificial intelligence sector. This shift in sentiment occurred despite wholesale inflation data that helped mitigate concerns over aggressive interest-rate hikes.",
+        "market_impact": "Market volatility",
+        "key_facts": [
+            "Wholesale inflation data was released on Friday.",
+            "Investors are reassessing risks associated with the AI trade."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 186,
+        "analysis": "The decline suggests a cooling of investor appetite for AI-related stocks amid rising risk awareness. The snippet does not detail which specific AI companies faced the most selling pressure.",
+        "what_to_watch": "",
+        "content": "<p>The decline suggests a cooling of investor appetite for AI-related stocks amid rising risk awareness. The snippet does not detail which specific AI companies faced the most selling pressure.</p>",
+        "slug": "us-equities-decline-as-ai-sector-risks-are-reassessed-878eaa"
+    },
+    {
         "original_link": "https://www.marketwatch.com/story/profit-surprises-are-normalizing-and-that-may-signal-a-healthier-stock-market-say-citi-strategists-d8cce7c2?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-13 11:41",
@@ -428,166 +595,5 @@
         "what_to_watch": "",
         "content": "<p>The central driver is the tech-led rally in U.S. equities tied to sustained artificial intelligence enthusiasm. This sentiment suggests near-term strength for Asian equity bourses, but the snippet does not confirm individual index performance or specific trading figures.</p>",
         "slug": "asian-equities-positioned-for-advances-following-wall-4552b3"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-11/bc-partners-to-buy-investcorp-bdc-amid-private-credit-shakeout",
-        "source": "Bloomberg",
-        "published": "2026-11-11 22:03",
-        "title": "BC Partners Acquires Investcorp BDC Amid Credit Sector Turmoil",
-        "tag": "STOCKS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "BC Partners has struck an agreement to acquire an underperforming business development company managed by Investcorp. The transaction comes amid consolidation driven by disruption across the $1.8 trillion private credit industry.",
-        "market_impact": "Private credit consolidation",
-        "key_facts": [
-            "The private credit market is currently valued at $1.8 trillion"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 195,
-        "analysis": "The key detail is the buyout of a struggling BDC within the $1.8 trillion private credit space by BC Partners. The deal highlights continued stress and acquisition activity in the sector, but the snippet leaves out the financial terms and specific asset values.",
-        "what_to_watch": "",
-        "content": "<p>The key detail is the buyout of a struggling BDC within the $1.8 trillion private credit space by BC Partners. The deal highlights continued stress and acquisition activity in the sector, but the snippet leaves out the financial terms and specific asset values.</p>",
-        "slug": "bc-partners-acquires-investcorp-bdc-amid-credit-sector-e46471"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-11 21:55",
-        "title": "Trading-Card Pack Openings Grow Into Two Billion Dollar Industry",
-        "tag": "TECH",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "The practice of opening packs of trading cards has expanded into a $2 billion market as specialized mobile applications attempt to capture market share. While these platforms alter the buying and selling process, analysts express concern over their slot-like payout structure.",
-        "market_impact": "Emerging market growth",
-        "key_facts": [
-            "The market for opening card packs has expanded to $2 billion",
-            "Analysts warn that slot-like payout features introduce notable risks"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 121,
-        "analysis": "The story emphasizes that mobile applications are transforming trading card sales within an industry valued at $2 billion. Increased scrutiny could emerge around gambling-like mechanics, though the text provides no details on specific application operators or regulatory steps.",
-        "what_to_watch": "",
-        "content": "<p>The story emphasizes that mobile applications are transforming trading card sales within an industry valued at $2 billion. Increased scrutiny could emerge around gambling-like mechanics, though the text provides no details on specific application operators or regulatory steps.</p>",
-        "slug": "trading-card-pack-openings-grow-into-two-billion-dollar-612922"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-11/bhp-names-adrian-wood-as-cfo-to-succeed-vandita-pant-mwcnk5t7",
-        "source": "Bloomberg",
-        "published": "2026-11-11 21:50",
-        "title": "BHP Appoints Adrian Wood as Chief Financial Officer",
-        "tag": "COMMODITIES",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "BHP Group has selected Adrian Wood to serve as its next Chief Financial Officer. Wood is slated to take over from Vandita Pant when she leaves the position in February.",
-        "market_impact": "Executive transition neutral",
-        "key_facts": [
-            "Current CFO Vandita Pant is leaving her role in February",
-            "Adrian Wood has been chosen by the mining firm to succeed her"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 126,
-        "analysis": "The notable development is the planned transition of BHP's chief financial officer role to Adrian Wood. While leadership changes can alter capital allocation, the text does not state any planned strategic pivots or reasons behind the departure.",
-        "what_to_watch": "Vandita Pant steps down from the role in February.",
-        "content": "<p>The notable development is the planned transition of BHP&#x27;s chief financial officer role to Adrian Wood. While leadership changes can alter capital allocation, the text does not state any planned strategic pivots or reasons behind the departure.</p><p><strong>What to watch:</strong> Vandita Pant steps down from the role in February.</p>",
-        "tickers": [
-            "BHP"
-        ],
-        "slug": "bhp-appoints-adrian-wood-as-chief-financial-officer-b98306"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/falling-oil-prices-are-no-longer-enough-to-bring-down-borrowing-costs-in-the-worlds-most-important-bond-market-3176d25a?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-11 21:42",
-        "title": "Treasury Yields Diverge From Dropping Oil Prices",
-        "tag": "ECONOMY",
-        "sentiment": "BEARISH",
-        "ai_summary": "A long-standing trading link between declining crude prices and falling Treasury yields has unraveled. This shift indicates that inflation worries in the bond market now extend well beyond energy prices.",
-        "market_impact": "Sticky borrowing costs",
-        "key_facts": [
-            "Treasury yields are no longer decreasing alongside sliding oil prices",
-            "Broader inflation worries are extending past the initial energy shock"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 161,
-        "analysis": "The breakdown in the historical correlation between oil and bond yields points to broader underlying inflation pressures. Higher borrowing costs may persist despite energy weakness, though the snippet does not provide specific yield levels or economic data.",
-        "what_to_watch": "",
-        "content": "<p>The breakdown in the historical correlation between oil and bond yields points to broader underlying inflation pressures. Higher borrowing costs may persist despite energy weakness, though the snippet does not provide specific yield levels or economic data.</p>",
-        "slug": "treasury-yields-diverge-from-dropping-oil-prices-902575"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/sandisks-stock-is-soaring-and-these-three-trends-could-send-it-even-higher-b0d7d5ec?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-11 21:40",
-        "title": "Sandisk Could Double Following Sector Shifts According to Evercore",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "Sandisk stock rose sharply as an Evercore analyst projected the shares could more than double from current prices. The optimistic forecast is driven by various structural developments unfolding across the memory sector.",
-        "market_impact": "Stock upside potential",
-        "key_facts": [
-            "Evercore anticipates shares could more than double from current levels",
-            "The forecast relies on structural transformations within the memory industry"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 145,
-        "analysis": "The primary catalyst is Evercore's prediction that industry-wide structural adjustments could propel Sandisk shares to more than twice their value. Memory sector shifts may bolster earnings, but the snippet does not detail the nature of these changes or any price targets.",
-        "what_to_watch": "",
-        "content": "<p>The primary catalyst is Evercore&#x27;s prediction that industry-wide structural adjustments could propel Sandisk shares to more than twice their value. Memory sector shifts may bolster earnings, but the snippet does not detail the nature of these changes or any price targets.</p>",
-        "slug": "sandisk-could-double-following-sector-shifts-according-to-27b573"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html",
-        "source": "CNBC",
-        "published": "2026-11-11 21:33",
-        "title": "US Officials Arrest Canadian Healthcare Executive Over Drug Imports",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Federal authorities have arrested a high-ranking executive from a Canadian healthcare firm regarding an alleged illicit prescription drug importation ring. Court documents indicate that two top executives face accusations related to the scheme.",
-        "market_impact": "Regulatory legal risk",
-        "key_facts": [
-            "Court records show accusations against two executives from a Canadian company",
-            "The alleged illicit activity involves prescription drug importation"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 149,
-        "analysis": "The key detail is the federal arrest and formal accusation of company leadership over unauthorized pharmaceutical importation. The development points to severe legal exposure for the business, although the text does not identify the company name or quantify the financial stakes.",
-        "what_to_watch": "",
-        "content": "<p>The key detail is the federal arrest and formal accusation of company leadership over unauthorized pharmaceutical importation. The development points to severe legal exposure for the business, although the text does not identify the company name or quantify the financial stakes.</p>",
-        "slug": "us-officials-arrest-canadian-healthcare-executive-over-drug-fd6c89"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html",
-        "source": "CNBC",
-        "published": "2026-11-11 20:30",
-        "title": "Canadian Ambassador Warns Trump Tariffs Threaten US Investment",
-        "tag": "ECONOMY",
-        "sentiment": "BEARISH",
-        "ai_summary": "Canada's ambassador warned that tariffs imposed by Donald Trump are elevating costs and jeopardizing business investment in the United States. Trade frictions continue to pose hurdles for ongoing bilateral negotiations.",
-        "market_impact": "Higher cross-border costs",
-        "key_facts": [
-            "Trump tariffs are cited as increasing costs and endangering investment",
-            "Trade friction continues to complicate negotiations between Canada and the U.S."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 144,
-        "analysis": "The central issue highlighted is that trade tariffs are increasing business costs and disrupting bilateral discussions. This dynamic could dampen cross-border economic activity, but the report does not state which specific sectors or goods are most vulnerable.",
-        "what_to_watch": "",
-        "content": "<p>The central issue highlighted is that trade tariffs are increasing business costs and disrupting bilateral discussions. This dynamic could dampen cross-border economic activity, but the report does not state which specific sectors or goods are most vulnerable.</p>",
-        "slug": "canadian-ambassador-warns-trump-tariffs-threaten-us-3a7234"
     }
 ]

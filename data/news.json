@@ -1,5 +1,194 @@
 [
     {
+        "original_link": "https://www.marketwatch.com/story/profit-surprises-are-normalizing-and-that-may-signal-a-healthier-stock-market-say-citi-strategists-d8cce7c2?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-13 11:41",
+        "title": "Citi Strategists Note Normalization in Profit Surprises",
+        "tag": "EARNINGS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Most S&P 500 companies continue to exceed earnings expectations, though the magnitude of these beats has declined. Citi strategists suggest this trend may indicate a healthier market environment.",
+        "market_impact": "Market sentiment",
+        "key_facts": [
+            "The majority of S&P 500 firms reported above-consensus earnings.",
+            "Beats are significantly lower than in recent quarters."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 155,
+        "analysis": "The narrowing of earnings surprises suggests a shift in corporate performance reporting. The snippet does not provide specific data on the current average percentage of earnings beats.",
+        "what_to_watch": "",
+        "content": "<p>The narrowing of earnings surprises suggests a shift in corporate performance reporting. The snippet does not provide specific data on the current average percentage of earnings beats.</p>",
+        "slug": "citi-strategists-note-normalization-in-profit-surprises-d4641f"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-13/new-city-of-london-lord-mayor-seeks-to-get-trillions-of-uk-pensions-invested",
+        "source": "Bloomberg",
+        "published": "2026-11-13 11:26",
+        "title": "New Lord Mayor Aims to Direct Pension Funds into UK Investments",
+        "tag": "ECONOMY",
+        "sentiment": "BULLISH",
+        "ai_summary": "Bronek Masojada, the new Lord Mayor of the City of London, plans to increase the UK's competitiveness. His initiative focuses on deploying trillions in pension savings toward domestic investments.",
+        "market_impact": "Capital allocation",
+        "key_facts": [
+            "Bronek Masojada previously worked in the insurance industry.",
+            "The goal is to boost the competitiveness of the UK."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 292,
+        "analysis": "The push to utilize pension funds could provide significant liquidity for UK-based assets. It is not established how much of these funds will be successfully redirected under the new leadership.",
+        "what_to_watch": "",
+        "content": "<p>The push to utilize pension funds could provide significant liquidity for UK-based assets. It is not established how much of these funds will be successfully redirected under the new leadership.</p>",
+        "slug": "new-lord-mayor-aims-to-direct-pension-funds-into-uk-8b1398"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+        "source": "CNBC",
+        "published": "2026-11-13 11:23",
+        "title": "Microsoft Services Experience Widespread Outage",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "Users reported disruptions across several Microsoft platforms on Thursday. The outage impacted access to Outlook, Teams, and other 365 services.",
+        "market_impact": "Service disruption",
+        "key_facts": [
+            "Affected services include Outlook and Teams."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 86,
+        "analysis": "The outage affected core productivity tools used by many businesses. It is unclear how long the technical issues will persist or the extent of the financial impact on the company.",
+        "what_to_watch": "",
+        "content": "<p>The outage affected core productivity tools used by many businesses. It is unclear how long the technical issues will persist or the extent of the financial impact on the company.</p>",
+        "tickers": [
+            "MSFT"
+        ],
+        "slug": "microsoft-services-experience-widespread-outage-d29d43"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/investors-are-underestimating-ai-but-the-real-challenge-is-diversification-this-strategist-says-8bd956c1?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-13 11:00",
+        "title": "HSBC Strategist Says Investors Underestimate AI Potential",
+        "tag": "TECH",
+        "sentiment": "BULLISH",
+        "ai_summary": "An HSBC investment officer argues that market participants are failing to fully grasp the impact of artificial intelligence. The strategist emphasizes that diversification remains a critical challenge for investors.",
+        "market_impact": "Sector outlook",
+        "key_facts": [
+            "The strategist is the global chief investment officer at HSBC."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 176,
+        "analysis": "The strategist highlights a potential gap between market perception and the long-term utility of AI. The snippet does not offer specific investment strategies or data to support this view.",
+        "what_to_watch": "",
+        "content": "<p>The strategist highlights a potential gap between market perception and the long-term utility of AI. The snippet does not offer specific investment strategies or data to support this view.</p>",
+        "slug": "hsbc-strategist-says-investors-underestimate-ai-potential-31a29f"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
+        "source": "CNBC",
+        "published": "2026-11-13 10:54",
+        "title": "Commerce Secretary Lutnick to Testify on Nvidia China Chip Sales",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "Secretary Lutnick agreed to appear before the Senate Banking Committee regarding Nvidia's operations. The testimony follows reports involving CEO Jensen Huang and allegations of contact with a foreign intelligence operative.",
+        "market_impact": "Regulatory scrutiny",
+        "key_facts": [
+            "The testimony concerns China chip sales."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts",
+            "analysis_not_specific_enough_to_source"
+        ],
+        "source_description_chars": 154,
+        "analysis": "The involvement of a cabinet official in a congressional inquiry suggests heightened political risk for the company. The snippet does not confirm the validity of the allegations against the CEO.",
+        "what_to_watch": "Senate Banking Committee hearing",
+        "content": "<p>The involvement of a cabinet official in a congressional inquiry suggests heightened political risk for the company. The snippet does not confirm the validity of the allegations against the CEO.</p><p><strong>What to watch:</strong> Senate Banking Committee hearing</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "commerce-secretary-lutnick-to-testify-on-nvidia-china-chip-35841f"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/13/canada-stellantis-auto-trump-tariffs-jeep.html",
+        "source": "CNBC",
+        "published": "2026-11-13 09:45",
+        "title": "Canada Threatens Stellantis Over Jeep Production Shift",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Canada is threatening legal action against Stellantis following the company's decision to move Jeep Compass production. The automaker cited U.S. auto tariffs as a reason for relocating output from Brampton to Illinois.",
+        "market_impact": "Legal risk",
+        "key_facts": [
+            "Stellantis canceled planned production in Brampton.",
+            "Future output is being moved to Illinois."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 149,
+        "analysis": "The dispute highlights the impact of trade policy on cross-border manufacturing operations. It is not established whether the threat of litigation will alter the company's production strategy.",
+        "what_to_watch": "",
+        "content": "<p>The dispute highlights the impact of trade policy on cross-border manufacturing operations. It is not established whether the threat of litigation will alter the company&#x27;s production strategy.</p>",
+        "tickers": [
+            "STLA"
+        ],
+        "slug": "canada-threatens-stellantis-over-jeep-production-shift-97a532"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-13/european-shares-pull-back-from-record-high-after-four-day-rally",
+        "source": "Bloomberg",
+        "published": "2026-11-13 08:22",
+        "title": "European Stocks Stall After Record-Breaking Rally",
+        "tag": "STOCKS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "European markets remained flat following a four-day period of record highs. Gains in the banking and oil sectors were offset by losses in industrial and consumer stocks.",
+        "market_impact": "Market consolidation",
+        "key_facts": [
+            "The rally lasted for four days.",
+            "Industrial and consumer shares declined."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "analysis_not_specific_enough_to_source"
+        ],
+        "source_description_chars": 171,
+        "analysis": "The market is experiencing a pause after a period of significant growth. The snippet does not indicate whether this represents a long-term trend or a temporary correction.",
+        "what_to_watch": "",
+        "content": "<p>The market is experiencing a pause after a period of significant growth. The snippet does not indicate whether this represents a long-term trend or a temporary correction.</p>",
+        "slug": "european-stocks-stall-after-record-breaking-rally-613068"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-12/stock-market-today-dow-s-p-live-updates",
+        "source": "Bloomberg",
+        "published": "2026-11-12 22:17",
+        "title": "US Stocks Rise Ahead of Inflation Data Release",
+        "tag": "ECONOMY",
+        "sentiment": "BULLISH",
+        "ai_summary": "US stocks are expected to open higher as investors await upcoming inflation reports. The market remains focused on Federal Reserve rate-hike expectations and the recent departure of Nvidia's CEO.",
+        "market_impact": "Market volatility",
+        "key_facts": [
+            "The week was marked by a rise in Fed rate-hike bets.",
+            "Jensen Huang has been ousted from Nvidia Corp."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 205,
+        "analysis": "The upcoming inflation data is a key factor for Federal Reserve policy expectations. The snippet does not provide details on the expected impact of the CEO's departure on Nvidia's operations.",
+        "what_to_watch": "Inflation data release",
+        "content": "<p>The upcoming inflation data is a key factor for Federal Reserve policy expectations. The snippet does not provide details on the expected impact of the CEO&#x27;s departure on Nvidia&#x27;s operations.</p><p><strong>What to watch:</strong> Inflation data release</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "us-stocks-rise-ahead-of-inflation-data-release-6488d8"
+    },
+    {
         "original_link": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
         "source": "CNBC",
         "published": "2026-11-12 16:23",
@@ -400,185 +589,5 @@
         "what_to_watch": "",
         "content": "<p>The central issue highlighted is that trade tariffs are increasing business costs and disrupting bilateral discussions. This dynamic could dampen cross-border economic activity, but the report does not state which specific sectors or goods are most vulnerable.</p>",
         "slug": "canadian-ambassador-warns-trump-tariffs-threaten-us-3a7234"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-11/india-simplifies-visa-rules-to-draw-more-foreign-visitors",
-        "source": "Bloomberg",
-        "published": "2026-11-11 15:30",
-        "title": "India Overhauls Visa Regulations to Boost Business and Tourism Inflows",
-        "tag": "ECONOMY",
-        "sentiment": "BULLISH",
-        "ai_summary": "India is easing travel requirements for international arrivals through a restructured visa framework. The policy adjustment seeks to facilitate international business visits alongside medical, student, and leisure tourism.",
-        "market_impact": "Facilitates foreign travel",
-        "key_facts": [
-            "The policy overhaul targets tourists, students, and medical travelers."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 189,
-        "analysis": "The primary development is India's administrative easing of entry rules across corporate, leisure, medical, and educational categories. This may enhance cross-border business access and international travel spending in the country, but the snippet does not reveal the implementation date or specific rule details.",
-        "what_to_watch": "",
-        "content": "<p>The primary development is India&#x27;s administrative easing of entry rules across corporate, leisure, medical, and educational categories. This may enhance cross-border business access and international travel spending in the country, but the snippet does not reveal the implementation date or specific rule details.</p>",
-        "slug": "india-overhauls-visa-regulations-to-boost-business-and-49fc7d"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/11/coreweave-ceo-election-data-center-buildout.html",
-        "source": "CNBC",
-        "published": "2026-11-11 15:28",
-        "title": "CoreWeave CEO Halts Planned Stock Sales Following Upbeat Financial Results",
-        "tag": "TECH",
-        "sentiment": "BULLISH",
-        "ai_summary": "CoreWeave surpassed revenue estimates and lifted its forward guidance. Chief Executive Mike Intrator confirmed the cancellation of his planned share disposal program following the recent midterm elections.",
-        "market_impact": "Boosts company sentiment",
-        "key_facts": [
-            "CEO Mike Intrator stated the firm will be fine despite last week's Democratic midterm sweep."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 154,
-        "analysis": "The decisive development is that CoreWeave exceeded revenue forecasts while its CEO canceled a planned stock sale. This could bolster confidence in the company's operating outlook, although the text does not provide specific revenue figures or details of the canceled sale.",
-        "what_to_watch": "",
-        "content": "<p>The decisive development is that CoreWeave exceeded revenue forecasts while its CEO canceled a planned stock sale. This could bolster confidence in the company&#x27;s operating outlook, although the text does not provide specific revenue figures or details of the canceled sale.</p>",
-        "slug": "coreweave-ceo-halts-planned-stock-sales-following-upbeat-8961e7"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/micron-and-other-ai-stocks-surge-as-coreweave-calms-wall-streets-worst-fears-0a18152a?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-11 15:26",
-        "title": "CoreWeave Lifts AI and Chip Shares with Enhanced Economics and Debt Plans",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "A commitment to debt discipline and stronger economics from CoreWeave fueled an industry-wide advance in semiconductor equities. Suppliers including Micron and Lumentum saw gains alongside the wider artificial intelligence sector.",
-        "market_impact": "Chip sector gains",
-        "key_facts": [
-            "CoreWeave pledged to exercise discipline regarding its debt.",
-            "The development sparked a broad rally across the semiconductor sector."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 132,
-        "analysis": "The focal factor is CoreWeave's pledge toward debt discipline alongside stronger AI economics. This could sustain momentum across partnering semiconductor suppliers, though the snippet does not specify any financial targets or duration of the rally.",
-        "what_to_watch": "",
-        "content": "<p>The focal factor is CoreWeave&#x27;s pledge toward debt discipline alongside stronger AI economics. This could sustain momentum across partnering semiconductor suppliers, though the snippet does not specify any financial targets or duration of the rally.</p>",
-        "tickers": [
-            "MU",
-            "LITE"
-        ],
-        "slug": "coreweave-lifts-ai-and-chip-shares-with-enhanced-economics-889e3e"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/market-angst-is-driving-investors-into-low-volatility-stocks-as-ai-trade-stumbles-23d905e9?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-11 15:15",
-        "title": "Investors Turn to Low-Volatility Equities as AI Retreats and Yields Linger",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Persistent pressure from high bond yields alongside a steep decline in artificial intelligence equities is elevating market stress. In response, market participants are rotating capital toward lower-volatility investments.",
-        "market_impact": "Rotation to defensive",
-        "key_facts": [
-            "Artificial intelligence stocks experienced a sharp selloff.",
-            "Bond yields remain stubbornly elevated."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 130,
-        "analysis": "The most actionable fact is that high bond yields and a sharp selloff in AI stocks are sparking broader market anxiety. This indicates capital may continue flowing toward defensive low-volatility shares, though the snippet does not name specific stocks or yield levels.",
-        "what_to_watch": "",
-        "content": "<p>The most actionable fact is that high bond yields and a sharp selloff in AI stocks are sparking broader market anxiety. This indicates capital may continue flowing toward defensive low-volatility shares, though the snippet does not name specific stocks or yield levels.</p>",
-        "slug": "investors-turn-to-low-volatility-equities-as-ai-retreats-884246"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-11/cpi-report-doesn-t-warrant-50-bps-hike-david-rosenberg-video",
-        "source": "Bloomberg",
-        "published": "2026-11-11 15:13",
-        "title": "David Rosenberg Says Inflation Data Does Not Justify 50-Basis-Point Fed Hike",
-        "tag": "FED",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Economist David Rosenberg observed that a half-point rate increase by the central bank in December is possible but not certain. He argued the current inflation data does not substantiate a hike of that magnitude.",
-        "market_impact": "Tempered hike expectations",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 175,
-        "analysis": "The key detail is Rosenberg's assessment that a 50-basis-point increase in December remains on the table but is not firmly established. This suggests rate expectations for December may face debate, though the snippet does not reveal the official view of the Federal Reserve.",
-        "what_to_watch": "",
-        "content": "<p>The key detail is Rosenberg&#x27;s assessment that a 50-basis-point increase in December remains on the table but is not firmly established. This suggests rate expectations for December may face debate, though the snippet does not reveal the official view of the Federal Reserve.</p>",
-        "slug": "david-rosenberg-says-inflation-data-does-not-justify-50-bae940"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
-        "source": "CNBC",
-        "published": "2026-11-11 14:35",
-        "title": "Nvidia Shares Recover as Investors Weigh Scrutiny Around CEO Jensen Huang",
-        "tag": "STOCKS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Nvidia's stock experienced a rebound leading into its upcoming financial report. The advance occurs as market participants evaluate potential fallout on business operations related to personal scrutiny surrounding CEO Jensen Huang.",
-        "market_impact": "Elevated stock volatility",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 107,
-        "analysis": "The central issue is the focus on whether personal scrutiny involving CEO Jensen Huang will disrupt Nvidia's underlying operations. The situation may weigh on investor sentiment ahead of earnings, but the snippet does not provide any confirmation of operational impacts or earnings metrics.",
-        "what_to_watch": "",
-        "content": "<p>The central issue is the focus on whether personal scrutiny involving CEO Jensen Huang will disrupt Nvidia&#x27;s underlying operations. The situation may weigh on investor sentiment ahead of earnings, but the snippet does not provide any confirmation of operational impacts or earnings metrics.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "nvidia-shares-recover-as-investors-weigh-scrutiny-around-7befb3"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
-        "source": "CNBC",
-        "published": "2026-11-11 14:24",
-        "title": "Fed's Goolsbee Expresses Concern Over October Inflation Acceleration",
-        "tag": "FED",
-        "sentiment": "BEARISH",
-        "ai_summary": "October consumer prices exceeded projections, prompting unease among central bank leadership. Policymakers are currently evaluating the possibility of delivering additional interest rate increases.",
-        "market_impact": "Higher rate expectations",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 107,
-        "analysis": "The critical takeaway is that the consumer price index climbed past expectations in October. This may support further rate hikes from the Federal Reserve, though the text does not state the exact size or timing of any future policy moves.",
-        "what_to_watch": "",
-        "content": "<p>The critical takeaway is that the consumer price index climbed past expectations in October. This may support further rate hikes from the Federal Reserve, though the text does not state the exact size or timing of any future policy moves.</p>",
-        "slug": "fed-s-goolsbee-expresses-concern-over-october-inflation-33a677"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-11/us-equity-futures-rise-as-ai-enthusiasm-counters-hot-inflation",
-        "source": "Bloomberg",
-        "published": "2026-11-11 13:28",
-        "title": "US Equities Advance as CoreWeave, OpenAI and Anthropic Bolster AI Complex",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "Strong quarterly performance from OpenAI alongside above-consensus CoreWeave metrics supported an opening rally in American stocks on Wednesday. Market interest in an IPO from Anthropic provided further momentum to the sector.",
-        "market_impact": "Equities open higher",
-        "key_facts": [
-            "Anthropic PBC's prospective IPO is generating investor enthusiasm.",
-            "OpenAI reported a blockbuster quarterly performance."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 219,
-        "analysis": "The standout fact is the combination of CoreWeave's beat, a strong quarter for OpenAI, and Anthropic's IPO interest lifting morning stock trading. This could maintain positive short-term momentum for the AI theme, but the text does not detail the magnitude of the market's gains or specific quarterly figures.",
-        "what_to_watch": "",
-        "content": "<p>The standout fact is the combination of CoreWeave&#x27;s beat, a strong quarter for OpenAI, and Anthropic&#x27;s IPO interest lifting morning stock trading. This could maintain positive short-term momentum for the AI theme, but the text does not detail the magnitude of the market&#x27;s gains or specific quarterly figures.</p>",
-        "slug": "us-equities-advance-as-coreweave-openai-and-anthropic-71ade6"
     }
 ]

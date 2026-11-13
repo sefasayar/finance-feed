@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://sefasayar.github.io/finance-feed/</loc><lastmod>2026-11-12</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://sefasayar.github.io/finance-feed/daily/</loc><lastmod>2026-11-12</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/</loc><lastmod>2026-11-13</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/daily/</loc><lastmod>2026-11-13</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-06.html</loc><lastmod>2026-11-06</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-07.html</loc><lastmod>2026-11-07</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-08.html</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
@@ -9,12 +9,16 @@
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-10.html</loc><lastmod>2026-11-10</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-11.html</loc><lastmod>2026-11-11</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-12.html</loc><lastmod>2026-11-12</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://sefasayar.github.io/finance-feed/tag/stocks.html</loc><lastmod>2026-11-12</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://sefasayar.github.io/finance-feed/tag/earnings.html</loc><lastmod>2026-11-12</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://sefasayar.github.io/finance-feed/tag/economy.html</loc><lastmod>2026-11-12</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://sefasayar.github.io/finance-feed/tag/tech.html</loc><lastmod>2026-11-12</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-13.html</loc><lastmod>2026-11-13</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/tag/earnings.html</loc><lastmod>2026-11-13</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/tag/economy.html</loc><lastmod>2026-11-13</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/tag/tech.html</loc><lastmod>2026-11-13</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/tag/stocks.html</loc><lastmod>2026-11-13</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/tag/commodities.html</loc><lastmod>2026-11-11</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/tag/fed.html</loc><lastmod>2026-11-11</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/news/citi-strategists-note-normalization-in-profit-surprises-d4641f.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/news/new-lord-mayor-aims-to-direct-pension-funds-into-uk-8b1398.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/news/us-stocks-rise-ahead-of-inflation-data-release-6488d8.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/news/edgewell-personal-care-reports-margin-growth-792a52.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/news/nvidia-increases-lobbying-amid-china-chip-export-concerns-1633bd.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/news/anthropic-ipo-plans-face-uncertainty-after-nvidia-ceo-exit-5a98ec.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>

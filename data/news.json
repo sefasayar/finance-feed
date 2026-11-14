@@ -1,5 +1,182 @@
 [
     {
+        "original_link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+        "source": "CNBC",
+        "published": "2026-11-14 00:33",
+        "title": "FAA Orders Nationwide Ground Stop Over Air Traffic Communications Outage",
+        "tag": "ECONOMY",
+        "sentiment": "BEARISH",
+        "ai_summary": "The Federal Aviation Administration halted departing flights across the country on Friday afternoon. Officials cited extraordinary circumstances alongside safety reasons for imposing the systemwide ground stop.",
+        "market_impact": "Airline travel disruption",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 152,
+        "analysis": "The FAA halted departing flights across the United States due to an air traffic communication system outage. This disruption could affect airline schedules and operational costs, though the text does not state the expected duration or financial toll.",
+        "what_to_watch": "",
+        "content": "<p>The FAA halted departing flights across the United States due to an air traffic communication system outage. This disruption could affect airline schedules and operational costs, though the text does not state the expected duration or financial toll.</p>",
+        "slug": "faa-orders-nationwide-ground-stop-over-air-traffic-1ccb5e"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-14 00:21",
+        "title": "FAA Nationwide Ground Stop Delays Over 10,000 Flights",
+        "tag": "ECONOMY",
+        "sentiment": "BEARISH",
+        "ai_summary": "A rare nationwide flight freeze has resulted in delays for more than 10,000 flights so far. Homeland Security Secretary Mullin stated there is no indication an attack caused the event.",
+        "market_impact": "Airline disruption",
+        "key_facts": [
+            "The agency cited extraordinary circumstances for the halt.",
+            "Homeland Security Secretary Mullin indicated there was no sign of an attack."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 182,
+        "analysis": "The FAA grounded flights nationwide citing extraordinary circumstances, while over 10,000 flights have already been delayed. The travel disruption may restrict passenger rebooking options because flights were already reduced amid a surge in fuel costs.",
+        "what_to_watch": "",
+        "content": "<p>The FAA grounded flights nationwide citing extraordinary circumstances, while over 10,000 flights have already been delayed. The travel disruption may restrict passenger rebooking options because flights were already reduced amid a surge in fuel costs.</p>",
+        "slug": "faa-nationwide-ground-stop-delays-over-10-000-flights-0cc207"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-14/us-flights-grounded-over-air-traffic-communication-issue-video",
+        "source": "Bloomberg",
+        "published": "2026-11-14 00:08",
+        "title": "US Flights Grounded Over Air Traffic Control Communication Problems",
+        "tag": "ECONOMY",
+        "sentiment": "BEARISH",
+        "ai_summary": "United States authorities ordered a nationwide grounding of flights due to communication issues. The disruption specifically impacted air traffic control operations.",
+        "market_impact": "Aviation operations stalled",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 164,
+        "analysis": "The nationwide grounding of flights stems from air traffic control communication problems. This could cause broad operational delays across the domestic travel sector, though the provided text does not outline the scope or resolution timeline.",
+        "what_to_watch": "",
+        "content": "<p>The nationwide grounding of flights stems from air traffic control communication problems. This could cause broad operational delays across the domestic travel sector, though the provided text does not outline the scope or resolution timeline.</p>",
+        "slug": "us-flights-grounded-over-air-traffic-control-communication-2594ec"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+        "source": "CNBC",
+        "published": "2026-11-13 23:54",
+        "title": "Republican-Led Congress Seeks Jensen Huang Appearance in Washington",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Lawmakers in the Republican-led Congress are seeking Jensen Huang's presence in Washington. The request comes ahead of Democrats taking control of the legislative body in January.",
+        "market_impact": "Regulatory scrutiny",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 109,
+        "analysis": "The central detail is the congressional demand for Jensen Huang to appear before leadership changes in January. This indicates potential political scrutiny for Nvidia, but the text does not detail the specific subject matter of the inquiry.",
+        "what_to_watch": "",
+        "content": "<p>The central detail is the congressional demand for Jensen Huang to appear before leadership changes in January. This indicates potential political scrutiny for Nvidia, but the text does not detail the specific subject matter of the inquiry.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "republican-led-congress-seeks-jensen-huang-appearance-in-ae3217"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-13/the-close-11-13-2026-video",
+        "source": "Bloomberg",
+        "published": "2026-11-13 23:48",
+        "title": "Nvidia Board Searches for New CEO as US Stocks Finish Week Higher",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Wall Street finished the trading week with equities moving higher as retail sectors drew attention. Meanwhile, Nvidia's board is actively conducting a search for its next chief executive officer.",
+        "market_impact": "Equities rise higher",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 864,
+        "analysis": "The snippet highlights that Nvidia's board is hunting for a new chief executive officer amid broader weekly equity gains. This confirms a leadership transition at Nvidia, but the text offers no details on potential candidates or timing.",
+        "what_to_watch": "",
+        "content": "<p>The snippet highlights that Nvidia&#x27;s board is hunting for a new chief executive officer amid broader weekly equity gains. This confirms a leadership transition at Nvidia, but the text offers no details on potential candidates or timing.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-board-searches-for-new-ceo-as-us-stocks-finish-week-a42ac4"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-13 22:21",
+        "title": "Nvidia Erases $573 Billion as Losing Streak Extends to Six Weeks",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "Nvidia shed $573 billion in market value this week, marking its sixth consecutive week of declining stock prices. The downward run represents a losing streak the company has not experienced in 14 years.",
+        "market_impact": "Market valuation loss",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 112,
+        "analysis": "The text documents a weekly market capitalization loss of $573 billion across a six-week decline. This sustained drop reflects severe selling pressure on the company, although the source snippet does not explain the underlying catalyst.",
+        "what_to_watch": "",
+        "content": "<p>The text documents a weekly market capitalization loss of $573 billion across a six-week decline. This sustained drop reflects severe selling pressure on the company, although the source snippet does not explain the underlying catalyst.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-erases-573-billion-as-losing-streak-extends-to-six-626517"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+        "source": "CNBC",
+        "published": "2026-11-13 22:18",
+        "title": "Nvidia Loses $1.7 Trillion in Market Value Amid Jensen Huang Departure",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "Nvidia shares experienced their longest weekly losing streak since 2012, erasing $1.7 trillion in market capitalization. The drop followed Jensen Huang's resignation and extended a downward trend that began in early October.",
+        "market_impact": "Share price decline",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 121,
+        "analysis": "The report highlights Jensen Huang's resignation and an ongoing share drop that wiped out $1.7 trillion in value. This points to acute pressure on Nvidia's valuation, though the snippet does not provide the reasons behind the departure or future guidance.",
+        "what_to_watch": "",
+        "content": "<p>The report highlights Jensen Huang&#x27;s resignation and an ongoing share drop that wiped out $1.7 trillion in value. This points to acute pressure on Nvidia&#x27;s valuation, though the snippet does not provide the reasons behind the departure or future guidance.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-loses-1-7-trillion-in-market-value-amid-jensen-huang-00ccf5"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-13 22:04",
+        "title": "Global Oil Supply Rises Above Demand for First Time Since February",
+        "tag": "COMMODITIES",
+        "sentiment": "BEARISH",
+        "ai_summary": "Global crude supplies are anticipated to soon outpace consumption for the first time since the war in Iran began in February. However, this projected surplus is not expected to automatically reduce diesel prices.",
+        "market_impact": "Crude surplus pressure",
+        "key_facts": [
+            "Global oil supplies are expected to exceed demand for the first time since the Iran war started in February.",
+            "A surplus in crude oil does not automatically yield lower retail diesel prices."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 193,
+        "analysis": "The key development is that the global crude market is expected to shift into a supply glut for the first time since February. While crude availability may rise, the text indicates diesel costs may not follow suit, though specific refining or price metrics are not provided.",
+        "what_to_watch": "",
+        "content": "<p>The key development is that the global crude market is expected to shift into a supply glut for the first time since February. While crude availability may rise, the text indicates diesel costs may not follow suit, though specific refining or price metrics are not provided.</p>",
+        "slug": "global-oil-supply-rises-above-demand-for-first-time-since-1fb504"
+    },
+    {
         "original_link": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
         "source": "CNBC",
         "published": "2026-11-13 18:56",
@@ -401,199 +578,5 @@
         "what_to_watch": "Future quarterly earnings reports.",
         "content": "<p>The company&#x27;s strategy of limiting promotions while increasing advertising appears to have successfully bolstered margins. The snippet does not provide specific revenue figures or projections for future quarters.</p><p><strong>What to watch:</strong> Future quarterly earnings reports.</p>",
         "slug": "edgewell-personal-care-reports-margin-growth-792a52"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/its-not-medicare-for-all-but-medicare-for-more-what-this-could-mean-for-workers-over-50-4a5c51a3?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-12 16:00",
-        "title": "Proposed Bill Could Lower Medicare Eligibility Age to 50",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "A new legislative proposal aims to expand Medicare coverage by lowering the eligibility age to 50. This change could potentially impact health coverage for approximately 60 million adults.",
-        "market_impact": "Healthcare sector shifts",
-        "key_facts": [
-            "The bill is distinct from Medicare for All.",
-            "It targets an expansion for 60 million adults."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 120,
-        "analysis": "The proposal represents a significant expansion of federal health coverage eligibility. The snippet does not specify the funding mechanisms or the likelihood of the bill passing through Congress.",
-        "what_to_watch": "Legislative progress of the proposed bill.",
-        "content": "<p>The proposal represents a significant expansion of federal health coverage eligibility. The snippet does not specify the funding mechanisms or the likelihood of the bill passing through Congress.</p><p><strong>What to watch:</strong> Legislative progress of the proposed bill.</p>",
-        "slug": "proposed-bill-could-lower-medicare-eligibility-age-to-50-583542"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/nvidia-is-spending-more-than-ever-on-washington-lobbying-it-still-may-not-be-able-to-stop-congress-from-limiting-its-china-chip-sales-now-d4c34c66?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-12 15:55",
-        "title": "Nvidia Increases Lobbying Amid China Chip Export Concerns",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Nvidia has ramped up its lobbying efforts in Washington as pressure mounts to restrict semiconductor sales to China. Experts suggest that legislative action to ban these exports remains highly probable.",
-        "market_impact": "Regulatory risk",
-        "key_facts": [
-            "Nvidia is spending more on lobbying than ever before.",
-            "A former U.S. ambassador to Beijing expects a complete sales ban."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 163,
-        "analysis": "The company is attempting to influence policy despite strong congressional momentum toward a complete sales ban. The text does not clarify if the increased lobbying spending has yielded any concessions from lawmakers.",
-        "what_to_watch": "Congressional votes on semiconductor export restrictions.",
-        "content": "<p>The company is attempting to influence policy despite strong congressional momentum toward a complete sales ban. The text does not clarify if the increased lobbying spending has yielded any concessions from lawmakers.</p><p><strong>What to watch:</strong> Congressional votes on semiconductor export restrictions.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "nvidia-increases-lobbying-amid-china-chip-export-concerns-1633bd"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/home-sales-plummet-to-lowest-level-since-the-great-recession-as-buyers-flee-the-market-624e6270?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-12 15:52",
-        "title": "US Home Sales Hit 16-Year Low as Prices Reach Record Highs",
-        "tag": "ECONOMY",
-        "sentiment": "BEARISH",
-        "ai_summary": "October home sales declined to their lowest level since the Great Recession. High mortgage rates of 7% have contributed to a significant drop in buyer activity.",
-        "market_impact": "Housing market slowdown",
-        "key_facts": [
-            "Sales reached a 16-year low in October.",
-            "Mortgage rates are currently at 7%."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 118,
-        "analysis": "The combination of record-high prices and elevated interest rates has created a challenging environment for home buyers. The snippet does not indicate whether price growth is expected to moderate in response to lower sales volume.",
-        "what_to_watch": "Future monthly home sales data.",
-        "content": "<p>The combination of record-high prices and elevated interest rates has created a challenging environment for home buyers. The snippet does not indicate whether price growth is expected to moderate in response to lower sales volume.</p><p><strong>What to watch:</strong> Future monthly home sales data.</p>",
-        "slug": "us-home-sales-hit-16-year-low-as-prices-reach-record-highs-894067"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/12/jensen-huangs-exit-from-nvidia-raises-questions-about-future-of-ai.html",
-        "source": "CNBC",
-        "published": "2026-11-12 15:46",
-        "title": "Nvidia CEO Jensen Huang Departs Company",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Nvidia faces a leadership transition following the sudden departure of its CEO. The company must now navigate its future role in the artificial intelligence industry without its key figure.",
-        "market_impact": "Market uncertainty",
-        "key_facts": [
-            "Jensen Huang was a singular figure in AI development."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 132,
-        "analysis": "The departure of a central figure in the AI industry creates immediate leadership uncertainty. The text does not establish a specific succession timeline or the long-term strategic impact on Nvidia's operations.",
-        "what_to_watch": "The appointment of a permanent CEO.",
-        "content": "<p>The departure of a central figure in the AI industry creates immediate leadership uncertainty. The text does not establish a specific succession timeline or the long-term strategic impact on Nvidia&#x27;s operations.</p><p><strong>What to watch:</strong> The appointment of a permanent CEO.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "nvidia-ceo-jensen-huang-departs-company-dfc7b8"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-12/nvidia-s-10-billion-anthropic-ipo-pledge-in-focus-with-ceo-exit",
-        "source": "Bloomberg",
-        "published": "2026-11-12 15:35",
-        "title": "Anthropic IPO Plans Face Uncertainty After Nvidia CEO Exit",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Anthropic's planned initial public offering is under review following the unexpected departure of Nvidia's CEO. The two companies share significant financial and strategic ties within the AI sector.",
-        "market_impact": "IPO market uncertainty",
-        "key_facts": [
-            "Nvidia pledged $10 billion to Anthropic.",
-            "Anthropic is planning a record initial public offering."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 204,
-        "analysis": "The leadership change at a major partner creates potential risks for Anthropic's upcoming public offering. The text does not confirm if the IPO timeline has been officially delayed or canceled.",
-        "what_to_watch": "Updates on Anthropic's IPO status.",
-        "content": "<p>The leadership change at a major partner creates potential risks for Anthropic&#x27;s upcoming public offering. The text does not confirm if the IPO timeline has been officially delayed or canceled.</p><p><strong>What to watch:</strong> Updates on Anthropic&#x27;s IPO status.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "anthropic-ipo-plans-face-uncertainty-after-nvidia-ceo-exit-5a98ec"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
-        "source": "CNBC",
-        "published": "2026-11-12 14:55",
-        "title": "Nvidia's Market Influence Questioned After CEO Exit",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "The departure of Nvidia's CEO has prompted concerns regarding the company's extensive network of corporate ties. Analysts are evaluating the potential for broader economic and financial instability.",
-        "market_impact": "Sector volatility",
-        "key_facts": [
-            "Nvidia is described as the central bank of AI.",
-            "The company maintains a wide web of ties to other firms."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 135,
-        "analysis": "The company's role as a central hub for AI-related corporate connections is now under scrutiny. The snippet does not provide evidence of specific financial damage or the mechanism by which such instability would occur.",
-        "what_to_watch": "",
-        "content": "<p>The company&#x27;s role as a central hub for AI-related corporate connections is now under scrutiny. The snippet does not provide evidence of specific financial damage or the mechanism by which such instability would occur.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "nvidia-s-market-influence-questioned-after-ceo-exit-4adcec"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
-        "source": "CNBC",
-        "published": "2026-11-11 22:14",
-        "title": "Nvidia Faces Export Tightening and Pushback Over CEO Stance",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Nvidia Chief Executive Jensen Huang faces calls for resignation alongside efforts to restrict AI chip exports to China. His opposition to strict export limits on artificial intelligence chips has provoked friction with congressional lawmakers.",
-        "market_impact": "Export curbs risk",
-        "key_facts": [
-            "Congressional China hawks were angered by Huang's opposition to chip limits",
-            "Officials are pushing for tighter controls on AI exports to China"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 128,
-        "analysis": "Lawmakers are moving to tighten restrictions on chip shipments to China while criticizing Huang's vocal opposition to such curbs. These actions could threaten Nvidia's AI chip business in China, though the text does not detail any finalized legislation or corporate response.",
-        "what_to_watch": "",
-        "content": "<p>Lawmakers are moving to tighten restrictions on chip shipments to China while criticizing Huang&#x27;s vocal opposition to such curbs. These actions could threaten Nvidia&#x27;s AI chip business in China, though the text does not detail any finalized legislation or corporate response.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "nvidia-faces-export-tightening-and-pushback-over-ceo-stance-44087d"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates",
-        "source": "Bloomberg",
-        "published": "2026-11-11 22:08",
-        "title": "Asian Equities Positioned for Advances Following Wall Street Rally",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "Stock markets across Asia prepared for higher openings, mirroring broad advances on Wall Street powered by major technology companies. Investors showed growing confidence that the artificial-intelligence-driven bull market still has momentum.",
-        "market_impact": "Market gains expected",
-        "key_facts": [
-            "Investors maintain confidence that the artificial intelligence bull market will endure"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 181,
-        "analysis": "The central driver is the tech-led rally in U.S. equities tied to sustained artificial intelligence enthusiasm. This sentiment suggests near-term strength for Asian equity bourses, but the snippet does not confirm individual index performance or specific trading figures.",
-        "what_to_watch": "",
-        "content": "<p>The central driver is the tech-led rally in U.S. equities tied to sustained artificial intelligence enthusiasm. This sentiment suggests near-term strength for Asian equity bourses, but the snippet does not confirm individual index performance or specific trading figures.</p>",
-        "slug": "asian-equities-positioned-for-advances-following-wall-4552b3"
     }
 ]

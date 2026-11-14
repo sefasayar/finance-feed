@@ -1,5 +1,101 @@
 [
     {
+        "original_link": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
+        "source": "CNBC",
+        "published": "2026-11-14 23:10",
+        "title": "SpaceX Successfully Catches Upper Stage of Starship Rocket",
+        "tag": "TECH",
+        "sentiment": "BULLISH",
+        "ai_summary": "SpaceX achieved a technical milestone during Starship Test Flight 15 by catching the rocket's upper stage. This mission represented the company's first attempt to recover both the booster and upper stage.",
+        "market_impact": "Positive for SpaceX",
+        "key_facts": [
+            "The catch occurred during Starship Test Flight 15.",
+            "The flight was the first time SpaceX attempted to catch both the booster and upper stage."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 128,
+        "analysis": "The critical achievement was SpaceX's first simultaneous effort to catch both the booster and upper stage during Starship Test Flight 15. The successful upper-stage catch may advance the company's reusable rocket operations, but the snippet does not provide financial details or commercial timelines.",
+        "what_to_watch": "",
+        "content": "<p>The critical achievement was SpaceX&#x27;s first simultaneous effort to catch both the booster and upper stage during Starship Test Flight 15. The successful upper-stage catch may advance the company&#x27;s reusable rocket operations, but the snippet does not provide financial details or commercial timelines.</p>",
+        "slug": "spacex-successfully-catches-upper-stage-of-starship-rocket-daadbb"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+        "source": "Bloomberg",
+        "published": "2026-11-14 20:00",
+        "title": "US Corporate Bonds Offering 6% Yields Draw Inflows Amid Equities Volatility",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "US corporate bond yields of 6% are attracting portfolio managers who want protection from stock market turbulence. Debt instruments have advanced in recent weeks following volatility linked to Nvidia.",
+        "market_impact": "Positive for credit",
+        "key_facts": [
+            "US corporate bonds have been rallying in recent weeks.",
+            "Money managers are looking to corporate bonds as shelter from equity market volatility."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 137,
+        "analysis": "The most significant fact is the recent rally in US corporate bonds alongside yields reaching 6%. These yields are encouraging money managers to reallocate away from stock turbulence, though the snippet does not establish specific issuers or the rally's endurance.",
+        "what_to_watch": "",
+        "content": "<p>The most significant fact is the recent rally in US corporate bonds alongside yields reaching 6%. These yields are encouraging money managers to reallocate away from stock turbulence, though the snippet does not establish specific issuers or the rally&#x27;s endurance.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "us-corporate-bonds-offering-6-yields-draw-inflows-amid-998927"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-14 17:50",
+        "title": "Market Underprices Economic Impact of Older Americans, Report Says",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Markets are heavily discounting the economic contribution of Americans aged 50 and above. The oversight by corporate America is characterized as a trillion-dollar issue.",
+        "market_impact": "Corporate outlook neutral",
+        "key_facts": [
+            "The mispricing concerns Americans aged 50 and older.",
+            "The issue is described as a trillion-dollar mistake by corporate America."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 90,
+        "analysis": "The focal point is the claim that markets are dramatically underpricing the economic weight of citizens age 50 and older. Recognizing this demographic shift could affect corporate planning, though the snippet does not provide specific company names or actionable economic metrics.",
+        "what_to_watch": "",
+        "content": "<p>The focal point is the claim that markets are dramatically underpricing the economic weight of citizens age 50 and older. Recognizing this demographic shift could affect corporate planning, though the snippet does not provide specific company names or actionable economic metrics.</p>",
+        "slug": "market-underprices-economic-impact-of-older-americans-5a17e1"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+        "source": "CNBC",
+        "published": "2026-11-14 17:46",
+        "title": "Two Major Investors Urge Nvidia Board to Consider Jensen Huang's Return",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Two shareholders holding roughly $2.13 billion in shares as of June 30 are pushing for a structured leadership search following Jensen Huang's resignation. They have asked the company's board to evaluate bringing Huang back to his former role.",
+        "market_impact": "Uncertain for NVDA",
+        "key_facts": [
+            "The investors disclosed roughly $2.13 billion in Nvidia stock as of June 30.",
+            "The investors are pushing for a deliberate executive search process following Huang's resignation."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 152,
+        "analysis": "The central development is the push by shareholders owning $2.13 billion in stock for a deliberate leadership search that includes Huang's possible return. This shareholder pressure could influence governance decisions, though the text does not state whether the board will comply or if Huang is willing to return.",
+        "what_to_watch": "",
+        "content": "<p>The central development is the push by shareholders owning $2.13 billion in stock for a deliberate leadership search that includes Huang&#x27;s possible return. This shareholder pressure could influence governance decisions, though the text does not state whether the board will comply or if Huang is willing to return.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "two-major-investors-urge-nvidia-board-to-consider-jensen-9a2034"
+    },
+    {
         "original_link": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
         "source": "CNBC",
         "published": "2026-11-14 16:46",
@@ -68,6 +164,69 @@
         "what_to_watch": "",
         "content": "<p>The transition of the founders to a new venture is the primary focus. The snippet does not provide financial details regarding the new brand or the current status of Poppi&#x27;s operations.</p>",
         "slug": "poppi-founders-discuss-business-journey-and-new-venture-d863ed"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-14/how-china-s-intelligence-operations-target-tech-video",
+        "source": "Bloomberg",
+        "published": "2026-11-14 15:41",
+        "title": "Chinese Intelligence Operations Target Technology Executives via Networks",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "A former CIA analyst stated that China's Ministry of State Security targets tech executives using personal and commercial connections to gather data. The operations leverage artificial intelligence to expand capabilities even when executives lack classified access.",
+        "market_impact": "Tech risk neutral",
+        "key_facts": [
+            "Former CIA analyst Peter Mattis stated China's Ministry of State Security utilizes business and personal ties to gather intelligence.",
+            "Executives without access to classified information are targets, with AI widening intelligence operations."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 534,
+        "analysis": "The key detail is the targeting of tech executives without classified access through personal networks and artificial intelligence tools. This indicates heightened counterintelligence risks for technology firms, but the snippet does not name specific targeted entities or immediate financial impacts.",
+        "what_to_watch": "",
+        "content": "<p>The key detail is the targeting of tech executives without classified access through personal networks and artificial intelligence tools. This indicates heightened counterintelligence risks for technology firms, but the snippet does not name specific targeted entities or immediate financial impacts.</p>",
+        "slug": "chinese-intelligence-operations-target-technology-26b78f"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-14/the-stadium-bidding-war-shaking-up-the-midwest-video",
+        "source": "Bloomberg",
+        "published": "2026-11-14 15:04",
+        "title": "Chicago Bears Stadium Selection Prompts Multi-Billion Dollar Bidding Contest",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "The Chicago Bears are reviewing three potential stadium sites in downtown Chicago, Arlington Heights, and Hammond, Indiana. The process has created an economic contest over billions of dollars in investments, public financing, and tax incentives.",
+        "market_impact": "Regional fiscal impact",
+        "key_facts": [
+            "The three sites under evaluation are downtown Chicago, suburban Arlington Heights, and Hammond, Indiana.",
+            "Former Indiana Governor Mitch Daniels warned that emotional stadium deals could leave taxpayers paying long after completion."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 563,
+        "analysis": "The critical fact is the competition among three Midwest locations involving potential billions in public financing and tax incentives. A completed project could create local jobs and development, though former Governor Mitch Daniels warns taxpayers might face long-term debt.",
+        "what_to_watch": "",
+        "content": "<p>The critical fact is the competition among three Midwest locations involving potential billions in public financing and tax incentives. A completed project could create local jobs and development, though former Governor Mitch Daniels warns taxpayers might face long-term debt.</p>",
+        "slug": "chicago-bears-stadium-selection-prompts-multi-billion-e43738"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/14/gta-6-grand-theft-auto-launch.html",
+        "source": "CNBC",
+        "published": "2026-11-14 14:54",
+        "title": "Rockstar Games Prepares to Launch Grand Theft Auto VI on November 19",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Rockstar is scheduled to debut Grand Theft Auto VI on November 19 amid high anticipation. The title's arrival is expected to influence varied sectors including content creation, music, food delivery, and tourism.",
+        "market_impact": "Gaming sector positive",
+        "key_facts": [
+            "The release of Grand Theft Auto VI is scheduled for Nov. 19.",
+            "Potential effects are cited across content creators, streaming, music, workplace time off, food delivery, and tourism."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 160,
+        "analysis": "The primary operational detail is the scheduled November 19 launch of Grand Theft Auto VI. While the release could drive business activity across digital content and services, the text does not disclose sales projections or specific company financials.",
+        "what_to_watch": "",
+        "content": "<p>The primary operational detail is the scheduled November 19 launch of Grand Theft Auto VI. While the release could drive business activity across digital content and services, the text does not disclose sales projections or specific company financials.</p>",
+        "slug": "rockstar-games-prepares-to-launch-grand-theft-auto-vi-on-e62244"
     },
     {
         "original_link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
@@ -404,166 +563,5 @@
             "MSFT"
         ],
         "slug": "microsoft-reports-stability-following-outlook-service-outage-7b9f4e"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-13/customers-buying-nvidia-dip-guild-video",
-        "source": "Bloomberg",
-        "published": "2026-11-13 18:32",
-        "title": "Robinhood CIO Notes Continued Investor Interest in Nvidia",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "Robinhood's Chief Investment Officer Stephanie Guild reports that customers are actively purchasing Nvidia shares during recent price dips. She emphasized that the company's upcoming earnings report will be a key indicator for its future outlook.",
-        "market_impact": "Retail sentiment indicator",
-        "key_facts": [
-            "Stephanie Guild serves as the Chief Investment Officer at Robinhood.",
-            "The comments were made on the program 'Open Interest'."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 261,
-        "analysis": "The trend of buying the dip reflects continued retail investor confidence in the stock. The snippet does not provide specific data on the volume of these purchases.",
-        "what_to_watch": "Nvidia's upcoming earnings report",
-        "content": "<p>The trend of buying the dip reflects continued retail investor confidence in the stock. The snippet does not provide specific data on the volume of these purchases.</p><p><strong>What to watch:</strong> Nvidia&#x27;s upcoming earnings report</p>",
-        "tickers": [
-            "NVDA",
-            "HOOD"
-        ],
-        "slug": "robinhood-cio-notes-continued-investor-interest-in-nvidia-ce4d94"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
-        "source": "CNBC",
-        "published": "2026-11-13 17:06",
-        "title": "Nvidia CEO Jensen Huang Resigns Following Affair Allegations",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Jensen Huang has stepped down as CEO of Nvidia. The resignation follows reports regarding his relationship with a woman identified as a Chinese spy.",
-        "market_impact": "Increased volatility",
-        "key_facts": [
-            "Scott Bessent criticized the Commerce Department regarding chip leakage to China.",
-            "The resignation occurred days after the affair was admitted."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 154,
-        "analysis": "The departure of a long-standing CEO creates significant leadership uncertainty for the company. The snippet does not provide details on the succession plan or the potential impact on Nvidia's operations.",
-        "what_to_watch": "",
-        "content": "<p>The departure of a long-standing CEO creates significant leadership uncertainty for the company. The snippet does not provide details on the succession plan or the potential impact on Nvidia&#x27;s operations.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "nvidia-ceo-jensen-huang-resigns-following-affair-allegations-56336b"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
-        "source": "CNBC",
-        "published": "2026-11-13 15:44",
-        "title": "October Producer Price Index Increases 0.3%",
-        "tag": "ECONOMY",
-        "sentiment": "BEARISH",
-        "ai_summary": "Wholesale prices climbed 0.3% in October, bringing the annual inflation rate to 6.5%. This figure represents the highest annual increase in nearly four years.",
-        "market_impact": "Inflation concerns",
-        "key_facts": [
-            "The 6.5% annual rate is a four-year high.",
-            "Dow Jones consensus had predicted a 0.4% monthly increase."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 104,
-        "analysis": "The data shows that producer prices rose slightly less than the 0.4% consensus estimate. It is unclear how this specific monthly reading will influence future central bank policy decisions.",
-        "what_to_watch": "",
-        "content": "<p>The data shows that producer prices rose slightly less than the 0.4% consensus estimate. It is unclear how this specific monthly reading will influence future central bank policy decisions.</p>",
-        "slug": "october-producer-price-index-increases-0-3-22fe46"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-13/us-futures-gain-with-microsoft-outage-producer-prices-in-focus",
-        "source": "Bloomberg",
-        "published": "2026-11-13 13:19",
-        "title": "US Equities Decline as AI Sector Risks are Reassessed",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "US stock markets fell on Friday as investors grew cautious regarding the artificial intelligence sector. This shift in sentiment occurred despite wholesale inflation data that helped mitigate concerns over aggressive interest-rate hikes.",
-        "market_impact": "Market volatility",
-        "key_facts": [
-            "Wholesale inflation data was released on Friday.",
-            "Investors are reassessing risks associated with the AI trade."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 186,
-        "analysis": "The decline suggests a cooling of investor appetite for AI-related stocks amid rising risk awareness. The snippet does not detail which specific AI companies faced the most selling pressure.",
-        "what_to_watch": "",
-        "content": "<p>The decline suggests a cooling of investor appetite for AI-related stocks amid rising risk awareness. The snippet does not detail which specific AI companies faced the most selling pressure.</p>",
-        "slug": "us-equities-decline-as-ai-sector-risks-are-reassessed-878eaa"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/profit-surprises-are-normalizing-and-that-may-signal-a-healthier-stock-market-say-citi-strategists-d8cce7c2?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-13 11:41",
-        "title": "Citi Strategists Note Normalization in Profit Surprises",
-        "tag": "EARNINGS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Most S&P 500 companies continue to exceed earnings expectations, though the magnitude of these beats has declined. Citi strategists suggest this trend may indicate a healthier market environment.",
-        "market_impact": "Market sentiment",
-        "key_facts": [
-            "The majority of S&P 500 firms reported above-consensus earnings.",
-            "Beats are significantly lower than in recent quarters."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 155,
-        "analysis": "The narrowing of earnings surprises suggests a shift in corporate performance reporting. The snippet does not provide specific data on the current average percentage of earnings beats.",
-        "what_to_watch": "",
-        "content": "<p>The narrowing of earnings surprises suggests a shift in corporate performance reporting. The snippet does not provide specific data on the current average percentage of earnings beats.</p>",
-        "slug": "citi-strategists-note-normalization-in-profit-surprises-d4641f"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-13/new-city-of-london-lord-mayor-seeks-to-get-trillions-of-uk-pensions-invested",
-        "source": "Bloomberg",
-        "published": "2026-11-13 11:26",
-        "title": "New Lord Mayor Aims to Direct Pension Funds into UK Investments",
-        "tag": "ECONOMY",
-        "sentiment": "BULLISH",
-        "ai_summary": "Bronek Masojada, the new Lord Mayor of the City of London, plans to increase the UK's competitiveness. His initiative focuses on deploying trillions in pension savings toward domestic investments.",
-        "market_impact": "Capital allocation",
-        "key_facts": [
-            "Bronek Masojada previously worked in the insurance industry.",
-            "The goal is to boost the competitiveness of the UK."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 292,
-        "analysis": "The push to utilize pension funds could provide significant liquidity for UK-based assets. It is not established how much of these funds will be successfully redirected under the new leadership.",
-        "what_to_watch": "",
-        "content": "<p>The push to utilize pension funds could provide significant liquidity for UK-based assets. It is not established how much of these funds will be successfully redirected under the new leadership.</p>",
-        "slug": "new-lord-mayor-aims-to-direct-pension-funds-into-uk-8b1398"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
-        "source": "CNBC",
-        "published": "2026-11-13 11:23",
-        "title": "Microsoft Services Experience Widespread Outage",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Users reported disruptions across several Microsoft platforms on Thursday. The outage impacted access to Outlook, Teams, and other 365 services.",
-        "market_impact": "Service disruption",
-        "key_facts": [
-            "Affected services include Outlook and Teams."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 86,
-        "analysis": "The outage affected core productivity tools used by many businesses. It is unclear how long the technical issues will persist or the extent of the financial impact on the company.",
-        "what_to_watch": "",
-        "content": "<p>The outage affected core productivity tools used by many businesses. It is unclear how long the technical issues will persist or the extent of the financial impact on the company.</p>",
-        "tickers": [
-            "MSFT"
-        ],
-        "slug": "microsoft-services-experience-widespread-outage-d29d43"
     }
 ]

@@ -166,6 +166,29 @@
         "slug": "poppi-founders-discuss-business-journey-and-new-venture-d863ed"
     },
     {
+        "original_link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+        "source": "CNBC",
+        "published": "2026-11-14 15:50",
+        "title": "Nvidia Leadership Turmoil and Congress Shift May Alter AI Market Dynamics",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "ETF specialists state that leadership changes at Nvidia alongside Democratic control of Congress may alter the AI investment landscape. These shifts could redirect demand and capital toward other Big Tech companies and competing chipmakers.",
+        "market_impact": "AI rotation potential",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 159,
+        "analysis": "Leadership instability at Nvidia is viewed by market experts as a potential catalyst for capital rotation across the artificial intelligence sector. Rival chipmakers and alternative Big Tech firms may benefit, though the snippet does not name specific alternative stocks or quantify the expected shift.",
+        "what_to_watch": "",
+        "content": "<p>Leadership instability at Nvidia is viewed by market experts as a potential catalyst for capital rotation across the artificial intelligence sector. Rival chipmakers and alternative Big Tech firms may benefit, though the snippet does not name specific alternative stocks or quantify the expected shift.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-leadership-turmoil-and-congress-shift-may-alter-ai-90e0a4"
+    },
+    {
         "original_link": "https://www.bloomberg.com/news/videos/2026-11-14/how-china-s-intelligence-operations-target-tech-video",
         "source": "Bloomberg",
         "published": "2026-11-14 15:41",
@@ -227,6 +250,97 @@
         "what_to_watch": "",
         "content": "<p>The primary operational detail is the scheduled November 19 launch of Grand Theft Auto VI. While the release could drive business activity across digital content and services, the text does not disclose sales projections or specific company financials.</p>",
         "slug": "rockstar-games-prepares-to-launch-grand-theft-auto-vi-on-e62244"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-14/spacex-pushes-starship-reusability-to-new-test-video",
+        "source": "Bloomberg",
+        "published": "2026-11-14 14:36",
+        "title": "SpaceX Tests Starship Catch to Advance Rocket System Reusability",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "SpaceX is attempting to catch its Starship rocket following its return from orbit to advance full vehicle reusability. Ross Hamilton noted that cheaper and more frequent flights could aid Starlink growth and space-based orbital data centers.",
+        "market_impact": "Neutral space industry",
+        "key_facts": [
+            "David Gura and Christina Ruffini hosted the discussion with Space Network co-founder Ross Hamilton on Bloomberg This Weekend.",
+            "Lower launch expenses and higher flight frequency are cited as catalysts for SpaceX's broader space goals and orbital data centers."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 443,
+        "analysis": "Achieving full reusability through Starship orbit-catch attempts is identified as the key operational milestone. Lower launch costs could accelerate commercial deployments such as Starlink and orbital data infrastructure, though the text does not establish whether the test succeeded.",
+        "what_to_watch": "",
+        "content": "<p>Achieving full reusability through Starship orbit-catch attempts is identified as the key operational milestone. Lower launch costs could accelerate commercial deployments such as Starlink and orbital data infrastructure, though the text does not establish whether the test succeeded.</p>",
+        "slug": "spacex-tests-starship-catch-to-advance-rocket-system-7ef792"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-14/bessent-lutnick-clash-over-nvidia-china-curbs-video",
+        "source": "Bloomberg",
+        "published": "2026-11-14 14:30",
+        "title": "Bessent and Lutnick Disagree Over Nvidia Chip Restrictions to China",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "Internal tensions have emerged within the Trump administration between Scott Bessent and Commerce Secretary Howard Lutnick regarding curbs on advanced Nvidia chips sent to China. Scrutiny has also focused on Lutnick's management of Megaspeed amid national security concerns over technology exports.",
+        "market_impact": "China export risks",
+        "key_facts": [
+            "Axios AI policy reporter Maria Curi reported the administration disagreements on Bloomberg This Weekend.",
+            "The debate involves national security implications surrounding advanced US technology shipments to China."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 518,
+        "analysis": "Disagreements among senior officials focus on whether to impose stricter limits on advanced Nvidia semiconductor shipments to China. Potential regulatory tightening could threaten Nvidia's export volumes, but the text does not establish whether any new restrictions have been officially implemented.",
+        "what_to_watch": "",
+        "content": "<p>Disagreements among senior officials focus on whether to impose stricter limits on advanced Nvidia semiconductor shipments to China. Potential regulatory tightening could threaten Nvidia&#x27;s export volumes, but the text does not establish whether any new restrictions have been officially implemented.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "bessent-and-lutnick-disagree-over-nvidia-chip-restrictions-356bc4"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-14/trump-heads-to-china-for-talks-with-xi-and-putin-video",
+        "source": "Bloomberg",
+        "published": "2026-11-14 14:11",
+        "title": "Trump Eyes China Talks While Transportation Secretary Duffy Seeks $50B",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Transportation Secretary Sean Duffy is pushing for $50 billion to overhaul the US air traffic control system following a nationwide FAA ground stop. Concurrently, President Donald Trump is preparing for an Asia trip featuring talks with Chinese President Xi Jinping centered on technology and AI.",
+        "market_impact": "Neutral economic policy",
+        "key_facts": [
+            "The $50 billion modernization push followed an administration response to a nationwide FAA ground stop.",
+            "The White House correspondent's report was delivered on Bloomberg This Weekend with hosts David Gura and Christina Ruffini."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 486,
+        "analysis": "A requested $50 billion investment in air traffic control infrastructure follows a nationwide aviation disruption. While technology and artificial intelligence are designated as key themes for upcoming bilateral discussions with China, the text does not establish any confirmed policy outcomes.",
+        "what_to_watch": "",
+        "content": "<p>A requested $50 billion investment in air traffic control infrastructure follows a nationwide aviation disruption. While technology and artificial intelligence are designated as key themes for upcoming bilateral discussions with China, the text does not establish any confirmed policy outcomes.</p>",
+        "slug": "trump-eyes-china-talks-while-transportation-secretary-duffy-a00311"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/14/berkshire-breaks-out-to-record-high-with-fourth-quarter-rally-reaching-19percent.html",
+        "source": "CNBC",
+        "published": "2026-11-14 14:02",
+        "title": "Berkshire Hathaway Shares Hit Record Highs in 19% Fourth-Quarter Rally",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Berkshire Hathaway shares extended their fourth-quarter surge to 19%, capping a strong week for the company. The stock recorded four consecutive all-time closing highs during this run.",
+        "market_impact": "Bullish Berkshire momentum",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 108,
+        "analysis": "Berkshire Hathaway shares have demonstrated sustained momentum with four straight record closing highs. This indicates continued strong demand for the company's equity, though the provided text does not establish the fundamental drivers behind the fourth-quarter rally.",
+        "what_to_watch": "",
+        "content": "<p>Berkshire Hathaway shares have demonstrated sustained momentum with four straight record closing highs. This indicates continued strong demand for the company&#x27;s equity, though the provided text does not establish the fundamental drivers behind the fourth-quarter rally.</p>",
+        "tickers": [
+            "BRK.A",
+            "BRK.B"
+        ],
+        "slug": "berkshire-hathaway-shares-hit-record-highs-in-19-fourth-c3b558"
     },
     {
         "original_link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
@@ -422,146 +536,26 @@
         "slug": "nvidia-board-searches-for-new-ceo-as-us-stocks-finish-week-a42ac4"
     },
     {
-        "original_link": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-13 22:21",
-        "title": "Nvidia Erases $573 Billion as Losing Streak Extends to Six Weeks",
+        "original_link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+        "source": "CNBC",
+        "published": "2026-11-13 23:42",
+        "title": "Lutnick Scrutinized Over Nvidia Ties Following CEO Resignation",
         "tag": "TECH",
         "sentiment": "BEARISH",
-        "ai_summary": "Nvidia shed $573 billion in market value this week, marking its sixth consecutive week of declining stock prices. The downward run represents a losing streak the company has not experienced in 14 years.",
-        "market_impact": "Market valuation loss",
+        "ai_summary": "Commerce Secretary Howard Lutnick faces growing questions regarding his sons' firm and its deep ties to Nvidia. The heightened scrutiny follows the resignation of Jensen Huang as chief executive officer of the chipmaker.",
+        "market_impact": "Uncertainty for Nvidia",
         "key_facts": [],
         "seo_indexable": false,
         "seo_indexability_reasons": [
-            "source_description_too_short",
             "fewer_than_two_supported_facts"
         ],
-        "source_description_chars": 112,
-        "analysis": "The text documents a weekly market capitalization loss of $573 billion across a six-week decline. This sustained drop reflects severe selling pressure on the company, although the source snippet does not explain the underlying catalyst.",
+        "source_description_chars": 156,
+        "analysis": "The departure of CEO Jensen Huang coincides with intensifying scrutiny over government ties and an alleged spy scandal involving the company. This could create regulatory or leadership headwinds for Nvidia, though the snippet does not establish specific policy actions or formal charges.",
         "what_to_watch": "",
-        "content": "<p>The text documents a weekly market capitalization loss of $573 billion across a six-week decline. This sustained drop reflects severe selling pressure on the company, although the source snippet does not explain the underlying catalyst.</p>",
+        "content": "<p>The departure of CEO Jensen Huang coincides with intensifying scrutiny over government ties and an alleged spy scandal involving the company. This could create regulatory or leadership headwinds for Nvidia, though the snippet does not establish specific policy actions or formal charges.</p>",
         "tickers": [
             "NVDA"
         ],
-        "slug": "nvidia-erases-573-billion-as-losing-streak-extends-to-six-626517"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
-        "source": "CNBC",
-        "published": "2026-11-13 22:18",
-        "title": "Nvidia Loses $1.7 Trillion in Market Value Amid Jensen Huang Departure",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Nvidia shares experienced their longest weekly losing streak since 2012, erasing $1.7 trillion in market capitalization. The drop followed Jensen Huang's resignation and extended a downward trend that began in early October.",
-        "market_impact": "Share price decline",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 121,
-        "analysis": "The report highlights Jensen Huang's resignation and an ongoing share drop that wiped out $1.7 trillion in value. This points to acute pressure on Nvidia's valuation, though the snippet does not provide the reasons behind the departure or future guidance.",
-        "what_to_watch": "",
-        "content": "<p>The report highlights Jensen Huang&#x27;s resignation and an ongoing share drop that wiped out $1.7 trillion in value. This points to acute pressure on Nvidia&#x27;s valuation, though the snippet does not provide the reasons behind the departure or future guidance.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "nvidia-loses-1-7-trillion-in-market-value-amid-jensen-huang-00ccf5"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-13 22:04",
-        "title": "Global Oil Supply Rises Above Demand for First Time Since February",
-        "tag": "COMMODITIES",
-        "sentiment": "BEARISH",
-        "ai_summary": "Global crude supplies are anticipated to soon outpace consumption for the first time since the war in Iran began in February. However, this projected surplus is not expected to automatically reduce diesel prices.",
-        "market_impact": "Crude surplus pressure",
-        "key_facts": [
-            "Global oil supplies are expected to exceed demand for the first time since the Iran war started in February.",
-            "A surplus in crude oil does not automatically yield lower retail diesel prices."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 193,
-        "analysis": "The key development is that the global crude market is expected to shift into a supply glut for the first time since February. While crude availability may rise, the text indicates diesel costs may not follow suit, though specific refining or price metrics are not provided.",
-        "what_to_watch": "",
-        "content": "<p>The key development is that the global crude market is expected to shift into a supply glut for the first time since February. While crude availability may rise, the text indicates diesel costs may not follow suit, though specific refining or price metrics are not provided.</p>",
-        "slug": "global-oil-supply-rises-above-demand-for-first-time-since-1fb504"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
-        "source": "CNBC",
-        "published": "2026-11-13 18:56",
-        "title": "OpenAI Introduces ChatGPT Wallet for AI-Driven Purchases",
-        "tag": "TECH",
-        "sentiment": "BULLISH",
-        "ai_summary": "OpenAI has launched a new wallet feature that enables its AI agents to execute transactions on behalf of users. The service integrates with major payment networks including American Express, Mastercard, and Visa.",
-        "market_impact": "Sector expansion",
-        "key_facts": [
-            "Users retain existing credit card rewards through the new wallet.",
-            "The feature is designed for use by 'dots' AI agents."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "analysis_not_specific_enough_to_source"
-        ],
-        "source_description_chars": 139,
-        "analysis": "The integration of payment capabilities marks a shift toward autonomous AI commerce. The snippet does not specify the security protocols or the revenue model for this new service.",
-        "what_to_watch": "",
-        "content": "<p>The integration of payment capabilities marks a shift toward autonomous AI commerce. The snippet does not specify the security protocols or the revenue model for this new service.</p>",
-        "tickers": [
-            "AXP",
-            "MA",
-            "V"
-        ],
-        "slug": "openai-introduces-chatgpt-wallet-for-ai-driven-purchases-88d77a"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-13/chile-mulls-private-sector-role-in-codelco-mines",
-        "source": "Bloomberg",
-        "published": "2026-11-13 18:54",
-        "title": "Chile Explores Private Partnerships for Codelco Mines",
-        "tag": "COMMODITIES",
-        "sentiment": "BULLISH",
-        "ai_summary": "The Chilean government is evaluating plans to involve private companies in the operations of state-owned copper miner Codelco. These potential partnerships could extend beyond existing exploration ventures to include infrastructure.",
-        "market_impact": "Increased investment potential",
-        "key_facts": [
-            "Codelco is a state-owned copper giant.",
-            "Current private involvement is limited to exploration ventures."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 217,
-        "analysis": "Expanding private-sector involvement could alter the operational efficiency and capital structure of Codelco. The snippet does not indicate a timeline for these potential policy changes.",
-        "what_to_watch": "",
-        "content": "<p>Expanding private-sector involvement could alter the operational efficiency and capital structure of Codelco. The snippet does not indicate a timeline for these potential policy changes.</p>",
-        "slug": "chile-explores-private-partnerships-for-codelco-mines-6fa3ec"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/microsoft-stock-slumps-on-outage-that-includes-the-copilot-tool-it-has-been-heavily-promoting-4007dc4f?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-13 18:38",
-        "title": "Microsoft Reports Stability Following Outlook Service Outage",
-        "tag": "TECH",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Microsoft indicates that its systems are recovering following a widespread disruption to the Outlook service. An analyst estimates the incident could cost the company up to $400 million in potential customer compensation.",
-        "market_impact": "Potential earnings drag",
-        "key_facts": [
-            "The outage was widespread across the platform.",
-            "The estimated negative impact ranges from $100 million to $400 million."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 171,
-        "analysis": "The financial impact depends on the extent of credits or compensation Microsoft chooses to offer affected users. The snippet does not confirm if the company has committed to any specific reimbursement plan.",
-        "what_to_watch": "",
-        "content": "<p>The financial impact depends on the extent of credits or compensation Microsoft chooses to offer affected users. The snippet does not confirm if the company has committed to any specific reimbursement plan.</p>",
-        "tickers": [
-            "MSFT"
-        ],
-        "slug": "microsoft-reports-stability-following-outlook-service-outage-7b9f4e"
+        "slug": "lutnick-scrutinized-over-nvidia-ties-following-ceo-be0f43"
     }
 ]

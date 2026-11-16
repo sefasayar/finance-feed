@@ -1,5 +1,223 @@
 [
     {
+        "original_link": "https://www.cnbc.com/2026/11/16/warren-buffett-donates-5point5-billion-thanksgiving.html",
+        "source": "CNBC",
+        "published": "2026-11-16 17:39",
+        "title": "Warren Buffett Donates $5.5 Billion",
+        "tag": "STOCKS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Berkshire Hathaway's chairman emeritus announced a $5.5 billion donation in a Thanksgiving letter. He retains approximately 182,140 Class A shares following the contribution.",
+        "market_impact": "Stable",
+        "key_facts": [
+            "The remaining shares are valued at roughly $162 billion.",
+            "The announcement was made via a Thanksgiving letter."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "analysis_not_specific_enough_to_source"
+        ],
+        "source_description_chars": 118,
+        "analysis": "The donation amount and remaining share count are the key figures provided. The snippet does not indicate any shift in Berkshire Hathaway's corporate strategy.",
+        "what_to_watch": "",
+        "content": "<p>The donation amount and remaining share count are the key figures provided. The snippet does not indicate any shift in Berkshire Hathaway&#x27;s corporate strategy.</p>",
+        "tickers": [
+            "BRK.A"
+        ],
+        "slug": "warren-buffett-donates-5-5-billion-2464be"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-16/lilly-pushes-buying-spree-beyond-32b-with-calytrix-deal-video",
+        "source": "Bloomberg",
+        "published": "2026-11-16 17:25",
+        "title": "Eli Lilly to Acquire Calytrix Bio for $1.5 Billion",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Eli Lilly & Co. has reached an agreement to purchase Calytrix Bio Inc. for up to $1.5 billion. This acquisition is part of a broader $32 billion investment strategy in the cancer and immunology sectors for 2026.",
+        "market_impact": "Strategic expansion",
+        "key_facts": [
+            "Calytrix Bio is a closely held company.",
+            "The deal is part of a series of acquisitions totaling $32 billion in 2026."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "analysis_not_specific_enough_to_source"
+        ],
+        "source_description_chars": 527,
+        "analysis": "The acquisition represents a continuation of the company's aggressive M&A strategy in the biotech space. The snippet does not detail the specific drug pipeline assets being acquired.",
+        "what_to_watch": "",
+        "content": "<p>The acquisition represents a continuation of the company&#x27;s aggressive M&amp;A strategy in the biotech space. The snippet does not detail the specific drug pipeline assets being acquired.</p>",
+        "tickers": [
+            "LLY"
+        ],
+        "slug": "eli-lilly-to-acquire-calytrix-bio-for-1-5-billion-9c14c8"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/16/trump-lutnick-nvidia-national-security-jensen-huant.html",
+        "source": "CNBC",
+        "published": "2026-11-16 16:52",
+        "title": "Trump Comments on Nvidia CEO Jensen Huang",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "President Trump stated he does not view the tenure of Nvidia's CEO as a national security risk. These remarks were made to reporters prior to an international trip.",
+        "market_impact": "Minimal",
+        "key_facts": [
+            "The comments were made before a trip to Asia.",
+            "The president addressed the issue in response to reporters."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 155,
+        "analysis": "The president's public stance on the company's leadership is the primary focus. The snippet does not establish any change in regulatory policy or business operations for Nvidia.",
+        "what_to_watch": "",
+        "content": "<p>The president&#x27;s public stance on the company&#x27;s leadership is the primary focus. The snippet does not establish any change in regulatory policy or business operations for Nvidia.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "trump-comments-on-nvidia-ceo-jensen-huang-0ea830"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/16/anthropic-cfo-krishna-rao-ipo.html",
+        "source": "CNBC",
+        "published": "2026-11-16 16:08",
+        "title": "Anthropic CFO Krishna Rao Gains Attention Ahead of IPO",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Finance chief Krishna Rao is receiving increased focus as Anthropic prepares for an initial public offering. His role is being highlighted by Wall Street observers.",
+        "market_impact": "Increased visibility",
+        "key_facts": [
+            "Krishna Rao serves as the finance chief for Anthropic."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 81,
+        "analysis": "The upcoming IPO is the primary driver of interest in the company's financial leadership. The snippet does not provide a timeline or valuation for the offering.",
+        "what_to_watch": "",
+        "content": "<p>The upcoming IPO is the primary driver of interest in the company&#x27;s financial leadership. The snippet does not provide a timeline or valuation for the offering.</p>",
+        "slug": "anthropic-cfo-krishna-rao-gains-attention-ahead-of-ipo-dbc77a"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/spacex-widens-its-lead-in-the-space-race-even-as-a-tech-selloff-weighs-on-its-stock-975f5c1f?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-16 15:59",
+        "title": "SpaceX Advances Space Race Amid Tech Market Volatility",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "SpaceX completed a largely successful Starship launch while a competitor's partner faced operational difficulties. The company continues to lead in the space sector despite broader technology stock declines.",
+        "market_impact": "Sector divergence",
+        "key_facts": [
+            "An Amazon partner experienced a setback.",
+            "SpaceX is maintaining its lead in the space race."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 86,
+        "analysis": "The successful launch is the key operational development for the company. The snippet does not establish the specific financial impact of the broader tech selloff on SpaceX's valuation.",
+        "what_to_watch": "",
+        "content": "<p>The successful launch is the key operational development for the company. The snippet does not establish the specific financial impact of the broader tech selloff on SpaceX&#x27;s valuation.</p>",
+        "tickers": [
+            "AMZN"
+        ],
+        "slug": "spacex-advances-space-race-amid-tech-market-volatility-4141a6"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/these-13-s-p-500-stocks-can-rise-up-to-70-over-the-next-year-according-to-analysts-21119af9?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-16 15:47",
+        "title": "Analysts See Upside Potential for Select S&P 500 Stocks",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Analysts suggest that 13 S&P 500 companies could see significant price appreciation over the next year. This outlook is supported by rising consensus earnings estimates, particularly within the semiconductor sector.",
+        "market_impact": "Market optimism",
+        "key_facts": [
+            "Semiconductor shares have declined since late September.",
+            "The potential upside for these stocks is estimated at up to 70%."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 235,
+        "analysis": "The increase in earnings estimates for semiconductor manufacturers is the primary factor cited for the positive outlook. The snippet does not provide the names of the 13 specific companies.",
+        "what_to_watch": "",
+        "content": "<p>The increase in earnings estimates for semiconductor manufacturers is the primary factor cited for the positive outlook. The snippet does not provide the names of the 13 specific companies.</p>",
+        "slug": "analysts-see-upside-potential-for-select-s-p-500-stocks-a47076"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/nvidias-stock-extends-declines-following-harsh-words-from-the-u-s-government-d721188e?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-16 15:22",
+        "title": "Nvidia Shares Fall Following New U.S. Export Rule",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "Nvidia's stock price declined after the U.S. Commerce Department introduced new restrictions. The regulation limits China's ability to access advanced chips remotely.",
+        "market_impact": "Downward pressure",
+        "key_facts": [
+            "The rule targets remote access to advanced technology.",
+            "The Commerce Department is the agency responsible for the new regulation."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 106,
+        "analysis": "The new Commerce Department rule is the direct cause of the market reaction. The snippet does not quantify the potential revenue impact of these export restrictions on Nvidia.",
+        "what_to_watch": "",
+        "content": "<p>The new Commerce Department rule is the direct cause of the market reaction. The snippet does not quantify the potential revenue impact of these export restrictions on Nvidia.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-shares-fall-following-new-u-s-export-rule-7a1df2"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-16/canadian-natural-buys-advantage-energy-to-boost-alberta-assets",
+        "source": "Bloomberg",
+        "published": "2026-11-16 09:51",
+        "title": "Canadian Natural Resources to Acquire Advantage Energy",
+        "tag": "COMMODITIES",
+        "sentiment": "BULLISH",
+        "ai_summary": "Canadian Natural Resources will acquire Advantage Energy Ltd. in a transaction valued at C$2.255 billion. This deal follows increased demand for alternative energy supplies due to geopolitical conflicts.",
+        "market_impact": "Sector consolidation",
+        "key_facts": [
+            "Geopolitical tensions in the Middle East and Ukraine are cited as factors increasing energy demand."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 251,
+        "analysis": "The acquisition is part of a broader trend of consolidation within the Canadian oil and gas industry. The snippet does not specify the expected completion date for the transaction.",
+        "what_to_watch": "",
+        "content": "<p>The acquisition is part of a broader trend of consolidation within the Canadian oil and gas industry. The snippet does not specify the expected completion date for the transaction.</p>",
+        "slug": "canadian-natural-resources-to-acquire-advantage-energy-7bf129"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-16/european-stocks-fluctuate-as-ai-concerns-keep-investors-on-edge",
+        "source": "Bloomberg",
+        "published": "2026-11-16 08:07",
+        "title": "European Markets Decline Amid Tech Sector Weakness",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "European stock indices retreated from earlier gains as technology shares faced selling pressure. The decline was driven by ongoing concerns regarding the artificial intelligence sector.",
+        "market_impact": "Market volatility",
+        "key_facts": [
+            "The market reversed its earlier gains during the session.",
+            "Technology shares were the primary source of the decline."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 145,
+        "analysis": "The shift in sentiment toward AI-related stocks is the primary driver of the market movement. The snippet does not specify which technology companies were most affected by the selloff.",
+        "what_to_watch": "",
+        "content": "<p>The shift in sentiment toward AI-related stocks is the primary driver of the market movement. The snippet does not specify which technology companies were most affected by the selloff.</p>",
+        "slug": "european-markets-decline-amid-tech-sector-weakness-ba667d"
+    },
+    {
         "original_link": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
         "source": "CNBC",
         "published": "2026-11-16 03:53",
@@ -370,224 +588,5 @@
         "what_to_watch": "",
         "content": "<p>A chart referenced by the analyst shows that the U.S. previously ranked among the nations with the least state control until an increase occurred last year. This trend may suggest shifting regulatory and intervention risks for domestic industries, but the text does not detail specific economic policies or measures.</p>",
         "slug": "analyst-highlights-rise-in-u-s-state-economic-control-under-b7b507"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/15/rivian-lucid-scout-arent-counting-on-dems-to-restore-ev-incentives.html",
-        "source": "CNBC",
-        "published": "2026-11-15 13:00",
-        "title": "EV Chiefs Discount Hopes for Restored Federal Backing Following Midterms",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Automakers including Rivian, Lucid, and Scout are not banking on Democrats to reinstate federal support for electric vehicles. Sector leadership has long navigated inconsistent regulatory backing from Washington.",
-        "market_impact": "EV sector headwinds",
-        "key_facts": [
-            "The electric vehicle sector has faced shifting regulatory policies from Washington over several years."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 99,
-        "analysis": "The report highlights that EV executives are preparing to operate without counting on renewed federal subsidies following midterm elections. This stance suggests continued regulatory headwinds for automakers, though the snippet does not detail specific revenue impacts or policy timelines.",
-        "what_to_watch": "",
-        "content": "<p>The report highlights that EV executives are preparing to operate without counting on renewed federal subsidies following midterm elections. This stance suggests continued regulatory headwinds for automakers, though the snippet does not detail specific revenue impacts or policy timelines.</p>",
-        "tickers": [
-            "RIVN",
-            "LCID"
-        ],
-        "slug": "ev-chiefs-discount-hopes-for-restored-federal-backing-6eed0b"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
-        "source": "CNBC",
-        "published": "2026-11-15 12:00",
-        "title": "Anthropic Moves Toward IPO Amid Demand for Positive Momentum in AI Sector",
-        "tag": "TECH",
-        "sentiment": "BULLISH",
-        "ai_summary": "AI research lab Anthropic is preparing for a public listing that carries significant weight across the technology industry. The tech sector remains heavily invested in the company as market participants seek a bright spot.",
-        "market_impact": "Positive AI sentiment",
-        "key_facts": [
-            "The technology sector is heavily invested in the AI lab Anthropic.",
-            "The IPO arrives as AI market trades look for renewed momentum."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 146,
-        "analysis": "The decision-relevant factor is the tech industry's outsized investment in Anthropic as it navigates an embattled period for AI-related trading. The offering may serve as a critical gauge for tech sector valuations, though the text does not reveal the timing or valuation of the IPO.",
-        "what_to_watch": "",
-        "content": "<p>The decision-relevant factor is the tech industry&#x27;s outsized investment in Anthropic as it navigates an embattled period for AI-related trading. The offering may serve as a critical gauge for tech sector valuations, though the text does not reveal the timing or valuation of the IPO.</p>",
-        "slug": "anthropic-moves-toward-ipo-amid-demand-for-positive-3effc3"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
-        "source": "CNBC",
-        "published": "2026-11-15 08:34",
-        "title": "Megaspeed Opens Internal Probe After Reports Link Former Executive to Nvidia CEO",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Singapore-based cloud computing provider Megaspeed announced an internal investigation regarding media reports on its operations. The company stated that Alice Huang departed the firm in 2025.",
-        "market_impact": "Heightened regulatory scrutiny",
-        "key_facts": [
-            "Megaspeed is a cloud computing company based in Singapore.",
-            "The firm faced increased scrutiny after reports connected Jensen Huang to Alice Huang."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 159,
-        "analysis": "The scrutiny centers on media reports linking former Megaspeed executive Alice Huang to Nvidia's Jensen Huang. This probe could increase regulatory and reputational risks for Megaspeed, though the text does not disclose the specific allegations being investigated.",
-        "what_to_watch": "",
-        "content": "<p>The scrutiny centers on media reports linking former Megaspeed executive Alice Huang to Nvidia&#x27;s Jensen Huang. This probe could increase regulatory and reputational risks for Megaspeed, though the text does not disclose the specific allegations being investigated.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "megaspeed-opens-internal-probe-after-reports-link-former-9a8a0a"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
-        "source": "CNBC",
-        "published": "2026-11-14 23:10",
-        "title": "SpaceX Successfully Catches Upper Stage of Starship Rocket",
-        "tag": "TECH",
-        "sentiment": "BULLISH",
-        "ai_summary": "SpaceX achieved a technical milestone during Starship Test Flight 15 by catching the rocket's upper stage. This mission represented the company's first attempt to recover both the booster and upper stage.",
-        "market_impact": "Positive for SpaceX",
-        "key_facts": [
-            "The catch occurred during Starship Test Flight 15.",
-            "The flight was the first time SpaceX attempted to catch both the booster and upper stage."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 128,
-        "analysis": "The critical achievement was SpaceX's first simultaneous effort to catch both the booster and upper stage during Starship Test Flight 15. The successful upper-stage catch may advance the company's reusable rocket operations, but the snippet does not provide financial details or commercial timelines.",
-        "what_to_watch": "",
-        "content": "<p>The critical achievement was SpaceX&#x27;s first simultaneous effort to catch both the booster and upper stage during Starship Test Flight 15. The successful upper-stage catch may advance the company&#x27;s reusable rocket operations, but the snippet does not provide financial details or commercial timelines.</p>",
-        "slug": "spacex-successfully-catches-upper-stage-of-starship-rocket-daadbb"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
-        "source": "Bloomberg",
-        "published": "2026-11-14 20:00",
-        "title": "US Corporate Bonds Offering 6% Yields Draw Inflows Amid Equities Volatility",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "US corporate bond yields of 6% are attracting portfolio managers who want protection from stock market turbulence. Debt instruments have advanced in recent weeks following volatility linked to Nvidia.",
-        "market_impact": "Positive for credit",
-        "key_facts": [
-            "US corporate bonds have been rallying in recent weeks.",
-            "Money managers are looking to corporate bonds as shelter from equity market volatility."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 137,
-        "analysis": "The most significant fact is the recent rally in US corporate bonds alongside yields reaching 6%. These yields are encouraging money managers to reallocate away from stock turbulence, though the snippet does not establish specific issuers or the rally's endurance.",
-        "what_to_watch": "",
-        "content": "<p>The most significant fact is the recent rally in US corporate bonds alongside yields reaching 6%. These yields are encouraging money managers to reallocate away from stock turbulence, though the snippet does not establish specific issuers or the rally&#x27;s endurance.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "us-corporate-bonds-offering-6-yields-draw-inflows-amid-998927"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-14 17:50",
-        "title": "Market Underprices Economic Impact of Older Americans, Report Says",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Markets are heavily discounting the economic contribution of Americans aged 50 and above. The oversight by corporate America is characterized as a trillion-dollar issue.",
-        "market_impact": "Corporate outlook neutral",
-        "key_facts": [
-            "The mispricing concerns Americans aged 50 and older.",
-            "The issue is described as a trillion-dollar mistake by corporate America."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 90,
-        "analysis": "The focal point is the claim that markets are dramatically underpricing the economic weight of citizens age 50 and older. Recognizing this demographic shift could affect corporate planning, though the snippet does not provide specific company names or actionable economic metrics.",
-        "what_to_watch": "",
-        "content": "<p>The focal point is the claim that markets are dramatically underpricing the economic weight of citizens age 50 and older. Recognizing this demographic shift could affect corporate planning, though the snippet does not provide specific company names or actionable economic metrics.</p>",
-        "slug": "market-underprices-economic-impact-of-older-americans-5a17e1"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
-        "source": "CNBC",
-        "published": "2026-11-14 17:46",
-        "title": "Two Major Investors Urge Nvidia Board to Consider Jensen Huang's Return",
-        "tag": "TECH",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Two shareholders holding roughly $2.13 billion in shares as of June 30 are pushing for a structured leadership search following Jensen Huang's resignation. They have asked the company's board to evaluate bringing Huang back to his former role.",
-        "market_impact": "Uncertain for NVDA",
-        "key_facts": [
-            "The investors disclosed roughly $2.13 billion in Nvidia stock as of June 30.",
-            "The investors are pushing for a deliberate executive search process following Huang's resignation."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 152,
-        "analysis": "The central development is the push by shareholders owning $2.13 billion in stock for a deliberate leadership search that includes Huang's possible return. This shareholder pressure could influence governance decisions, though the text does not state whether the board will comply or if Huang is willing to return.",
-        "what_to_watch": "",
-        "content": "<p>The central development is the push by shareholders owning $2.13 billion in stock for a deliberate leadership search that includes Huang&#x27;s possible return. This shareholder pressure could influence governance decisions, though the text does not state whether the board will comply or if Huang is willing to return.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "two-major-investors-urge-nvidia-board-to-consider-jensen-9a2034"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
-        "source": "CNBC",
-        "published": "2026-11-14 16:46",
-        "title": "FAA Ground Stop Linked to L3Harris System Updates",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Transportation Secretary Sean Duffy stated that a recent FAA ground stop followed updates to an older L3Harris communication system. The incident highlights potential vulnerabilities in critical aviation infrastructure.",
-        "market_impact": "Operational disruption",
-        "key_facts": [
-            "The statement was provided by Transportation Secretary Sean Duffy on Saturday.",
-            "The system involved is described as an older communication platform."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 156,
-        "analysis": "The connection between the system update and the ground stop is the primary factor for the company. This suggests potential scrutiny of L3Harris's legacy systems, though the snippet does not establish the full extent of the technical failure.",
-        "what_to_watch": "",
-        "content": "<p>The connection between the system update and the ground stop is the primary factor for the company. This suggests potential scrutiny of L3Harris&#x27;s legacy systems, though the snippet does not establish the full extent of the technical failure.</p>",
-        "tickers": [
-            "LHX"
-        ],
-        "slug": "faa-ground-stop-linked-to-l3harris-system-updates-90efe7"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-14/bloomberg-this-weekend-11-14-2026-video",
-        "source": "Bloomberg",
-        "published": "2026-11-14 16:45",
-        "title": "Weekend News Roundup: Ground Stop and Tech Issues",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "A weekend news program covers the recent FAA ground stop and other industry headlines. The broadcast features various experts discussing technology and policy topics.",
-        "market_impact": "Information update",
-        "key_facts": [
-            "The show is hosted by David Gura, Christina Ruffini, and Lisa Mateo."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 635,
-        "analysis": "The program aggregates multiple news items, including aviation and tech security. The snippet does not provide specific details on the impact of these events on the mentioned companies.",
-        "what_to_watch": "",
-        "content": "<p>The program aggregates multiple news items, including aviation and tech security. The snippet does not provide specific details on the impact of these events on the mentioned companies.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "weekend-news-roundup-ground-stop-and-tech-issues-ec090f"
     }
 ]

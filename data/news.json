@@ -1,5 +1,198 @@
 [
     {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-17/new-zealand-inflation-expectations-remain-anchored-above-2",
+        "source": "Bloomberg",
+        "published": "2026-11-17 02:24",
+        "title": "New Zealand Long-Term Inflation Expectations Moderate",
+        "tag": "ECONOMY",
+        "sentiment": "BULLISH",
+        "ai_summary": "Long-term inflation expectations in New Zealand declined during the fourth quarter. Data suggests that recent fuel price increases are not becoming entrenched in the broader economy.",
+        "market_impact": "Lower rate pressure",
+        "key_facts": [
+            "Expectations remain above 2%.",
+            "The decline occurred in the fourth quarter."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 172,
+        "analysis": "The easing of long-term inflation expectations is the most significant economic indicator. This suggests a potential reduction in inflationary pressure, though the snippet does not establish future central bank policy moves.",
+        "what_to_watch": "",
+        "content": "<p>The easing of long-term inflation expectations is the most significant economic indicator. This suggests a potential reduction in inflationary pressure, though the snippet does not establish future central bank policy moves.</p>",
+        "slug": "new-zealand-long-term-inflation-expectations-moderate-1d9c7f"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-17/foreign-funds-bought-most-china-bonds-since-may-on-haven-appeal",
+        "source": "Bloomberg",
+        "published": "2026-11-17 02:21",
+        "title": "Foreign Investors Increase Holdings of Chinese Government Bonds",
+        "tag": "ECONOMY",
+        "sentiment": "BULLISH",
+        "ai_summary": "International investors purchased Chinese government bonds at the fastest rate since May. This trend reflects a preference for yuan-denominated debt amid global market instability.",
+        "market_impact": "Capital inflows",
+        "key_facts": [
+            "The buying pace is the highest since May.",
+            "The debt is onshore Chinese government bonds."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 235,
+        "analysis": "The surge in foreign buying of onshore bonds is the key development. This suggests that Chinese debt is viewed as a relative safe haven, though the snippet does not establish the duration of this trend.",
+        "what_to_watch": "",
+        "content": "<p>The surge in foreign buying of onshore bonds is the key development. This suggests that Chinese debt is viewed as a relative safe haven, though the snippet does not establish the duration of this trend.</p>",
+        "slug": "foreign-investors-increase-holdings-of-chinese-government-fb8524"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
+        "source": "CNBC",
+        "published": "2026-11-17 00:42",
+        "title": "Fed Chair Faces Questions on AI Impact on Economy",
+        "tag": "FED",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Kevin Warsh is evaluating the economic implications of the artificial intelligence sector. He is currently addressing concerns regarding interest rate policy and labor market effects.",
+        "market_impact": "Policy uncertainty",
+        "key_facts": [
+            "Warsh views AI as being at a turning point.",
+            "The analysis involves potential impacts on jobs."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "analysis_not_specific_enough_to_source"
+        ],
+        "source_description_chars": 92,
+        "analysis": "The central focus is how AI advancements might influence future monetary policy decisions. The snippet does not establish a specific timeline or concrete policy shift regarding these technologies.",
+        "what_to_watch": "",
+        "content": "<p>The central focus is how AI advancements might influence future monetary policy decisions. The snippet does not establish a specific timeline or concrete policy shift regarding these technologies.</p>",
+        "slug": "fed-chair-faces-questions-on-ai-impact-on-economy-c1e5ed"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/united-airlines-suffers-system-outage-amid-lingering-faa-ground-stop-delays-5e33f94c?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-16 23:42",
+        "title": "United Airlines Fixes System Issue Following Flight Delays",
+        "tag": "STOCKS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "United Airlines resolved a technical outage that caused flight delays on Monday. This incident followed a separate FAA ground stop that impacted national air travel.",
+        "market_impact": "Operational disruption",
+        "key_facts": [
+            "The outage occurred on Monday.",
+            "An FAA ground stop happened just days prior."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "analysis_not_specific_enough_to_source"
+        ],
+        "source_description_chars": 83,
+        "analysis": "The recurrence of technical issues in a short timeframe is the most relevant factor. This may affect investor confidence in the company's operational reliability, though the snippet does not establish the cause of the outage.",
+        "what_to_watch": "",
+        "content": "<p>The recurrence of technical issues in a short timeframe is the most relevant factor. This may affect investor confidence in the company&#x27;s operational reliability, though the snippet does not establish the cause of the outage.</p>",
+        "tickers": [
+            "UAL"
+        ],
+        "slug": "united-airlines-fixes-system-issue-following-flight-delays-56cc78"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/stanley-druckenmiller-dumped-these-chip-stocks-while-buying-into-spacex-and-palantir-9ae1f078?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-16 23:28",
+        "title": "Druckenmiller Family Office Adjusts Holdings in Chip and Tech Firms",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Stanley Druckenmiller's family office exited positions in AMD and Sandisk during the third quarter. The firm simultaneously initiated new investments in SpaceX and Palantir.",
+        "market_impact": "Sector rotation",
+        "key_facts": [
+            "The transactions occurred in the third quarter.",
+            "New investments were made in SpaceX and Palantir."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 83,
+        "analysis": "The divestment from chip manufacturers during the third quarter is the central action. This indicates a shift in portfolio strategy, though the snippet does not establish the firm's outlook on the semiconductor industry.",
+        "what_to_watch": "",
+        "content": "<p>The divestment from chip manufacturers during the third quarter is the central action. This indicates a shift in portfolio strategy, though the snippet does not establish the firm&#x27;s outlook on the semiconductor industry.</p>",
+        "tickers": [
+            "AMD",
+            "PLTR"
+        ],
+        "slug": "druckenmiller-family-office-adjusts-holdings-in-chip-and-82b50a"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/16/situational-awareness-aschenbrenner-new-ai-bets.html",
+        "source": "CNBC",
+        "published": "2026-11-16 23:05",
+        "title": "Aschenbrenner Fund Purchased AI Stocks Prior to October Decline",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Leopold Aschenbrenner's hedge fund increased its exposure to AI-related equities before a market downturn. The fund had previously faced significant financial instability during the summer.",
+        "market_impact": "Portfolio volatility",
+        "key_facts": [
+            "The fund nearly collapsed earlier this summer."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 122,
+        "analysis": "The fund's decision to increase AI holdings immediately preceding a market rout is the key development. This highlights the risks associated with the fund's strategy, though it does not establish the long-term outlook for the sector.",
+        "what_to_watch": "",
+        "content": "<p>The fund&#x27;s decision to increase AI holdings immediately preceding a market rout is the key development. This highlights the risks associated with the fund&#x27;s strategy, though it does not establish the long-term outlook for the sector.</p>",
+        "slug": "aschenbrenner-fund-purchased-ai-stocks-prior-to-october-87fab3"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html",
+        "source": "CNBC",
+        "published": "2026-11-16 22:37",
+        "title": "Trump Accounts Traded Nvidia Shares Amid Huang White House Access",
+        "tag": "STOCKS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Accounts linked to Trump traded up to $97.5 million in Nvidia stock. A sale of up to $1 million occurred shortly after a briefing regarding the company's CEO.",
+        "market_impact": "Regulatory scrutiny",
+        "key_facts": [
+            "The trade occurred five days after a briefing.",
+            "The briefing concerned a relationship with a suspected Chinese spy."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 146,
+        "analysis": "The timing of the stock sale relative to a briefing on Jensen Huang is the primary concern. This suggests potential reputational risk for the company, though the snippet does not establish any wrongdoing.",
+        "what_to_watch": "",
+        "content": "<p>The timing of the stock sale relative to a briefing on Jensen Huang is the primary concern. This suggests potential reputational risk for the company, though the snippet does not establish any wrongdoing.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "trump-accounts-traded-nvidia-shares-amid-huang-white-house-f5b40b"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-16/stock-market-today-dow-s-p-live-updates",
+        "source": "Bloomberg",
+        "published": "2026-11-16 22:06",
+        "title": "Asian Markets Retreat Amid Nvidia Earnings and Tech Export Curbs",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Asian stock markets fell for the fourth consecutive day, mirroring losses observed on Wall Street. Market sentiment is pressured by upcoming Nvidia earnings and new US restrictions on AI chip exports to China.",
+        "market_impact": "Market decline",
+        "key_facts": [
+            "Asian stocks have declined for four days.",
+            "Restrictions target advanced AI chips and servers."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 210,
+        "analysis": "The combination of Nvidia's earnings anticipation and new US trade restrictions is the primary driver of market caution. This suggests potential headwinds for the technology sector, though the snippet does not establish the long-term impact of the export curbs.",
+        "what_to_watch": "Nvidia earnings release",
+        "content": "<p>The combination of Nvidia&#x27;s earnings anticipation and new US trade restrictions is the primary driver of market caution. This suggests potential headwinds for the technology sector, though the snippet does not establish the long-term impact of the export curbs.</p><p><strong>What to watch:</strong> Nvidia earnings release</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "asian-markets-retreat-amid-nvidia-earnings-and-tech-export-a07d44"
+    },
+    {
         "original_link": "https://www.cnbc.com/2026/11/16/warren-buffett-donates-5point5-billion-thanksgiving.html",
         "source": "CNBC",
         "published": "2026-11-16 17:39",
@@ -402,191 +595,5 @@
         "what_to_watch": "",
         "content": "<p>The most relevant fact is that traders are bracing for an extended cycle of interest rate hikes following a bruising market stretch. This expectation may keep pressure on debt securities, though the snippet does not indicate the exact timing or outcome of the forthcoming Fed minutes and speeches.</p>",
         "slug": "treasury-traders-await-fed-remarks-and-minutes-after-rate-feb50d"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/features/2026-11-15/anthropic-s-ipo-makes-dario-amodei-the-new-face-of-the-ai-boom",
-        "source": "Bloomberg",
-        "published": "2026-11-15 19:00",
-        "title": "Anthropic Readies Record-Breaking IPO With CEO Dario Amodei",
-        "tag": "TECH",
-        "sentiment": "BULLISH",
-        "ai_summary": "The artificial intelligence startup is positioned to execute the largest initial public offering in history. The transaction elevates chief executive Dario Amodei as a prominent figure in the ongoing AI boom.",
-        "market_impact": "Major IPO anticipated",
-        "key_facts": [
-            "Anthropic is positioned to complete the biggest initial public offering of all time.",
-            "The impending public listing focuses investor hopes, dreams, and fears onto the frontier model creator."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 133,
-        "analysis": "The central development is Anthropic preparing for what is described as the largest initial public offering ever. This signals substantial investor interest in frontier model developers, though the snippet does not provide financial figures, timing, or valuation targets.",
-        "what_to_watch": "",
-        "content": "<p>The central development is Anthropic preparing for what is described as the largest initial public offering ever. This signals substantial investor interest in frontier model developers, though the snippet does not provide financial figures, timing, or valuation targets.</p>",
-        "slug": "anthropic-readies-record-breaking-ipo-with-ceo-dario-amodei-e5fa88"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
-        "source": "CNBC",
-        "published": "2026-11-15 18:10",
-        "title": "Bessent Urges Outside CEO and Major Leadership Overhaul at Nvidia",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Criticism was directed at Howard Lutnick's department regarding suspected chip diversion to China. At the same time, President Donald Trump's approach to the situation was defended.",
-        "market_impact": "Nvidia leadership scrutiny",
-        "key_facts": [
-            "Howard Lutnick's department faced criticism over potential chip diversion to China.",
-            "President Donald Trump's handling of the issue was defended."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 154,
-        "analysis": "The key detail is the call for an outside chief executive alongside scrutiny over suspected chip diversion to China. Such political demands could increase governance uncertainty for Nvidia, though the text does not establish whether any official regulatory action or executive changes will take place.",
-        "what_to_watch": "",
-        "content": "<p>The key detail is the call for an outside chief executive alongside scrutiny over suspected chip diversion to China. Such political demands could increase governance uncertainty for Nvidia, though the text does not establish whether any official regulatory action or executive changes will take place.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "bessent-urges-outside-ceo-and-major-leadership-overhaul-at-818dc1"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/chinas-hottest-stocks-these-days-have-one-thing-in-common-names-that-sound-like-sheep-6176e521?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-15 15:22",
-        "title": "Chinese Stocks With Sheep-Sounding Names Surge Ahead of New Year",
-        "tag": "STOCKS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Companies manufacturing lighting, appliances, and processing fish have seen their share prices rise sharply ahead of the Year of the Sheep. These price increases have occurred regardless of the underlying operational state of the firms.",
-        "market_impact": "Speculative retail trading",
-        "key_facts": [
-            "Shares of appliance makers, lighting manufacturers, and fish processors climbed."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 190,
-        "analysis": "The primary fact is that equities are rallying based entirely on phonetics ahead of the Year of the Sheep rather than fundamental performance. This points to speculative sentiment driving select Chinese equities, but the snippet does not establish any lasting business impact.",
-        "what_to_watch": "",
-        "content": "<p>The primary fact is that equities are rallying based entirely on phonetics ahead of the Year of the Sheep rather than fundamental performance. This points to speculative sentiment driving select Chinese equities, but the snippet does not establish any lasting business impact.</p>",
-        "slug": "chinese-stocks-with-sheep-sounding-names-surge-ahead-of-new-8956f4"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-15/inside-india-s-130-billion-wedding-economy-video",
-        "source": "Bloomberg",
-        "published": "2026-11-15 15:03",
-        "title": "India's Wedding Industry Drives an Estimated $130 Billion in Annual Spending",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Weddings in India generate approximately $130 billion in annual expenditures, functioning as a substantial economic driver. Families routinely fund these ceremonies through multi-year savings, gold purchases, and jewelry-backed loans.",
-        "market_impact": "Supports consumer spending",
-        "key_facts": [
-            "Household financial commitments for weddings often begin years before the event through savings and gold accumulation.",
-            "Some families take out loans against existing jewelry to finance wedding costs."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 321,
-        "analysis": "The key detail is the $130 billion in annual spending generated by Indian weddings, underpinned by multi-year savings and gold accumulation. This sustained expenditure provides structural demand for jewelry and consumer finance sectors, though the text does not track year-over-year growth rates.",
-        "what_to_watch": "",
-        "content": "<p>The key detail is the $130 billion in annual spending generated by Indian weddings, underpinned by multi-year savings and gold accumulation. This sustained expenditure provides structural demand for jewelry and consumer finance sectors, though the text does not track year-over-year growth rates.</p>",
-        "slug": "india-s-wedding-industry-drives-an-estimated-130-billion-in-899ac3"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-15 15:00",
-        "title": "Nvidia Prepares for Crucial Earnings Call Following Jensen Huang's Sudden Exit",
-        "tag": "EARNINGS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Nvidia is scheduled to hold a widely anticipated quarterly earnings call on Tuesday. The upcoming presentation is viewed as the most critical in company history following the sudden departure of Jensen Huang.",
-        "market_impact": "High stock volatility",
-        "key_facts": [
-            "Wall Street views the upcoming event as the most important earnings call in Nvidia's history."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 111,
-        "analysis": "The most critical development is the abrupt exit of former CEO Jensen Huang ahead of Tuesday's earnings call. The event may heavily influence market confidence in Nvidia's forward leadership, but the snippet does not provide financial figures or explain why Huang departed.",
-        "what_to_watch": "Nvidia will host its earnings call on Tuesday.",
-        "content": "<p>The most critical development is the abrupt exit of former CEO Jensen Huang ahead of Tuesday&#x27;s earnings call. The event may heavily influence market confidence in Nvidia&#x27;s forward leadership, but the snippet does not provide financial figures or explain why Huang departed.</p><p><strong>What to watch:</strong> Nvidia will host its earnings call on Tuesday.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "nvidia-prepares-for-crucial-earnings-call-following-jensen-d842a4"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-15/congress-presses-nvidia-over-china-chip-access-video",
-        "source": "Bloomberg",
-        "published": "2026-11-15 14:50",
-        "title": "Lawmaker Presses Nvidia on China Chip Access and Former CEO Inquiries",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Democratic Representative Raja Krishnamoorthi is raising national security concerns over whether restricted Nvidia chips reached Chinese entities. The lawmaker is calling for expanded congressional oversight and stronger export controls.",
-        "market_impact": "Tightened export restrictions",
-        "key_facts": [
-            "Representative Krishnamoorthi raised questions regarding Commerce Secretary Howard Lutnick's oversight of Nvidia and Megaspeed.",
-            "The lawmaker called for stronger export controls and increased congressional oversight."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 536,
-        "analysis": "Representative Krishnamoorthi is questioning what former CEO Jensen Huang knew about alleged Chinese intelligence activities and chip diversion. Increased oversight could lead to more restrictive export controls for the semiconductor sector, but the text does not confirm whether any violations actually occurred.",
-        "what_to_watch": "",
-        "content": "<p>Representative Krishnamoorthi is questioning what former CEO Jensen Huang knew about alleged Chinese intelligence activities and chip diversion. Increased oversight could lead to more restrictive export controls for the semiconductor sector, but the text does not confirm whether any violations actually occurred.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "lawmaker-presses-nvidia-on-china-chip-access-and-former-ceo-96729b"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html",
-        "source": "CNBC",
-        "published": "2026-11-15 14:24",
-        "title": "Airlines Face Lingering Flight Delays Following FAA Nationwide Ground Stop",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Carriers continue to work through persistent flight delays two days following an FAA ground stop. The federal agency previously halted departure flights nationwide for over four hours.",
-        "market_impact": "Airline operational disruption",
-        "key_facts": [
-            "The FAA grounded departures across the nation for more than four hours.",
-            "Disruptions continued to affect travelers two days after the ground stop occurred."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 135,
-        "analysis": "The FAA's nationwide halt of departures for more than four hours caused disruptions that persisted two days later. The operational backlog may pressure airline schedules and costs, though the text does not name specific airlines or quantify the financial loss.",
-        "what_to_watch": "",
-        "content": "<p>The FAA&#x27;s nationwide halt of departures for more than four hours caused disruptions that persisted two days later. The operational backlog may pressure airline schedules and costs, though the text does not name specific airlines or quantify the financial loss.</p>",
-        "slug": "airlines-face-lingering-flight-delays-following-faa-389a71"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/the-u-s-is-turning-more-socialist-under-trump-2-0-one-analyst-says-what-could-change-with-a-democratic-run-congress-95d7ff17?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-15 13:30",
-        "title": "Analyst Highlights Rise in U.S. State Economic Control Under Trump",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "An analyst report indicates that the United States shifted toward greater state economic control starting last year. The analysis considers how potential Democratic control of Congress might impact current policy trajectories.",
-        "market_impact": "Policy uncertainty",
-        "key_facts": [
-            "The U.S. was previously among the global economies with the lowest degree of state control."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 124,
-        "analysis": "A chart referenced by the analyst shows that the U.S. previously ranked among the nations with the least state control until an increase occurred last year. This trend may suggest shifting regulatory and intervention risks for domestic industries, but the text does not detail specific economic policies or measures.",
-        "what_to_watch": "",
-        "content": "<p>A chart referenced by the analyst shows that the U.S. previously ranked among the nations with the least state control until an increase occurred last year. This trend may suggest shifting regulatory and intervention risks for domestic industries, but the text does not detail specific economic policies or measures.</p>",
-        "slug": "analyst-highlights-rise-in-u-s-state-economic-control-under-b7b507"
     }
 ]

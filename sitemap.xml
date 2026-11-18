@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://sefasayar.github.io/finance-feed/</loc><lastmod>2026-11-17</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://sefasayar.github.io/finance-feed/daily/</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/</loc><lastmod>2026-11-18</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/daily/</loc><lastmod>2026-11-18</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-06.html</loc><lastmod>2026-11-06</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-07.html</loc><lastmod>2026-11-07</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-08.html</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
@@ -14,12 +14,17 @@
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-15.html</loc><lastmod>2026-11-15</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-16.html</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-17.html</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-18.html</loc><lastmod>2026-11-18</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/tag/economy.html</loc><lastmod>2026-11-18</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/tag/stocks.html</loc><lastmod>2026-11-18</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/tag/earnings.html</loc><lastmod>2026-11-18</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/tag/commodities.html</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/tag/tech.html</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://sefasayar.github.io/finance-feed/tag/stocks.html</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/tag/fed.html</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://sefasayar.github.io/finance-feed/tag/earnings.html</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://sefasayar.github.io/finance-feed/tag/economy.html</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://sefasayar.github.io/finance-feed/tag/commodities.html</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/news/us-treasuries-gain-for-third-session-amid-weakening-risk-dca5ad.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/news/india-us-trade-agreement-nearly-complete-says-itpo-chairman-2b5edf.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/news/china-s-xi-urges-fewer-trade-barriers-ahead-of-trump-and-de562b.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/news/coreweave-stock-advances-despite-nvidia-signaling-cautious-99f535.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/news/fund-managers-reduce-exposure-to-technology-stocks-9b4d29.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/news/new-zealand-long-term-inflation-expectations-moderate-1d9c7f.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/news/foreign-investors-increase-holdings-of-chinese-government-fb8524.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>

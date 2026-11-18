@@ -1,5 +1,141 @@
 [
     {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-18/treasuries-ust-bond-yields-risk-appetite-falters",
+        "source": "Bloomberg",
+        "published": "2026-11-18 05:19",
+        "title": "US Treasuries Gain for Third Session Amid Weakening Risk Appetite",
+        "tag": "ECONOMY",
+        "sentiment": "BULLISH",
+        "ai_summary": "Benchmark US government bonds rose for a third consecutive trading day as broader risk appetite weakened. Buying was also encouraged by expectations that the Federal Reserve's rate hikes may largely be priced into markets.",
+        "market_impact": "Treasury yields drop",
+        "key_facts": [
+            "US benchmark Treasuries extended their advance to a third consecutive day",
+            "Investors speculate that upcoming Federal Reserve rate increases may already be priced in"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 198,
+        "analysis": "The third day of Treasury gains was driven by faltering risk sentiment and views that impending Federal Reserve rate hikes are mostly absorbed by the market. This supports bond prices in the short term, but the snippet does not indicate the size or timing of future central bank policy moves.",
+        "what_to_watch": "",
+        "content": "<p>The third day of Treasury gains was driven by faltering risk sentiment and views that impending Federal Reserve rate hikes are mostly absorbed by the market. This supports bond prices in the short term, but the snippet does not indicate the size or timing of future central bank policy moves.</p>",
+        "slug": "us-treasuries-gain-for-third-session-amid-weakening-risk-dca5ad"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-18/itpo-s-ashraf-india-us-trade-deal-almost-99-done-video",
+        "source": "Bloomberg",
+        "published": "2026-11-18 04:36",
+        "title": "India-US Trade Agreement Nearly Complete, Says ITPO Chairman Ashraf",
+        "tag": "ECONOMY",
+        "sentiment": "BULLISH",
+        "ai_summary": "India Trade Promotion Organization Chairman Jawed Ashraf stated that the bilateral trade deal between India and the United States is roughly 99% finalized. He emphasized that India seeks to secure competitive advantages against competitors while guarding against unilateral US trade measures.",
+        "market_impact": "Boosts bilateral trade",
+        "key_facts": [
+            "ITPO Chairman Jawed Ashraf spoke on the sidelines of the Singapore Fintech Festival 2026",
+            "India aims to ensure trade commitments are honored and protected from unilateral US measures"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 383,
+        "analysis": "The assertion that the India-US trade deal is almost finished signals imminent changes in cross-border trade terms between the two economies. This progress could enhance India's competitive standing against rivals, though the text leaves the unresolved one percent and implementation timeline undefined.",
+        "what_to_watch": "",
+        "content": "<p>The assertion that the India-US trade deal is almost finished signals imminent changes in cross-border trade terms between the two economies. This progress could enhance India&#x27;s competitive standing against rivals, though the text leaves the unresolved one percent and implementation timeline undefined.</p>",
+        "slug": "india-us-trade-agreement-nearly-complete-says-itpo-chairman-2b5edf"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html",
+        "source": "CNBC",
+        "published": "2026-11-18 03:30",
+        "title": "China's Xi Urges Fewer Trade Barriers Ahead of Trump and Putin Meetings",
+        "tag": "ECONOMY",
+        "sentiment": "BULLISH",
+        "ai_summary": "The Chinese leader spoke at the APEC summit in Shenzhen to advocate for reduced trade and investment obstacles. He also promised greater access to the nation's domestic market and manufacturing industry.",
+        "market_impact": "Improves trade sentiment",
+        "key_facts": [
+            "Remarks were delivered at the opening of the APEC summit in Shenzhen",
+            "Xi pledged broader access to China's domestic market and manufacturing sector"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 157,
+        "analysis": "Xi's explicit pledge to broaden access to China's manufacturing sector and market highlights a push to ease international commerce tensions. This stance could benefit global trade relations, though the text does not detail concrete policy changes or the outcome of upcoming talks with Trump and Putin.",
+        "what_to_watch": "Watch for the upcoming meeting between Xi, Trump, and Putin.",
+        "content": "<p>Xi&#x27;s explicit pledge to broaden access to China&#x27;s manufacturing sector and market highlights a push to ease international commerce tensions. This stance could benefit global trade relations, though the text does not detail concrete policy changes or the outcome of upcoming talks with Trump and Putin.</p><p><strong>What to watch:</strong> Watch for the upcoming meeting between Xi, Trump, and Putin.</p>",
+        "slug": "china-s-xi-urges-fewer-trade-barriers-ahead-of-trump-and-de562b"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/coreweaves-stock-pops-even-as-nvidia-talks-up-a-disciplined-approach-to-financing-e7f00876?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-18 01:59",
+        "title": "CoreWeave Stock Advances Despite Nvidia Signaling Cautious Customer Financing",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "CoreWeave shares gained even after Nvidia outlined plans to review its customer financing support carefully. Nvidia interim CEO Colette Kress noted that while neocloud providers are growing in importance, financing will undergo thorough scrutiny.",
+        "market_impact": "Neocloud stocks rise",
+        "key_facts": [
+            "Nvidia interim CEO Colette Kress described neoclouds as increasingly important",
+            "Kress indicated Nvidia will take a very strong look at customers receiving financing help"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 172,
+        "analysis": "Nvidia stated it will scrutinize the customers it assists with financing despite recognizing neoclouds as increasingly important. This disciplined approach could constrain capital support for some cloud clients, but the snippet does not detail any immediate impact on CoreWeave's funding.",
+        "what_to_watch": "",
+        "content": "<p>Nvidia stated it will scrutinize the customers it assists with financing despite recognizing neoclouds as increasingly important. This disciplined approach could constrain capital support for some cloud clients, but the snippet does not detail any immediate impact on CoreWeave&#x27;s funding.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "coreweave-stock-advances-despite-nvidia-signaling-cautious-99f535"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/nvidias-stock-rises-as-blowout-numbers-help-ease-ceo-transition-fears-2f20d38a?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-18 01:28",
+        "title": "Nvidia Rises on Strong Revenue Growth and $130 Billion Quarterly Forecast",
+        "tag": "EARNINGS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Shares of the chipmaker rose following robust revenue expansion and a projected $130 billion quarter. The strong performance helped alleviate market concerns regarding its ongoing CEO transition.",
+        "market_impact": "Lifts chip sector",
+        "key_facts": [
+            "Nvidia issued a quarterly forecast of $130 billion",
+            "Blowout numbers helped relieve investor concerns regarding a CEO transition"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 107,
+        "analysis": "Nvidia's quarterly forecast of $130 billion indicates sustained high demand for its semiconductor hardware. While this eased leadership transition worries, the snippet does not provide details on margins, supply constraints, or the timeline of the executive change.",
+        "what_to_watch": "",
+        "content": "<p>Nvidia&#x27;s quarterly forecast of $130 billion indicates sustained high demand for its semiconductor hardware. While this eased leadership transition worries, the snippet does not provide details on margins, supply constraints, or the timeline of the executive change.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-rises-on-strong-revenue-growth-and-130-billion-5fa060"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-17/latest-oil-market-news-and-analysis-for-nov-18",
+        "source": "Bloomberg",
+        "published": "2026-11-17 23:01",
+        "title": "Oil Prices Slip on Supply Recovery and Growing US Inventories",
+        "tag": "COMMODITIES",
+        "sentiment": "BEARISH",
+        "ai_summary": "Crude prices fell slightly as investors focused on rising US stockpiles and indicators of rebounding output. Market participants largely shrugged off recent clashes in the Middle East.",
+        "market_impact": "Crude prices decline",
+        "key_facts": [
+            "Traders looked past renewed fighting in the Middle East",
+            "Crude was pressured by signs of recovering supplies alongside higher US inventories"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 140,
+        "analysis": "Signs of recovering global supply and higher US inventories outweighed the geopolitical risk of renewed Middle East fighting. This balance points toward softening near-term physical market tightness, though the text does not disclose the exact size of the inventory increases.",
+        "what_to_watch": "",
+        "content": "<p>Signs of recovering global supply and higher US inventories outweighed the geopolitical risk of renewed Middle East fighting. This balance points toward softening near-term physical market tightness, though the text does not disclose the exact size of the inventory increases.</p>",
+        "slug": "oil-prices-slip-on-supply-recovery-and-growing-us-53b65b"
+    },
+    {
         "original_link": "https://www.bloomberg.com/news/articles/2026-11-17/apollo-s-rowan-says-insurance-will-power-the-8-trillion-ai-boom",
         "source": "Bloomberg",
         "published": "2026-11-17 22:49",
@@ -441,155 +577,5 @@
         "what_to_watch": "",
         "content": "<p>The fund&#x27;s decision to increase AI holdings immediately preceding a market rout is the key development. This highlights the risks associated with the fund&#x27;s strategy, though it does not establish the long-term outlook for the sector.</p>",
         "slug": "aschenbrenner-fund-purchased-ai-stocks-prior-to-october-87fab3"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html",
-        "source": "CNBC",
-        "published": "2026-11-16 22:37",
-        "title": "Trump Accounts Traded Nvidia Shares Amid Huang White House Access",
-        "tag": "STOCKS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Accounts linked to Trump traded up to $97.5 million in Nvidia stock. A sale of up to $1 million occurred shortly after a briefing regarding the company's CEO.",
-        "market_impact": "Regulatory scrutiny",
-        "key_facts": [
-            "The trade occurred five days after a briefing.",
-            "The briefing concerned a relationship with a suspected Chinese spy."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 146,
-        "analysis": "The timing of the stock sale relative to a briefing on Jensen Huang is the primary concern. This suggests potential reputational risk for the company, though the snippet does not establish any wrongdoing.",
-        "what_to_watch": "",
-        "content": "<p>The timing of the stock sale relative to a briefing on Jensen Huang is the primary concern. This suggests potential reputational risk for the company, though the snippet does not establish any wrongdoing.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "trump-accounts-traded-nvidia-shares-amid-huang-white-house-f5b40b"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-16/stock-market-today-dow-s-p-live-updates",
-        "source": "Bloomberg",
-        "published": "2026-11-16 22:06",
-        "title": "Asian Markets Retreat Amid Nvidia Earnings and Tech Export Curbs",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Asian stock markets fell for the fourth consecutive day, mirroring losses observed on Wall Street. Market sentiment is pressured by upcoming Nvidia earnings and new US restrictions on AI chip exports to China.",
-        "market_impact": "Market decline",
-        "key_facts": [
-            "Asian stocks have declined for four days.",
-            "Restrictions target advanced AI chips and servers."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 210,
-        "analysis": "The combination of Nvidia's earnings anticipation and new US trade restrictions is the primary driver of market caution. This suggests potential headwinds for the technology sector, though the snippet does not establish the long-term impact of the export curbs.",
-        "what_to_watch": "Nvidia earnings release",
-        "content": "<p>The combination of Nvidia&#x27;s earnings anticipation and new US trade restrictions is the primary driver of market caution. This suggests potential headwinds for the technology sector, though the snippet does not establish the long-term impact of the export curbs.</p><p><strong>What to watch:</strong> Nvidia earnings release</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "asian-markets-retreat-amid-nvidia-earnings-and-tech-export-a07d44"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/16/warren-buffett-donates-5point5-billion-thanksgiving.html",
-        "source": "CNBC",
-        "published": "2026-11-16 17:39",
-        "title": "Warren Buffett Donates $5.5 Billion",
-        "tag": "STOCKS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Berkshire Hathaway's chairman emeritus announced a $5.5 billion donation in a Thanksgiving letter. He retains approximately 182,140 Class A shares following the contribution.",
-        "market_impact": "Stable",
-        "key_facts": [
-            "The remaining shares are valued at roughly $162 billion.",
-            "The announcement was made via a Thanksgiving letter."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "analysis_not_specific_enough_to_source"
-        ],
-        "source_description_chars": 118,
-        "analysis": "The donation amount and remaining share count are the key figures provided. The snippet does not indicate any shift in Berkshire Hathaway's corporate strategy.",
-        "what_to_watch": "",
-        "content": "<p>The donation amount and remaining share count are the key figures provided. The snippet does not indicate any shift in Berkshire Hathaway&#x27;s corporate strategy.</p>",
-        "tickers": [
-            "BRK.A"
-        ],
-        "slug": "warren-buffett-donates-5-5-billion-2464be"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-16/lilly-pushes-buying-spree-beyond-32b-with-calytrix-deal-video",
-        "source": "Bloomberg",
-        "published": "2026-11-16 17:25",
-        "title": "Eli Lilly to Acquire Calytrix Bio for $1.5 Billion",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "Eli Lilly & Co. has reached an agreement to purchase Calytrix Bio Inc. for up to $1.5 billion. This acquisition is part of a broader $32 billion investment strategy in the cancer and immunology sectors for 2026.",
-        "market_impact": "Strategic expansion",
-        "key_facts": [
-            "Calytrix Bio is a closely held company.",
-            "The deal is part of a series of acquisitions totaling $32 billion in 2026."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "analysis_not_specific_enough_to_source"
-        ],
-        "source_description_chars": 527,
-        "analysis": "The acquisition represents a continuation of the company's aggressive M&A strategy in the biotech space. The snippet does not detail the specific drug pipeline assets being acquired.",
-        "what_to_watch": "",
-        "content": "<p>The acquisition represents a continuation of the company&#x27;s aggressive M&amp;A strategy in the biotech space. The snippet does not detail the specific drug pipeline assets being acquired.</p>",
-        "tickers": [
-            "LLY"
-        ],
-        "slug": "eli-lilly-to-acquire-calytrix-bio-for-1-5-billion-9c14c8"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/16/trump-lutnick-nvidia-national-security-jensen-huant.html",
-        "source": "CNBC",
-        "published": "2026-11-16 16:52",
-        "title": "Trump Comments on Nvidia CEO Jensen Huang",
-        "tag": "TECH",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "President Trump stated he does not view the tenure of Nvidia's CEO as a national security risk. These remarks were made to reporters prior to an international trip.",
-        "market_impact": "Minimal",
-        "key_facts": [
-            "The comments were made before a trip to Asia.",
-            "The president addressed the issue in response to reporters."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 155,
-        "analysis": "The president's public stance on the company's leadership is the primary focus. The snippet does not establish any change in regulatory policy or business operations for Nvidia.",
-        "what_to_watch": "",
-        "content": "<p>The president&#x27;s public stance on the company&#x27;s leadership is the primary focus. The snippet does not establish any change in regulatory policy or business operations for Nvidia.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "trump-comments-on-nvidia-ceo-jensen-huang-0ea830"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/16/anthropic-cfo-krishna-rao-ipo.html",
-        "source": "CNBC",
-        "published": "2026-11-16 16:08",
-        "title": "Anthropic CFO Krishna Rao Gains Attention Ahead of IPO",
-        "tag": "TECH",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Finance chief Krishna Rao is receiving increased focus as Anthropic prepares for an initial public offering. His role is being highlighted by Wall Street observers.",
-        "market_impact": "Increased visibility",
-        "key_facts": [
-            "Krishna Rao serves as the finance chief for Anthropic."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 81,
-        "analysis": "The upcoming IPO is the primary driver of interest in the company's financial leadership. The snippet does not provide a timeline or valuation for the offering.",
-        "what_to_watch": "",
-        "content": "<p>The upcoming IPO is the primary driver of interest in the company&#x27;s financial leadership. The snippet does not provide a timeline or valuation for the offering.</p>",
-        "slug": "anthropic-cfo-krishna-rao-gains-attention-ahead-of-ipo-dbc77a"
     }
 ]

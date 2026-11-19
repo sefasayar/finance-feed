@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://sefasayar.github.io/finance-feed/</loc><lastmod>2026-11-18</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://sefasayar.github.io/finance-feed/daily/</loc><lastmod>2026-11-18</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/</loc><lastmod>2026-11-19</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/daily/</loc><lastmod>2026-11-19</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-06.html</loc><lastmod>2026-11-06</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-07.html</loc><lastmod>2026-11-07</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-08.html</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
@@ -15,12 +15,14 @@
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-16.html</loc><lastmod>2026-11-16</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-17.html</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-18.html</loc><lastmod>2026-11-18</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/daily/2026-11-19.html</loc><lastmod>2026-11-19</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/tag/commodities.html</loc><lastmod>2026-11-19</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/tag/earnings.html</loc><lastmod>2026-11-19</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/tag/tech.html</loc><lastmod>2026-11-19</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/tag/stocks.html</loc><lastmod>2026-11-18</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/tag/fed.html</loc><lastmod>2026-11-18</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/tag/economy.html</loc><lastmod>2026-11-18</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://sefasayar.github.io/finance-feed/tag/earnings.html</loc><lastmod>2026-11-18</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://sefasayar.github.io/finance-feed/tag/commodities.html</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://sefasayar.github.io/finance-feed/tag/tech.html</loc><lastmod>2026-11-17</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sefasayar.github.io/finance-feed/news/copper-prices-recover-following-recent-sell-off-e1a061.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/news/ed-yardeni-views-current-interest-rates-as-normal-for-longer-9a277f.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/news/gopinath-notes-alignment-between-warsh-and-waller-on-fed-eefc73.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://sefasayar.github.io/finance-feed/news/investors-pay-premium-for-defensive-stocks-despite-high-49f197.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>

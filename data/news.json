@@ -1,5 +1,208 @@
 [
     {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-20/ai-fueled-cyberattacks-drive-claims-surge-at-japan-insurers",
+        "source": "Bloomberg",
+        "published": "2026-11-20 04:55",
+        "title": "Sophisticated AI Cyberattacks Trigger Surge in Japanese Insurance Claims",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "Major property insurers in Japan are experiencing a substantial increase in cyber insurance payouts. The trend is being driven by higher volumes of nationwide hacking incidents and more advanced artificial intelligence techniques.",
+        "market_impact": "Higher insurer claims",
+        "key_facts": [
+            "The claims spike is reported by Japan's largest property insurers",
+            "Attacks have grown more sophisticated due to artificial intelligence",
+            "Hacking incidents are rising on a nationwide scale"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 192,
+        "analysis": "A marked spike in claims is being fueled by an increase in sophisticated AI-driven cyberattacks across Japan. This surge could elevate underwriting costs for domestic property insurers, though the text does not establish specific financial loss figures.",
+        "what_to_watch": "",
+        "content": "<p>A marked spike in claims is being fueled by an increase in sophisticated AI-driven cyberattacks across Japan. This surge could elevate underwriting costs for domestic property insurers, though the text does not establish specific financial loss figures.</p>",
+        "slug": "sophisticated-ai-cyberattacks-trigger-surge-in-japanese-8c7e78"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/20/anthropic-ipo-stocks-market.html",
+        "source": "CNBC",
+        "published": "2026-11-20 04:51",
+        "title": "Anthropic IPO Debuts as Analysts Caution Over Near-Term Volatility",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Anthropic has completed an initial public offering described as a necessary boost for public markets. Market analysts caution that trading in the company's shares is likely to remain unstable over the coming weeks.",
+        "market_impact": "Share price volatility",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 116,
+        "analysis": "Analysts emphasize that the newly public company will likely experience volatile trading conditions in the near term. This indicates potential price swings for Anthropic stock, but the excerpt does not establish any financial metrics or valuation details.",
+        "what_to_watch": "",
+        "content": "<p>Analysts emphasize that the newly public company will likely experience volatile trading conditions in the near term. This indicates potential price swings for Anthropic stock, but the excerpt does not establish any financial metrics or valuation details.</p>",
+        "slug": "anthropic-ipo-debuts-as-analysts-caution-over-near-term-f1c697"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-20/yen-outperforms-g-10-peers-as-tech-selloff-fuels-haven-demand",
+        "source": "Bloomberg",
+        "published": "2026-11-20 04:41",
+        "title": "Japanese Yen Leads G-10 Currencies Amid Broad Technology Stock Slump",
+        "tag": "FOREX",
+        "sentiment": "BULLISH",
+        "ai_summary": "The yen outpaced all other Group of 10 currencies during Friday's trading session. Demand for the safe-haven currency expanded as equity declines across technology shares spread into Asian markets.",
+        "market_impact": "Yen strength",
+        "key_facts": [
+            "The yen led all Group of 10 currencies on Friday"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 165,
+        "analysis": "The yen emerged as the top performer among G-10 currencies due to safe-haven flows during a tech rout. This highlights ongoing foreign exchange sensitivity to equity market weakness, though the text does not establish specific currency exchange rates.",
+        "what_to_watch": "",
+        "content": "<p>The yen emerged as the top performer among G-10 currencies due to safe-haven flows during a tech rout. This highlights ongoing foreign exchange sensitivity to equity market weakness, though the text does not establish specific currency exchange rates.</p>",
+        "slug": "japanese-yen-leads-g-10-currencies-amid-broad-technology-0a3498"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html",
+        "source": "CNBC",
+        "published": "2026-11-20 03:56",
+        "title": "Senate Passes BAAJA Permitting Reform Supported by AI and Energy",
+        "tag": "ECONOMY",
+        "sentiment": "BULLISH",
+        "ai_summary": "Legislation aimed at permitting reform has successfully advanced through the Senate with backing from energy and artificial intelligence industries. To be enacted into law, the measure must now secure approval in the House before reaching President Trump.",
+        "market_impact": "Policy tailwind potential",
+        "key_facts": [
+            "The bill requires approval by the House before going to President Trump"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 154,
+        "analysis": "The critical development is the Senate's passage of the permitting reform bill backed by key industrial groups. This progress suggests potential regulatory easing for energy and AI projects, though the text does not establish whether the House will pass the bill.",
+        "what_to_watch": "Watch for a vote on the bill in the House of Representatives.",
+        "content": "<p>The critical development is the Senate&#x27;s passage of the permitting reform bill backed by key industrial groups. This progress suggests potential regulatory easing for energy and AI projects, though the text does not establish whether the House will pass the bill.</p><p><strong>What to watch:</strong> Watch for a vote on the bill in the House of Representatives.</p>",
+        "slug": "senate-passes-baaja-permitting-reform-supported-by-ai-and-4ace46"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
+        "source": "CNBC",
+        "published": "2026-11-20 00:08",
+        "title": "AMD Drops Over 7% Following Short Seller Allegations on China Exposure",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Shares fell sharply after a short seller claimed the chipmaker's firmware was found at an entity on a U.S. blacklist. The company responded by stating that it remains in full compliance with United States law.",
+        "market_impact": "Negative AMD impact",
+        "key_facts": [
+            "A short seller alleged AMD firmware was present at a blacklisted Chinese entity",
+            "AMD issued a statement maintaining that it complies with U.S. law"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 150,
+        "analysis": "The plunge of more than 7% followed a short seller report alleging firmware exposure to a blacklisted Chinese company. This development could increase scrutiny on AMD's regulatory compliance, though the provided text does not establish whether the short seller's claims are verified.",
+        "what_to_watch": "",
+        "content": "<p>The plunge of more than 7% followed a short seller report alleging firmware exposure to a blacklisted Chinese company. This development could increase scrutiny on AMD&#x27;s regulatory compliance, though the provided text does not establish whether the short seller&#x27;s claims are verified.</p>",
+        "tickers": [
+            "AMD"
+        ],
+        "slug": "amd-drops-over-7-following-short-seller-allegations-on-4524fd"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/after-anthropics-bittersweet-ipo-heres-what-lies-ahead-8c32fdb7?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-19 23:56",
+        "title": "Anthropic IPO Draws Retail Interest Without Lifting Broader Tech Market",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Individual retail traders actively participated in Anthropic's public offering. Despite this participation, the debut did not trigger a wider rally across the technology sector.",
+        "market_impact": "Muted sector reaction",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 109,
+        "analysis": "The central observation is that retail investors bought into the IPO while tech sector momentum remained subdued. This suggests that positive sentiment around Anthropic has remained isolated, though the text does not establish the broader market's exact performance figures.",
+        "what_to_watch": "",
+        "content": "<p>The central observation is that retail investors bought into the IPO while tech sector momentum remained subdued. This suggests that positive sentiment around Anthropic has remained isolated, though the text does not establish the broader market&#x27;s exact performance figures.</p>",
+        "slug": "anthropic-ipo-draws-retail-interest-without-lifting-broader-260bb6"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/these-were-the-only-stocks-that-rose-amid-the-stock-markets-wipeout-thursday-1eaf32ba?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-19 23:11",
+        "title": "Cybersecurity Stocks Gain While Broad S&P 500 Suffers Sharp Thursday Selloff",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "A broad equity downturn pulled down all 11 sectors within the S&P 500 during Thursday's session. Ten of those sectors lost more than 1%, while cybersecurity shares managed to resist the broader drop.",
+        "market_impact": "Broad equity decline",
+        "key_facts": [
+            "Ten S&P 500 sectors declined by more than 1%",
+            "Cybersecurity stocks rose despite the wider market selloff"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 115,
+        "analysis": "All 11 sectors of the S&P 500 declined, with ten falling over 1% during the market rout. The relative strength of cybersecurity suggests targeted defensive buying in software security, but the text does not establish specific individual stock performances.",
+        "what_to_watch": "",
+        "content": "<p>All 11 sectors of the S&amp;P 500 declined, with ten falling over 1% during the market rout. The relative strength of cybersecurity suggests targeted defensive buying in software security, but the text does not establish specific individual stock performances.</p>",
+        "slug": "cybersecurity-stocks-gain-while-broad-s-p-500-suffers-sharp-648b1f"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-19 22:53",
+        "title": "Intuit Issues Downbeat Forecast Adding to Legacy Software Sector Concerns",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "The TurboTax producer released a weaker outlook that troubled investors on Wall Street. The softer forecast amplified broader market worries surrounding established legacy software providers.",
+        "market_impact": "Software sector pressure",
+        "key_facts": [
+            "Intuit is the maker of TurboTax",
+            "The downbeat outlook heightened concerns specifically regarding legacy software firms"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 94,
+        "analysis": "Intuit's downbeat forecast represents the primary driver of renewed investor concern. The guidance may weigh on market sentiment for legacy software peers, though the excerpt does not establish numerical forecast targets or detailed financial results.",
+        "what_to_watch": "",
+        "content": "<p>Intuit&#x27;s downbeat forecast represents the primary driver of renewed investor concern. The guidance may weigh on market sentiment for legacy software peers, though the excerpt does not establish numerical forecast targets or detailed financial results.</p>",
+        "tickers": [
+            "INTU"
+        ],
+        "slug": "intuit-issues-downbeat-forecast-adding-to-legacy-software-3e40d0"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-19/stock-market-today-dow-s-p-live-updates",
+        "source": "Bloomberg",
+        "published": "2026-11-19 22:03",
+        "title": "Global Equities Face Steepest Losing Run Since 2023 as AI Trade Slides",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Worldwide share benchmarks headed toward their longest decline in over three years following an unwinding in AI-related equities. Capital moved toward traditional safe havens, driving demand into U.S. Treasuries.",
+        "market_impact": "Haven assets rise",
+        "key_facts": [
+            "Global equities are facing their longest losing streak in more than three years",
+            "The selloff followed a bull run in the AI trade during 2026",
+            "Investors moved into haven assets including Treasuries"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 208,
+        "analysis": "The collapse of the artificial intelligence rally sparked the longest global equity losing streak since 2023. The trend points to a broader de-risking phase across global markets, though the text does not establish the precise losses across regional indexes.",
+        "what_to_watch": "",
+        "content": "<p>The collapse of the artificial intelligence rally sparked the longest global equity losing streak since 2023. The trend points to a broader de-risking phase across global markets, though the text does not establish the precise losses across regional indexes.</p>",
+        "slug": "global-equities-face-steepest-losing-run-since-2023-as-ai-a08f8d"
+    },
+    {
         "original_link": "https://www.bloomberg.com/news/articles/2026-11-19/copper-rebounds-after-rout-as-physical-tightness-persists",
         "source": "Bloomberg",
         "published": "2026-11-19 01:14",
@@ -372,214 +575,5 @@
         "what_to_watch": "",
         "content": "<p>The third day of Treasury gains was driven by faltering risk sentiment and views that impending Federal Reserve rate hikes are mostly absorbed by the market. This supports bond prices in the short term, but the snippet does not indicate the size or timing of future central bank policy moves.</p>",
         "slug": "us-treasuries-gain-for-third-session-amid-weakening-risk-dca5ad"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-18/itpo-s-ashraf-india-us-trade-deal-almost-99-done-video",
-        "source": "Bloomberg",
-        "published": "2026-11-18 04:36",
-        "title": "India-US Trade Agreement Nearly Complete, Says ITPO Chairman Ashraf",
-        "tag": "ECONOMY",
-        "sentiment": "BULLISH",
-        "ai_summary": "India Trade Promotion Organization Chairman Jawed Ashraf stated that the bilateral trade deal between India and the United States is roughly 99% finalized. He emphasized that India seeks to secure competitive advantages against competitors while guarding against unilateral US trade measures.",
-        "market_impact": "Boosts bilateral trade",
-        "key_facts": [
-            "ITPO Chairman Jawed Ashraf spoke on the sidelines of the Singapore Fintech Festival 2026",
-            "India aims to ensure trade commitments are honored and protected from unilateral US measures"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 383,
-        "analysis": "The assertion that the India-US trade deal is almost finished signals imminent changes in cross-border trade terms between the two economies. This progress could enhance India's competitive standing against rivals, though the text leaves the unresolved one percent and implementation timeline undefined.",
-        "what_to_watch": "",
-        "content": "<p>The assertion that the India-US trade deal is almost finished signals imminent changes in cross-border trade terms between the two economies. This progress could enhance India&#x27;s competitive standing against rivals, though the text leaves the unresolved one percent and implementation timeline undefined.</p>",
-        "slug": "india-us-trade-agreement-nearly-complete-says-itpo-chairman-2b5edf"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html",
-        "source": "CNBC",
-        "published": "2026-11-18 03:30",
-        "title": "China's Xi Urges Fewer Trade Barriers Ahead of Trump and Putin Meetings",
-        "tag": "ECONOMY",
-        "sentiment": "BULLISH",
-        "ai_summary": "The Chinese leader spoke at the APEC summit in Shenzhen to advocate for reduced trade and investment obstacles. He also promised greater access to the nation's domestic market and manufacturing industry.",
-        "market_impact": "Improves trade sentiment",
-        "key_facts": [
-            "Remarks were delivered at the opening of the APEC summit in Shenzhen",
-            "Xi pledged broader access to China's domestic market and manufacturing sector"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 157,
-        "analysis": "Xi's explicit pledge to broaden access to China's manufacturing sector and market highlights a push to ease international commerce tensions. This stance could benefit global trade relations, though the text does not detail concrete policy changes or the outcome of upcoming talks with Trump and Putin.",
-        "what_to_watch": "Watch for the upcoming meeting between Xi, Trump, and Putin.",
-        "content": "<p>Xi&#x27;s explicit pledge to broaden access to China&#x27;s manufacturing sector and market highlights a push to ease international commerce tensions. This stance could benefit global trade relations, though the text does not detail concrete policy changes or the outcome of upcoming talks with Trump and Putin.</p><p><strong>What to watch:</strong> Watch for the upcoming meeting between Xi, Trump, and Putin.</p>",
-        "slug": "china-s-xi-urges-fewer-trade-barriers-ahead-of-trump-and-de562b"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/coreweaves-stock-pops-even-as-nvidia-talks-up-a-disciplined-approach-to-financing-e7f00876?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-18 01:59",
-        "title": "CoreWeave Stock Advances Despite Nvidia Signaling Cautious Customer Financing",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "CoreWeave shares gained even after Nvidia outlined plans to review its customer financing support carefully. Nvidia interim CEO Colette Kress noted that while neocloud providers are growing in importance, financing will undergo thorough scrutiny.",
-        "market_impact": "Neocloud stocks rise",
-        "key_facts": [
-            "Nvidia interim CEO Colette Kress described neoclouds as increasingly important",
-            "Kress indicated Nvidia will take a very strong look at customers receiving financing help"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 172,
-        "analysis": "Nvidia stated it will scrutinize the customers it assists with financing despite recognizing neoclouds as increasingly important. This disciplined approach could constrain capital support for some cloud clients, but the snippet does not detail any immediate impact on CoreWeave's funding.",
-        "what_to_watch": "",
-        "content": "<p>Nvidia stated it will scrutinize the customers it assists with financing despite recognizing neoclouds as increasingly important. This disciplined approach could constrain capital support for some cloud clients, but the snippet does not detail any immediate impact on CoreWeave&#x27;s funding.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "coreweave-stock-advances-despite-nvidia-signaling-cautious-99f535"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/nvidias-stock-rises-as-blowout-numbers-help-ease-ceo-transition-fears-2f20d38a?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-18 01:28",
-        "title": "Nvidia Rises on Strong Revenue Growth and $130 Billion Quarterly Forecast",
-        "tag": "EARNINGS",
-        "sentiment": "BULLISH",
-        "ai_summary": "Shares of the chipmaker rose following robust revenue expansion and a projected $130 billion quarter. The strong performance helped alleviate market concerns regarding its ongoing CEO transition.",
-        "market_impact": "Lifts chip sector",
-        "key_facts": [
-            "Nvidia issued a quarterly forecast of $130 billion",
-            "Blowout numbers helped relieve investor concerns regarding a CEO transition"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 107,
-        "analysis": "Nvidia's quarterly forecast of $130 billion indicates sustained high demand for its semiconductor hardware. While this eased leadership transition worries, the snippet does not provide details on margins, supply constraints, or the timeline of the executive change.",
-        "what_to_watch": "",
-        "content": "<p>Nvidia&#x27;s quarterly forecast of $130 billion indicates sustained high demand for its semiconductor hardware. While this eased leadership transition worries, the snippet does not provide details on margins, supply constraints, or the timeline of the executive change.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "nvidia-rises-on-strong-revenue-growth-and-130-billion-5fa060"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-17/latest-oil-market-news-and-analysis-for-nov-18",
-        "source": "Bloomberg",
-        "published": "2026-11-17 23:01",
-        "title": "Oil Prices Slip on Supply Recovery and Growing US Inventories",
-        "tag": "COMMODITIES",
-        "sentiment": "BEARISH",
-        "ai_summary": "Crude prices fell slightly as investors focused on rising US stockpiles and indicators of rebounding output. Market participants largely shrugged off recent clashes in the Middle East.",
-        "market_impact": "Crude prices decline",
-        "key_facts": [
-            "Traders looked past renewed fighting in the Middle East",
-            "Crude was pressured by signs of recovering supplies alongside higher US inventories"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 140,
-        "analysis": "Signs of recovering global supply and higher US inventories outweighed the geopolitical risk of renewed Middle East fighting. This balance points toward softening near-term physical market tightness, though the text does not disclose the exact size of the inventory increases.",
-        "what_to_watch": "",
-        "content": "<p>Signs of recovering global supply and higher US inventories outweighed the geopolitical risk of renewed Middle East fighting. This balance points toward softening near-term physical market tightness, though the text does not disclose the exact size of the inventory increases.</p>",
-        "slug": "oil-prices-slip-on-supply-recovery-and-growing-us-53b65b"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-17/apollo-s-rowan-says-insurance-will-power-the-8-trillion-ai-boom",
-        "source": "Bloomberg",
-        "published": "2026-11-17 22:49",
-        "title": "Apollo CEO Sees Insurance Capital Financing $8 Trillion AI Expansion",
-        "tag": "TECH",
-        "sentiment": "BULLISH",
-        "ai_summary": "Apollo Global Management CEO Marc Rowan stated that the artificial intelligence boom will require substantial long-term funding. He noted that capital from retirement and insurance assets could satisfy the sector's financing needs.",
-        "market_impact": "Expands private credit",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 183,
-        "analysis": "Rowan identifies a potential $8 trillion funding requirement for AI infrastructure that could be financed through insurance and retirement pools. This indicates an expanding institutional lending pipeline, though the snippet does not detail the timeline or terms of these deployments.",
-        "what_to_watch": "",
-        "content": "<p>Rowan identifies a potential $8 trillion funding requirement for AI infrastructure that could be financed through insurance and retirement pools. This indicates an expanding institutional lending pipeline, though the snippet does not detail the timeline or terms of these deployments.</p>",
-        "tickers": [
-            "APO"
-        ],
-        "slug": "apollo-ceo-sees-insurance-capital-financing-8-trillion-ai-d62dc3"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/costco-is-benefiting-from-apocalyptic-concerns-as-customers-stock-up-on-goods-analysts-say-24f611ab?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-17 22:46",
-        "title": "Costco Emergency Supply Sales Accelerate Following Tech and Flight Disruptions",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "Warehouse shoppers are stocking up on preparedness items amid broader fears spurred by recent infrastructure disruptions. Mizuho analysts observed higher emergency preparation demand following a Microsoft outage and nationwide grounded flights.",
-        "market_impact": "Aids retail sales",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 153,
-        "analysis": "Heightened sales of emergency items point to a direct demand boost for the warehouse retailer following recent national disruptions. However, the snippet does not provide the financial revenue impact or duration of this sales spike.",
-        "what_to_watch": "",
-        "content": "<p>Heightened sales of emergency items point to a direct demand boost for the warehouse retailer following recent national disruptions. However, the snippet does not provide the financial revenue impact or duration of this sales spike.</p>",
-        "tickers": [
-            "COST",
-            "MSFT"
-        ],
-        "slug": "costco-emergency-supply-sales-accelerate-following-tech-and-8ff442"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-17 22:08",
-        "title": "BofA Rates Team Highlights Possibility of Half-Point Fed Hike in December",
-        "tag": "FED",
-        "sentiment": "BEARISH",
-        "ai_summary": "Investors seeking 5% yields on short-term Treasurys are advised to monitor potential shifts in central bank policy. Bank of America Global's rates strategists indicated that a 50-basis-point interest-rate increase in December remains possible.",
-        "market_impact": "Lifts short yields",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 90,
-        "analysis": "The key factor is the potential for a 50-basis-point policy rate increase by the Federal Reserve in December. Such a move could keep short-term Treasury yields elevated near 5%, though the text does not outline the specific economic conditions that would trigger this hike.",
-        "what_to_watch": "",
-        "content": "<p>The key factor is the potential for a 50-basis-point policy rate increase by the Federal Reserve in December. Such a move could keep short-term Treasury yields elevated near 5%, though the text does not outline the specific economic conditions that would trigger this hike.</p>",
-        "tickers": [
-            "BAC"
-        ],
-        "slug": "bofa-rates-team-highlights-possibility-of-half-point-fed-49e0b2"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-17/stock-market-today-dow-s-p-live-updates",
-        "source": "Bloomberg",
-        "published": "2026-11-17 22:07",
-        "title": "US Stock Futures Climb as Nvidia Revenue Guidance Beats Forecasts",
-        "tag": "EARNINGS",
-        "sentiment": "BULLISH",
-        "ai_summary": "Index contracts advanced after Nvidia released an upbeat sales outlook that exceeded Wall Street estimates. The result offered relief to equities after a previous deepening decline in semiconductor shares.",
-        "market_impact": "Lifts equity futures",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 189,
-        "analysis": "The primary catalyst is Nvidia's sales forecast topping consensus expectations, which halted a deepening retreat in chip stocks. This development may stabilize near-term sentiment in technology equities, though the report does not provide exact forecast figures.",
-        "what_to_watch": "",
-        "content": "<p>The primary catalyst is Nvidia&#x27;s sales forecast topping consensus expectations, which halted a deepening retreat in chip stocks. This development may stabilize near-term sentiment in technology equities, though the report does not provide exact forecast figures.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "us-stock-futures-climb-as-nvidia-revenue-guidance-beats-0a80a6"
     }
 ]

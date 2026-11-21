@@ -1,5 +1,118 @@
 [
     {
+        "original_link": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
+        "source": "CNBC",
+        "published": "2026-11-21 16:40",
+        "title": "Anthropic debuts on Nasdaq as tech suffers worst week since 2020",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "Anthropic executed a record-setting initial public offering on the Nasdaq exchange. The event coincided with the tech sector's sharpest weekly retreat since 2020, occurring right before Nvidia ended its longest weekly losing stretch since 2008.",
+        "market_impact": "Tech sentiment dampens",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 124,
+        "analysis": "Nvidia concluded its longest weekly decline since 2008 alongside the tech sector's worst weekly performance since 2020. This indicates significant short-term headwinds for tech assets, although Anthropic's own post-debut performance is not disclosed.",
+        "what_to_watch": "",
+        "content": "<p>Nvidia concluded its longest weekly decline since 2008 alongside the tech sector&#x27;s worst weekly performance since 2020. This indicates significant short-term headwinds for tech assets, although Anthropic&#x27;s own post-debut performance is not disclosed.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "anthropic-debuts-on-nasdaq-as-tech-suffers-worst-week-since-0382ca"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-21 15:35",
+        "title": "Analysts warn low valuation multiples in memory stocks signal peak pricing",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Micron and Sandisk shares currently trade at compressed valuation multiples that market participants might view as attractive entry points. Analysts warn that historically, low valuation multiples in memory chip makers have signaled peak cycle pricing.",
+        "market_impact": "Memory stocks face caution",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 126,
+        "analysis": "Analysts emphasize that historically low valuation multiples for memory makers frequently coincide with cyclical peaks in chip pricing. This suggests that earnings could face pressure if product prices decline, though the excerpt does not share current financial figures or analyst price targets.",
+        "what_to_watch": "",
+        "content": "<p>Analysts emphasize that historically low valuation multiples for memory makers frequently coincide with cyclical peaks in chip pricing. This suggests that earnings could face pressure if product prices decline, though the excerpt does not share current financial figures or analyst price targets.</p>",
+        "tickers": [
+            "MU"
+        ],
+        "slug": "analysts-warn-low-valuation-multiples-in-memory-stocks-8c6b52"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-21/goldman-s-spacex-pitch-helps-solve-ai-debt-puzzle-credit-weekly",
+        "source": "Bloomberg",
+        "published": "2026-11-21 15:31",
+        "title": "Goldman Sachs develops financing framework to fund costly AI chip purchases",
+        "tag": "TECH",
+        "sentiment": "BULLISH",
+        "ai_summary": "Goldman Sachs Group Inc. dedicated over a year to devising strategies that fund artificial intelligence microchips. The solution is aimed at avoiding balance sheet impairment for tech corporations making heavy hardware purchases.",
+        "market_impact": "Tech funding options expand",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 163,
+        "analysis": "Goldman Sachs spent over a year working on a mechanism to finance AI chips without harming corporate balance sheets. This development could ease debt pressures for technology firms investing in AI compute, though the snippet does not detail the structure of the SpaceX proposal.",
+        "what_to_watch": "",
+        "content": "<p>Goldman Sachs spent over a year working on a mechanism to finance AI chips without harming corporate balance sheets. This development could ease debt pressures for technology firms investing in AI compute, though the snippet does not detail the structure of the SpaceX proposal.</p>",
+        "tickers": [
+            "GS"
+        ],
+        "slug": "goldman-sachs-develops-financing-framework-to-fund-costly-691aee"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html",
+        "source": "CNBC",
+        "published": "2026-11-21 15:04",
+        "title": "Technology outages heighten concerns over AI cyber risks and power grid",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Recent infrastructure failures in the technology sector have prompted rising alarms over AI-enabled cyber threats and electrical network vulnerabilities. In response, business activity tied to preparedness and resilience has gained momentum.",
+        "market_impact": "Grid focus rises",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 149,
+        "analysis": "Recent technical failures have drawn increased attention to vulnerability in the U.S. electricity grid and AI cyber exposure. While this may increase demand for protective infrastructure, the text provides no quantitative evidence of financial gains across the sector.",
+        "what_to_watch": "",
+        "content": "<p>Recent technical failures have drawn increased attention to vulnerability in the U.S. electricity grid and AI cyber exposure. While this may increase demand for protective infrastructure, the text provides no quantitative evidence of financial gains across the sector.</p>",
+        "slug": "technology-outages-heighten-concerns-over-ai-cyber-risks-2ca0a4"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/21/prediction-market-regulation-kalshi-cftc.html",
+        "source": "CNBC",
+        "published": "2026-11-21 13:12",
+        "title": "CFTC, Congress, and states escalate clash over prediction market rules",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Multiple regulatory tiers are stepping up efforts to govern prediction markets following the midterm elections. The escalating struggle involves state agencies alongside federal oversight from Congress and the CFTC.",
+        "market_impact": "Regulatory scrutiny intensifies",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 108,
+        "analysis": "The simultaneous involvement of state governments, federal lawmakers, and the CFTC highlights mounting jurisdictional complexity for prediction market operators. This regulatory friction could lead to tighter operating constraints, though the snippet does not outline any specific rules or proposed legislation.",
+        "what_to_watch": "",
+        "content": "<p>The simultaneous involvement of state governments, federal lawmakers, and the CFTC highlights mounting jurisdictional complexity for prediction market operators. This regulatory friction could lead to tighter operating constraints, though the snippet does not outline any specific rules or proposed legislation.</p>",
+        "slug": "cftc-congress-and-states-escalate-clash-over-prediction-df0f7a"
+    },
+    {
         "original_link": "https://www.bloomberg.com/news/videos/2026-11-20/j-j-snack-foods-ceo-on-4q-results-and-consumer-sentiment-video",
         "source": "Bloomberg",
         "published": "2026-11-20 23:22",
@@ -461,126 +574,5 @@
             "PANW"
         ],
         "slug": "palo-alto-networks-acquires-applied-compute-for-4-5-billion-0f47bc"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
-        "source": "CNBC",
-        "published": "2026-11-18 23:45",
-        "title": "Nvidia Interim CEO Kress Addresses Staff Following Huang Departure",
-        "tag": "TECH",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Interim CEO Colette Kress held her first all-hands meeting to encourage employees to move forward. The leadership transition follows the exit of former CEO Jensen Huang.",
-        "market_impact": "Minimal",
-        "key_facts": [
-            "Colette Kress is serving as interim CEO.",
-            "Employees were offered pay raises."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "analysis_not_specific_enough_to_source"
-        ],
-        "source_description_chars": 101,
-        "analysis": "The meeting focused on internal morale and organizational stability during a leadership change. The snippet does not provide details on long-term strategy or financial guidance.",
-        "what_to_watch": "",
-        "content": "<p>The meeting focused on internal morale and organizational stability during a leadership change. The snippet does not provide details on long-term strategy or financial guidance.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "nvidia-interim-ceo-kress-addresses-staff-following-huang-879c59"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-18 23:12",
-        "title": "Death Cross Pattern Emerges in Small-Cap Stocks",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "A technical 'death cross' pattern has appeared in small-cap stocks. This indicator suggests potential weakness within the Russell 2000 index.",
-        "market_impact": "Market caution",
-        "key_facts": [
-            "The pattern confirms weakness in the Russell 2000.",
-            "Overall market breadth is affected by the trend."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 95,
-        "analysis": "The pattern indicates a decline in market breadth and momentum for smaller companies. The snippet does not establish whether this trend will persist or affect larger market indices.",
-        "what_to_watch": "",
-        "content": "<p>The pattern indicates a decline in market breadth and momentum for smaller companies. The snippet does not establish whether this trend will persist or affect larger market indices.</p>",
-        "slug": "death-cross-pattern-emerges-in-small-cap-stocks-f421df"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-18/latest-oil-market-news-and-analysis-for-nov-19",
-        "source": "Bloomberg",
-        "published": "2026-11-18 23:03",
-        "title": "Oil Prices Stabilize Amid Geopolitical Tensions",
-        "tag": "COMMODITIES",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Oil prices remained steady as market participants monitored the conflict between the US and Iran. Traders are evaluating the potential for further escalations involving Tehran.",
-        "market_impact": "Price stability",
-        "key_facts": [
-            "Traders are assessing the outlook for the US-Iran conflict.",
-            "The market is monitoring the possibility of attacks against Tehran."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "analysis_not_specific_enough_to_source"
-        ],
-        "source_description_chars": 129,
-        "analysis": "Geopolitical risk in oil-producing regions often influences market volatility. The snippet does not confirm any specific upcoming military actions or supply disruptions.",
-        "what_to_watch": "",
-        "content": "<p>Geopolitical risk in oil-producing regions often influences market volatility. The snippet does not confirm any specific upcoming military actions or supply disruptions.</p>",
-        "slug": "oil-prices-stabilize-amid-geopolitical-tensions-3f17c6"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-18 23:02",
-        "title": "Copper Supply Concerns May Impact AI Infrastructure",
-        "tag": "COMMODITIES",
-        "sentiment": "BEARISH",
-        "ai_summary": "A recent decline in copper prices raises concerns about the long-term availability of the metal for AI infrastructure. Future mining output may struggle to keep pace with projected demand.",
-        "market_impact": "Supply chain risk",
-        "key_facts": [
-            "Copper prices have experienced a recent plunge.",
-            "AI demand for copper is expected to persist for years."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 88,
-        "analysis": "Copper is a critical material for the hardware required to support AI growth. The snippet does not provide specific production figures or timelines for potential supply shortages.",
-        "what_to_watch": "",
-        "content": "<p>Copper is a critical material for the hardware required to support AI growth. The snippet does not provide specific production figures or timelines for potential supply shortages.</p>",
-        "slug": "copper-supply-concerns-may-impact-ai-infrastructure-e3d60e"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
-        "source": "CNBC",
-        "published": "2026-11-18 16:49",
-        "title": "Anthropic May Increase IPO Offering Amid Strong Investor Interest",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "The AI company is reportedly considering a larger share offering due to high demand. Trading on the Nasdaq is scheduled to commence this Thursday.",
-        "market_impact": "Increased liquidity",
-        "key_facts": [
-            "The company will trade under the ticker symbol ANT.",
-            "The offering is scheduled for Thursday."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "analysis_not_specific_enough_to_source"
-        ],
-        "source_description_chars": 94,
-        "analysis": "The decision to potentially increase the offering size reflects strong market appetite for the company's debut. The snippet does not confirm the final pricing or the total number of shares to be issued.",
-        "what_to_watch": "Monitor the stock's performance on the Nasdaq starting Thursday.",
-        "content": "<p>The decision to potentially increase the offering size reflects strong market appetite for the company&#x27;s debut. The snippet does not confirm the final pricing or the total number of shares to be issued.</p><p><strong>What to watch:</strong> Monitor the stock&#x27;s performance on the Nasdaq starting Thursday.</p>",
-        "slug": "anthropic-may-increase-ipo-offering-amid-strong-investor-92cdba"
     }
 ]

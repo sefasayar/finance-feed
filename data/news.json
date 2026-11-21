@@ -1,5 +1,191 @@
 [
     {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-20/j-j-snack-foods-ceo-on-4q-results-and-consumer-sentiment-video",
+        "source": "Bloomberg",
+        "published": "2026-11-20 23:22",
+        "title": "J&J Snack Foods Targets Additional Cost Savings Under Project Apollo 2",
+        "tag": "EARNINGS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Chief Executive Dan Fachner stated that the company's turnaround plan remains on schedule following a strong fiscal year. The Project Apollo initiative yielded over 25 million dollars in permanent savings, with an additional phase planned through 2027.",
+        "market_impact": "Company operational efficiency",
+        "key_facts": [
+            "Project Apollo generated more than $25 million in durable cost savings",
+            "Apollo 2 aims to produce an additional $5 million in savings by 2027 through distribution and manufacturing improvements"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 362,
+        "analysis": "The key operational metric is the generation of over $25 million in durable savings alongside a target of $5 million more by 2027. This suggests ongoing cost improvements in manufacturing and distribution, although the snippet does not provide fourth-quarter revenue or net profit numbers.",
+        "what_to_watch": "",
+        "content": "<p>The key operational metric is the generation of over $25 million in durable savings alongside a target of $5 million more by 2027. This suggests ongoing cost improvements in manufacturing and distribution, although the snippet does not provide fourth-quarter revenue or net profit numbers.</p>",
+        "tickers": [
+            "JJSF"
+        ],
+        "slug": "j-j-snack-foods-targets-additional-cost-savings-under-b98415"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+        "source": "CNBC",
+        "published": "2026-11-20 22:59",
+        "title": "Nvidia Shares Drop 14% to Mark Longest Weekly Slide Since 2008",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "The chipmaker concluded its longest stretch of consecutive weekly losses since the 2008 financial crisis. After previously holding the top spot globally by valuation, the firm now trails Apple, Microsoft, and Alphabet.",
+        "market_impact": "Semiconductor sector pressure",
+        "key_facts": [
+            "The weekly decline was the longest losing streak for the stock since the 2008 financial crisis",
+            "Nvidia previously held the rank of the most valuable company in the world"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 106,
+        "analysis": "The critical takeaway is Nvidia's 14% drop and its slide to fourth place in market value behind major technology peers. This indicates a sharp reset in Nvidia's relative valuation standing, though the text does not disclose the fundamental catalyst driving the weekly sell-off.",
+        "what_to_watch": "",
+        "content": "<p>The critical takeaway is Nvidia&#x27;s 14% drop and its slide to fourth place in market value behind major technology peers. This indicates a sharp reset in Nvidia&#x27;s relative valuation standing, though the text does not disclose the fundamental catalyst driving the weekly sell-off.</p>",
+        "tickers": [
+            "NVDA",
+            "AAPL",
+            "MSFT",
+            "GOOGL"
+        ],
+        "slug": "nvidia-shares-drop-14-to-mark-longest-weekly-slide-since-dc970c"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-20 22:46",
+        "title": "Dow and S&P 500 Reach Correction Territory as Tech Leads Broad Drop",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "The Dow and S&P 500 slid into a market correction as the Nasdaq marked its sharpest weekly contraction since 2020. Every major industry group within the S&P 500 dropped by more than 1% during the week.",
+        "market_impact": "Broad market decline",
+        "key_facts": [
+            "The Nasdaq suffered its worst weekly performance since 2020",
+            "All 11 sectors of the S&P 500 fell more than 1% in the same week for the first time since April 2025"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 97,
+        "analysis": "The most significant fact is that all 11 S&P 500 sectors declined by over 1% in a single week. This demonstrates widespread selling across asset classes, but the excerpt does not identify the underlying economic or corporate causes of the downturn.",
+        "what_to_watch": "",
+        "content": "<p>The most significant fact is that all 11 S&amp;P 500 sectors declined by over 1% in a single week. This demonstrates widespread selling across asset classes, but the excerpt does not identify the underlying economic or corporate causes of the downturn.</p>",
+        "slug": "dow-and-s-p-500-reach-correction-territory-as-tech-leads-4371c6"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-20 22:44",
+        "title": "Semiconductor Stocks Shed $2.3 Trillion in Worst Week in 25 Years",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "A primary index tracking semiconductor equities recorded its largest weekly loss in a quarter of a century. The decline wiped out 2.3 trillion dollars in market value amid a broader retreat from artificial intelligence investments.",
+        "market_impact": "Semiconductor sector selloff",
+        "key_facts": [
+            "A primary semiconductor index logged its worst weekly performance in 25 years"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 81,
+        "analysis": "The headline figure is the $2.3 trillion loss in market value alongside the steepest five-day drop for the chip index in 25 years. This sharp contraction reflects heightened turbulence for semiconductor companies, though the snippet does not detail individual company performances or specific catalysts.",
+        "what_to_watch": "",
+        "content": "<p>The headline figure is the $2.3 trillion loss in market value alongside the steepest five-day drop for the chip index in 25 years. This sharp contraction reflects heightened turbulence for semiconductor companies, though the snippet does not detail individual company performances or specific catalysts.</p>",
+        "slug": "semiconductor-stocks-shed-2-3-trillion-in-worst-week-in-25-6db58f"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/these-stocks-were-crushed-the-most-this-week-as-the-tech-wreck-accelerated-8d6f7323?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-20 22:44",
+        "title": "S&P 500 Suffers Widespread Losses as 94% of Index Components Drop",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Almost the entire S&P 500 finished the week lower, with eleven constituent equities losing at least a fifth of their value. Despite the sharp drawdown, Wall Street analysts maintain that buying these shares could still yield strong returns.",
+        "market_impact": "Broad market weakness",
+        "key_facts": [
+            "Eleven stocks in the S&P 500 declined by at least 20% during the week"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 158,
+        "analysis": "The most critical data point is that 94% of S&P 500 members declined, with 11 falling 20% or more. This breadth indicates acute downward pressure across the market, but the provided text does not identify the specific companies that suffered the steepest falls.",
+        "what_to_watch": "",
+        "content": "<p>The most critical data point is that 94% of S&amp;P 500 members declined, with 11 falling 20% or more. This breadth indicates acute downward pressure across the market, but the provided text does not identify the specific companies that suffered the steepest falls.</p>",
+        "slug": "s-p-500-suffers-widespread-losses-as-94-of-index-components-eadd2e"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-20/-always-remain-liquid-richards-video",
+        "source": "Bloomberg",
+        "published": "2026-11-20 22:30",
+        "title": "CVC Marathon's Bruce Richards Cautions on Irrational Markets and Leveraged ETFs",
+        "tag": "STOCKS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Bruce Richards shared his perspectives on maintaining liquidity during an interview on Bloomberg Money. The managing partner raised concerns about irrational trading behavior and expressed skepticism toward leveraged exchange-traded funds.",
+        "market_impact": "Market commentary",
+        "key_facts": [
+            "Richards heads CVC Marathon as managing partner",
+            "He cautioned against irrational markets and indicated he does not favor leveraged ETF structures"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 317,
+        "analysis": "The notable insight is Richards' recommendation to keep cash available alongside his critique of leveraged exchange-traded products. This highlights risk management preferences of an institutional manager, though the excerpt contains no specific corporate or macroeconomic data.",
+        "what_to_watch": "",
+        "content": "<p>The notable insight is Richards&#x27; recommendation to keep cash available alongside his critique of leveraged exchange-traded products. This highlights risk management preferences of an institutional manager, though the excerpt contains no specific corporate or macroeconomic data.</p>",
+        "slug": "cvc-marathon-s-bruce-richards-cautions-on-irrational-3c19d8"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+        "source": "CNBC",
+        "published": "2026-11-20 20:47",
+        "title": "Trump Threatens Heavy Tax on U.S. Companies Building Data Centers Abroad",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "President Trump pledged to block domestic firms from constructing data center facilities in foreign countries. He delivered the warning at the White House following a summit in China with Xi Jinping and Vladimir Putin.",
+        "market_impact": "Tech spending uncertainty",
+        "key_facts": [
+            "Trump threatened to impose a 'tremendous tax' on foreign data center construction",
+            "The statements followed a trilateral summit held in China with Xi Jinping and Vladimir Putin"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 158,
+        "analysis": "The pivotal detail is Trump's threat of a substantial tax penalty on domestic firms constructing data facilities overseas. Such a policy could alter capital expenditure strategies for technology firms, though the snippet does not provide any legislative or regulatory timetable.",
+        "what_to_watch": "",
+        "content": "<p>The pivotal detail is Trump&#x27;s threat of a substantial tax penalty on domestic firms constructing data facilities overseas. Such a policy could alter capital expenditure strategies for technology firms, though the snippet does not provide any legislative or regulatory timetable.</p>",
+        "slug": "trump-threatens-heavy-tax-on-u-s-companies-building-data-3505a4"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html",
+        "source": "CNBC",
+        "published": "2026-11-20 14:15",
+        "title": "Corporate Share Issuance Rises as Anthropic Prepares $81 Billion IPO",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Corporations are shifting away from repurchasing equity and are instead issuing new shares to the market. This incoming supply will face a major test from Anthropic's planned 81 billion dollar public offering.",
+        "market_impact": "Market liquidity pressure",
+        "key_facts": [
+            "Firms are adding fresh supply to the market by shifting toward stock issuance"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 138,
+        "analysis": "The central development is the pivot by companies from repurchasing their own shares to issuing new stock alongside large upcoming listings. This increased supply could test investor appetite, though the text does not establish the precise timing or outcome of Anthropic's offering.",
+        "what_to_watch": "",
+        "content": "<p>The central development is the pivot by companies from repurchasing their own shares to issuing new stock alongside large upcoming listings. This increased supply could test investor appetite, though the text does not establish the precise timing or outcome of Anthropic&#x27;s offering.</p>",
+        "slug": "corporate-share-issuance-rises-as-anthropic-prepares-81-fb3293"
+    },
+    {
         "original_link": "https://www.bloomberg.com/news/articles/2026-11-20/ai-fueled-cyberattacks-drive-claims-surge-at-japan-insurers",
         "source": "Bloomberg",
         "published": "2026-11-20 04:55",
@@ -396,184 +582,5 @@
         "what_to_watch": "Monitor the stock's performance on the Nasdaq starting Thursday.",
         "content": "<p>The decision to potentially increase the offering size reflects strong market appetite for the company&#x27;s debut. The snippet does not confirm the final pricing or the total number of shares to be issued.</p><p><strong>What to watch:</strong> Monitor the stock&#x27;s performance on the Nasdaq starting Thursday.</p>",
         "slug": "anthropic-may-increase-ipo-offering-amid-strong-investor-92cdba"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-18/rates-are-normal-for-longer-not-higher-says-yardeni-video",
-        "source": "Bloomberg",
-        "published": "2026-11-18 16:44",
-        "title": "Ed Yardeni Views Current Interest Rates as 'Normal for Longer'",
-        "tag": "FED",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Market researcher Ed Yardeni suggests that interest rates will remain at current levels rather than rising further. This perspective follows a period of inconsistent signals from central bank officials regarding the pace of future hikes.",
-        "market_impact": "Market stabilization",
-        "key_facts": [
-            "The Fed raised rates in September for the first time in three years.",
-            "Officials have expressed differing views on the appropriate pace of rate adjustments."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 379,
-        "analysis": "The commentary highlights a divergence in expectations regarding the Federal Reserve's future policy path. The snippet does not confirm the specific timing or outcome of the next central bank meeting.",
-        "what_to_watch": "",
-        "content": "<p>The commentary highlights a divergence in expectations regarding the Federal Reserve&#x27;s future policy path. The snippet does not confirm the specific timing or outcome of the next central bank meeting.</p>",
-        "slug": "ed-yardeni-views-current-interest-rates-as-normal-for-longer-9a277f"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-18/warsh-is-closer-to-waller-on-fed-policy-gopinath-says-video",
-        "source": "Bloomberg",
-        "published": "2026-11-18 16:33",
-        "title": "Gopinath Notes Alignment Between Warsh and Waller on Fed Policy",
-        "tag": "FED",
-        "sentiment": "BEARISH",
-        "ai_summary": "Gita Gopinath suggests that Fed Chair Kevin Warsh shares a similar policy outlook to Governor Christopher Waller. Waller has explicitly advocated for a 50-basis-point rate hike in December.",
-        "market_impact": "Tightening expectations",
-        "key_facts": [
-            "The Federal Reserve maintains a 2% inflation target.",
-            "Waller is calling for a half-point hike in December."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 316,
-        "analysis": "The alignment of these officials suggests a potential consensus toward more aggressive monetary tightening. The snippet does not confirm whether Warsh has officially committed to the half-point hike.",
-        "what_to_watch": "",
-        "content": "<p>The alignment of these officials suggests a potential consensus toward more aggressive monetary tightening. The snippet does not confirm whether Warsh has officially committed to the half-point hike.</p>",
-        "slug": "gopinath-notes-alignment-between-warsh-and-waller-on-fed-eefc73"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/worried-investors-are-paying-up-for-these-stocks-some-with-up-to-49-upside-analysts-say-ea8f2c6f?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-18 16:04",
-        "title": "Investors Pay Premium for Defensive Stocks Despite High Valuations",
-        "tag": "STOCKS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Market participants are favoring defensive sectors that have outperformed the S&P 500 recently. These stocks are trading at higher valuations relative to earnings estimates than the broader index.",
-        "market_impact": "Sector rotation",
-        "key_facts": [
-            "Defensive sectors have significantly outperformed the S&P 500.",
-            "Valuations for these sectors are elevated relative to earnings."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 163,
-        "analysis": "The trend shows a preference for defensive assets despite their premium pricing. The snippet does not specify which particular stocks are expected to provide 49% upside.",
-        "what_to_watch": "",
-        "content": "<p>The trend shows a preference for defensive assets despite their premium pricing. The snippet does not specify which particular stocks are expected to provide 49% upside.</p>",
-        "slug": "investors-pay-premium-for-defensive-stocks-despite-high-49f197"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/oracles-stock-is-ridiculously-cheap-even-under-the-most-gloomy-scenarios-analyst-says-630d30ec?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-18 15:57",
-        "title": "Analyst Suggests Oracle Shares Remain Undervalued",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "Bernstein analysts argue that Oracle's stock price is low even under pessimistic business scenarios. The valuation remains attractive even if the company's AI data-center segment were to fail.",
-        "market_impact": "Potential price appreciation",
-        "key_facts": [
-            "The assessment accounts for a scenario where the AI data-center business disappears.",
-            "The analysis assumes the company's debt remains on the balance sheet."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 184,
-        "analysis": "The analysis suggests the current stock price does not fully account for the company's underlying value. The snippet does not provide the specific price target or the current debt levels mentioned.",
-        "what_to_watch": "",
-        "content": "<p>The analysis suggests the current stock price does not fully account for the company&#x27;s underlying value. The snippet does not provide the specific price target or the current debt levels mentioned.</p>",
-        "tickers": [
-            "ORCL"
-        ],
-        "slug": "analyst-suggests-oracle-shares-remain-undervalued-61724f"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-18 15:42",
-        "title": "Nvidia Faces Uncertainty Despite Strong AI Demand",
-        "tag": "STOCKS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "While demand for Nvidia products remains high, investors are concerned about several strategic risks. Key issues include leadership transition, export regulations, and market exposure to China.",
-        "market_impact": "Increased volatility",
-        "key_facts": [
-            "Investors are monitoring CEO succession plans.",
-            "Export controls remain a point of concern for the company."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "analysis_not_specific_enough_to_source"
-        ],
-        "source_description_chars": 101,
-        "analysis": "The company's growth is tempered by significant geopolitical and operational uncertainties. The snippet does not detail how these factors might specifically impact future earnings.",
-        "what_to_watch": "",
-        "content": "<p>The company&#x27;s growth is tempered by significant geopolitical and operational uncertainties. The snippet does not detail how these factors might specifically impact future earnings.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "nvidia-faces-uncertainty-despite-strong-ai-demand-786ee2"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
-        "source": "CNBC",
-        "published": "2026-11-18 15:13",
-        "title": "Fed's Waller Suggests Potential Half-Point Rate Hike",
-        "tag": "FED",
-        "sentiment": "BEARISH",
-        "ai_summary": "Governor Waller indicated that the central bank might implement a 50-basis-point increase to address persistent inflation. Current price pressures remain above the Federal Reserve's 2% target.",
-        "market_impact": "Higher borrowing costs",
-        "key_facts": [
-            "Inflation is currently exceeding the 2% target.",
-            "Officials are adopting a more aggressive policy stance."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 110,
-        "analysis": "The official's comments highlight the central bank's focus on aggressive measures to curb inflation. The text does not establish whether other committee members support this specific magnitude of rate increase.",
-        "what_to_watch": "",
-        "content": "<p>The official&#x27;s comments highlight the central bank&#x27;s focus on aggressive measures to curb inflation. The text does not establish whether other committee members support this specific magnitude of rate increase.</p>",
-        "slug": "fed-s-waller-suggests-potential-half-point-rate-hike-b6b709"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-18/bitcoin-erases-bessent-rally-as-leverage-and-liquidity-fade",
-        "source": "Bloomberg",
-        "published": "2026-11-18 09:45",
-        "title": "Bitcoin Rally Fades Amid Liquidity Concerns and Exchange Hacks",
-        "tag": "CRYPTO",
-        "sentiment": "BEARISH",
-        "ai_summary": "Bitcoin has lost its recent gains as risk appetite wanes among investors. A major hack at Binance has contributed to thinner market liquidity and increased price volatility.",
-        "market_impact": "Downward price pressure",
-        "key_facts": [
-            "The token is experiencing sharper price swings due to thinner markets.",
-            "The rally in question occurred during the late-summer period."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 252,
-        "analysis": "The decline is driven by a combination of reduced risk tolerance and specific security incidents. The snippet does not establish the long-term impact of the Binance hack on overall market structure.",
-        "what_to_watch": "",
-        "content": "<p>The decline is driven by a combination of reduced risk tolerance and specific security incidents. The snippet does not establish the long-term impact of the Binance hack on overall market structure.</p>",
-        "slug": "bitcoin-rally-fades-amid-liquidity-concerns-and-exchange-1afa43"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-18/treasuries-ust-bond-yields-risk-appetite-falters",
-        "source": "Bloomberg",
-        "published": "2026-11-18 05:19",
-        "title": "US Treasuries Gain for Third Session Amid Weakening Risk Appetite",
-        "tag": "ECONOMY",
-        "sentiment": "BULLISH",
-        "ai_summary": "Benchmark US government bonds rose for a third consecutive trading day as broader risk appetite weakened. Buying was also encouraged by expectations that the Federal Reserve's rate hikes may largely be priced into markets.",
-        "market_impact": "Treasury yields drop",
-        "key_facts": [
-            "US benchmark Treasuries extended their advance to a third consecutive day",
-            "Investors speculate that upcoming Federal Reserve rate increases may already be priced in"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 198,
-        "analysis": "The third day of Treasury gains was driven by faltering risk sentiment and views that impending Federal Reserve rate hikes are mostly absorbed by the market. This supports bond prices in the short term, but the snippet does not indicate the size or timing of future central bank policy moves.",
-        "what_to_watch": "",
-        "content": "<p>The third day of Treasury gains was driven by faltering risk sentiment and views that impending Federal Reserve rate hikes are mostly absorbed by the market. This supports bond prices in the short term, but the snippet does not indicate the size or timing of future central bank policy moves.</p>",
-        "slug": "us-treasuries-gain-for-third-session-amid-weakening-risk-dca5ad"
     }
 ]

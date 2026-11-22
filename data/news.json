@@ -1,5 +1,216 @@
 [
     {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-22/dip-buyers-hesitate-to-step-in-as-nasdaq-100-nears-a-bear-market",
+        "source": "Bloomberg",
+        "published": "2026-11-22 20:31",
+        "title": "Nasdaq 100 Nears Bear Market as Dip Buyers Hesitate",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Investors are showing reluctance to buy the dip as the Nasdaq 100 approaches bear market territory. Despite attractive valuations, market participants remain cautious following a significant selloff.",
+        "market_impact": "Increased volatility",
+        "key_facts": [
+            "The Nasdaq 100 experienced a massive selloff last week."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 212,
+        "analysis": "The fundamental outlook for the index has not shifted significantly despite the recent price decline. It is unclear if the current valuation levels will be sufficient to trigger a rebound.",
+        "what_to_watch": "",
+        "content": "<p>The fundamental outlook for the index has not shifted significantly despite the recent price decline. It is unclear if the current valuation levels will be sufficient to trigger a rebound.</p>",
+        "tickers": [
+            "QQQ"
+        ],
+        "slug": "nasdaq-100-nears-bear-market-as-dip-buyers-hesitate-3e879b"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/social-security-should-be-shut-down-this-republican-senator-says-8f7fef81?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-22 20:26",
+        "title": "Republican Senator Proposes Ending Social Security",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "A Republican senator has suggested that the Social Security program should be terminated. Projections indicate the program's trust funds may be depleted within six years.",
+        "market_impact": "Policy uncertainty",
+        "key_facts": [
+            "Trust funds are forecast to run out of money in six years.",
+            "The proposal comes from a Republican senator."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 81,
+        "analysis": "The primary concern is the long-term solvency of the Social Security trust funds. The snippet does not provide details on any legislative path for such a proposal.",
+        "what_to_watch": "",
+        "content": "<p>The primary concern is the long-term solvency of the Social Security trust funds. The snippet does not provide details on any legislative path for such a proposal.</p>",
+        "slug": "republican-senator-proposes-ending-social-security-116a5f"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-22/bond-market-s-go-to-trade-for-fed-hikes-roiled-by-stocks-retreat",
+        "source": "Bloomberg",
+        "published": "2026-11-22 20:00",
+        "title": "Bond Market Fed Hike Bets Impacted by Stock Slump",
+        "tag": "FED",
+        "sentiment": "BEARISH",
+        "ai_summary": "Wall Street's preferred trade for betting on Federal Reserve rate hikes is facing pressure from declining equity markets. Investors are weighing the Fed's inflation-fighting stance against a darkening economic outlook.",
+        "market_impact": "Yield volatility",
+        "key_facts": [
+            "The Federal Reserve has vowed to tame inflation.",
+            "Slumping stocks are contributing to a negative economic outlook."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 205,
+        "analysis": "The conflict between Fed policy expectations and equity performance is creating uncertainty in bond trading strategies. The text does not specify which particular bond trade is being affected.",
+        "what_to_watch": "",
+        "content": "<p>The conflict between Fed policy expectations and equity performance is creating uncertainty in bond trading strategies. The text does not specify which particular bond trade is being affected.</p>",
+        "slug": "bond-market-fed-hike-bets-impacted-by-stock-slump-819fa7"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+        "source": "CNBC",
+        "published": "2026-11-22 18:55",
+        "title": "Robot Startup Backed by Eric Trump Faces Benefit Cuts",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "A robot startup supported by Eric Trump has cut employee health benefits due to severe cash flow constraints. The firm is currently seeking an emergency bridge loan while awaiting a $150 million investment.",
+        "market_impact": "Operational distress",
+        "key_facts": [
+            "The company is in talks with venture capital firms.",
+            "Base Group is a South Korean entity."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 156,
+        "analysis": "The company is actively negotiating with venture capital firms to secure immediate liquidity. The snippet does not confirm if the $150 million investment from Base Group will be finalized.",
+        "what_to_watch": "",
+        "content": "<p>The company is actively negotiating with venture capital firms to secure immediate liquidity. The snippet does not confirm if the $150 million investment from Base Group will be finalized.</p>",
+        "slug": "robot-startup-backed-by-eric-trump-faces-benefit-cuts-2e34b1"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-22 18:23",
+        "title": "Closed-End Funds May Offer Value During Market Crashes",
+        "tag": "STOCKS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Investors are being encouraged to consider closed-end funds as potential low-risk opportunities during market downturns. These assets could provide value if current volatility evolves into a crash.",
+        "market_impact": "Portfolio strategy",
+        "key_facts": [
+            "Closed-end funds are highlighted as potential bargains."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 121,
+        "analysis": "The suggestion relies on the premise that market turmoil creates pricing inefficiencies in specific fund categories. The text does not identify which specific closed-end funds are considered bargains.",
+        "what_to_watch": "",
+        "content": "<p>The suggestion relies on the premise that market turmoil creates pricing inefficiencies in specific fund categories. The text does not identify which specific closed-end funds are considered bargains.</p>",
+        "slug": "closed-end-funds-may-offer-value-during-market-crashes-459286"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/private-equity-has-been-buying-up-hospice-centers-with-striking-consequences-63642545?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-22 17:22",
+        "title": "Private Equity Ownership Linked to Higher Hospice Costs",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Research indicates that hospice centers owned by private equity firms are associated with increased Medicare spending. Patients at these facilities also tend to have longer stays.",
+        "market_impact": "Regulatory scrutiny",
+        "key_facts": [
+            "Medicare costs are higher at private-equity-owned hospices.",
+            "Patients stay longer at these specific facilities."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 126,
+        "analysis": "The findings suggest a correlation between private equity ownership and higher utilization of Medicare resources. The snippet does not establish whether this trend is due to patient care quality or business practices.",
+        "what_to_watch": "",
+        "content": "<p>The findings suggest a correlation between private equity ownership and higher utilization of Medicare resources. The snippet does not establish whether this trend is due to patient care quality or business practices.</p>",
+        "slug": "private-equity-ownership-linked-to-higher-hospice-costs-b15959"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+        "source": "CNBC",
+        "published": "2026-11-22 17:14",
+        "title": "Intelligence Director Clayton Cautions on Tech Outages",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Jay Clayton issued a warning regarding potential future disruptions following recent technical failures. These incidents previously affected banking transactions, Microsoft 365, and air travel.",
+        "market_impact": "Market caution",
+        "key_facts": [
+            "Outages impacted air travel and banking services.",
+            "Microsoft 365 was among the systems affected."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 140,
+        "analysis": "The warning follows a series of high-profile technical outages across multiple sectors. It remains unclear how these operational risks might specifically impact long-term financial stability.",
+        "what_to_watch": "Monitor for further technical stability updates ahead of the Thanksgiving holiday.",
+        "content": "<p>The warning follows a series of high-profile technical outages across multiple sectors. It remains unclear how these operational risks might specifically impact long-term financial stability.</p><p><strong>What to watch:</strong> Monitor for further technical stability updates ahead of the Thanksgiving holiday.</p>",
+        "tickers": [
+            "MSFT"
+        ],
+        "slug": "intelligence-director-clayton-cautions-on-tech-outages-76ab22"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-22/compass-plans-to-move-primary-listing-from-london-to-ny-ft-says",
+        "source": "Bloomberg",
+        "published": "2026-11-22 17:08",
+        "title": "Compass Group Considers Moving Listing to New York",
+        "tag": "STOCKS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Compass Group is reportedly planning to shift its primary stock listing from London to New York. This potential move is viewed as a setback for the UK financial market.",
+        "market_impact": "Market shift",
+        "key_facts": [
+            "Compass Group is currently listed in London.",
+            "The move is described as a disappointment for the UK market."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 193,
+        "analysis": "The relocation of a primary listing represents a strategic change for the company's capital structure. The snippet does not confirm an official timeline for the transition.",
+        "what_to_watch": "",
+        "content": "<p>The relocation of a primary listing represents a strategic change for the company&#x27;s capital structure. The snippet does not confirm an official timeline for the transition.</p>",
+        "slug": "compass-group-considers-moving-listing-to-new-york-70bc10"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/22/pizza-chains-sales-glp-1-demand.html",
+        "source": "CNBC",
+        "published": "2026-11-22 13:00",
+        "title": "Pizza Chains Face Declining Demand and Competition",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Major pizza chains are experiencing significant pressure from shifting consumer habits and increased delivery competition. The adoption of GLP-1 medications is cited as a contributing factor to the weaker demand.",
+        "market_impact": "Sector headwinds",
+        "key_facts": [
+            "Domino's, Papa Johns, and Pizza Hut are specifically mentioned.",
+            "Delivery competition is intensifying for these chains."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 129,
+        "analysis": "The industry is struggling with a combination of market saturation and changing dietary preferences. It is not established to what extent GLP-1 usage specifically impacts pizza sales compared to other competitive factors.",
+        "what_to_watch": "",
+        "content": "<p>The industry is struggling with a combination of market saturation and changing dietary preferences. It is not established to what extent GLP-1 usage specifically impacts pizza sales compared to other competitive factors.</p>",
+        "tickers": [
+            "DPZ",
+            "PZZA",
+            "YUM"
+        ],
+        "slug": "pizza-chains-face-declining-demand-and-competition-499f2d"
+    },
+    {
         "original_link": "https://www.marketwatch.com/story/buyers-are-out-for-blood-as-housing-market-finally-hits-rock-bottom-fa5093a6?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-21 19:45",
@@ -360,209 +571,5 @@
         "what_to_watch": "",
         "content": "<p>The pivotal detail is Trump&#x27;s threat of a substantial tax penalty on domestic firms constructing data facilities overseas. Such a policy could alter capital expenditure strategies for technology firms, though the snippet does not provide any legislative or regulatory timetable.</p>",
         "slug": "trump-threatens-heavy-tax-on-u-s-companies-building-data-3505a4"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html",
-        "source": "CNBC",
-        "published": "2026-11-20 14:15",
-        "title": "Corporate Share Issuance Rises as Anthropic Prepares $81 Billion IPO",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Corporations are shifting away from repurchasing equity and are instead issuing new shares to the market. This incoming supply will face a major test from Anthropic's planned 81 billion dollar public offering.",
-        "market_impact": "Market liquidity pressure",
-        "key_facts": [
-            "Firms are adding fresh supply to the market by shifting toward stock issuance"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 138,
-        "analysis": "The central development is the pivot by companies from repurchasing their own shares to issuing new stock alongside large upcoming listings. This increased supply could test investor appetite, though the text does not establish the precise timing or outcome of Anthropic's offering.",
-        "what_to_watch": "",
-        "content": "<p>The central development is the pivot by companies from repurchasing their own shares to issuing new stock alongside large upcoming listings. This increased supply could test investor appetite, though the text does not establish the precise timing or outcome of Anthropic&#x27;s offering.</p>",
-        "slug": "corporate-share-issuance-rises-as-anthropic-prepares-81-fb3293"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-20/ai-fueled-cyberattacks-drive-claims-surge-at-japan-insurers",
-        "source": "Bloomberg",
-        "published": "2026-11-20 04:55",
-        "title": "Sophisticated AI Cyberattacks Trigger Surge in Japanese Insurance Claims",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Major property insurers in Japan are experiencing a substantial increase in cyber insurance payouts. The trend is being driven by higher volumes of nationwide hacking incidents and more advanced artificial intelligence techniques.",
-        "market_impact": "Higher insurer claims",
-        "key_facts": [
-            "The claims spike is reported by Japan's largest property insurers",
-            "Attacks have grown more sophisticated due to artificial intelligence",
-            "Hacking incidents are rising on a nationwide scale"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 192,
-        "analysis": "A marked spike in claims is being fueled by an increase in sophisticated AI-driven cyberattacks across Japan. This surge could elevate underwriting costs for domestic property insurers, though the text does not establish specific financial loss figures.",
-        "what_to_watch": "",
-        "content": "<p>A marked spike in claims is being fueled by an increase in sophisticated AI-driven cyberattacks across Japan. This surge could elevate underwriting costs for domestic property insurers, though the text does not establish specific financial loss figures.</p>",
-        "slug": "sophisticated-ai-cyberattacks-trigger-surge-in-japanese-8c7e78"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/20/anthropic-ipo-stocks-market.html",
-        "source": "CNBC",
-        "published": "2026-11-20 04:51",
-        "title": "Anthropic IPO Debuts as Analysts Caution Over Near-Term Volatility",
-        "tag": "TECH",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Anthropic has completed an initial public offering described as a necessary boost for public markets. Market analysts caution that trading in the company's shares is likely to remain unstable over the coming weeks.",
-        "market_impact": "Share price volatility",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 116,
-        "analysis": "Analysts emphasize that the newly public company will likely experience volatile trading conditions in the near term. This indicates potential price swings for Anthropic stock, but the excerpt does not establish any financial metrics or valuation details.",
-        "what_to_watch": "",
-        "content": "<p>Analysts emphasize that the newly public company will likely experience volatile trading conditions in the near term. This indicates potential price swings for Anthropic stock, but the excerpt does not establish any financial metrics or valuation details.</p>",
-        "slug": "anthropic-ipo-debuts-as-analysts-caution-over-near-term-f1c697"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-20/yen-outperforms-g-10-peers-as-tech-selloff-fuels-haven-demand",
-        "source": "Bloomberg",
-        "published": "2026-11-20 04:41",
-        "title": "Japanese Yen Leads G-10 Currencies Amid Broad Technology Stock Slump",
-        "tag": "FOREX",
-        "sentiment": "BULLISH",
-        "ai_summary": "The yen outpaced all other Group of 10 currencies during Friday's trading session. Demand for the safe-haven currency expanded as equity declines across technology shares spread into Asian markets.",
-        "market_impact": "Yen strength",
-        "key_facts": [
-            "The yen led all Group of 10 currencies on Friday"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 165,
-        "analysis": "The yen emerged as the top performer among G-10 currencies due to safe-haven flows during a tech rout. This highlights ongoing foreign exchange sensitivity to equity market weakness, though the text does not establish specific currency exchange rates.",
-        "what_to_watch": "",
-        "content": "<p>The yen emerged as the top performer among G-10 currencies due to safe-haven flows during a tech rout. This highlights ongoing foreign exchange sensitivity to equity market weakness, though the text does not establish specific currency exchange rates.</p>",
-        "slug": "japanese-yen-leads-g-10-currencies-amid-broad-technology-0a3498"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html",
-        "source": "CNBC",
-        "published": "2026-11-20 03:56",
-        "title": "Senate Passes BAAJA Permitting Reform Supported by AI and Energy",
-        "tag": "ECONOMY",
-        "sentiment": "BULLISH",
-        "ai_summary": "Legislation aimed at permitting reform has successfully advanced through the Senate with backing from energy and artificial intelligence industries. To be enacted into law, the measure must now secure approval in the House before reaching President Trump.",
-        "market_impact": "Policy tailwind potential",
-        "key_facts": [
-            "The bill requires approval by the House before going to President Trump"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 154,
-        "analysis": "The critical development is the Senate's passage of the permitting reform bill backed by key industrial groups. This progress suggests potential regulatory easing for energy and AI projects, though the text does not establish whether the House will pass the bill.",
-        "what_to_watch": "Watch for a vote on the bill in the House of Representatives.",
-        "content": "<p>The critical development is the Senate&#x27;s passage of the permitting reform bill backed by key industrial groups. This progress suggests potential regulatory easing for energy and AI projects, though the text does not establish whether the House will pass the bill.</p><p><strong>What to watch:</strong> Watch for a vote on the bill in the House of Representatives.</p>",
-        "slug": "senate-passes-baaja-permitting-reform-supported-by-ai-and-4ace46"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
-        "source": "CNBC",
-        "published": "2026-11-20 00:08",
-        "title": "AMD Drops Over 7% Following Short Seller Allegations on China Exposure",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Shares fell sharply after a short seller claimed the chipmaker's firmware was found at an entity on a U.S. blacklist. The company responded by stating that it remains in full compliance with United States law.",
-        "market_impact": "Negative AMD impact",
-        "key_facts": [
-            "A short seller alleged AMD firmware was present at a blacklisted Chinese entity",
-            "AMD issued a statement maintaining that it complies with U.S. law"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 150,
-        "analysis": "The plunge of more than 7% followed a short seller report alleging firmware exposure to a blacklisted Chinese company. This development could increase scrutiny on AMD's regulatory compliance, though the provided text does not establish whether the short seller's claims are verified.",
-        "what_to_watch": "",
-        "content": "<p>The plunge of more than 7% followed a short seller report alleging firmware exposure to a blacklisted Chinese company. This development could increase scrutiny on AMD&#x27;s regulatory compliance, though the provided text does not establish whether the short seller&#x27;s claims are verified.</p>",
-        "tickers": [
-            "AMD"
-        ],
-        "slug": "amd-drops-over-7-following-short-seller-allegations-on-4524fd"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/after-anthropics-bittersweet-ipo-heres-what-lies-ahead-8c32fdb7?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-19 23:56",
-        "title": "Anthropic IPO Draws Retail Interest Without Lifting Broader Tech Market",
-        "tag": "TECH",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Individual retail traders actively participated in Anthropic's public offering. Despite this participation, the debut did not trigger a wider rally across the technology sector.",
-        "market_impact": "Muted sector reaction",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 109,
-        "analysis": "The central observation is that retail investors bought into the IPO while tech sector momentum remained subdued. This suggests that positive sentiment around Anthropic has remained isolated, though the text does not establish the broader market's exact performance figures.",
-        "what_to_watch": "",
-        "content": "<p>The central observation is that retail investors bought into the IPO while tech sector momentum remained subdued. This suggests that positive sentiment around Anthropic has remained isolated, though the text does not establish the broader market&#x27;s exact performance figures.</p>",
-        "slug": "anthropic-ipo-draws-retail-interest-without-lifting-broader-260bb6"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/these-were-the-only-stocks-that-rose-amid-the-stock-markets-wipeout-thursday-1eaf32ba?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-19 23:11",
-        "title": "Cybersecurity Stocks Gain While Broad S&P 500 Suffers Sharp Thursday Selloff",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "A broad equity downturn pulled down all 11 sectors within the S&P 500 during Thursday's session. Ten of those sectors lost more than 1%, while cybersecurity shares managed to resist the broader drop.",
-        "market_impact": "Broad equity decline",
-        "key_facts": [
-            "Ten S&P 500 sectors declined by more than 1%",
-            "Cybersecurity stocks rose despite the wider market selloff"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 115,
-        "analysis": "All 11 sectors of the S&P 500 declined, with ten falling over 1% during the market rout. The relative strength of cybersecurity suggests targeted defensive buying in software security, but the text does not establish specific individual stock performances.",
-        "what_to_watch": "",
-        "content": "<p>All 11 sectors of the S&amp;P 500 declined, with ten falling over 1% during the market rout. The relative strength of cybersecurity suggests targeted defensive buying in software security, but the text does not establish specific individual stock performances.</p>",
-        "slug": "cybersecurity-stocks-gain-while-broad-s-p-500-suffers-sharp-648b1f"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-19 22:53",
-        "title": "Intuit Issues Downbeat Forecast Adding to Legacy Software Sector Concerns",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "The TurboTax producer released a weaker outlook that troubled investors on Wall Street. The softer forecast amplified broader market worries surrounding established legacy software providers.",
-        "market_impact": "Software sector pressure",
-        "key_facts": [
-            "Intuit is the maker of TurboTax",
-            "The downbeat outlook heightened concerns specifically regarding legacy software firms"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 94,
-        "analysis": "Intuit's downbeat forecast represents the primary driver of renewed investor concern. The guidance may weigh on market sentiment for legacy software peers, though the excerpt does not establish numerical forecast targets or detailed financial results.",
-        "what_to_watch": "",
-        "content": "<p>Intuit&#x27;s downbeat forecast represents the primary driver of renewed investor concern. The guidance may weigh on market sentiment for legacy software peers, though the excerpt does not establish numerical forecast targets or detailed financial results.</p>",
-        "tickers": [
-            "INTU"
-        ],
-        "slug": "intuit-issues-downbeat-forecast-adding-to-legacy-software-3e40d0"
     }
 ]

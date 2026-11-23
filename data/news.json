@@ -1,5 +1,115 @@
 [
     {
+        "original_link": "https://www.cnbc.com/2026/11/23/tata-steel-acquisition-deal-apl-india.html",
+        "source": "CNBC",
+        "published": "2026-11-23 04:26",
+        "title": "Tata Steel Shares Fall After Announcing $1.67 Billion Stake Acquisition",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Tata Steel has arranged to acquire a 26.4% ownership interest in India's top manufacturer of structural steel pipes and tubes for $1.67 billion. Following the strategic move, the company's equity shares slid by almost 5%.",
+        "market_impact": "Tata Steel drops",
+        "key_facts": [
+            "The transaction aims to expand the company's downstream capacity",
+            "Company shares dropped by nearly 5% following the announcement"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 121,
+        "analysis": "The transaction commits $1.67 billion in capital to purchase a minority interest to strengthen downstream capacity. While the expenditure weighed immediately on the share price, the text does not detail how the deal will be financed.",
+        "what_to_watch": "",
+        "content": "<p>The transaction commits $1.67 billion in capital to purchase a minority interest to strengthen downstream capacity. While the expenditure weighed immediately on the share price, the text does not detail how the deal will be financed.</p>",
+        "slug": "tata-steel-shares-fall-after-announcing-1-67-billion-stake-0d63d1"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html",
+        "source": "CNBC",
+        "published": "2026-11-23 03:52",
+        "title": "Houthis Target Saudi Oil Refinery Amid Diplomatic Uncertainty",
+        "tag": "COMMODITIES",
+        "sentiment": "BEARISH",
+        "ai_summary": "Yemen's Iran-aligned Houthis announced an operation targeting the Rabigh oil facility located in Saudi Arabia. The development comes as diplomatic attempts to resolve the regional conflict encounter challenging odds.",
+        "market_impact": "Oil supply risks",
+        "key_facts": [
+            "The strike focused on the Rabigh oil refinery in Saudi Arabia",
+            "Diplomatic attempts to settle the ongoing war face long odds",
+            "Trump cautioned regarding potential new strikes in the upcoming year"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 146,
+        "analysis": "The central detail is the claimed military action against a major Saudi refining facility. This could elevate geopolitical risk premiums for crude oil, though the snippet does not establish whether the refinery sustained actual damage or disruptions.",
+        "what_to_watch": "",
+        "content": "<p>The central detail is the claimed military action against a major Saudi refining facility. This could elevate geopolitical risk premiums for crude oil, though the snippet does not establish whether the refinery sustained actual damage or disruptions.</p>",
+        "slug": "houthis-target-saudi-oil-refinery-amid-diplomatic-33613d"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-23/india-stocks-erase-yearly-losses-as-foreign-buying-spurs-rebound",
+        "source": "Bloomberg",
+        "published": "2026-11-23 03:50",
+        "title": "Indian Equities Fluctuate After Erasing Yearly Losses on Foreign Inflows",
+        "tag": "STOCKS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Indian equities rose early Monday to briefly recover all losses for the year before turning downward. Inflows of foreign capital and a rotation away from AI assets helped drive renewed interest in the market.",
+        "market_impact": "Indian stocks volatile",
+        "key_facts": [
+            "Stocks initially wiped out their year-to-date declines before reversing lower",
+            "Investor demand was supported by an unraveling of the AI trade"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 216,
+        "analysis": "Record foreign purchases and a shift away from AI trades temporarily pushed Indian benchmarks into positive territory for the year before selling resumed. This suggests volatile sentiment among overseas investors, though the snippet does not detail the total volume of net inflows.",
+        "what_to_watch": "",
+        "content": "<p>Record foreign purchases and a shift away from AI trades temporarily pushed Indian benchmarks into positive territory for the year before selling resumed. This suggests volatile sentiment among overseas investors, though the snippet does not detail the total volume of net inflows.</p>",
+        "slug": "indian-equities-fluctuate-after-erasing-yearly-losses-on-1b24a1"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-23/gold-rebounds-as-traders-pare-bets-on-near-term-fed-rate-hikes",
+        "source": "Bloomberg",
+        "published": "2026-11-23 00:28",
+        "title": "Gold Prices Rise as Investors Buy Dips Following Steep Weekly Drop",
+        "tag": "COMMODITIES",
+        "sentiment": "BULLISH",
+        "ai_summary": "Gold climbed as buyers took advantage of price declines following its sharpest weekly fall in eight months. Market sentiment was supported by reduced expectations for a Federal Reserve interest rate increase in December.",
+        "market_impact": "Gold prices advance",
+        "key_facts": [
+            "The recovery follows gold's worst weekly loss since March",
+            "Market participants reduced their bets on a December Federal Reserve rate hike"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 160,
+        "analysis": "Pared expectations for a Federal Reserve rate hike in December encouraged dip-buyers to enter the precious metals market after steep declines. This shows sensitivity to US monetary policy expectations, but the snippet does not establish the expected terminal interest rate level.",
+        "what_to_watch": "",
+        "content": "<p>Pared expectations for a Federal Reserve rate hike in December encouraged dip-buyers to enter the precious metals market after steep declines. This shows sensitivity to US monetary policy expectations, but the snippet does not establish the expected terminal interest rate level.</p>",
+        "slug": "gold-prices-rise-as-investors-buy-dips-following-steep-fee140"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/corporate-america-hunts-for-generational-growth-in-ai-trading-cards-and-the-l-a-airport-3072eb1a?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-22 21:51",
+        "title": "Corporate Executives Highlight Generational Growth Themes",
+        "tag": "EARNINGS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "US corporations are increasingly promoting long-term growth opportunities during their earnings conference calls. Executive discussions have frequently labeled areas such as artificial intelligence, trading cards, and airport projects as generational shifts.",
+        "market_impact": "Broad growth themes",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 95,
+        "analysis": "Corporate leadership is frequently labeling diverse themes as once-in-a-generation developments on conference calls. This highlights recurring narrative framing across earnings reports, though the text does not establish the financial performance of these initiatives.",
+        "what_to_watch": "",
+        "content": "<p>Corporate leadership is frequently labeling diverse themes as once-in-a-generation developments on conference calls. This highlights recurring narrative framing across earnings reports, though the text does not establish the financial performance of these initiatives.</p>",
+        "slug": "corporate-executives-highlight-generational-growth-themes-7c92d4"
+    },
+    {
         "original_link": "https://www.bloomberg.com/news/articles/2026-11-22/dip-buyers-hesitate-to-step-in-as-nasdaq-100-nears-a-bear-market",
         "source": "Bloomberg",
         "published": "2026-11-22 20:31",
@@ -211,6 +321,50 @@
         "slug": "pizza-chains-face-declining-demand-and-competition-499f2d"
     },
     {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-22/china-lowers-margin-requirement-to-80-to-boost-stock-liquidity",
+        "source": "Bloomberg",
+        "published": "2026-11-22 11:06",
+        "title": "Asian Stocks Slide as AI Concerns Counter Policy Support",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Equities in South Korea and China retreated as concerns surrounding the AI sector dampened investor appetite. The declines persisted despite regional official support programs and signs of stability in US equity markets.",
+        "market_impact": "Asian shares decline",
+        "key_facts": [
+            "Losses were concentrated in South Korean and Chinese equities",
+            "US equity markets showed signs of stabilizing during the session"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 201,
+        "analysis": "State support measures across Asian markets failed to offset lingering fragility surrounding AI-related holdings. This indicates that policy interventions have not yet restored broad investor confidence, though the text does not outline the specific support measures enacted.",
+        "what_to_watch": "",
+        "content": "<p>State support measures across Asian markets failed to offset lingering fragility surrounding AI-related holdings. This indicates that policy interventions have not yet restored broad investor confidence, though the text does not outline the specific support measures enacted.</p>",
+        "slug": "asian-stocks-slide-as-ai-concerns-counter-policy-support-e4c9ff"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/22/quantum-computing-energy-applications.html",
+        "source": "CNBC",
+        "published": "2026-11-22 06:00",
+        "title": "Quantum Computing Focuses on Energy Sector Applications",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Companies in the quantum computing sector are exploring early deployments in energy rather than pharmaceuticals. Experimental work includes solar material research, hydrogen catalyst design, and electrical grid optimization.",
+        "market_impact": "Energy tech focus",
+        "key_facts": [
+            "Targeted energy applications include hydrogen catalysts and solar materials",
+            "Research includes testing the technology for electrical grid optimization"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 131,
+        "analysis": "Quantum computing firms are prioritizing energy applications such as grid optimization over traditional drug discovery targets. This indicates a potential pathway for technology commercialization, but the snippet does not establish commercial viability or revenue timelines.",
+        "what_to_watch": "",
+        "content": "<p>Quantum computing firms are prioritizing energy applications such as grid optimization over traditional drug discovery targets. This indicates a potential pathway for technology commercialization, but the snippet does not establish commercial viability or revenue timelines.</p>",
+        "slug": "quantum-computing-focuses-on-energy-sector-applications-f6c519"
+    },
+    {
         "original_link": "https://www.marketwatch.com/story/buyers-are-out-for-blood-as-housing-market-finally-hits-rock-bottom-fa5093a6?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-21 19:45",
@@ -408,168 +562,5 @@
         "what_to_watch": "",
         "content": "<p>The drone targeting of a vessel in international waters indicates immediate security dangers along key Baltic trade routes. This poses potential disruptions for Russian energy and agricultural exports, though the snippet does not detail the vessel&#x27;s physical damage or cargo status.</p>",
         "slug": "drone-strike-on-russian-cargo-ship-in-gulf-of-finland-stirs-8e72c7"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-20/j-j-snack-foods-ceo-on-4q-results-and-consumer-sentiment-video",
-        "source": "Bloomberg",
-        "published": "2026-11-20 23:22",
-        "title": "J&J Snack Foods Targets Additional Cost Savings Under Project Apollo 2",
-        "tag": "EARNINGS",
-        "sentiment": "BULLISH",
-        "ai_summary": "Chief Executive Dan Fachner stated that the company's turnaround plan remains on schedule following a strong fiscal year. The Project Apollo initiative yielded over 25 million dollars in permanent savings, with an additional phase planned through 2027.",
-        "market_impact": "Company operational efficiency",
-        "key_facts": [
-            "Project Apollo generated more than $25 million in durable cost savings",
-            "Apollo 2 aims to produce an additional $5 million in savings by 2027 through distribution and manufacturing improvements"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 362,
-        "analysis": "The key operational metric is the generation of over $25 million in durable savings alongside a target of $5 million more by 2027. This suggests ongoing cost improvements in manufacturing and distribution, although the snippet does not provide fourth-quarter revenue or net profit numbers.",
-        "what_to_watch": "",
-        "content": "<p>The key operational metric is the generation of over $25 million in durable savings alongside a target of $5 million more by 2027. This suggests ongoing cost improvements in manufacturing and distribution, although the snippet does not provide fourth-quarter revenue or net profit numbers.</p>",
-        "tickers": [
-            "JJSF"
-        ],
-        "slug": "j-j-snack-foods-targets-additional-cost-savings-under-b98415"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
-        "source": "CNBC",
-        "published": "2026-11-20 22:59",
-        "title": "Nvidia Shares Drop 14% to Mark Longest Weekly Slide Since 2008",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "The chipmaker concluded its longest stretch of consecutive weekly losses since the 2008 financial crisis. After previously holding the top spot globally by valuation, the firm now trails Apple, Microsoft, and Alphabet.",
-        "market_impact": "Semiconductor sector pressure",
-        "key_facts": [
-            "The weekly decline was the longest losing streak for the stock since the 2008 financial crisis",
-            "Nvidia previously held the rank of the most valuable company in the world"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 106,
-        "analysis": "The critical takeaway is Nvidia's 14% drop and its slide to fourth place in market value behind major technology peers. This indicates a sharp reset in Nvidia's relative valuation standing, though the text does not disclose the fundamental catalyst driving the weekly sell-off.",
-        "what_to_watch": "",
-        "content": "<p>The critical takeaway is Nvidia&#x27;s 14% drop and its slide to fourth place in market value behind major technology peers. This indicates a sharp reset in Nvidia&#x27;s relative valuation standing, though the text does not disclose the fundamental catalyst driving the weekly sell-off.</p>",
-        "tickers": [
-            "NVDA",
-            "AAPL",
-            "MSFT",
-            "GOOGL"
-        ],
-        "slug": "nvidia-shares-drop-14-to-mark-longest-weekly-slide-since-dc970c"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-20 22:46",
-        "title": "Dow and S&P 500 Reach Correction Territory as Tech Leads Broad Drop",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "The Dow and S&P 500 slid into a market correction as the Nasdaq marked its sharpest weekly contraction since 2020. Every major industry group within the S&P 500 dropped by more than 1% during the week.",
-        "market_impact": "Broad market decline",
-        "key_facts": [
-            "The Nasdaq suffered its worst weekly performance since 2020",
-            "All 11 sectors of the S&P 500 fell more than 1% in the same week for the first time since April 2025"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 97,
-        "analysis": "The most significant fact is that all 11 S&P 500 sectors declined by over 1% in a single week. This demonstrates widespread selling across asset classes, but the excerpt does not identify the underlying economic or corporate causes of the downturn.",
-        "what_to_watch": "",
-        "content": "<p>The most significant fact is that all 11 S&amp;P 500 sectors declined by over 1% in a single week. This demonstrates widespread selling across asset classes, but the excerpt does not identify the underlying economic or corporate causes of the downturn.</p>",
-        "slug": "dow-and-s-p-500-reach-correction-territory-as-tech-leads-4371c6"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-20 22:44",
-        "title": "Semiconductor Stocks Shed $2.3 Trillion in Worst Week in 25 Years",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "A primary index tracking semiconductor equities recorded its largest weekly loss in a quarter of a century. The decline wiped out 2.3 trillion dollars in market value amid a broader retreat from artificial intelligence investments.",
-        "market_impact": "Semiconductor sector selloff",
-        "key_facts": [
-            "A primary semiconductor index logged its worst weekly performance in 25 years"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 81,
-        "analysis": "The headline figure is the $2.3 trillion loss in market value alongside the steepest five-day drop for the chip index in 25 years. This sharp contraction reflects heightened turbulence for semiconductor companies, though the snippet does not detail individual company performances or specific catalysts.",
-        "what_to_watch": "",
-        "content": "<p>The headline figure is the $2.3 trillion loss in market value alongside the steepest five-day drop for the chip index in 25 years. This sharp contraction reflects heightened turbulence for semiconductor companies, though the snippet does not detail individual company performances or specific catalysts.</p>",
-        "slug": "semiconductor-stocks-shed-2-3-trillion-in-worst-week-in-25-6db58f"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/these-stocks-were-crushed-the-most-this-week-as-the-tech-wreck-accelerated-8d6f7323?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-20 22:44",
-        "title": "S&P 500 Suffers Widespread Losses as 94% of Index Components Drop",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Almost the entire S&P 500 finished the week lower, with eleven constituent equities losing at least a fifth of their value. Despite the sharp drawdown, Wall Street analysts maintain that buying these shares could still yield strong returns.",
-        "market_impact": "Broad market weakness",
-        "key_facts": [
-            "Eleven stocks in the S&P 500 declined by at least 20% during the week"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 158,
-        "analysis": "The most critical data point is that 94% of S&P 500 members declined, with 11 falling 20% or more. This breadth indicates acute downward pressure across the market, but the provided text does not identify the specific companies that suffered the steepest falls.",
-        "what_to_watch": "",
-        "content": "<p>The most critical data point is that 94% of S&amp;P 500 members declined, with 11 falling 20% or more. This breadth indicates acute downward pressure across the market, but the provided text does not identify the specific companies that suffered the steepest falls.</p>",
-        "slug": "s-p-500-suffers-widespread-losses-as-94-of-index-components-eadd2e"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-20/-always-remain-liquid-richards-video",
-        "source": "Bloomberg",
-        "published": "2026-11-20 22:30",
-        "title": "CVC Marathon's Bruce Richards Cautions on Irrational Markets and Leveraged ETFs",
-        "tag": "STOCKS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Bruce Richards shared his perspectives on maintaining liquidity during an interview on Bloomberg Money. The managing partner raised concerns about irrational trading behavior and expressed skepticism toward leveraged exchange-traded funds.",
-        "market_impact": "Market commentary",
-        "key_facts": [
-            "Richards heads CVC Marathon as managing partner",
-            "He cautioned against irrational markets and indicated he does not favor leveraged ETF structures"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 317,
-        "analysis": "The notable insight is Richards' recommendation to keep cash available alongside his critique of leveraged exchange-traded products. This highlights risk management preferences of an institutional manager, though the excerpt contains no specific corporate or macroeconomic data.",
-        "what_to_watch": "",
-        "content": "<p>The notable insight is Richards&#x27; recommendation to keep cash available alongside his critique of leveraged exchange-traded products. This highlights risk management preferences of an institutional manager, though the excerpt contains no specific corporate or macroeconomic data.</p>",
-        "slug": "cvc-marathon-s-bruce-richards-cautions-on-irrational-3c19d8"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
-        "source": "CNBC",
-        "published": "2026-11-20 20:47",
-        "title": "Trump Threatens Heavy Tax on U.S. Companies Building Data Centers Abroad",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "President Trump pledged to block domestic firms from constructing data center facilities in foreign countries. He delivered the warning at the White House following a summit in China with Xi Jinping and Vladimir Putin.",
-        "market_impact": "Tech spending uncertainty",
-        "key_facts": [
-            "Trump threatened to impose a 'tremendous tax' on foreign data center construction",
-            "The statements followed a trilateral summit held in China with Xi Jinping and Vladimir Putin"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 158,
-        "analysis": "The pivotal detail is Trump's threat of a substantial tax penalty on domestic firms constructing data facilities overseas. Such a policy could alter capital expenditure strategies for technology firms, though the snippet does not provide any legislative or regulatory timetable.",
-        "what_to_watch": "",
-        "content": "<p>The pivotal detail is Trump&#x27;s threat of a substantial tax penalty on domestic firms constructing data facilities overseas. Such a policy could alter capital expenditure strategies for technology firms, though the snippet does not provide any legislative or regulatory timetable.</p>",
-        "slug": "trump-threatens-heavy-tax-on-u-s-companies-building-data-3505a4"
     }
 ]

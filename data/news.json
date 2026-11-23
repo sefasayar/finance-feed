@@ -1,5 +1,170 @@
 [
     {
+        "original_link": "https://www.marketwatch.com/story/trumps-push-to-reinstate-jensen-huang-signals-nvidias-ceo-is-too-big-to-fail-10709210?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-23 19:28",
+        "title": "Trump Highlights Importance of Jensen Huang to Nvidia",
+        "tag": "TECH",
+        "sentiment": "BULLISH",
+        "ai_summary": "President Trump emphasized the value of Jensen Huang's leadership to Nvidia during discussions about corporate governance. He suggested that losing such talent poses a greater risk than current regulatory concerns.",
+        "market_impact": "Positive sentiment",
+        "key_facts": [
+            "The president addressed concerns about corporate governance rules."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 161,
+        "analysis": "The president's public support for the CEO is the central development. This may influence market perception of Nvidia's governance, though it does not clarify how export controls will be applied moving forward.",
+        "what_to_watch": "",
+        "content": "<p>The president&#x27;s public support for the CEO is the central development. This may influence market perception of Nvidia&#x27;s governance, though it does not clarify how export controls will be applied moving forward.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "trump-highlights-importance-of-jensen-huang-to-nvidia-fea7bb"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-23/everyone-surprised-by-huang-s-return-proshares-kang-video",
+        "source": "Bloomberg",
+        "published": "2026-11-23 19:23",
+        "title": "ProShares Discusses NVDA ETF Following CEO Return",
+        "tag": "STOCKS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "ProShares executive Inkoo Kang discussed the firm's Nvidia-linked ETFs on a recent broadcast. The conversation covered the ProShares Ultra NVDA ETF and new offerings related to Anthropic.",
+        "market_impact": "ETF focus",
+        "key_facts": [
+            "Inkoo Kang is the executive director of tactical products at ProShares.",
+            "The discussion included the firm's new Anthropic ETFs."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "analysis_not_specific_enough_to_source"
+        ],
+        "source_description_chars": 236,
+        "analysis": "The discussion highlights the availability of leveraged products tied to Nvidia's performance. The snippet does not provide performance data or specific investment outlooks for these funds.",
+        "what_to_watch": "",
+        "content": "<p>The discussion highlights the availability of leveraged products tied to Nvidia&#x27;s performance. The snippet does not provide performance data or specific investment outlooks for these funds.</p>",
+        "tickers": [
+            "NVDB"
+        ],
+        "slug": "proshares-discusses-nvda-etf-following-ceo-return-075190"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/trump-is-open-to-capping-credit-card-interest-rates-but-holiday-shoppers-shouldnt-bank-on-it-yet-34260705?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-23 18:55",
+        "title": "Trump Considers Capping Credit Card Interest Rates",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "President Trump expressed openness to capping credit card interest rates for consumers. However, the proposal remains in the early stages and is not guaranteed to occur.",
+        "market_impact": "Policy uncertainty",
+        "key_facts": [
+            "The comments were made ahead of the holiday shopping season."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 187,
+        "analysis": "The president's stated interest in rate caps is the key fact. The snippet does not establish a timeline or legislative path for such a policy, leaving its potential impact on financial institutions speculative.",
+        "what_to_watch": "",
+        "content": "<p>The president&#x27;s stated interest in rate caps is the key fact. The snippet does not establish a timeline or legislative path for such a policy, leaving its potential impact on financial institutions speculative.</p>",
+        "slug": "trump-considers-capping-credit-card-interest-rates-34c711"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html",
+        "source": "CNBC",
+        "published": "2026-11-23 18:00",
+        "title": "Analysts See Jensen Huang's Return Stabilizing Nvidia Shares",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Market strategists suggest the return of Jensen Huang to Nvidia may help stabilize the broader AI sector. However, concerns regarding data-center performance and capital spending persist.",
+        "market_impact": "Market stabilization",
+        "key_facts": [
+            "Strategists identified ongoing risks related to data-center operations."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 132,
+        "analysis": "The potential for reduced volatility in the AI trade is the key takeaway from strategist commentary. While the leadership change may provide a floor for the stock, the snippet does not confirm that underlying operational risks have been resolved.",
+        "what_to_watch": "",
+        "content": "<p>The potential for reduced volatility in the AI trade is the key takeaway from strategist commentary. While the leadership change may provide a floor for the stock, the snippet does not confirm that underlying operational risks have been resolved.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "analysts-see-jensen-huang-s-return-stabilizing-nvidia-shares-efc832"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/23/trump-nvidia-jensen-huang.html",
+        "source": "CNBC",
+        "published": "2026-11-23 17:16",
+        "title": "Trump Administration Assures Nvidia Board on Jensen Huang",
+        "tag": "TECH",
+        "sentiment": "BULLISH",
+        "ai_summary": "President Trump stated his administration provided assurances to Nvidia's board regarding Jensen Huang. The administration indicated that Huang would not be considered a national security threat upon his reinstatement as CEO.",
+        "market_impact": "Positive sentiment",
+        "key_facts": [
+            "The administration communicated directly with the board of directors.",
+            "The assurance specifically addressed national security concerns."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 156,
+        "analysis": "The administration's direct involvement in corporate leadership matters is the primary factor here. This could influence investor confidence in Nvidia's stability, though the long-term regulatory implications remain unclear.",
+        "what_to_watch": "",
+        "content": "<p>The administration&#x27;s direct involvement in corporate leadership matters is the primary factor here. This could influence investor confidence in Nvidia&#x27;s stability, though the long-term regulatory implications remain unclear.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "trump-administration-assures-nvidia-board-on-jensen-huang-938332"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-23/anthropic-shares-churn-defying-ai-trade-rally-on-huang-s-return",
+        "source": "Bloomberg",
+        "published": "2026-11-23 14:51",
+        "title": "Anthropic Shares Lag Despite Broader AI Sector Rebound",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "Anthropic shares showed little direction on Monday despite a general recovery in the AI sector. The company's performance diverged from the market trend following the return of Nvidia's CEO.",
+        "market_impact": "Sector divergence",
+        "key_facts": [
+            "The broader AI sector experienced a rebound on Monday.",
+            "The market movement followed the reinstatement of Jensen Huang at Nvidia."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 205,
+        "analysis": "The lack of correlation between Anthropic and the broader AI sector is the notable observation. The snippet does not explain the specific reasons for the stock's lack of momentum.",
+        "what_to_watch": "",
+        "content": "<p>The lack of correlation between Anthropic and the broader AI sector is the notable observation. The snippet does not explain the specific reasons for the stock&#x27;s lack of momentum.</p>",
+        "slug": "anthropic-shares-lag-despite-broader-ai-sector-rebound-faa2ec"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-23/brazil-s-real-weakens-past-6-per-dollar-as-lula-selloff-extends",
+        "source": "Bloomberg",
+        "published": "2026-11-23 13:11",
+        "title": "Brazilian Real Drops to 19-Month Low Following Election",
+        "tag": "FOREX",
+        "sentiment": "BEARISH",
+        "ai_summary": "The Brazilian real reached a 19-month low as market selloffs continued following the re-election of President Lula da Silva. Investors are expressing concern over the government's rising debt levels.",
+        "market_impact": "Currency depreciation",
+        "key_facts": [
+            "The selloff has persisted for one month.",
+            "Market participants are questioning the president's commitment to debt control."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 263,
+        "analysis": "Investor skepticism regarding fiscal discipline is the primary driver of the currency decline. The snippet does not provide specific details on the government's planned debt management strategies.",
+        "what_to_watch": "",
+        "content": "<p>Investor skepticism regarding fiscal discipline is the primary driver of the currency decline. The snippet does not provide specific details on the government&#x27;s planned debt management strategies.</p>",
+        "slug": "brazilian-real-drops-to-19-month-low-following-election-4d27f5"
+    },
+    {
         "original_link": "https://www.cnbc.com/2026/11/23/tata-steel-acquisition-deal-apl-india.html",
         "source": "CNBC",
         "published": "2026-11-23 04:26",
@@ -410,157 +575,5 @@
             "NVDA"
         ],
         "slug": "anthropic-debuts-on-nasdaq-as-tech-suffers-worst-week-since-0382ca"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-21 15:35",
-        "title": "Analysts warn low valuation multiples in memory stocks signal peak pricing",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Micron and Sandisk shares currently trade at compressed valuation multiples that market participants might view as attractive entry points. Analysts warn that historically, low valuation multiples in memory chip makers have signaled peak cycle pricing.",
-        "market_impact": "Memory stocks face caution",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 126,
-        "analysis": "Analysts emphasize that historically low valuation multiples for memory makers frequently coincide with cyclical peaks in chip pricing. This suggests that earnings could face pressure if product prices decline, though the excerpt does not share current financial figures or analyst price targets.",
-        "what_to_watch": "",
-        "content": "<p>Analysts emphasize that historically low valuation multiples for memory makers frequently coincide with cyclical peaks in chip pricing. This suggests that earnings could face pressure if product prices decline, though the excerpt does not share current financial figures or analyst price targets.</p>",
-        "tickers": [
-            "MU"
-        ],
-        "slug": "analysts-warn-low-valuation-multiples-in-memory-stocks-8c6b52"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-21/goldman-s-spacex-pitch-helps-solve-ai-debt-puzzle-credit-weekly",
-        "source": "Bloomberg",
-        "published": "2026-11-21 15:31",
-        "title": "Goldman Sachs develops financing framework to fund costly AI chip purchases",
-        "tag": "TECH",
-        "sentiment": "BULLISH",
-        "ai_summary": "Goldman Sachs Group Inc. dedicated over a year to devising strategies that fund artificial intelligence microchips. The solution is aimed at avoiding balance sheet impairment for tech corporations making heavy hardware purchases.",
-        "market_impact": "Tech funding options expand",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 163,
-        "analysis": "Goldman Sachs spent over a year working on a mechanism to finance AI chips without harming corporate balance sheets. This development could ease debt pressures for technology firms investing in AI compute, though the snippet does not detail the structure of the SpaceX proposal.",
-        "what_to_watch": "",
-        "content": "<p>Goldman Sachs spent over a year working on a mechanism to finance AI chips without harming corporate balance sheets. This development could ease debt pressures for technology firms investing in AI compute, though the snippet does not detail the structure of the SpaceX proposal.</p>",
-        "tickers": [
-            "GS"
-        ],
-        "slug": "goldman-sachs-develops-financing-framework-to-fund-costly-691aee"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html",
-        "source": "CNBC",
-        "published": "2026-11-21 15:04",
-        "title": "Technology outages heighten concerns over AI cyber risks and power grid",
-        "tag": "TECH",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Recent infrastructure failures in the technology sector have prompted rising alarms over AI-enabled cyber threats and electrical network vulnerabilities. In response, business activity tied to preparedness and resilience has gained momentum.",
-        "market_impact": "Grid focus rises",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 149,
-        "analysis": "Recent technical failures have drawn increased attention to vulnerability in the U.S. electricity grid and AI cyber exposure. While this may increase demand for protective infrastructure, the text provides no quantitative evidence of financial gains across the sector.",
-        "what_to_watch": "",
-        "content": "<p>Recent technical failures have drawn increased attention to vulnerability in the U.S. electricity grid and AI cyber exposure. While this may increase demand for protective infrastructure, the text provides no quantitative evidence of financial gains across the sector.</p>",
-        "slug": "technology-outages-heighten-concerns-over-ai-cyber-risks-2ca0a4"
-    },
-    {
-        "original_link": "https://www.cnbc.com/make-it/2026/11/21/california-mining-modern-gold-rush.html",
-        "source": "CNBC",
-        "published": "2026-11-21 14:05",
-        "title": "High Gold Prices Fuel Surge in Small-Scale California Mining Operations",
-        "tag": "COMMODITIES",
-        "sentiment": "BULLISH",
-        "ai_summary": "Elevated gold prices have triggered a renewed wave of prospecting across California. Individual miners are committing capital, time, and manual effort to extract valuable deposits.",
-        "market_impact": "Bullish gold interest",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 160,
-        "analysis": "Rising market prices for gold are driving independent prospectors to spend significant personal resources on extraction. This demonstrates heightened activity among small miners, but the text leaves the total output volume and broader industrial impact unaddressed.",
-        "what_to_watch": "",
-        "content": "<p>Rising market prices for gold are driving independent prospectors to spend significant personal resources on extraction. This demonstrates heightened activity among small miners, but the text leaves the total output volume and broader industrial impact unaddressed.</p>",
-        "slug": "high-gold-prices-fuel-surge-in-small-scale-california-9c51c8"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/21/prediction-market-regulation-kalshi-cftc.html",
-        "source": "CNBC",
-        "published": "2026-11-21 13:12",
-        "title": "CFTC, Congress, and states escalate clash over prediction market rules",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Multiple regulatory tiers are stepping up efforts to govern prediction markets following the midterm elections. The escalating struggle involves state agencies alongside federal oversight from Congress and the CFTC.",
-        "market_impact": "Regulatory scrutiny intensifies",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 108,
-        "analysis": "The simultaneous involvement of state governments, federal lawmakers, and the CFTC highlights mounting jurisdictional complexity for prediction market operators. This regulatory friction could lead to tighter operating constraints, though the snippet does not outline any specific rules or proposed legislation.",
-        "what_to_watch": "",
-        "content": "<p>The simultaneous involvement of state governments, federal lawmakers, and the CFTC highlights mounting jurisdictional complexity for prediction market operators. This regulatory friction could lead to tighter operating constraints, though the snippet does not outline any specific rules or proposed legislation.</p>",
-        "slug": "cftc-congress-and-states-escalate-clash-over-prediction-df0f7a"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/21/us-airlines-first-class-business-class.html",
-        "source": "CNBC",
-        "published": "2026-11-21 12:00",
-        "title": "US Airlines Phase Out International First Class for Expanded Business Suites",
-        "tag": "STOCKS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Carriers based in the US are retiring traditional first-class cabins on international routes. Instead, they are outfitting long-haul aircraft with enlarged business-class sections featuring more luxurious suites.",
-        "market_impact": "Airline margins shift",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 89,
-        "analysis": "The strategic change focuses entirely on outfitting planes with expansive business-class cabins featuring enhanced amenities. This cabin redesign may alter premium seating revenue for commercial carriers, though the provided text does not mention specific fleet rollout costs or timelines.",
-        "what_to_watch": "",
-        "content": "<p>The strategic change focuses entirely on outfitting planes with expansive business-class cabins featuring enhanced amenities. This cabin redesign may alter premium seating revenue for commercial carriers, though the provided text does not mention specific fleet rollout costs or timelines.</p>",
-        "slug": "us-airlines-phase-out-international-first-class-for-772552"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-21/russia-says-cargo-ship-attacked-by-drones-in-gulf-of-finland",
-        "source": "Bloomberg",
-        "published": "2026-11-21 11:44",
-        "title": "Drone Strike on Russian Cargo Ship in Gulf of Finland Stirs Export Fears",
-        "tag": "COMMODITIES",
-        "sentiment": "BEARISH",
-        "ai_summary": "A Russian cargo vessel traveling toward Kaliningrad sustained a drone attack in the Gulf of Finland's international waters. The incident accentuates rising operational threats along major Baltic corridors used for Russian food and energy shipments.",
-        "market_impact": "Baltic transit risks",
-        "key_facts": [
-            "The targeted cargo ship was navigating toward the Kaliningrad exclave."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 232,
-        "analysis": "The drone targeting of a vessel in international waters indicates immediate security dangers along key Baltic trade routes. This poses potential disruptions for Russian energy and agricultural exports, though the snippet does not detail the vessel's physical damage or cargo status.",
-        "what_to_watch": "",
-        "content": "<p>The drone targeting of a vessel in international waters indicates immediate security dangers along key Baltic trade routes. This poses potential disruptions for Russian energy and agricultural exports, though the snippet does not detail the vessel&#x27;s physical damage or cargo status.</p>",
-        "slug": "drone-strike-on-russian-cargo-ship-in-gulf-of-finland-stirs-8e72c7"
     }
 ]

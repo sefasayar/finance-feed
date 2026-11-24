@@ -1,5 +1,196 @@
 [
     {
+        "original_link": "https://www.cnbc.com/2026/11/24/us-china-thwarting-india-growth.html",
+        "source": "CNBC",
+        "published": "2026-11-24 04:27",
+        "title": "U.S. Panel Reports Shift in China's Strategy Toward India",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "A U.S. panel suggests China is shifting its approach to limit India's economic growth. The strategy appears to favor economic containment over military engagement.",
+        "market_impact": "Geopolitical uncertainty",
+        "key_facts": [
+            "Military actions are currently less prioritized than economic tactics"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 100,
+        "analysis": "The report highlights a strategic pivot in China's foreign policy. It does not establish the specific economic measures being utilized to thwart India's rise.",
+        "what_to_watch": "",
+        "content": "<p>The report highlights a strategic pivot in China&#x27;s foreign policy. It does not establish the specific economic measures being utilized to thwart India&#x27;s rise.</p>",
+        "slug": "u-s-panel-reports-shift-in-china-s-strategy-toward-india-987ac8"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-24/australia-bonds-set-for-longest-rally-since-june-on-rba-cut-bets",
+        "source": "Bloomberg",
+        "published": "2026-11-24 04:06",
+        "title": "Australian Bonds Rally on Expectations of Rate Cuts",
+        "tag": "ECONOMY",
+        "sentiment": "BULLISH",
+        "ai_summary": "Australian bonds are experiencing their longest rally in over five months. Investors are increasing bets on an interest-rate cut by the Reserve Bank due to signs of economic weakness.",
+        "market_impact": "Lower bond yields",
+        "key_facts": [
+            "The rally is the longest since June",
+            "The Reserve Bank is the central bank in question"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 184,
+        "analysis": "The market is pricing in a shift in monetary policy based on recent economic data. The snippet does not specify which economic indicators are signaling the weakness.",
+        "what_to_watch": "",
+        "content": "<p>The market is pricing in a shift in monetary policy based on recent economic data. The snippet does not specify which economic indicators are signaling the weakness.</p>",
+        "slug": "australian-bonds-rally-on-expectations-of-rate-cuts-681e74"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-24/keppel-agrees-to-merge-m1-and-starhub-in-all-share-deal",
+        "source": "Bloomberg",
+        "published": "2026-11-24 01:07",
+        "title": "Keppel to Merge Telecom Units M1 and Starhub",
+        "tag": "STOCKS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Keppel Ltd. has reached an agreement to combine M1 Ltd. and Starhub Ltd. The merger follows several months of negotiations between the two Singaporean telecommunications firms.",
+        "market_impact": "Consolidation",
+        "key_facts": [
+            "The deal involves an all-share structure",
+            "The companies are major operators in Singapore"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 190,
+        "analysis": "The all-share deal marks a significant consolidation in the Singaporean telecommunications market. The text does not disclose the financial terms or the expected completion date of the merger.",
+        "what_to_watch": "",
+        "content": "<p>The all-share deal marks a significant consolidation in the Singaporean telecommunications market. The text does not disclose the financial terms or the expected completion date of the merger.</p>",
+        "slug": "keppel-to-merge-telecom-units-m1-and-starhub-eb7273"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-23/latest-oil-market-news-and-analysis-for-nov-24",
+        "source": "Bloomberg",
+        "published": "2026-11-23 23:04",
+        "title": "Oil Prices Decline Amid Optimism Over Conflict Resolution",
+        "tag": "COMMODITIES",
+        "sentiment": "BEARISH",
+        "ai_summary": "Oil prices continued to fall following a significant decline in the previous session. Market sentiment is influenced by hopes regarding efforts to resolve the conflict between the U.S. and Iran.",
+        "market_impact": "Lower oil prices",
+        "key_facts": [
+            "Oil prices fell more than 3% in the prior session",
+            "The news is dated November 24"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 125,
+        "analysis": "The potential for de-escalation in the U.S.-Iran conflict is driving the current downward trend in oil prices. The snippet does not provide details on the specific diplomatic efforts underway.",
+        "what_to_watch": "",
+        "content": "<p>The potential for de-escalation in the U.S.-Iran conflict is driving the current downward trend in oil prices. The snippet does not provide details on the specific diplomatic efforts underway.</p>",
+        "slug": "oil-prices-decline-amid-optimism-over-conflict-resolution-b8fd25"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html",
+        "source": "CNBC",
+        "published": "2026-11-23 22:43",
+        "title": "Nvidia Shares Rise Amid Investor and Regulator Scrutiny",
+        "tag": "STOCKS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Jensen Huang has returned to his leadership role at Nvidia. Market participants and lawmakers are expressing increased caution regarding the company.",
+        "market_impact": "Increased volatility",
+        "key_facts": [
+            "Market sentiment remains focused on the AI trade"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 98,
+        "analysis": "The return of Jensen Huang is identified as a primary driver for recent market sentiment. The snippet does not provide specific details on the nature of the regulatory or investor concerns.",
+        "what_to_watch": "",
+        "content": "<p>The return of Jensen Huang is identified as a primary driver for recent market sentiment. The snippet does not provide specific details on the nature of the regulatory or investor concerns.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-shares-rise-amid-investor-and-regulator-scrutiny-ecc312"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/nvidias-stock-is-surging-again-what-to-know-before-chasing-the-ai-rally-226688d7?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-23 22:04",
+        "title": "Nvidia Stock Gains Momentum Following CEO Return",
+        "tag": "STOCKS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Jensen Huang's return to Nvidia has provided a boost to the artificial intelligence sector. Investors are being advised to anticipate potential price fluctuations.",
+        "market_impact": "Market volatility",
+        "key_facts": [
+            "Huang's return is viewed as positive news"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 124,
+        "analysis": "The return of the CEO is cited as a catalyst for renewed interest in AI-related stocks. The snippet does not specify the duration or extent of the expected volatility.",
+        "what_to_watch": "",
+        "content": "<p>The return of the CEO is cited as a catalyst for renewed interest in AI-related stocks. The snippet does not specify the duration or extent of the expected volatility.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-stock-gains-momentum-following-ceo-return-3df0fa"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/u-s-stocks-see-best-day-in-more-than-a-year-as-return-of-jensen-huang-revives-ai-enthusiasm-c3b9d274?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-23 21:51",
+        "title": "U.S. Markets Rally as Jensen Huang Returns to Nvidia",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "U.S. stocks experienced their strongest daily performance in over a year on Monday. The market rebound is attributed to renewed confidence in the AI sector following Jensen Huang's return.",
+        "market_impact": "Broad market gains",
+        "key_facts": [
+            "The move helped restore faith in the artificial-intelligence trade"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 164,
+        "analysis": "The return of Jensen Huang is identified as the primary factor for the market-wide surge. The text does not analyze the sustainability of this rally beyond the immediate impact of the leadership change.",
+        "what_to_watch": "",
+        "content": "<p>The return of Jensen Huang is identified as the primary factor for the market-wide surge. The text does not analyze the sustainability of this rally beyond the immediate impact of the leadership change.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "u-s-markets-rally-as-jensen-huang-returns-to-nvidia-132a81"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/these-stocks-are-the-biggest-gainers-after-jensen-huangs-return-to-nvidia-bb886140?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-23 21:36",
+        "title": "Tech Sector Gains Following Jensen Huang's Nvidia Return",
+        "tag": "TECH",
+        "sentiment": "BULLISH",
+        "ai_summary": "The broader technology sector saw significant gains after Jensen Huang returned to Nvidia. This development has provided relief to the previously struggling AI market.",
+        "market_impact": "Sector-wide growth",
+        "key_facts": [
+            "The AI trade had been described as battered",
+            "The tech sector experienced major boosts"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 103,
+        "analysis": "The leadership change at Nvidia is credited with boosting investor sentiment across the tech industry. The snippet does not list the specific stocks that saw the largest gains.",
+        "what_to_watch": "",
+        "content": "<p>The leadership change at Nvidia is credited with boosting investor sentiment across the tech industry. The snippet does not list the specific stocks that saw the largest gains.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "tech-sector-gains-following-jensen-huang-s-nvidia-return-dade45"
+    },
+    {
         "original_link": "https://www.marketwatch.com/story/trumps-push-to-reinstate-jensen-huang-signals-nvidias-ceo-is-too-big-to-fail-10709210?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-23 19:28",
@@ -386,194 +577,5 @@
         "what_to_watch": "",
         "content": "<p>The suggestion relies on the premise that market turmoil creates pricing inefficiencies in specific fund categories. The text does not identify which specific closed-end funds are considered bargains.</p>",
         "slug": "closed-end-funds-may-offer-value-during-market-crashes-459286"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/private-equity-has-been-buying-up-hospice-centers-with-striking-consequences-63642545?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-22 17:22",
-        "title": "Private Equity Ownership Linked to Higher Hospice Costs",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Research indicates that hospice centers owned by private equity firms are associated with increased Medicare spending. Patients at these facilities also tend to have longer stays.",
-        "market_impact": "Regulatory scrutiny",
-        "key_facts": [
-            "Medicare costs are higher at private-equity-owned hospices.",
-            "Patients stay longer at these specific facilities."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 126,
-        "analysis": "The findings suggest a correlation between private equity ownership and higher utilization of Medicare resources. The snippet does not establish whether this trend is due to patient care quality or business practices.",
-        "what_to_watch": "",
-        "content": "<p>The findings suggest a correlation between private equity ownership and higher utilization of Medicare resources. The snippet does not establish whether this trend is due to patient care quality or business practices.</p>",
-        "slug": "private-equity-ownership-linked-to-higher-hospice-costs-b15959"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
-        "source": "CNBC",
-        "published": "2026-11-22 17:14",
-        "title": "Intelligence Director Clayton Cautions on Tech Outages",
-        "tag": "TECH",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Jay Clayton issued a warning regarding potential future disruptions following recent technical failures. These incidents previously affected banking transactions, Microsoft 365, and air travel.",
-        "market_impact": "Market caution",
-        "key_facts": [
-            "Outages impacted air travel and banking services.",
-            "Microsoft 365 was among the systems affected."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 140,
-        "analysis": "The warning follows a series of high-profile technical outages across multiple sectors. It remains unclear how these operational risks might specifically impact long-term financial stability.",
-        "what_to_watch": "Monitor for further technical stability updates ahead of the Thanksgiving holiday.",
-        "content": "<p>The warning follows a series of high-profile technical outages across multiple sectors. It remains unclear how these operational risks might specifically impact long-term financial stability.</p><p><strong>What to watch:</strong> Monitor for further technical stability updates ahead of the Thanksgiving holiday.</p>",
-        "tickers": [
-            "MSFT"
-        ],
-        "slug": "intelligence-director-clayton-cautions-on-tech-outages-76ab22"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-22/compass-plans-to-move-primary-listing-from-london-to-ny-ft-says",
-        "source": "Bloomberg",
-        "published": "2026-11-22 17:08",
-        "title": "Compass Group Considers Moving Listing to New York",
-        "tag": "STOCKS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Compass Group is reportedly planning to shift its primary stock listing from London to New York. This potential move is viewed as a setback for the UK financial market.",
-        "market_impact": "Market shift",
-        "key_facts": [
-            "Compass Group is currently listed in London.",
-            "The move is described as a disappointment for the UK market."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 193,
-        "analysis": "The relocation of a primary listing represents a strategic change for the company's capital structure. The snippet does not confirm an official timeline for the transition.",
-        "what_to_watch": "",
-        "content": "<p>The relocation of a primary listing represents a strategic change for the company&#x27;s capital structure. The snippet does not confirm an official timeline for the transition.</p>",
-        "slug": "compass-group-considers-moving-listing-to-new-york-70bc10"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/22/pizza-chains-sales-glp-1-demand.html",
-        "source": "CNBC",
-        "published": "2026-11-22 13:00",
-        "title": "Pizza Chains Face Declining Demand and Competition",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Major pizza chains are experiencing significant pressure from shifting consumer habits and increased delivery competition. The adoption of GLP-1 medications is cited as a contributing factor to the weaker demand.",
-        "market_impact": "Sector headwinds",
-        "key_facts": [
-            "Domino's, Papa Johns, and Pizza Hut are specifically mentioned.",
-            "Delivery competition is intensifying for these chains."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 129,
-        "analysis": "The industry is struggling with a combination of market saturation and changing dietary preferences. It is not established to what extent GLP-1 usage specifically impacts pizza sales compared to other competitive factors.",
-        "what_to_watch": "",
-        "content": "<p>The industry is struggling with a combination of market saturation and changing dietary preferences. It is not established to what extent GLP-1 usage specifically impacts pizza sales compared to other competitive factors.</p>",
-        "tickers": [
-            "DPZ",
-            "PZZA",
-            "YUM"
-        ],
-        "slug": "pizza-chains-face-declining-demand-and-competition-499f2d"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-22/china-lowers-margin-requirement-to-80-to-boost-stock-liquidity",
-        "source": "Bloomberg",
-        "published": "2026-11-22 11:06",
-        "title": "Asian Stocks Slide as AI Concerns Counter Policy Support",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Equities in South Korea and China retreated as concerns surrounding the AI sector dampened investor appetite. The declines persisted despite regional official support programs and signs of stability in US equity markets.",
-        "market_impact": "Asian shares decline",
-        "key_facts": [
-            "Losses were concentrated in South Korean and Chinese equities",
-            "US equity markets showed signs of stabilizing during the session"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 201,
-        "analysis": "State support measures across Asian markets failed to offset lingering fragility surrounding AI-related holdings. This indicates that policy interventions have not yet restored broad investor confidence, though the text does not outline the specific support measures enacted.",
-        "what_to_watch": "",
-        "content": "<p>State support measures across Asian markets failed to offset lingering fragility surrounding AI-related holdings. This indicates that policy interventions have not yet restored broad investor confidence, though the text does not outline the specific support measures enacted.</p>",
-        "slug": "asian-stocks-slide-as-ai-concerns-counter-policy-support-e4c9ff"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/22/quantum-computing-energy-applications.html",
-        "source": "CNBC",
-        "published": "2026-11-22 06:00",
-        "title": "Quantum Computing Focuses on Energy Sector Applications",
-        "tag": "TECH",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Companies in the quantum computing sector are exploring early deployments in energy rather than pharmaceuticals. Experimental work includes solar material research, hydrogen catalyst design, and electrical grid optimization.",
-        "market_impact": "Energy tech focus",
-        "key_facts": [
-            "Targeted energy applications include hydrogen catalysts and solar materials",
-            "Research includes testing the technology for electrical grid optimization"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 131,
-        "analysis": "Quantum computing firms are prioritizing energy applications such as grid optimization over traditional drug discovery targets. This indicates a potential pathway for technology commercialization, but the snippet does not establish commercial viability or revenue timelines.",
-        "what_to_watch": "",
-        "content": "<p>Quantum computing firms are prioritizing energy applications such as grid optimization over traditional drug discovery targets. This indicates a potential pathway for technology commercialization, but the snippet does not establish commercial viability or revenue timelines.</p>",
-        "slug": "quantum-computing-focuses-on-energy-sector-applications-f6c519"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/buyers-are-out-for-blood-as-housing-market-finally-hits-rock-bottom-fa5093a6?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-21 19:45",
-        "title": "Homebuyers Gain Leverage as US Sales Drop to Record Lows Amid 7% Rates",
-        "tag": "ECONOMY",
-        "sentiment": "BEARISH",
-        "ai_summary": "Prospective buyers face 7% mortgage interest rates alongside historically peak property valuations. With transaction volumes slumping to unprecedented lows, the limited active buyers are exerting greater pricing power in transactions.",
-        "market_impact": "Housing demand slows",
-        "key_facts": [
-            "Real-estate agents report that remaining buyers are directing transaction terms."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 143,
-        "analysis": "A combination of record-high home values and 7% borrowing costs has pushed housing transaction volumes to record lows. This environment suggests shifting negotiation power toward buyers, although the text does not quantify subsequent price reductions or inventory shifts.",
-        "what_to_watch": "",
-        "content": "<p>A combination of record-high home values and 7% borrowing costs has pushed housing transaction volumes to record lows. This environment suggests shifting negotiation power toward buyers, although the text does not quantify subsequent price reductions or inventory shifts.</p>",
-        "slug": "homebuyers-gain-leverage-as-us-sales-drop-to-record-lows-70723a"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
-        "source": "CNBC",
-        "published": "2026-11-21 16:40",
-        "title": "Anthropic debuts on Nasdaq as tech suffers worst week since 2020",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "Anthropic executed a record-setting initial public offering on the Nasdaq exchange. The event coincided with the tech sector's sharpest weekly retreat since 2020, occurring right before Nvidia ended its longest weekly losing stretch since 2008.",
-        "market_impact": "Tech sentiment dampens",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 124,
-        "analysis": "Nvidia concluded its longest weekly decline since 2008 alongside the tech sector's worst weekly performance since 2020. This indicates significant short-term headwinds for tech assets, although Anthropic's own post-debut performance is not disclosed.",
-        "what_to_watch": "",
-        "content": "<p>Nvidia concluded its longest weekly decline since 2008 alongside the tech sector&#x27;s worst weekly performance since 2020. This indicates significant short-term headwinds for tech assets, although Anthropic&#x27;s own post-debut performance is not disclosed.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "anthropic-debuts-on-nasdaq-as-tech-suffers-worst-week-since-0382ca"
     }
 ]

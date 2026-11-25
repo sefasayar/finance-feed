@@ -1,5 +1,148 @@
 [
     {
+        "original_link": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
+        "source": "CNBC",
+        "published": "2026-11-25 23:48",
+        "title": "Asia-Pacific Stocks Poised to Rise as US Markets Rebound",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Regional bourses in the Asia-Pacific were positioned to advance on Thursday morning. The anticipated upward movement followed an overnight turnaround on Wall Street from its session lows.",
+        "market_impact": "Modest regional gains",
+        "key_facts": [
+            "Wall Street staged a dramatic recovery from overnight session lows",
+            "Investors are currently weighing the impact of fresh US tariffs"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 128,
+        "analysis": "The projected open is supported directly by the late-session rebound seen in US equity markets. However, the text also notes lingering investor caution surrounding fresh US tariffs without detailing which specific countries or sectors are targeted.",
+        "what_to_watch": "",
+        "content": "<p>The projected open is supported directly by the late-session rebound seen in US equity markets. However, the text also notes lingering investor caution surrounding fresh US tariffs without detailing which specific countries or sectors are targeted.</p>",
+        "slug": "asia-pacific-stocks-poised-to-rise-as-us-markets-rebound-62bdeb"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-25/latest-oil-market-news-and-analysis-for-nov-26",
+        "source": "Bloomberg",
+        "published": "2026-11-25 23:03",
+        "title": "Crude Maintains Two-Day Advance Amid Middle East Conflict",
+        "tag": "COMMODITIES",
+        "sentiment": "BULLISH",
+        "ai_summary": "Crude oil preserved its two-day price advance on November 26 as regional tensions persisted. Ongoing hostilities across the Middle East presented risks to the recovery of local petroleum shipments.",
+        "market_impact": "Supports crude prices",
+        "key_facts": [
+            "Crude oil prices held onto gains spanning two consecutive days as of Nov. 26",
+            "Middle East hostilities threatened to interrupt an export recovery in the region"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 133,
+        "analysis": "The focal point is that persistent Middle East hostilities threaten the ongoing recovery of crude exports from the region. The supplied text does not establish the volume of oil at risk or specific export facilities impacted.",
+        "what_to_watch": "",
+        "content": "<p>The focal point is that persistent Middle East hostilities threaten the ongoing recovery of crude exports from the region. The supplied text does not establish the volume of oil at risk or specific export facilities impacted.</p>",
+        "slug": "crude-maintains-two-day-advance-amid-middle-east-conflict-1fbeee"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/oracles-stock-sinks-toward-a-3-year-low-as-the-ai-trade-continues-to-unravel-d4698d77?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-25 22:16",
+        "title": "Oracle and CoreWeave Rebound Following Wednesday Morning Slump",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Technology shares including Oracle and CoreWeave recovered from early-session deficits on Wednesday. The broader market selloff diminished in intensity as trading approached the final bell.",
+        "market_impact": "Tech sentiment stabilizes",
+        "key_facts": [
+            "Oracle and CoreWeave rebounded from their early losses on Wednesday",
+            "The day's major selloff moderated significantly before the market close"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 167,
+        "analysis": "The decisive market fact is that what initially appeared to be an aggressive selloff eased into the close. The snippet does not establish what catalyst sparked the early declines or whether the rebound will carry into future sessions.",
+        "what_to_watch": "",
+        "content": "<p>The decisive market fact is that what initially appeared to be an aggressive selloff eased into the close. The snippet does not establish what catalyst sparked the early declines or whether the rebound will carry into future sessions.</p>",
+        "tickers": [
+            "ORCL"
+        ],
+        "slug": "oracle-and-coreweave-rebound-following-wednesday-morning-f98e82"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/nvidias-stock-is-giving-back-more-than-half-of-mondays-rally-as-dip-buyers-cash-in-ee4fa52c?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-25 22:11",
+        "title": "Nvidia Erases Bulk of Monday Rally as Dip Buyers Take Profits",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Shares of Nvidia relinquished a large portion of Monday's advance following profit-taking by dip buyers. Research firm Vanda Research noted that retail investors who purchased shares on the dip last week have seen their gains largely disappear.",
+        "market_impact": "Downside pressure NVDA",
+        "key_facts": [
+            "Vanda Research tracked the entry points of retail investors buying the dip last week",
+            "Profits captured from Monday's rally were nearly entirely given back"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 140,
+        "analysis": "The most significant fact is Vanda Research's finding that retail dip buyers from the prior week have lost nearly all their gains. This points to fading short-term price momentum, though the snippet does not provide specific share prices or trading volumes.",
+        "what_to_watch": "",
+        "content": "<p>The most significant fact is Vanda Research&#x27;s finding that retail dip buyers from the prior week have lost nearly all their gains. This points to fading short-term price momentum, though the snippet does not provide specific share prices or trading volumes.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-erases-bulk-of-monday-rally-as-dip-buyers-take-d540fe"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-25/stock-market-today-dow-s-p-live-updates",
+        "source": "Bloomberg",
+        "published": "2026-11-25 22:10",
+        "title": "Asian Stocks Point Higher Following Wall Street's Late Recovery",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Equities across Asia were slated for modest advances after a late-session turnaround on Wall Street prevented the Nasdaq 100 from entering a bear market. Meanwhile, persistent uncertainty regarding artificial intelligence investments provided support to US Treasuries.",
+        "market_impact": "Moderate equity gains",
+        "key_facts": [
+            "A late Wall Street rebound pulled the Nasdaq 100 back from the edge of a bear market",
+            "Persistent concerns about the artificial intelligence trade provided a boost to Treasuries"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 240,
+        "analysis": "The late recovery keeping the Nasdaq 100 off the brink of a bear market serves as the primary driver for Asian morning sentiment. However, persistent worries over the durability of the AI trade supported Treasuries, leaving the longevity of the stock rebound uncertain.",
+        "what_to_watch": "",
+        "content": "<p>The late recovery keeping the Nasdaq 100 off the brink of a bear market serves as the primary driver for Asian morning sentiment. However, persistent worries over the durability of the AI trade supported Treasuries, leaving the longevity of the stock rebound uncertain.</p>",
+        "slug": "asian-stocks-point-higher-following-wall-street-s-late-8fadf8"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+        "source": "CNBC",
+        "published": "2026-11-25 19:52",
+        "title": "SpaceX Secures FCC Clearance for 1 Million Orbital Data Satellites",
+        "tag": "TECH",
+        "sentiment": "BULLISH",
+        "ai_summary": "The Federal Communications Commission granted SpaceX authorization to place 1 million orbital data center satellites in space. The initiative had faced objections during the regulatory process from Amazon alongside other entities.",
+        "market_impact": "Boosts space tech",
+        "key_facts": [
+            "The approved plan allows deployment of 1 million orbital data center satellites",
+            "Amazon and additional groups had opposed the satellite proposal"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 148,
+        "analysis": "The central decision is the FCC's formal approval permitting the deployment of 1 million orbital data center satellites. While the clearance marks regulatory progress against competitor objections, the text does not detail deployment timelines or financial terms.",
+        "what_to_watch": "",
+        "content": "<p>The central decision is the FCC&#x27;s formal approval permitting the deployment of 1 million orbital data center satellites. While the clearance marks regulatory progress against competitor objections, the text does not detail deployment timelines or financial terms.</p>",
+        "tickers": [
+            "AMZN"
+        ],
+        "slug": "spacex-secures-fcc-clearance-for-1-million-orbital-data-b8e65d"
+    },
+    {
         "original_link": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
         "source": "CNBC",
         "published": "2026-11-25 13:44",
@@ -429,159 +572,5 @@
         "what_to_watch": "",
         "content": "<p>The potential for de-escalation in the U.S.-Iran conflict is driving the current downward trend in oil prices. The snippet does not provide details on the specific diplomatic efforts underway.</p>",
         "slug": "oil-prices-decline-amid-optimism-over-conflict-resolution-b8fd25"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html",
-        "source": "CNBC",
-        "published": "2026-11-23 22:43",
-        "title": "Nvidia Shares Rise Amid Investor and Regulator Scrutiny",
-        "tag": "STOCKS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Jensen Huang has returned to his leadership role at Nvidia. Market participants and lawmakers are expressing increased caution regarding the company.",
-        "market_impact": "Increased volatility",
-        "key_facts": [
-            "Market sentiment remains focused on the AI trade"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 98,
-        "analysis": "The return of Jensen Huang is identified as a primary driver for recent market sentiment. The snippet does not provide specific details on the nature of the regulatory or investor concerns.",
-        "what_to_watch": "",
-        "content": "<p>The return of Jensen Huang is identified as a primary driver for recent market sentiment. The snippet does not provide specific details on the nature of the regulatory or investor concerns.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "nvidia-shares-rise-amid-investor-and-regulator-scrutiny-ecc312"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/nvidias-stock-is-surging-again-what-to-know-before-chasing-the-ai-rally-226688d7?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-23 22:04",
-        "title": "Nvidia Stock Gains Momentum Following CEO Return",
-        "tag": "STOCKS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Jensen Huang's return to Nvidia has provided a boost to the artificial intelligence sector. Investors are being advised to anticipate potential price fluctuations.",
-        "market_impact": "Market volatility",
-        "key_facts": [
-            "Huang's return is viewed as positive news"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 124,
-        "analysis": "The return of the CEO is cited as a catalyst for renewed interest in AI-related stocks. The snippet does not specify the duration or extent of the expected volatility.",
-        "what_to_watch": "",
-        "content": "<p>The return of the CEO is cited as a catalyst for renewed interest in AI-related stocks. The snippet does not specify the duration or extent of the expected volatility.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "nvidia-stock-gains-momentum-following-ceo-return-3df0fa"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/u-s-stocks-see-best-day-in-more-than-a-year-as-return-of-jensen-huang-revives-ai-enthusiasm-c3b9d274?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-23 21:51",
-        "title": "U.S. Markets Rally as Jensen Huang Returns to Nvidia",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "U.S. stocks experienced their strongest daily performance in over a year on Monday. The market rebound is attributed to renewed confidence in the AI sector following Jensen Huang's return.",
-        "market_impact": "Broad market gains",
-        "key_facts": [
-            "The move helped restore faith in the artificial-intelligence trade"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 164,
-        "analysis": "The return of Jensen Huang is identified as the primary factor for the market-wide surge. The text does not analyze the sustainability of this rally beyond the immediate impact of the leadership change.",
-        "what_to_watch": "",
-        "content": "<p>The return of Jensen Huang is identified as the primary factor for the market-wide surge. The text does not analyze the sustainability of this rally beyond the immediate impact of the leadership change.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "u-s-markets-rally-as-jensen-huang-returns-to-nvidia-132a81"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/these-stocks-are-the-biggest-gainers-after-jensen-huangs-return-to-nvidia-bb886140?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-23 21:36",
-        "title": "Tech Sector Gains Following Jensen Huang's Nvidia Return",
-        "tag": "TECH",
-        "sentiment": "BULLISH",
-        "ai_summary": "The broader technology sector saw significant gains after Jensen Huang returned to Nvidia. This development has provided relief to the previously struggling AI market.",
-        "market_impact": "Sector-wide growth",
-        "key_facts": [
-            "The AI trade had been described as battered",
-            "The tech sector experienced major boosts"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 103,
-        "analysis": "The leadership change at Nvidia is credited with boosting investor sentiment across the tech industry. The snippet does not list the specific stocks that saw the largest gains.",
-        "what_to_watch": "",
-        "content": "<p>The leadership change at Nvidia is credited with boosting investor sentiment across the tech industry. The snippet does not list the specific stocks that saw the largest gains.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "tech-sector-gains-following-jensen-huang-s-nvidia-return-dade45"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/trumps-push-to-reinstate-jensen-huang-signals-nvidias-ceo-is-too-big-to-fail-10709210?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-23 19:28",
-        "title": "Trump Highlights Importance of Jensen Huang to Nvidia",
-        "tag": "TECH",
-        "sentiment": "BULLISH",
-        "ai_summary": "President Trump emphasized the value of Jensen Huang's leadership to Nvidia during discussions about corporate governance. He suggested that losing such talent poses a greater risk than current regulatory concerns.",
-        "market_impact": "Positive sentiment",
-        "key_facts": [
-            "The president addressed concerns about corporate governance rules."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 161,
-        "analysis": "The president's public support for the CEO is the central development. This may influence market perception of Nvidia's governance, though it does not clarify how export controls will be applied moving forward.",
-        "what_to_watch": "",
-        "content": "<p>The president&#x27;s public support for the CEO is the central development. This may influence market perception of Nvidia&#x27;s governance, though it does not clarify how export controls will be applied moving forward.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "trump-highlights-importance-of-jensen-huang-to-nvidia-fea7bb"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-23/everyone-surprised-by-huang-s-return-proshares-kang-video",
-        "source": "Bloomberg",
-        "published": "2026-11-23 19:23",
-        "title": "ProShares Discusses NVDA ETF Following CEO Return",
-        "tag": "STOCKS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "ProShares executive Inkoo Kang discussed the firm's Nvidia-linked ETFs on a recent broadcast. The conversation covered the ProShares Ultra NVDA ETF and new offerings related to Anthropic.",
-        "market_impact": "ETF focus",
-        "key_facts": [
-            "Inkoo Kang is the executive director of tactical products at ProShares.",
-            "The discussion included the firm's new Anthropic ETFs."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "analysis_not_specific_enough_to_source"
-        ],
-        "source_description_chars": 236,
-        "analysis": "The discussion highlights the availability of leveraged products tied to Nvidia's performance. The snippet does not provide performance data or specific investment outlooks for these funds.",
-        "what_to_watch": "",
-        "content": "<p>The discussion highlights the availability of leveraged products tied to Nvidia&#x27;s performance. The snippet does not provide performance data or specific investment outlooks for these funds.</p>",
-        "tickers": [
-            "NVDB"
-        ],
-        "slug": "proshares-discusses-nvda-etf-following-ceo-return-075190"
     }
 ]

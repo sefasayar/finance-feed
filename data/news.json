@@ -1,5 +1,171 @@
 [
     {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-25/jensen-huang-boost-fades-fast-as-taiwan-stocks-tumble-8",
+        "source": "Bloomberg",
+        "published": "2026-11-25 02:45",
+        "title": "Taiwan Stocks Fall 8% as AI Enthusiasm Wanes",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Taiwanese stocks dropped 8% as investor optimism regarding Jensen Huang's career prospects faded. Market participants shifted their focus toward broader concerns regarding the global AI trade.",
+        "market_impact": "Regional sell-off",
+        "key_facts": [
+            "Asian stock markets had previously shown enthusiasm for the executive's career."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 167,
+        "analysis": "The sharp decline reflects a rapid change in investor sentiment regarding AI-related assets. The snippet does not establish the specific catalysts for the 8% drop beyond general AI trade concerns.",
+        "what_to_watch": "",
+        "content": "<p>The sharp decline reflects a rapid change in investor sentiment regarding AI-related assets. The snippet does not establish the specific catalysts for the 8% drop beyond general AI trade concerns.</p>",
+        "slug": "taiwan-stocks-fall-8-as-ai-enthusiasm-wanes-2ee289"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/25/huawei-fraud-trade-trial.html",
+        "source": "CNBC",
+        "published": "2026-11-25 02:43",
+        "title": "Huawei Convicted in U.S. Criminal Trial",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "A U.S. jury has found Huawei guilty of charges including bank fraud and money laundering. The company was also convicted of conspiracy to commit trade secret theft.",
+        "market_impact": "Regulatory pressure",
+        "key_facts": [
+            "The charges were brought as part of a U.S. criminal trial.",
+            "The conviction includes multiple counts of fraud and trade secret theft."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "analysis_not_specific_enough_to_source"
+        ],
+        "source_description_chars": 106,
+        "analysis": "The criminal conviction represents a significant legal setback for the company in the United States. The text does not specify the penalties or potential operational restrictions resulting from the verdict.",
+        "what_to_watch": "",
+        "content": "<p>The criminal conviction represents a significant legal setback for the company in the United States. The text does not specify the penalties or potential operational restrictions resulting from the verdict.</p>",
+        "slug": "huawei-convicted-in-u-s-criminal-trial-d4c272"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html",
+        "source": "CNBC",
+        "published": "2026-11-25 02:36",
+        "title": "Houthi Attack on Saudi PIF Tower Results in Injuries",
+        "tag": "COMMODITIES",
+        "sentiment": "BEARISH",
+        "ai_summary": "A strike by the Iran-backed Houthi group on the Saudi Arabian sovereign wealth fund tower left 11 people injured. This incident marks the second attack on the facility within a six-day period.",
+        "market_impact": "Regional instability",
+        "key_facts": [
+            "The previous attack on the tower occurred six days prior."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 141,
+        "analysis": "The repeated targeting of major Saudi infrastructure could heighten geopolitical risks in the region. The snippet does not establish the extent of physical damage to the tower or the long-term impact on the fund's operations.",
+        "what_to_watch": "",
+        "content": "<p>The repeated targeting of major Saudi infrastructure could heighten geopolitical risks in the region. The snippet does not establish the extent of physical damage to the tower or the long-term impact on the fund&#x27;s operations.</p>",
+        "slug": "houthi-attack-on-saudi-pif-tower-results-in-injuries-326267"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/newsletters/2026-11-25/india-s-anti-ai-stock-trade-confronts-rich-valuations-global-tariff-risks",
+        "source": "Bloomberg",
+        "published": "2026-11-25 02:30",
+        "title": "India Market Faces Valuation and Tariff Challenges",
+        "tag": "ECONOMY",
+        "sentiment": "BEARISH",
+        "ai_summary": "Indian markets are contending with high stock valuations and risks associated with global tariffs. Additionally, a liquidity shortage in the banking sector is increasing borrowing costs for lenders.",
+        "market_impact": "Tightened liquidity",
+        "key_facts": [
+            "Lenders are facing higher costs due to the banking system's cash crunch.",
+            "The market is currently evaluating the impact of global trade policies."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 96,
+        "analysis": "The combination of valuation concerns and rising borrowing costs could pressure Indian equity markets. The snippet does not specify the magnitude of the tariff risks or the duration of the banking cash crunch.",
+        "what_to_watch": "",
+        "content": "<p>The combination of valuation concerns and rising borrowing costs could pressure Indian equity markets. The snippet does not specify the magnitude of the tariff risks or the duration of the banking cash crunch.</p>",
+        "slug": "india-market-faces-valuation-and-tariff-challenges-704f99"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/dells-stock-rises-as-the-ai-boom-helps-sales-more-than-double-cfb8cf65?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-25 01:11",
+        "title": "Dell Shares Increase Following AI-Driven Sales Growth",
+        "tag": "EARNINGS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Dell stock rose as the company reported that artificial intelligence demand helped sales more than double. The firm maintains a vetting process for its order backlog to ensure customer quality.",
+        "market_impact": "Positive sentiment",
+        "key_facts": [
+            "Backlog vetting includes assessments of access to capital, land, and power.",
+            "The company emphasizes customer quality in its order management."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 104,
+        "analysis": "The surge in sales suggests strong demand for AI-related hardware. The snippet does not clarify how long this growth trajectory may persist or the specific profit margins associated with these sales.",
+        "what_to_watch": "",
+        "content": "<p>The surge in sales suggests strong demand for AI-related hardware. The snippet does not clarify how long this growth trajectory may persist or the specific profit margins associated with these sales.</p>",
+        "tickers": [
+            "DELL"
+        ],
+        "slug": "dell-shares-increase-following-ai-driven-sales-growth-34784a"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
+        "source": "CNBC",
+        "published": "2026-11-24 23:13",
+        "title": "Nvidia CEO Jensen Huang Resigns Amid Allegations",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Nvidia CEO Jensen Huang has stepped down from his position. The resignation follows reports of multiple affairs, including one involving an alleged Chinese intelligence operative.",
+        "market_impact": "Increased volatility",
+        "key_facts": [
+            "Jensen Huang previously indicated the company did not require a formal succession plan."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts",
+            "analysis_not_specific_enough_to_source"
+        ],
+        "source_description_chars": 148,
+        "analysis": "The departure of a long-standing CEO creates significant leadership uncertainty for the company. The snippet does not provide details regarding the board's immediate transition plans or the potential impact on ongoing operations.",
+        "what_to_watch": "",
+        "content": "<p>The departure of a long-standing CEO creates significant leadership uncertainty for the company. The snippet does not provide details regarding the board&#x27;s immediate transition plans or the potential impact on ongoing operations.</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-ceo-jensen-huang-resigns-amid-allegations-0e1dbd"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-24/asian-stocks-to-slide-as-ai-trade-doubts-resurface-markets-wrap",
+        "source": "Bloomberg",
+        "published": "2026-11-24 22:09",
+        "title": "Market Decline Deepens Amid AI Skepticism",
+        "tag": "STOCKS",
+        "sentiment": "BEARISH",
+        "ai_summary": "Stock markets extended losses as investors grew doubtful about the sustainability of the artificial intelligence boom. Technology shares retreated while Treasury bonds gained due to increased demand for safe-haven assets.",
+        "market_impact": "Market volatility",
+        "key_facts": [
+            "Futures signaled further weakness in the market.",
+            "Treasuries advanced as investors sought safety."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 210,
+        "analysis": "The shift away from tech shares suggests a cooling of investor sentiment regarding AI valuations. The snippet does not indicate how long this trend might continue or if other sectors will provide support.",
+        "what_to_watch": "",
+        "content": "<p>The shift away from tech shares suggests a cooling of investor sentiment regarding AI valuations. The snippet does not indicate how long this trend might continue or if other sectors will provide support.</p>",
+        "slug": "market-decline-deepens-amid-ai-skepticism-29b6dd"
+    },
+    {
         "original_link": "https://www.cnbc.com/2026/11/24/us-china-thwarting-india-growth.html",
         "source": "CNBC",
         "published": "2026-11-24 04:27",
@@ -422,160 +588,5 @@
         "what_to_watch": "",
         "content": "<p>Record foreign purchases and a shift away from AI trades temporarily pushed Indian benchmarks into positive territory for the year before selling resumed. This suggests volatile sentiment among overseas investors, though the snippet does not detail the total volume of net inflows.</p>",
         "slug": "indian-equities-fluctuate-after-erasing-yearly-losses-on-1b24a1"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-23/gold-rebounds-as-traders-pare-bets-on-near-term-fed-rate-hikes",
-        "source": "Bloomberg",
-        "published": "2026-11-23 00:28",
-        "title": "Gold Prices Rise as Investors Buy Dips Following Steep Weekly Drop",
-        "tag": "COMMODITIES",
-        "sentiment": "BULLISH",
-        "ai_summary": "Gold climbed as buyers took advantage of price declines following its sharpest weekly fall in eight months. Market sentiment was supported by reduced expectations for a Federal Reserve interest rate increase in December.",
-        "market_impact": "Gold prices advance",
-        "key_facts": [
-            "The recovery follows gold's worst weekly loss since March",
-            "Market participants reduced their bets on a December Federal Reserve rate hike"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 160,
-        "analysis": "Pared expectations for a Federal Reserve rate hike in December encouraged dip-buyers to enter the precious metals market after steep declines. This shows sensitivity to US monetary policy expectations, but the snippet does not establish the expected terminal interest rate level.",
-        "what_to_watch": "",
-        "content": "<p>Pared expectations for a Federal Reserve rate hike in December encouraged dip-buyers to enter the precious metals market after steep declines. This shows sensitivity to US monetary policy expectations, but the snippet does not establish the expected terminal interest rate level.</p>",
-        "slug": "gold-prices-rise-as-investors-buy-dips-following-steep-fee140"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/corporate-america-hunts-for-generational-growth-in-ai-trading-cards-and-the-l-a-airport-3072eb1a?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-22 21:51",
-        "title": "Corporate Executives Highlight Generational Growth Themes",
-        "tag": "EARNINGS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "US corporations are increasingly promoting long-term growth opportunities during their earnings conference calls. Executive discussions have frequently labeled areas such as artificial intelligence, trading cards, and airport projects as generational shifts.",
-        "market_impact": "Broad growth themes",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 95,
-        "analysis": "Corporate leadership is frequently labeling diverse themes as once-in-a-generation developments on conference calls. This highlights recurring narrative framing across earnings reports, though the text does not establish the financial performance of these initiatives.",
-        "what_to_watch": "",
-        "content": "<p>Corporate leadership is frequently labeling diverse themes as once-in-a-generation developments on conference calls. This highlights recurring narrative framing across earnings reports, though the text does not establish the financial performance of these initiatives.</p>",
-        "slug": "corporate-executives-highlight-generational-growth-themes-7c92d4"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-22/dip-buyers-hesitate-to-step-in-as-nasdaq-100-nears-a-bear-market",
-        "source": "Bloomberg",
-        "published": "2026-11-22 20:31",
-        "title": "Nasdaq 100 Nears Bear Market as Dip Buyers Hesitate",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Investors are showing reluctance to buy the dip as the Nasdaq 100 approaches bear market territory. Despite attractive valuations, market participants remain cautious following a significant selloff.",
-        "market_impact": "Increased volatility",
-        "key_facts": [
-            "The Nasdaq 100 experienced a massive selloff last week."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 212,
-        "analysis": "The fundamental outlook for the index has not shifted significantly despite the recent price decline. It is unclear if the current valuation levels will be sufficient to trigger a rebound.",
-        "what_to_watch": "",
-        "content": "<p>The fundamental outlook for the index has not shifted significantly despite the recent price decline. It is unclear if the current valuation levels will be sufficient to trigger a rebound.</p>",
-        "tickers": [
-            "QQQ"
-        ],
-        "slug": "nasdaq-100-nears-bear-market-as-dip-buyers-hesitate-3e879b"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/social-security-should-be-shut-down-this-republican-senator-says-8f7fef81?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-22 20:26",
-        "title": "Republican Senator Proposes Ending Social Security",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "A Republican senator has suggested that the Social Security program should be terminated. Projections indicate the program's trust funds may be depleted within six years.",
-        "market_impact": "Policy uncertainty",
-        "key_facts": [
-            "Trust funds are forecast to run out of money in six years.",
-            "The proposal comes from a Republican senator."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 81,
-        "analysis": "The primary concern is the long-term solvency of the Social Security trust funds. The snippet does not provide details on any legislative path for such a proposal.",
-        "what_to_watch": "",
-        "content": "<p>The primary concern is the long-term solvency of the Social Security trust funds. The snippet does not provide details on any legislative path for such a proposal.</p>",
-        "slug": "republican-senator-proposes-ending-social-security-116a5f"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-22/bond-market-s-go-to-trade-for-fed-hikes-roiled-by-stocks-retreat",
-        "source": "Bloomberg",
-        "published": "2026-11-22 20:00",
-        "title": "Bond Market Fed Hike Bets Impacted by Stock Slump",
-        "tag": "FED",
-        "sentiment": "BEARISH",
-        "ai_summary": "Wall Street's preferred trade for betting on Federal Reserve rate hikes is facing pressure from declining equity markets. Investors are weighing the Fed's inflation-fighting stance against a darkening economic outlook.",
-        "market_impact": "Yield volatility",
-        "key_facts": [
-            "The Federal Reserve has vowed to tame inflation.",
-            "Slumping stocks are contributing to a negative economic outlook."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 205,
-        "analysis": "The conflict between Fed policy expectations and equity performance is creating uncertainty in bond trading strategies. The text does not specify which particular bond trade is being affected.",
-        "what_to_watch": "",
-        "content": "<p>The conflict between Fed policy expectations and equity performance is creating uncertainty in bond trading strategies. The text does not specify which particular bond trade is being affected.</p>",
-        "slug": "bond-market-fed-hike-bets-impacted-by-stock-slump-819fa7"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
-        "source": "CNBC",
-        "published": "2026-11-22 18:55",
-        "title": "Robot Startup Backed by Eric Trump Faces Benefit Cuts",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "A robot startup supported by Eric Trump has cut employee health benefits due to severe cash flow constraints. The firm is currently seeking an emergency bridge loan while awaiting a $150 million investment.",
-        "market_impact": "Operational distress",
-        "key_facts": [
-            "The company is in talks with venture capital firms.",
-            "Base Group is a South Korean entity."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 156,
-        "analysis": "The company is actively negotiating with venture capital firms to secure immediate liquidity. The snippet does not confirm if the $150 million investment from Base Group will be finalized.",
-        "what_to_watch": "",
-        "content": "<p>The company is actively negotiating with venture capital firms to secure immediate liquidity. The snippet does not confirm if the $150 million investment from Base Group will be finalized.</p>",
-        "slug": "robot-startup-backed-by-eric-trump-faces-benefit-cuts-2e34b1"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-22 18:23",
-        "title": "Closed-End Funds May Offer Value During Market Crashes",
-        "tag": "STOCKS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Investors are being encouraged to consider closed-end funds as potential low-risk opportunities during market downturns. These assets could provide value if current volatility evolves into a crash.",
-        "market_impact": "Portfolio strategy",
-        "key_facts": [
-            "Closed-end funds are highlighted as potential bargains."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 121,
-        "analysis": "The suggestion relies on the premise that market turmoil creates pricing inefficiencies in specific fund categories. The text does not identify which specific closed-end funds are considered bargains.",
-        "what_to_watch": "",
-        "content": "<p>The suggestion relies on the premise that market turmoil creates pricing inefficiencies in specific fund categories. The text does not identify which specific closed-end funds are considered bargains.</p>",
-        "slug": "closed-end-funds-may-offer-value-during-market-crashes-459286"
     }
 ]

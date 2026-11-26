@@ -1,5 +1,170 @@
 [
     {
+        "original_link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
+        "source": "CNBC",
+        "published": "2026-11-26 17:57",
+        "title": "Trump Calls for Investigation into GDP Revision",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "President Donald Trump has requested an inquiry into the recent upward revision of third-quarter GDP figures. He characterized the adjustment as a significant error.",
+        "market_impact": "Policy uncertainty",
+        "key_facts": [
+            "The revision occurred for third-quarter data."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts",
+            "analysis_not_specific_enough_to_source"
+        ],
+        "source_description_chars": 159,
+        "analysis": "The demand for an investigation centers on the accuracy of official economic reporting. The snippet does not establish the validity of the claims or the potential impact on economic policy.",
+        "what_to_watch": "",
+        "content": "<p>The demand for an investigation centers on the accuracy of official economic reporting. The snippet does not establish the validity of the claims or the potential impact on economic policy.</p>",
+        "slug": "trump-calls-for-investigation-into-gdp-revision-0b6e45"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
+        "source": "CNBC",
+        "published": "2026-11-26 17:52",
+        "title": "Semiconductor Exports Surpass Oil and Gas in 2026",
+        "tag": "TECH",
+        "sentiment": "BULLISH",
+        "ai_summary": "The global demand for artificial intelligence technology has driven chip exports to record levels. This shift marks the first time semiconductor shipments have exceeded those of oil and gas.",
+        "market_impact": "Sector growth",
+        "key_facts": [
+            "The AI boom is identified as the primary driver of demand."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts",
+            "analysis_not_specific_enough_to_source"
+        ],
+        "source_description_chars": 105,
+        "analysis": "The data highlights the significant economic shift toward AI-driven hardware. It suggests a change in global trade composition, though the snippet does not provide specific company-level revenue impacts.",
+        "what_to_watch": "",
+        "content": "<p>The data highlights the significant economic shift toward AI-driven hardware. It suggests a change in global trade composition, though the snippet does not provide specific company-level revenue impacts.</p>",
+        "slug": "semiconductor-exports-surpass-oil-and-gas-in-2026-37c539"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-26/kkr-banks-line-up-550-million-of-debt-to-back-logoplaste-buyout",
+        "source": "Bloomberg",
+        "published": "2026-11-26 17:47",
+        "title": "Banks Secure Debt Financing for KKR's Logoplaste Acquisition",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Financial institutions have arranged €550 million in loans to support KKR & Co.'s purchase of Logoplaste. The deal involves significant debt backing for the packaging firm.",
+        "market_impact": "Corporate expansion",
+        "key_facts": [],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 172,
+        "analysis": "The availability of debt financing indicates institutional support for the acquisition. The snippet does not confirm the final terms or the closing date of the transaction.",
+        "what_to_watch": "",
+        "content": "<p>The availability of debt financing indicates institutional support for the acquisition. The snippet does not confirm the final terms or the closing date of the transaction.</p>",
+        "tickers": [
+            "KKR"
+        ],
+        "slug": "banks-secure-debt-financing-for-kkr-s-logoplaste-acquisition-52318f"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-26/kazakhstan-encouraged-local-banks-to-finance-deal-for-gold-miner",
+        "source": "Bloomberg",
+        "published": "2026-11-26 17:35",
+        "title": "Kazakhstan Supports Local Financing for Gold Mine Acquisition",
+        "tag": "COMMODITIES",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Kazakhstan has encouraged domestic banks to provide over $1 billion in loans to facilitate a private acquisition of AK Altynalmas JSC. Regulatory changes were implemented to assist the buyer, Shakhmurat Mutalip.",
+        "market_impact": "Industry consolidation",
+        "key_facts": [
+            "The buyer is construction tycoon Shakhmurat Mutalip.",
+            "The target is gold miner AK Altynalmas JSC."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "analysis_not_specific_enough_to_source"
+        ],
+        "source_description_chars": 237,
+        "analysis": "The state's involvement in facilitating private financing for a mining asset is a notable development. The snippet does not clarify the long-term economic objectives behind these regulatory changes.",
+        "what_to_watch": "",
+        "content": "<p>The state&#x27;s involvement in facilitating private financing for a mining asset is a notable development. The snippet does not clarify the long-term economic objectives behind these regulatory changes.</p>",
+        "slug": "kazakhstan-supports-local-financing-for-gold-mine-19064e"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/futures-point-to-black-friday-gains-for-wall-street-as-global-markets-welcome-u-s-resilience-ad6bcef2?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-26 13:41",
+        "title": "Wall Street Futures Rise Ahead of Black Friday",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "U.S. stock futures are trending upward as global markets react positively to signs of economic resilience. This follows a recovery for the S&P 500 after recent volatility in the technology sector.",
+        "market_impact": "Market recovery",
+        "key_facts": [
+            "The S&P 500 experienced a tech-related washout prior to the rebound."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 85,
+        "analysis": "The rebound from Wednesday's lows indicates a shift in investor sentiment regarding market stability. The snippet does not establish if this momentum will persist through the holiday period.",
+        "what_to_watch": "",
+        "content": "<p>The rebound from Wednesday&#x27;s lows indicates a shift in investor sentiment regarding market stability. The snippet does not establish if this momentum will persist through the holiday period.</p>",
+        "slug": "wall-street-futures-rise-ahead-of-black-friday-438eb0"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-26/altria-studies-deal-for-cigarette-maker-imperial-brands",
+        "source": "Bloomberg",
+        "published": "2026-11-26 13:08",
+        "title": "Altria and Japan Tobacco Consider Imperial Brands Bid",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "Altria Group and Japan Tobacco are evaluating a potential acquisition of Imperial Brands. This move could represent one of the largest UK takeovers in recent years within the tobacco industry.",
+        "market_impact": "Sector consolidation",
+        "key_facts": [
+            "The potential deal is described as one of the biggest UK acquisitions in a decade."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 249,
+        "analysis": "The interest in Imperial Brands highlights ongoing consolidation efforts in a declining cigarette market. The snippet does not establish whether a formal offer has been made or if other bidders are involved.",
+        "what_to_watch": "",
+        "content": "<p>The interest in Imperial Brands highlights ongoing consolidation efforts in a declining cigarette market. The snippet does not establish whether a formal offer has been made or if other bidders are involved.</p>",
+        "tickers": [
+            "MO"
+        ],
+        "slug": "altria-and-japan-tobacco-consider-imperial-brands-bid-4063c5"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/capital-preservation-rather-than-chasing-the-market-higher-is-how-hedge-funds-are-negotiating-market-volatility-f4288b71?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-26 12:37",
+        "title": "Hedge Funds Prioritize Capital Preservation Amid Volatility",
+        "tag": "STOCKS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Hedge funds are shifting their strategy toward protecting existing assets following a performance decline in the second half of the year. Goldman Sachs anticipates this defensive posture will continue.",
+        "market_impact": "Reduced market risk",
+        "key_facts": [
+            "Performance dipped in the second half of the year.",
+            "Goldman Sachs provided the outlook for the sector."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 185,
+        "analysis": "The shift in strategy follows a strong performance during the first half of the year. The snippet does not provide specific details on the assets being prioritized for preservation.",
+        "what_to_watch": "",
+        "content": "<p>The shift in strategy follows a strong performance during the first half of the year. The snippet does not provide specific details on the assets being prioritized for preservation.</p>",
+        "tickers": [
+            "GS"
+        ],
+        "slug": "hedge-funds-prioritize-capital-preservation-amid-volatility-50d90e"
+    },
+    {
         "original_link": "https://www.bloomberg.com/news/videos/2026-11-26/oil-rises-as-houthis-attack-two-saudi-ports-on-red-sea-video",
         "source": "Bloomberg",
         "published": "2026-11-26 06:31",
@@ -353,6 +518,30 @@
         "slug": "spacex-secures-fcc-clearance-for-1-million-orbital-data-b8e65d"
     },
     {
+        "original_link": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html",
+        "source": "CNBC",
+        "published": "2026-11-25 16:17",
+        "title": "Rising Costs Impact U.S. Holiday Spending Plans",
+        "tag": "ECONOMY",
+        "sentiment": "BEARISH",
+        "ai_summary": "American households are adjusting their holiday budgets due to increased expenses for travel, food, and gifts. Inflation and energy price shocks linked to the war in Iran are cited as contributing factors.",
+        "market_impact": "Consumer spending decline",
+        "key_facts": [
+            "Holiday budgets are being scaled back in 2026.",
+            "Energy shocks are attributed to the war in Iran."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "analysis_not_specific_enough_to_source"
+        ],
+        "source_description_chars": 128,
+        "analysis": "The report identifies specific inflationary pressures affecting discretionary spending. It suggests potential headwinds for retail sectors, though it does not quantify the expected decline in consumer activity.",
+        "what_to_watch": "",
+        "content": "<p>The report identifies specific inflationary pressures affecting discretionary spending. It suggests potential headwinds for retail sectors, though it does not quantify the expected decline in consumer activity.</p>",
+        "slug": "rising-costs-impact-u-s-holiday-spending-plans-35460b"
+    },
+    {
         "original_link": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
         "source": "CNBC",
         "published": "2026-11-25 13:44",
@@ -395,186 +584,5 @@
         "what_to_watch": "",
         "content": "<p>The proposal targets a broad range of nations, including China and the EU. The snippet does not specify the timeline for implementation or the specific goods affected by these potential tariffs.</p>",
         "slug": "u-s-proposes-new-tariffs-on-14-trading-partners-1e67f5"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/inflation-gets-worse-now-the-fed-no-choice-but-to-raise-u-s-interest-rates-8b0c2c1f?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-25 13:34",
-        "title": "Rising Inflation Expectations Point to Fed Rate Hike",
-        "tag": "FED",
-        "sentiment": "BEARISH",
-        "ai_summary": "The Federal Reserve's preferred inflation measure accelerated in October. This trend suggests the central bank will likely increase borrowing costs in the coming month.",
-        "market_impact": "Higher interest rates",
-        "key_facts": [
-            "The inflation measure rose again during the month of October.",
-            "The Fed utilizes this specific metric to influence U.S. interest rates."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 209,
-        "analysis": "The acceleration of the inflation gauge is the primary factor influencing the outlook for monetary policy. The snippet does not provide the specific magnitude of the anticipated interest rate increase.",
-        "what_to_watch": "",
-        "content": "<p>The acceleration of the inflation gauge is the primary factor influencing the outlook for monetary policy. The snippet does not provide the specific magnitude of the anticipated interest rate increase.</p>",
-        "slug": "rising-inflation-expectations-point-to-fed-rate-hike-b10d73"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/the-real-price-of-jensen-huangs-return-to-nvidia-higher-regulatory-costs-for-the-company-and-the-entire-ai-industry-982002d4?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-25 13:30",
-        "title": "Nvidia Faces Regulatory Risks Following CEO Return",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Nvidia shares declined as investors weighed the legal and regulatory implications of Jensen Huang's return. The company now faces heightened scrutiny within the broader artificial intelligence sector.",
-        "market_impact": "Stock price volatility",
-        "key_facts": [
-            "Nvidia shares experienced an initial rally before falling.",
-            "The regulatory concerns extend to the wider AI industry."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 157,
-        "analysis": "The market reaction reflects investor concern over the potential costs associated with the CEO's leadership. The snippet does not quantify the specific regulatory costs or legal liabilities the company may incur.",
-        "what_to_watch": "",
-        "content": "<p>The market reaction reflects investor concern over the potential costs associated with the CEO&#x27;s leadership. The snippet does not quantify the specific regulatory costs or legal liabilities the company may incur.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "nvidia-faces-regulatory-risks-following-ceo-return-9520d1"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/u-s-proposes-fresh-tariffs-on-china-others-as-trump-doubles-down-on-his-favorite-trade-weapon-cd9a1df9?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-25 13:30",
-        "title": "U.S. Proposes New Tariffs Following Court Ruling",
-        "tag": "ECONOMY",
-        "sentiment": "BEARISH",
-        "ai_summary": "The U.S. government is pursuing new trade levies against China and other nations. This action follows a Supreme Court decision earlier this year that invalidated previous, broader tariff measures.",
-        "market_impact": "Trade policy uncertainty",
-        "key_facts": [
-            "The Supreme Court previously tossed out broader tariffs."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 95,
-        "analysis": "The proposal indicates a continued focus on using tariffs as a primary trade policy tool. The snippet does not detail how these new proposals differ legally from the previously rejected measures.",
-        "what_to_watch": "",
-        "content": "<p>The proposal indicates a continued focus on using tariffs as a primary trade policy tool. The snippet does not detail how these new proposals differ legally from the previously rejected measures.</p>",
-        "slug": "u-s-proposes-new-tariffs-following-court-ruling-839190"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/videos/2026-11-25/bloomberg-brief-11-25-2026-video",
-        "source": "Bloomberg",
-        "published": "2026-11-25 13:28",
-        "title": "Tech Stocks Decline as Markets Await PCE Data",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "U.S. equity futures are lower as investors question the outlook for the artificial intelligence sector. Meanwhile, Treasuries have rallied in anticipation of the upcoming PCE inflation report.",
-        "market_impact": "Market volatility",
-        "key_facts": [
-            "China has characterized potential new U.S. tariffs as political maneuvering.",
-            "HSBC's Max Kettner provided commentary on the tech selloff."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 397,
-        "analysis": "The market is currently focused on the intersection of tech sector performance and upcoming macroeconomic data. The snippet does not establish a direct causal link between the tariff news and the specific movement in Treasury yields.",
-        "what_to_watch": "PCE data release",
-        "content": "<p>The market is currently focused on the intersection of tech sector performance and upcoming macroeconomic data. The snippet does not establish a direct causal link between the tariff news and the specific movement in Treasury yields.</p>",
-        "slug": "tech-stocks-decline-as-markets-await-pce-data-35567c"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/newsletters/2026-11-25/europe-s-gas-traders-are-in-for-a-volatile-winter",
-        "source": "Bloomberg",
-        "published": "2026-11-25 13:24",
-        "title": "European Gas Markets Face Volatile Winter Outlook",
-        "tag": "COMMODITIES",
-        "sentiment": "BEARISH",
-        "ai_summary": "Low supply buffers and geopolitical instability in the Middle East are expected to drive volatility in European gas markets. Shifting weather forecasts further complicate the supply outlook.",
-        "market_impact": "Price volatility",
-        "key_facts": [
-            "The continent maintains a slim buffer of gas supply.",
-            "War in the Middle East is cited as a factor affecting market stability."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 144,
-        "analysis": "The combination of limited reserves and external geopolitical factors creates a precarious environment for energy prices. The snippet does not provide specific price forecasts for the winter season.",
-        "what_to_watch": "",
-        "content": "<p>The combination of limited reserves and external geopolitical factors creates a precarious environment for energy prices. The snippet does not provide specific price forecasts for the winter season.</p>",
-        "slug": "european-gas-markets-face-volatile-winter-outlook-4cb652"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-25/jensen-huang-boost-fades-fast-as-taiwan-stocks-tumble-8",
-        "source": "Bloomberg",
-        "published": "2026-11-25 02:45",
-        "title": "Taiwan Stocks Fall 8% as AI Enthusiasm Wanes",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Taiwanese stocks dropped 8% as investor optimism regarding Jensen Huang's career prospects faded. Market participants shifted their focus toward broader concerns regarding the global AI trade.",
-        "market_impact": "Regional sell-off",
-        "key_facts": [
-            "Asian stock markets had previously shown enthusiasm for the executive's career."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 167,
-        "analysis": "The sharp decline reflects a rapid change in investor sentiment regarding AI-related assets. The snippet does not establish the specific catalysts for the 8% drop beyond general AI trade concerns.",
-        "what_to_watch": "",
-        "content": "<p>The sharp decline reflects a rapid change in investor sentiment regarding AI-related assets. The snippet does not establish the specific catalysts for the 8% drop beyond general AI trade concerns.</p>",
-        "slug": "taiwan-stocks-fall-8-as-ai-enthusiasm-wanes-2ee289"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/25/huawei-fraud-trade-trial.html",
-        "source": "CNBC",
-        "published": "2026-11-25 02:43",
-        "title": "Huawei Convicted in U.S. Criminal Trial",
-        "tag": "TECH",
-        "sentiment": "BEARISH",
-        "ai_summary": "A U.S. jury has found Huawei guilty of charges including bank fraud and money laundering. The company was also convicted of conspiracy to commit trade secret theft.",
-        "market_impact": "Regulatory pressure",
-        "key_facts": [
-            "The charges were brought as part of a U.S. criminal trial.",
-            "The conviction includes multiple counts of fraud and trade secret theft."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "analysis_not_specific_enough_to_source"
-        ],
-        "source_description_chars": 106,
-        "analysis": "The criminal conviction represents a significant legal setback for the company in the United States. The text does not specify the penalties or potential operational restrictions resulting from the verdict.",
-        "what_to_watch": "",
-        "content": "<p>The criminal conviction represents a significant legal setback for the company in the United States. The text does not specify the penalties or potential operational restrictions resulting from the verdict.</p>",
-        "slug": "huawei-convicted-in-u-s-criminal-trial-d4c272"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html",
-        "source": "CNBC",
-        "published": "2026-11-25 02:36",
-        "title": "Houthi Attack on Saudi PIF Tower Results in Injuries",
-        "tag": "COMMODITIES",
-        "sentiment": "BEARISH",
-        "ai_summary": "A strike by the Iran-backed Houthi group on the Saudi Arabian sovereign wealth fund tower left 11 people injured. This incident marks the second attack on the facility within a six-day period.",
-        "market_impact": "Regional instability",
-        "key_facts": [
-            "The previous attack on the tower occurred six days prior."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 141,
-        "analysis": "The repeated targeting of major Saudi infrastructure could heighten geopolitical risks in the region. The snippet does not establish the extent of physical damage to the tower or the long-term impact on the fund's operations.",
-        "what_to_watch": "",
-        "content": "<p>The repeated targeting of major Saudi infrastructure could heighten geopolitical risks in the region. The snippet does not establish the extent of physical damage to the tower or the long-term impact on the fund&#x27;s operations.</p>",
-        "slug": "houthi-attack-on-saudi-pif-tower-results-in-injuries-326267"
     }
 ]

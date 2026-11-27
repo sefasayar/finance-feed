@@ -1,5 +1,122 @@
 [
     {
+        "original_link": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html",
+        "source": "CNBC",
+        "published": "2026-11-27 13:21",
+        "title": "S&P 500 Enters Correction Territory",
+        "tag": "STOCKS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "The index has experienced a decline in November that qualifies as a market correction. Historical data indicates that such corrections do not necessarily precede bear markets or economic recessions.",
+        "market_impact": "Market uncertainty",
+        "key_facts": [
+            "November sell-off triggered the correction"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 156,
+        "analysis": "The primary fact is that the S&P 500 has reached correction status following recent selling. The snippet does not establish whether current economic conditions will lead to a broader downturn.",
+        "what_to_watch": "",
+        "content": "<p>The primary fact is that the S&amp;P 500 has reached correction status following recent selling. The snippet does not establish whether current economic conditions will lead to a broader downturn.</p>",
+        "slug": "s-p-500-enters-correction-territory-60d3ee"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-27/ofwat-warns-thames-water-rescue-decision-remains-months-away",
+        "source": "Bloomberg",
+        "published": "2026-11-27 12:47",
+        "title": "Thames Water Rescue Decision Delayed",
+        "tag": "ECONOMY",
+        "sentiment": "BEARISH",
+        "ai_summary": "The UK water regulator has indicated that a decision on the rescue of Thames Water will not be made for several months. Creditors are currently seeking approval for the rescue plan.",
+        "market_impact": "Uncertainty for creditors",
+        "key_facts": [
+            "Ofwat is the regulator involved",
+            "Creditors are seeking the rescue approval"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "analysis_not_specific_enough_to_source"
+        ],
+        "source_description_chars": 147,
+        "analysis": "The delay in regulatory approval prolongs the uncertainty surrounding the utility's financial stability. The snippet does not clarify the specific conditions required for the rescue to be approved.",
+        "what_to_watch": "Future regulatory decision on rescue plan",
+        "content": "<p>The delay in regulatory approval prolongs the uncertainty surrounding the utility&#x27;s financial stability. The snippet does not clarify the specific conditions required for the rescue to be approved.</p><p><strong>What to watch:</strong> Future regulatory decision on rescue plan</p>",
+        "slug": "thames-water-rescue-decision-delayed-afc40e"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/nvidias-stock-has-tumbled-27-over-one-chaotic-month-the-next-big-test-lies-in-the-week-ahead-06449777?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-27 12:29",
+        "title": "Nvidia Faces Congressional Scrutiny",
+        "tag": "TECH",
+        "sentiment": "BEARISH",
+        "ai_summary": "Nvidia shares have declined by 27% over the past month. CEO Jensen Huang is scheduled to address Congress this week.",
+        "market_impact": "Increased volatility",
+        "key_facts": [
+            "Stock fell 27% in one month",
+            "CEO Jensen Huang is the central figure"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 105,
+        "analysis": "The 27% decline highlights significant recent pressure on the stock price. The snippet does not specify the nature of the questions Huang will face from Congress.",
+        "what_to_watch": "Jensen Huang's testimony before Congress",
+        "content": "<p>The 27% decline highlights significant recent pressure on the stock price. The snippet does not specify the nature of the questions Huang will face from Congress.</p><p><strong>What to watch:</strong> Jensen Huang&#x27;s testimony before Congress</p>",
+        "tickers": [
+            "NVDA"
+        ],
+        "slug": "nvidia-faces-congressional-scrutiny-6f5ab2"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/stocks-look-like-a-black-friday-bargain-read-the-fine-print-b6546539?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-27 12:01",
+        "title": "Analysts Adjust S&P 500 Profit Forecasts",
+        "tag": "STOCKS",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Market analysts have increased profit expectations for S&P 500 companies during the recent market decline. Investors are also being advised to remain vigilant against online shopping fraud.",
+        "market_impact": "Mixed sentiment",
+        "key_facts": [
+            "Profit forecasts raised during selloff"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 162,
+        "analysis": "The upward revision of profit forecasts provides a counter-narrative to the recent selloff. The snippet does not explain how these forecasts reconcile with the current market correction.",
+        "what_to_watch": "",
+        "content": "<p>The upward revision of profit forecasts provides a counter-narrative to the recent selloff. The snippet does not explain how these forecasts reconcile with the current market correction.</p>",
+        "slug": "analysts-adjust-s-p-500-profit-forecasts-2ef5aa"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html",
+        "source": "CNBC",
+        "published": "2026-11-27 10:20",
+        "title": "SpaceX Shares Rise Following Musk Announcement",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "SpaceX stock increased by 4% during premarket trading sessions. This movement followed a statement from Elon Musk regarding a plan to donate company shares to children annually.",
+        "market_impact": "Share price increase",
+        "key_facts": [
+            "Shares rose 4% in premarket"
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 128,
+        "analysis": "The most relevant fact is the 4% premarket rise linked to Musk's social media announcement. The snippet does not provide details on the logistics or financial structure of the proposed share donations.",
+        "what_to_watch": "",
+        "content": "<p>The most relevant fact is the 4% premarket rise linked to Musk&#x27;s social media announcement. The snippet does not provide details on the logistics or financial structure of the proposed share donations.</p>",
+        "slug": "spacex-shares-rise-following-musk-announcement-18028c"
+    },
+    {
         "original_link": "https://www.bloomberg.com/news/newsletters/2026-11-27/nifty-s-sharp-november-rally-gives-india-s-ipo-hopefuls-a-tailwind",
         "source": "Bloomberg",
         "published": "2026-11-27 02:30",
@@ -66,6 +183,27 @@
         "slug": "china-industrial-profits-reach-five-month-high-5d28a5"
     },
     {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-27/brazil-assets-rally-after-lula-names-banker-luiz-carlos-trabuco-cappi-finance-minister",
+        "source": "Bloomberg",
+        "published": "2026-11-27 01:08",
+        "title": "Brazilian Assets Rally on Finance Chief Appointment",
+        "tag": "ECONOMY",
+        "sentiment": "BULLISH",
+        "ai_summary": "Assets in Brazil experienced a surge following the appointment of Luiz Carlos Trabuco Cappi as finance minister. Market participants have adjusted their interest-rate expectations in response to the news.",
+        "market_impact": "Asset price appreciation",
+        "key_facts": [
+            "Luiz Carlos Trabuco Cappi appointed finance minister",
+            "Traders repriced interest-rate expectations"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 181,
+        "analysis": "The appointment of a banker as finance minister is the catalyst for the shift in market sentiment. The snippet does not detail the specific interest-rate policy changes expected by traders.",
+        "what_to_watch": "",
+        "content": "<p>The appointment of a banker as finance minister is the catalyst for the shift in market sentiment. The snippet does not detail the specific interest-rate policy changes expected by traders.</p>",
+        "slug": "brazilian-assets-rally-on-finance-chief-appointment-60e8e0"
+    },
+    {
         "original_link": "https://www.cnbc.com/2026/11/27/swf-private-equity-risks.html",
         "source": "CNBC",
         "published": "2026-11-27 00:22",
@@ -110,6 +248,27 @@
         "what_to_watch": "",
         "content": "<p>The rebound in tech stocks and a softer dollar are currently outweighing market fears of Federal Reserve rate hikes. The text does not specify the extent of the tech sector recovery or the duration of the dollar&#x27;s weakness.</p>",
         "slug": "gold-prices-increase-amid-tech-stock-recovery-8e2af7"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-26/asian-stock-futures-signal-gains-oil-climbs-again-markets-wrap",
+        "source": "Bloomberg",
+        "published": "2026-11-26 21:59",
+        "title": "US Stocks Rally as AI Sector Recovers",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "US equity markets are expected to see strong gains following the Thanksgiving holiday. The rally is driven by renewed interest in artificial intelligence, while Treasury demand has softened.",
+        "market_impact": "Market rally",
+        "key_facts": [
+            "Treasury demand is waning",
+            "Rally follows the Thanksgiving holiday"
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 174,
+        "analysis": "The rebound in AI-related trading is the primary driver for the expected market performance. The snippet does not establish if this trend will be sustained beyond the post-holiday period.",
+        "what_to_watch": "",
+        "content": "<p>The rebound in AI-related trading is the primary driver for the expected market performance. The snippet does not establish if this trend will be sustained beyond the post-holiday period.</p>",
+        "slug": "us-stocks-rally-as-ai-sector-recovers-389374"
     },
     {
         "original_link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
@@ -411,169 +570,5 @@
             "DIS"
         ],
         "slug": "court-halts-fcc-early-license-renewal-for-disney-owned-abc-064463"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
-        "source": "CNBC",
-        "published": "2026-11-26 03:19",
-        "title": "S&P Global Ratings considers lowering Nvidia credit rating",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "S&P Global Ratings indicated a potential one-notch downgrade for Nvidia. The move follows concerns regarding management and governance practices at the company.",
-        "market_impact": "Potential credit pressure",
-        "key_facts": [
-            "S&P Global Ratings flagged governance concerns.",
-            "The potential downgrade is limited to one notch."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 144,
-        "analysis": "The rating agency cited rising management and governance risks as the primary driver for the potential action. This suggests possible future borrowing cost implications for Nvidia, though the snippet does not specify when or if the downgrade will occur.",
-        "what_to_watch": "",
-        "content": "<p>The rating agency cited rising management and governance risks as the primary driver for the potential action. This suggests possible future borrowing cost implications for Nvidia, though the snippet does not specify when or if the downgrade will occur.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "s-p-global-ratings-considers-lowering-nvidia-credit-rating-a3e214"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/why-this-stock-market-selloff-is-probably-going-to-get-worse-before-it-gets-better-fce63a89?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-26 00:33",
-        "title": "Market analysts suggest stock selloff may persist",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Recent market gains are viewed as insufficient to address underlying structural issues. Further volatility could occur before a stable market floor is established.",
-        "market_impact": "Market volatility",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 107,
-        "analysis": "The assessment relies on the persistence of unresolved issues despite Monday's rally. The snippet does not identify the specific economic factors causing the market weakness.",
-        "what_to_watch": "",
-        "content": "<p>The assessment relies on the persistence of unresolved issues despite Monday&#x27;s rally. The snippet does not identify the specific economic factors causing the market weakness.</p>",
-        "slug": "market-analysts-suggest-stock-selloff-may-persist-149629"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
-        "source": "CNBC",
-        "published": "2026-11-25 23:48",
-        "title": "Asia-Pacific Stocks Poised to Rise as US Markets Rebound",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "Regional bourses in the Asia-Pacific were positioned to advance on Thursday morning. The anticipated upward movement followed an overnight turnaround on Wall Street from its session lows.",
-        "market_impact": "Modest regional gains",
-        "key_facts": [
-            "Wall Street staged a dramatic recovery from overnight session lows",
-            "Investors are currently weighing the impact of fresh US tariffs"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 128,
-        "analysis": "The projected open is supported directly by the late-session rebound seen in US equity markets. However, the text also notes lingering investor caution surrounding fresh US tariffs without detailing which specific countries or sectors are targeted.",
-        "what_to_watch": "",
-        "content": "<p>The projected open is supported directly by the late-session rebound seen in US equity markets. However, the text also notes lingering investor caution surrounding fresh US tariffs without detailing which specific countries or sectors are targeted.</p>",
-        "slug": "asia-pacific-stocks-poised-to-rise-as-us-markets-rebound-62bdeb"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-25/latest-oil-market-news-and-analysis-for-nov-26",
-        "source": "Bloomberg",
-        "published": "2026-11-25 23:03",
-        "title": "Crude Maintains Two-Day Advance Amid Middle East Conflict",
-        "tag": "COMMODITIES",
-        "sentiment": "BULLISH",
-        "ai_summary": "Crude oil preserved its two-day price advance on November 26 as regional tensions persisted. Ongoing hostilities across the Middle East presented risks to the recovery of local petroleum shipments.",
-        "market_impact": "Supports crude prices",
-        "key_facts": [
-            "Crude oil prices held onto gains spanning two consecutive days as of Nov. 26",
-            "Middle East hostilities threatened to interrupt an export recovery in the region"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 133,
-        "analysis": "The focal point is that persistent Middle East hostilities threaten the ongoing recovery of crude exports from the region. The supplied text does not establish the volume of oil at risk or specific export facilities impacted.",
-        "what_to_watch": "",
-        "content": "<p>The focal point is that persistent Middle East hostilities threaten the ongoing recovery of crude exports from the region. The supplied text does not establish the volume of oil at risk or specific export facilities impacted.</p>",
-        "slug": "crude-maintains-two-day-advance-amid-middle-east-conflict-1fbeee"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/oracles-stock-sinks-toward-a-3-year-low-as-the-ai-trade-continues-to-unravel-d4698d77?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-25 22:16",
-        "title": "Oracle and CoreWeave Rebound Following Wednesday Morning Slump",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "Technology shares including Oracle and CoreWeave recovered from early-session deficits on Wednesday. The broader market selloff diminished in intensity as trading approached the final bell.",
-        "market_impact": "Tech sentiment stabilizes",
-        "key_facts": [
-            "Oracle and CoreWeave rebounded from their early losses on Wednesday",
-            "The day's major selloff moderated significantly before the market close"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 167,
-        "analysis": "The decisive market fact is that what initially appeared to be an aggressive selloff eased into the close. The snippet does not establish what catalyst sparked the early declines or whether the rebound will carry into future sessions.",
-        "what_to_watch": "",
-        "content": "<p>The decisive market fact is that what initially appeared to be an aggressive selloff eased into the close. The snippet does not establish what catalyst sparked the early declines or whether the rebound will carry into future sessions.</p>",
-        "tickers": [
-            "ORCL"
-        ],
-        "slug": "oracle-and-coreweave-rebound-following-wednesday-morning-f98e82"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/nvidias-stock-is-giving-back-more-than-half-of-mondays-rally-as-dip-buyers-cash-in-ee4fa52c?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-25 22:11",
-        "title": "Nvidia Erases Bulk of Monday Rally as Dip Buyers Take Profits",
-        "tag": "STOCKS",
-        "sentiment": "BEARISH",
-        "ai_summary": "Shares of Nvidia relinquished a large portion of Monday's advance following profit-taking by dip buyers. Research firm Vanda Research noted that retail investors who purchased shares on the dip last week have seen their gains largely disappear.",
-        "market_impact": "Downside pressure NVDA",
-        "key_facts": [
-            "Vanda Research tracked the entry points of retail investors buying the dip last week",
-            "Profits captured from Monday's rally were nearly entirely given back"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 140,
-        "analysis": "The most significant fact is Vanda Research's finding that retail dip buyers from the prior week have lost nearly all their gains. This points to fading short-term price momentum, though the snippet does not provide specific share prices or trading volumes.",
-        "what_to_watch": "",
-        "content": "<p>The most significant fact is Vanda Research&#x27;s finding that retail dip buyers from the prior week have lost nearly all their gains. This points to fading short-term price momentum, though the snippet does not provide specific share prices or trading volumes.</p>",
-        "tickers": [
-            "NVDA"
-        ],
-        "slug": "nvidia-erases-bulk-of-monday-rally-as-dip-buyers-take-d540fe"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-25/stock-market-today-dow-s-p-live-updates",
-        "source": "Bloomberg",
-        "published": "2026-11-25 22:10",
-        "title": "Asian Stocks Point Higher Following Wall Street's Late Recovery",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "Equities across Asia were slated for modest advances after a late-session turnaround on Wall Street prevented the Nasdaq 100 from entering a bear market. Meanwhile, persistent uncertainty regarding artificial intelligence investments provided support to US Treasuries.",
-        "market_impact": "Moderate equity gains",
-        "key_facts": [
-            "A late Wall Street rebound pulled the Nasdaq 100 back from the edge of a bear market",
-            "Persistent concerns about the artificial intelligence trade provided a boost to Treasuries"
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 240,
-        "analysis": "The late recovery keeping the Nasdaq 100 off the brink of a bear market serves as the primary driver for Asian morning sentiment. However, persistent worries over the durability of the AI trade supported Treasuries, leaving the longevity of the stock rebound uncertain.",
-        "what_to_watch": "",
-        "content": "<p>The late recovery keeping the Nasdaq 100 off the brink of a bear market serves as the primary driver for Asian morning sentiment. However, persistent worries over the durability of the AI trade supported Treasuries, leaving the longevity of the stock rebound uncertain.</p>",
-        "slug": "asian-stocks-point-higher-following-wall-street-s-late-8fadf8"
     }
 ]

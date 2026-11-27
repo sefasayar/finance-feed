@@ -1,5 +1,117 @@
 [
     {
+        "original_link": "https://www.bloomberg.com/news/newsletters/2026-11-27/nifty-s-sharp-november-rally-gives-india-s-ipo-hopefuls-a-tailwind",
+        "source": "Bloomberg",
+        "published": "2026-11-27 02:30",
+        "title": "Strong November Rally Boosts Indian IPO Market",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "The Nifty index experienced a significant rally in November, creating a favorable environment for companies planning initial public offerings. Firms have already raised $18.6 billion through IPOs throughout the current year.",
+        "market_impact": "Increased market activity",
+        "key_facts": [
+            "Approximately $18.6 billion has been raised via IPOs this year.",
+            "A flurry of new deals is anticipated for the month of December."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 106,
+        "analysis": "The Nifty rally serves as a tailwind for companies looking to go public before the end of the year. The snippet does not identify which specific companies are expected to launch IPOs in December.",
+        "what_to_watch": "December IPO activity",
+        "content": "<p>The Nifty rally serves as a tailwind for companies looking to go public before the end of the year. The snippet does not identify which specific companies are expected to launch IPOs in December.</p><p><strong>What to watch:</strong> December IPO activity</p>",
+        "slug": "strong-november-rally-boosts-indian-ipo-market-5afacb"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-27/imf-sees-emerging-risks-in-australia-s-3-1-trillion-of-pensions",
+        "source": "Bloomberg",
+        "published": "2026-11-27 02:15",
+        "title": "IMF Identifies Risks in Australian Pension System",
+        "tag": "ECONOMY",
+        "sentiment": "BEARISH",
+        "ai_summary": "The International Monetary Fund has highlighted emerging risks within Australia's $3.1 trillion pension sector. A primary concern involves maintaining asset liquidity as a growing number of workers reach retirement age.",
+        "market_impact": "Regulatory scrutiny",
+        "key_facts": [
+            "The Australian pension system is valued at $3.1 trillion."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 208,
+        "analysis": "The challenge of managing liquidity for a retiring workforce is a key vulnerability identified by the IMF. The text does not provide specific recommendations or potential policy changes to address these risks.",
+        "what_to_watch": "",
+        "content": "<p>The challenge of managing liquidity for a retiring workforce is a key vulnerability identified by the IMF. The text does not provide specific recommendations or potential policy changes to address these risks.</p>",
+        "slug": "imf-identifies-risks-in-australian-pension-system-67f624"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
+        "source": "CNBC",
+        "published": "2026-11-27 02:04",
+        "title": "China Industrial Profits Reach Five-Month High",
+        "tag": "ECONOMY",
+        "sentiment": "BULLISH",
+        "ai_summary": "Industrial profit growth in China accelerated to 20.1% during the month of October. This performance marks the highest growth rate observed in the last five months.",
+        "market_impact": "Positive economic sentiment",
+        "key_facts": [
+            "AI-related manufacturing and exports are primary drivers of growth.",
+            "Household consumption continues to lag behind industrial gains."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 151,
+        "analysis": "The divergence between strong AI-related manufacturing and weak household consumption highlights the current two-speed nature of the Chinese economy. The snippet does not provide details on the sustainability of this profit growth trend.",
+        "what_to_watch": "",
+        "content": "<p>The divergence between strong AI-related manufacturing and weak household consumption highlights the current two-speed nature of the Chinese economy. The snippet does not provide details on the sustainability of this profit growth trend.</p>",
+        "slug": "china-industrial-profits-reach-five-month-high-5d28a5"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/27/swf-private-equity-risks.html",
+        "source": "CNBC",
+        "published": "2026-11-27 00:22",
+        "title": "Sovereign Wealth Funds Adopting Private Equity Strategies",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Sovereign wealth funds are increasingly initiating their own deals and acquiring controlling interests in companies. These entities are also developing proprietary investment platforms to manage their capital.",
+        "market_impact": "Increased market complexity",
+        "key_facts": [
+            "Funds are building their own investment platforms.",
+            "The strategy involves taking controlling stakes in target companies."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 129,
+        "analysis": "The shift toward originating deals and taking controlling stakes mirrors the operational model of private equity firms. This change may expose these funds to new risks, though the specific impact on their long-term stability remains unclear.",
+        "what_to_watch": "",
+        "content": "<p>The shift toward originating deals and taking controlling stakes mirrors the operational model of private equity firms. This change may expose these funds to new risks, though the specific impact on their long-term stability remains unclear.</p>",
+        "slug": "sovereign-wealth-funds-adopting-private-equity-strategies-696d2f"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-26/gold-steadies-as-fed-rate-path-and-ai-stocks-frame-volatile-week",
+        "source": "Bloomberg",
+        "published": "2026-11-26 23:53",
+        "title": "Gold Prices Increase Amid Tech Stock Recovery",
+        "tag": "COMMODITIES",
+        "sentiment": "BULLISH",
+        "ai_summary": "Gold prices moved higher as a recovery in technology stocks helped offset concerns regarding potential interest rate hikes. A weaker U.S. dollar also provided support for the precious metal.",
+        "market_impact": "Gold price appreciation",
+        "key_facts": [
+            "Gold rose despite ongoing interest-rate hike concerns."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 144,
+        "analysis": "The rebound in tech stocks and a softer dollar are currently outweighing market fears of Federal Reserve rate hikes. The text does not specify the extent of the tech sector recovery or the duration of the dollar's weakness.",
+        "what_to_watch": "",
+        "content": "<p>The rebound in tech stocks and a softer dollar are currently outweighing market fears of Federal Reserve rate hikes. The text does not specify the extent of the tech sector recovery or the duration of the dollar&#x27;s weakness.</p>",
+        "slug": "gold-prices-increase-amid-tech-stock-recovery-8e2af7"
+    },
+    {
         "original_link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
         "source": "CNBC",
         "published": "2026-11-26 17:57",
@@ -139,6 +251,29 @@
             "MO"
         ],
         "slug": "altria-and-japan-tobacco-consider-imperial-brands-bid-4063c5"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
+        "source": "CNBC",
+        "published": "2026-11-26 12:46",
+        "title": "U.S. Tariff Threats Incentivize New Trade Agreements",
+        "tag": "ECONOMY",
+        "sentiment": "BEARISH",
+        "ai_summary": "The U.S. government has signaled potential tariff increases against 14 different trading partners. Countries may avoid these higher rates by successfully negotiating new trade agreements with Washington.",
+        "market_impact": "Trade policy uncertainty",
+        "key_facts": [
+            "Fourteen trading partners are affected by the tariff threats."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 147,
+        "analysis": "The threat of tariffs serves as a primary lever to pressure partners into securing trade deals. The snippet does not establish which specific countries are currently in negotiations or the potential economic impact of these tariffs.",
+        "what_to_watch": "",
+        "content": "<p>The threat of tariffs serves as a primary lever to pressure partners into securing trade deals. The snippet does not establish which specific countries are currently in negotiations or the potential economic impact of these tariffs.</p>",
+        "slug": "u-s-tariff-threats-incentivize-new-trade-agreements-02d65a"
     },
     {
         "original_link": "https://www.marketwatch.com/story/capital-preservation-rather-than-chasing-the-market-higher-is-how-hedge-funds-are-negotiating-market-volatility-f4288b71?mod=mw_rss_topstories",
@@ -440,149 +575,5 @@
         "what_to_watch": "",
         "content": "<p>The late recovery keeping the Nasdaq 100 off the brink of a bear market serves as the primary driver for Asian morning sentiment. However, persistent worries over the durability of the AI trade supported Treasuries, leaving the longevity of the stock rebound uncertain.</p>",
         "slug": "asian-stocks-point-higher-following-wall-street-s-late-8fadf8"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/elon-musk-and-spacex-to-donate-roughly-17-8-billion-to-trump-accounts-071c12e1?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-25 21:50",
-        "title": "Elon Musk and SpaceX to distribute shares to 'Trump accounts'",
-        "tag": "STOCKS",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "SpaceX plans to issue Class A shares to active 'Trump accounts' as part of a donation initiative. CEO Elon Musk intends to match the value of these gifts.",
-        "market_impact": "Shareholder dilution",
-        "key_facts": [
-            "SpaceX will provide one newly issued Class A share per account.",
-            "The total donation is valued at roughly $17.8 billion."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "analysis_not_specific_enough_to_source"
-        ],
-        "source_description_chars": 116,
-        "analysis": "The donation involves the issuance of new equity by the private company. The snippet does not detail the total number of accounts eligible or the specific valuation of the shares.",
-        "what_to_watch": "",
-        "content": "<p>The donation involves the issuance of new equity by the private company. The snippet does not detail the total number of accounts eligible or the specific valuation of the shares.</p>",
-        "slug": "elon-musk-and-spacex-to-distribute-shares-to-trump-accounts-19c712"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/hps-stock-is-a-standout-gainer-in-the-tech-rout-as-an-earnings-beat-still-matters-8f6c76ad?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-25 21:36",
-        "title": "HP shares rise following earnings report",
-        "tag": "EARNINGS",
-        "sentiment": "BULLISH",
-        "ai_summary": "HP stock outperformed during a broader technology sector decline. The gains were supported by a positive earnings result despite characterizations of the beat as low-quality.",
-        "market_impact": "Stock price appreciation",
-        "key_facts": [
-            "HP is a PC manufacturer.",
-            "The stock moved against the trend of a tech rout."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 80,
-        "analysis": "The company's earnings performance provided a buffer against the wider tech selloff. The snippet does not explain the specific metrics that led to the 'low-quality' classification.",
-        "what_to_watch": "",
-        "content": "<p>The company&#x27;s earnings performance provided a buffer against the wider tech selloff. The snippet does not explain the specific metrics that led to the &#x27;low-quality&#x27; classification.</p>",
-        "tickers": [
-            "HPQ"
-        ],
-        "slug": "hp-shares-rise-following-earnings-report-af7e86"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
-        "source": "CNBC",
-        "published": "2026-11-25 19:52",
-        "title": "SpaceX Secures FCC Clearance for 1 Million Orbital Data Satellites",
-        "tag": "TECH",
-        "sentiment": "BULLISH",
-        "ai_summary": "The Federal Communications Commission granted SpaceX authorization to place 1 million orbital data center satellites in space. The initiative had faced objections during the regulatory process from Amazon alongside other entities.",
-        "market_impact": "Boosts space tech",
-        "key_facts": [
-            "The approved plan allows deployment of 1 million orbital data center satellites",
-            "Amazon and additional groups had opposed the satellite proposal"
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short"
-        ],
-        "source_description_chars": 148,
-        "analysis": "The central decision is the FCC's formal approval permitting the deployment of 1 million orbital data center satellites. While the clearance marks regulatory progress against competitor objections, the text does not detail deployment timelines or financial terms.",
-        "what_to_watch": "",
-        "content": "<p>The central decision is the FCC&#x27;s formal approval permitting the deployment of 1 million orbital data center satellites. While the clearance marks regulatory progress against competitor objections, the text does not detail deployment timelines or financial terms.</p>",
-        "tickers": [
-            "AMZN"
-        ],
-        "slug": "spacex-secures-fcc-clearance-for-1-million-orbital-data-b8e65d"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html",
-        "source": "CNBC",
-        "published": "2026-11-25 16:17",
-        "title": "Rising Costs Impact U.S. Holiday Spending Plans",
-        "tag": "ECONOMY",
-        "sentiment": "BEARISH",
-        "ai_summary": "American households are adjusting their holiday budgets due to increased expenses for travel, food, and gifts. Inflation and energy price shocks linked to the war in Iran are cited as contributing factors.",
-        "market_impact": "Consumer spending decline",
-        "key_facts": [
-            "Holiday budgets are being scaled back in 2026.",
-            "Energy shocks are attributed to the war in Iran."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "analysis_not_specific_enough_to_source"
-        ],
-        "source_description_chars": 128,
-        "analysis": "The report identifies specific inflationary pressures affecting discretionary spending. It suggests potential headwinds for retail sectors, though it does not quantify the expected decline in consumer activity.",
-        "what_to_watch": "",
-        "content": "<p>The report identifies specific inflationary pressures affecting discretionary spending. It suggests potential headwinds for retail sectors, though it does not quantify the expected decline in consumer activity.</p>",
-        "slug": "rising-costs-impact-u-s-holiday-spending-plans-35460b"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
-        "source": "CNBC",
-        "published": "2026-11-25 13:44",
-        "title": "PCE Inflation Gauge Reaches 3.8% in October",
-        "tag": "FED",
-        "sentiment": "BEARISH",
-        "ai_summary": "The personal consumption expenditures price index met expectations for an annual inflation rate of 3.8% in October. This reading aligns with the Dow Jones consensus forecast.",
-        "market_impact": "Rate hike pressure",
-        "key_facts": [
-            "The index measures personal consumption expenditures.",
-            "The 3.8% figure represents an annual inflation rate."
-        ],
-        "seo_indexable": true,
-        "seo_indexability_reasons": [],
-        "source_description_chars": 153,
-        "analysis": "The data confirms that the Federal Reserve's preferred inflation metric is at the expected level. This suggests continued pressure on interest rate policy, though it does not confirm the specific timing of future central bank actions.",
-        "what_to_watch": "",
-        "content": "<p>The data confirms that the Federal Reserve&#x27;s preferred inflation metric is at the expected level. This suggests continued pressure on interest rate policy, though it does not confirm the specific timing of future central bank actions.</p>",
-        "slug": "pce-inflation-gauge-reaches-3-8-in-october-4fc9c7"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
-        "source": "CNBC",
-        "published": "2026-11-25 13:37",
-        "title": "U.S. Proposes New Tariffs on 14 Trading Partners",
-        "tag": "ECONOMY",
-        "sentiment": "BEARISH",
-        "ai_summary": "The United States government has proposed new levies targeting 14 different trading partners. These measures are intended to address trade practices viewed as discriminatory or burdensome.",
-        "market_impact": "Increased trade friction",
-        "key_facts": [
-            "The proposal aims to counter foreign trade practices deemed unfair to U.S. commerce."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 117,
-        "analysis": "The proposal targets a broad range of nations, including China and the EU. The snippet does not specify the timeline for implementation or the specific goods affected by these potential tariffs.",
-        "what_to_watch": "",
-        "content": "<p>The proposal targets a broad range of nations, including China and the EU. The snippet does not specify the timeline for implementation or the specific goods affected by these potential tariffs.</p>",
-        "slug": "u-s-proposes-new-tariffs-on-14-trading-partners-1e67f5"
     }
 ]

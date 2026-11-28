@@ -1,5 +1,141 @@
 [
     {
+        "original_link": "https://www.bloomberg.com/news/articles/2026-11-28/nigeria-central-bank-plans-2027-launch-of-repo-and-swap-markets",
+        "source": "Bloomberg",
+        "published": "2026-11-28 14:39",
+        "title": "Nigeria Central Bank Targets Q1 2027 Debut for Repo and Swap Markets",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "The Central Bank of Nigeria aims to establish repo and overnight index swap markets during the first quarter of 2027. The initiative is intended to enhance policy transmission mechanisms and upgrade domestic liquidity management.",
+        "market_impact": "Improved liquidity transmission",
+        "key_facts": [
+            "The central bank plans to introduce repo and overnight index swap markets in Q1 2027.",
+            "The move aims to strengthen liquidity management and bolster monetary policy transmission."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 215,
+        "analysis": "Nigeria's monetary authority is scheduling the rollout of repo and overnight index swap instruments for early 2027 to bolster liquidity controls. Such structural market developments could enhance interest rate pass-through, but the snippet does not detail the technical infrastructure or interim milestones before 2027.",
+        "what_to_watch": "Nigeria's central bank targets the launch of the repo and overnight index swap markets in the first quarter of 2027.",
+        "content": "<p>Nigeria&#x27;s monetary authority is scheduling the rollout of repo and overnight index swap instruments for early 2027 to bolster liquidity controls. Such structural market developments could enhance interest rate pass-through, but the snippet does not detail the technical infrastructure or interim milestones before 2027.</p><p><strong>What to watch:</strong> Nigeria&#x27;s central bank targets the launch of the repo and overnight index swap markets in the first quarter of 2027.</p>",
+        "slug": "nigeria-central-bank-targets-q1-2027-debut-for-repo-and-bbb348"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/28/oil-price-iran-war-strait-hormuz-surplus.html",
+        "source": "CNBC",
+        "published": "2026-11-28 14:34",
+        "title": "Iran War May Disrupt Expectations of Upcoming Oil Surplus",
+        "tag": "COMMODITIES",
+        "sentiment": "BULLISH",
+        "ai_summary": "Crude oil prices declined during November amid expectations that recovering Middle East exports will create a market surplus. However, the ongoing conflict involving Iran could disrupt these projected excess supplies.",
+        "market_impact": "Bullish for crude",
+        "key_facts": [
+            "Crude prices declined in November.",
+            "Investors previously anticipated the first Middle East export surplus since the conflict began."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 148,
+        "analysis": "Recent trading saw an oil selloff driven by forecasts of the first Middle East supply surplus since the conflict started. A disruption to these surplus expectations could support prices, though the text does not detail specific supply volumes or diplomatic developments.",
+        "what_to_watch": "",
+        "content": "<p>Recent trading saw an oil selloff driven by forecasts of the first Middle East supply surplus since the conflict started. A disruption to these surplus expectations could support prices, though the text does not detail specific supply volumes or diplomatic developments.</p>",
+        "slug": "iran-war-may-disrupt-expectations-of-upcoming-oil-surplus-a83f28"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-28/travel-demand-holds-despite-higher-prices-video",
+        "source": "Bloomberg",
+        "published": "2026-11-28 14:08",
+        "title": "Consumer Travel Demand Persists Heading into 2027 Despite Higher Costs",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Travelers face elevated airfares and hotel pricing as strong demand aids cruises while shifting preferences pressure theme parks. Industry analysts report that consumers continue to allocate spending toward travel regardless of growing costs and reduced budget options.",
+        "market_impact": "Resilient travel spending",
+        "key_facts": [
+            "Cruise operators are experiencing elevated demand while theme parks face pressure from changing habits.",
+            "Travelers are encountering higher airfares, increased hotel rates, and a reduction in low-cost options."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 466,
+        "analysis": "Resilient consumer demand is supporting cruise lines even as airfares and hotel rates climb into 2027. This spending persistence could benefit certain travel operators, though theme parks face headwinds and the snippet does not quantify revenue impacts across specific companies.",
+        "what_to_watch": "",
+        "content": "<p>Resilient consumer demand is supporting cruise lines even as airfares and hotel rates climb into 2027. This spending persistence could benefit certain travel operators, though theme parks face headwinds and the snippet does not quantify revenue impacts across specific companies.</p>",
+        "slug": "consumer-travel-demand-persists-heading-into-2027-despite-b303e5"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/28/ai-data-center-construction-worker-shortage-texas.html",
+        "source": "CNBC",
+        "published": "2026-11-28 14:00",
+        "title": "AI Data Center Expansion Strains Construction Labor in the US",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "The rapid construction of artificial intelligence data centers is putting pressure on the United States building workforce. A visit to Abilene, Texas showed the expansion is generating both beneficial and adverse local economic effects.",
+        "market_impact": "Labor supply tightness",
+        "key_facts": [
+            "CNBC investigated data center construction conditions in Abilene, Texas.",
+            "The infrastructure buildout is creating both positive and negative local economic effects."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short"
+        ],
+        "source_description_chars": 146,
+        "analysis": "The proliferation of AI data center projects is causing direct strains on regional construction labor pools across the country. This dynamic could raise building costs for infrastructure developers, though the snippet does not provide detailed wage figures or project timelines.",
+        "what_to_watch": "",
+        "content": "<p>The proliferation of AI data center projects is causing direct strains on regional construction labor pools across the country. This dynamic could raise building costs for infrastructure developers, though the snippet does not provide detailed wage figures or project timelines.</p>",
+        "slug": "ai-data-center-expansion-strains-construction-labor-in-the-4313ae"
+    },
+    {
+        "original_link": "https://www.bloomberg.com/news/videos/2026-11-28/higher-prices-test-holiday-shoppers-video",
+        "source": "Bloomberg",
+        "published": "2026-11-28 13:04",
+        "title": "Inflation Tests Shoppers as Holiday Sales Are Projected to Grow",
+        "tag": "ECONOMY",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Retail spending is projected to increase during this holiday season, though inflation indicates that higher outlays may not translate to more purchased merchandise. Shoppers are relying heavily on value, convenience, and AI-powered tools to locate discounts and monitor prices.",
+        "market_impact": "Volume-growth headwind",
+        "key_facts": [
+            "Inflation means higher holiday spending may not correspond to an increase in actual goods purchased.",
+            "Consumers are using artificial intelligence to track prices, search for products, and locate discounts."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 430,
+        "analysis": "Holiday spending is projected to rise primarily due to inflation, which means total merchandise volume may fail to expand. This could compress retail margins despite higher top-line totals, though the snippet does not provide explicit growth figures or retailer-specific data.",
+        "what_to_watch": "",
+        "content": "<p>Holiday spending is projected to rise primarily due to inflation, which means total merchandise volume may fail to expand. This could compress retail margins despite higher top-line totals, though the snippet does not provide explicit growth figures or retailer-specific data.</p>",
+        "slug": "inflation-tests-shoppers-as-holiday-sales-are-projected-to-89df90"
+    },
+    {
+        "original_link": "https://www.marketwatch.com/story/these-tech-stocks-may-let-you-play-defense-without-giving-up-on-ai-523ce26d?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-28 12:30",
+        "title": "Evercore Names Hardware Stocks with Defensive AI Exposure",
+        "tag": "STOCKS",
+        "sentiment": "BULLISH",
+        "ai_summary": "An Evercore analyst conducted a stress test on hardware-related equities to identify defensive plays tied to artificial intelligence. Amphenol, CDW, Sensata Technologies, and TE Connectivity emerged as standout performers under the evaluation.",
+        "market_impact": "Hardware stocks gain",
+        "key_facts": [
+            "Evercore performed a stress test across the hardware-related equities in its coverage.",
+            "Amphenol, CDW, Sensata Technologies, and TE Connectivity stood out in the evaluation."
+        ],
+        "seo_indexable": true,
+        "seo_indexability_reasons": [],
+        "source_description_chars": 150,
+        "analysis": "Evercore's stress test highlighted four specific hardware companies as defensive options that retain exposure to artificial intelligence. This assessment may attract interest toward those specific suppliers, though the text does not outline the criteria of the stress test or future earnings projections.",
+        "what_to_watch": "",
+        "content": "<p>Evercore&#x27;s stress test highlighted four specific hardware companies as defensive options that retain exposure to artificial intelligence. This assessment may attract interest toward those specific suppliers, though the text does not outline the criteria of the stress test or future earnings projections.</p>",
+        "tickers": [
+            "APH",
+            "CDW",
+            "ST",
+            "TEL"
+        ],
+        "slug": "evercore-names-hardware-stocks-with-defensive-ai-exposure-82a337"
+    },
+    {
         "original_link": "https://www.bloomberg.com/news/videos/2026-11-27/masters-in-business-with-holly-macdonald-video",
         "source": "Bloomberg",
         "published": "2026-11-27 22:14",
@@ -90,6 +226,34 @@
         "what_to_watch": "",
         "content": "<p>The failure to secure funding is the critical development for the carrier&#x27;s operations. This indicates severe financial distress, though the snippet does not detail the company&#x27;s total debt or future restructuring plans.</p>",
         "slug": "norse-atlantic-files-for-european-bankruptcy-after-funding-1a6172"
+    },
+    {
+        "original_link": "https://www.cnbc.com/2026/11/27/ai-shopping-agents-retailer-blocks.html",
+        "source": "CNBC",
+        "published": "2026-11-27 16:43",
+        "title": "Retailers Including Amazon Push Back Against AI Shopping Agents",
+        "tag": "TECH",
+        "sentiment": "NEUTRAL",
+        "ai_summary": "Automated shopping tools developed by firms like OpenAI, Meta, Google, and Instinct are designed to assist consumers with online purchases. However, Amazon and an expanding list of retail platforms are resisting their implementation and creating obstacles.",
+        "market_impact": "Retail AI friction",
+        "key_facts": [
+            "OpenAI, Meta, Google, and Instinct have developed AI shopping agents."
+        ],
+        "seo_indexable": false,
+        "seo_indexability_reasons": [
+            "source_description_too_short",
+            "fewer_than_two_supported_facts"
+        ],
+        "source_description_chars": 147,
+        "analysis": "Amazon and other e-commerce sites are actively presenting hurdles to shopping agents developed by major tech companies. This resistance could curb the adoption of third-party AI purchasing tools, but the text does not reveal the technical nature of these roadblocks or specific financial impacts.",
+        "what_to_watch": "",
+        "content": "<p>Amazon and other e-commerce sites are actively presenting hurdles to shopping agents developed by major tech companies. This resistance could curb the adoption of third-party AI purchasing tools, but the text does not reveal the technical nature of these roadblocks or specific financial impacts.</p>",
+        "tickers": [
+            "AMZN",
+            "META",
+            "GOOGL"
+        ],
+        "slug": "retailers-including-amazon-push-back-against-ai-shopping-d2aa54"
     },
     {
         "original_link": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html",
@@ -405,169 +569,5 @@
         "what_to_watch": "",
         "content": "<p>The rebound in AI-related trading is the primary driver for the expected market performance. The snippet does not establish if this trend will be sustained beyond the post-holiday period.</p>",
         "slug": "us-stocks-rally-as-ai-sector-recovers-389374"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
-        "source": "CNBC",
-        "published": "2026-11-26 17:57",
-        "title": "Trump Calls for Investigation into GDP Revision",
-        "tag": "ECONOMY",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "President Donald Trump has requested an inquiry into the recent upward revision of third-quarter GDP figures. He characterized the adjustment as a significant error.",
-        "market_impact": "Policy uncertainty",
-        "key_facts": [
-            "The revision occurred for third-quarter data."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts",
-            "analysis_not_specific_enough_to_source"
-        ],
-        "source_description_chars": 159,
-        "analysis": "The demand for an investigation centers on the accuracy of official economic reporting. The snippet does not establish the validity of the claims or the potential impact on economic policy.",
-        "what_to_watch": "",
-        "content": "<p>The demand for an investigation centers on the accuracy of official economic reporting. The snippet does not establish the validity of the claims or the potential impact on economic policy.</p>",
-        "slug": "trump-calls-for-investigation-into-gdp-revision-0b6e45"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html",
-        "source": "CNBC",
-        "published": "2026-11-26 17:52",
-        "title": "Semiconductor Exports Surpass Oil and Gas in 2026",
-        "tag": "TECH",
-        "sentiment": "BULLISH",
-        "ai_summary": "The global demand for artificial intelligence technology has driven chip exports to record levels. This shift marks the first time semiconductor shipments have exceeded those of oil and gas.",
-        "market_impact": "Sector growth",
-        "key_facts": [
-            "The AI boom is identified as the primary driver of demand."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts",
-            "analysis_not_specific_enough_to_source"
-        ],
-        "source_description_chars": 105,
-        "analysis": "The data highlights the significant economic shift toward AI-driven hardware. It suggests a change in global trade composition, though the snippet does not provide specific company-level revenue impacts.",
-        "what_to_watch": "",
-        "content": "<p>The data highlights the significant economic shift toward AI-driven hardware. It suggests a change in global trade composition, though the snippet does not provide specific company-level revenue impacts.</p>",
-        "slug": "semiconductor-exports-surpass-oil-and-gas-in-2026-37c539"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-26/kkr-banks-line-up-550-million-of-debt-to-back-logoplaste-buyout",
-        "source": "Bloomberg",
-        "published": "2026-11-26 17:47",
-        "title": "Banks Secure Debt Financing for KKR's Logoplaste Acquisition",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "Financial institutions have arranged €550 million in loans to support KKR & Co.'s purchase of Logoplaste. The deal involves significant debt backing for the packaging firm.",
-        "market_impact": "Corporate expansion",
-        "key_facts": [],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 172,
-        "analysis": "The availability of debt financing indicates institutional support for the acquisition. The snippet does not confirm the final terms or the closing date of the transaction.",
-        "what_to_watch": "",
-        "content": "<p>The availability of debt financing indicates institutional support for the acquisition. The snippet does not confirm the final terms or the closing date of the transaction.</p>",
-        "tickers": [
-            "KKR"
-        ],
-        "slug": "banks-secure-debt-financing-for-kkr-s-logoplaste-acquisition-52318f"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-26/kazakhstan-encouraged-local-banks-to-finance-deal-for-gold-miner",
-        "source": "Bloomberg",
-        "published": "2026-11-26 17:35",
-        "title": "Kazakhstan Supports Local Financing for Gold Mine Acquisition",
-        "tag": "COMMODITIES",
-        "sentiment": "NEUTRAL",
-        "ai_summary": "Kazakhstan has encouraged domestic banks to provide over $1 billion in loans to facilitate a private acquisition of AK Altynalmas JSC. Regulatory changes were implemented to assist the buyer, Shakhmurat Mutalip.",
-        "market_impact": "Industry consolidation",
-        "key_facts": [
-            "The buyer is construction tycoon Shakhmurat Mutalip.",
-            "The target is gold miner AK Altynalmas JSC."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "analysis_not_specific_enough_to_source"
-        ],
-        "source_description_chars": 237,
-        "analysis": "The state's involvement in facilitating private financing for a mining asset is a notable development. The snippet does not clarify the long-term economic objectives behind these regulatory changes.",
-        "what_to_watch": "",
-        "content": "<p>The state&#x27;s involvement in facilitating private financing for a mining asset is a notable development. The snippet does not clarify the long-term economic objectives behind these regulatory changes.</p>",
-        "slug": "kazakhstan-supports-local-financing-for-gold-mine-19064e"
-    },
-    {
-        "original_link": "https://www.marketwatch.com/story/futures-point-to-black-friday-gains-for-wall-street-as-global-markets-welcome-u-s-resilience-ad6bcef2?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-26 13:41",
-        "title": "Wall Street Futures Rise Ahead of Black Friday",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "U.S. stock futures are trending upward as global markets react positively to signs of economic resilience. This follows a recovery for the S&P 500 after recent volatility in the technology sector.",
-        "market_impact": "Market recovery",
-        "key_facts": [
-            "The S&P 500 experienced a tech-related washout prior to the rebound."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 85,
-        "analysis": "The rebound from Wednesday's lows indicates a shift in investor sentiment regarding market stability. The snippet does not establish if this momentum will persist through the holiday period.",
-        "what_to_watch": "",
-        "content": "<p>The rebound from Wednesday&#x27;s lows indicates a shift in investor sentiment regarding market stability. The snippet does not establish if this momentum will persist through the holiday period.</p>",
-        "slug": "wall-street-futures-rise-ahead-of-black-friday-438eb0"
-    },
-    {
-        "original_link": "https://www.bloomberg.com/news/articles/2026-11-26/altria-studies-deal-for-cigarette-maker-imperial-brands",
-        "source": "Bloomberg",
-        "published": "2026-11-26 13:08",
-        "title": "Altria and Japan Tobacco Consider Imperial Brands Bid",
-        "tag": "STOCKS",
-        "sentiment": "BULLISH",
-        "ai_summary": "Altria Group and Japan Tobacco are evaluating a potential acquisition of Imperial Brands. This move could represent one of the largest UK takeovers in recent years within the tobacco industry.",
-        "market_impact": "Sector consolidation",
-        "key_facts": [
-            "The potential deal is described as one of the biggest UK acquisitions in a decade."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 249,
-        "analysis": "The interest in Imperial Brands highlights ongoing consolidation efforts in a declining cigarette market. The snippet does not establish whether a formal offer has been made or if other bidders are involved.",
-        "what_to_watch": "",
-        "content": "<p>The interest in Imperial Brands highlights ongoing consolidation efforts in a declining cigarette market. The snippet does not establish whether a formal offer has been made or if other bidders are involved.</p>",
-        "tickers": [
-            "MO"
-        ],
-        "slug": "altria-and-japan-tobacco-consider-imperial-brands-bid-4063c5"
-    },
-    {
-        "original_link": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
-        "source": "CNBC",
-        "published": "2026-11-26 12:46",
-        "title": "U.S. Tariff Threats Incentivize New Trade Agreements",
-        "tag": "ECONOMY",
-        "sentiment": "BEARISH",
-        "ai_summary": "The U.S. government has signaled potential tariff increases against 14 different trading partners. Countries may avoid these higher rates by successfully negotiating new trade agreements with Washington.",
-        "market_impact": "Trade policy uncertainty",
-        "key_facts": [
-            "Fourteen trading partners are affected by the tariff threats."
-        ],
-        "seo_indexable": false,
-        "seo_indexability_reasons": [
-            "source_description_too_short",
-            "fewer_than_two_supported_facts"
-        ],
-        "source_description_chars": 147,
-        "analysis": "The threat of tariffs serves as a primary lever to pressure partners into securing trade deals. The snippet does not establish which specific countries are currently in negotiations or the potential economic impact of these tariffs.",
-        "what_to_watch": "",
-        "content": "<p>The threat of tariffs serves as a primary lever to pressure partners into securing trade deals. The snippet does not establish which specific countries are currently in negotiations or the potential economic impact of these tariffs.</p>",
-        "slug": "u-s-tariff-threats-incentivize-new-trade-agreements-02d65a"
     }
 ]
